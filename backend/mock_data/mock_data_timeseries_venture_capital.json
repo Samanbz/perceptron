@@ -1,0 +1,191 @@
+{
+  "keyword": "venture capital",
+  "trend": "rising",
+  "data_points": [
+    {
+      "date": "2025-10-08",
+      "importance": 37.02,
+      "sentiment": -0.266,
+      "frequency": 27
+    },
+    {
+      "date": "2025-10-09",
+      "importance": 45.5,
+      "sentiment": 0.153,
+      "frequency": 32
+    },
+    {
+      "date": "2025-10-10",
+      "importance": 39.69,
+      "sentiment": 0.625,
+      "frequency": 26
+    },
+    {
+      "date": "2025-10-11",
+      "importance": 41.19,
+      "sentiment": -0.223,
+      "frequency": 26
+    },
+    {
+      "date": "2025-10-12",
+      "importance": 48.37,
+      "sentiment": 0.142,
+      "frequency": 30
+    },
+    {
+      "date": "2025-10-13",
+      "importance": 50.45,
+      "sentiment": -0.036,
+      "frequency": 26
+    },
+    {
+      "date": "2025-10-14",
+      "importance": 46.8,
+      "sentiment": 0.327,
+      "frequency": 29
+    },
+    {
+      "date": "2025-10-15",
+      "importance": 45.44,
+      "sentiment": 0.365,
+      "frequency": 31
+    },
+    {
+      "date": "2025-10-16",
+      "importance": 51.57,
+      "sentiment": 0.481,
+      "frequency": 31
+    },
+    {
+      "date": "2025-10-17",
+      "importance": 49.77,
+      "sentiment": 0.461,
+      "frequency": 30
+    },
+    {
+      "date": "2025-10-18",
+      "importance": 53.82,
+      "sentiment": -0.15,
+      "frequency": 34
+    },
+    {
+      "date": "2025-10-19",
+      "importance": 49.98,
+      "sentiment": -0.17,
+      "frequency": 34
+    },
+    {
+      "date": "2025-10-20",
+      "importance": 54.2,
+      "sentiment": -0.114,
+      "frequency": 37
+    },
+    {
+      "date": "2025-10-21",
+      "importance": 55.59,
+      "sentiment": 0.486,
+      "frequency": 31
+    },
+    {
+      "date": "2025-10-22",
+      "importance": 59.51,
+      "sentiment": -0.103,
+      "frequency": 37
+    },
+    {
+      "date": "2025-10-23",
+      "importance": 55.42,
+      "sentiment": 0.276,
+      "frequency": 32
+    },
+    {
+      "date": "2025-10-24",
+      "importance": 54.27,
+      "sentiment": 0.485,
+      "frequency": 36
+    },
+    {
+      "date": "2025-10-25",
+      "importance": 58.41,
+      "sentiment": -0.066,
+      "frequency": 31
+    },
+    {
+      "date": "2025-10-26",
+      "importance": 57.74,
+      "sentiment": -0.255,
+      "frequency": 29
+    },
+    {
+      "date": "2025-10-27",
+      "importance": 56.73,
+      "sentiment": 0.395,
+      "frequency": 36
+    },
+    {
+      "date": "2025-10-28",
+      "importance": 63.95,
+      "sentiment": 0.156,
+      "frequency": 36
+    },
+    {
+      "date": "2025-10-29",
+      "importance": 60.5,
+      "sentiment": 0.171,
+      "frequency": 31
+    },
+    {
+      "date": "2025-10-30",
+      "importance": 66.23,
+      "sentiment": 0.218,
+      "frequency": 42
+    },
+    {
+      "date": "2025-10-31",
+      "importance": 65.35,
+      "sentiment": -0.238,
+      "frequency": 34
+    },
+    {
+      "date": "2025-11-01",
+      "importance": 67.17,
+      "sentiment": 0.446,
+      "frequency": 39
+    },
+    {
+      "date": "2025-11-02",
+      "importance": 63.9,
+      "sentiment": 0.064,
+      "frequency": 36
+    },
+    {
+      "date": "2025-11-03",
+      "importance": 67.53,
+      "sentiment": -0.198,
+      "frequency": 36
+    },
+    {
+      "date": "2025-11-04",
+      "importance": 66.65,
+      "sentiment": -0.066,
+      "frequency": 35
+    },
+    {
+      "date": "2025-11-05",
+      "importance": 64.52,
+      "sentiment": 0.084,
+      "frequency": 34
+    },
+    {
+      "date": "2025-11-06",
+      "importance": 65.25,
+      "sentiment": 0.29,
+      "frequency": 38
+    }
+  ],
+  "summary": {
+    "avg_importance": 55.42,
+    "max_importance": 67.53,
+    "min_importance": 37.02
+  }
+}
