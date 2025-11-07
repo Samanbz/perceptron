@@ -1,0 +1,217 @@
+{
+  "teams": [
+    {
+      "team_key": "regulator",
+      "team_name": "Regulatory Team",
+      "description": "Monitors regulatory changes, compliance requirements, and government policy updates",
+      "color": "#DC2626",
+      "icon": "balance",
+      "is_active": true,
+      "keyword_config": {
+        "relevance_threshold": 0.45,
+        "min_frequency": 2,
+        "max_keywords_per_day": 100,
+        "enable_multi_word_phrases": true,
+        "max_phrase_length": 4,
+        "filter_stopwords": true,
+        "methods": ["tfidf", "spacy", "yake"]
+      },
+      "sentiment_config": {
+        "enable_sentiment": true,
+        "sentiment_method": "vader",
+        "importance_weight": 0.1
+      },
+      "sources": [
+        {
+          "source_type": "rss",
+          "source_name": "Federal Register",
+          "source_url": "https://www.federalregister.gov/documents/search.rss",
+          "fetch_interval_minutes": 60,
+          "config": {
+            "max_entries": 50
+          }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "SEC Newsroom",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "fetch_interval_minutes": 30,
+          "config": {
+            "max_entries": 30
+          }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "Reuters Regulatory",
+          "source_url": "https://www.reuters.com/business/finance/rss",
+          "fetch_interval_minutes": 45,
+          "config": {
+            "max_entries": 40
+          }
+        }
+      ]
+    },
+    {
+      "team_key": "investor",
+      "team_name": "Investment Team",
+      "description": "Tracks market trends, funding rounds, M&A activity, and investment opportunities",
+      "color": "#059669",
+      "icon": "trending_up",
+      "is_active": true,
+      "keyword_config": {
+        "relevance_threshold": 0.5,
+        "min_frequency": 3,
+        "max_keywords_per_day": 80,
+        "enable_multi_word_phrases": true,
+        "max_phrase_length": 3,
+        "filter_stopwords": true,
+        "methods": ["tfidf", "yake"]
+      },
+      "sentiment_config": {
+        "enable_sentiment": true,
+        "sentiment_method": "vader",
+        "importance_weight": 0.15
+      },
+      "sources": [
+        {
+          "source_type": "rss",
+          "source_name": "TechCrunch",
+          "source_url": "https://techcrunch.com/feed/",
+          "fetch_interval_minutes": 30,
+          "config": {
+            "max_entries": 50
+          }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "VentureBeat",
+          "source_url": "https://venturebeat.com/feed/",
+          "fetch_interval_minutes": 45,
+          "config": {
+            "max_entries": 40
+          }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "Crunchbase News",
+          "source_url": "https://news.crunchbase.com/feed/",
+          "fetch_interval_minutes": 60,
+          "config": {
+            "max_entries": 30
+          }
+        }
+      ]
+    },
+    {
+      "team_key": "competitor",
+      "team_name": "Competitive Intelligence Team",
+      "description": "Monitors competitor activities, product launches, and market positioning",
+      "color": "#7C3AED",
+      "icon": "visibility",
+      "is_active": true,
+      "keyword_config": {
+        "relevance_threshold": 0.55,
+        "min_frequency": 2,
+        "max_keywords_per_day": 60,
+        "enable_multi_word_phrases": true,
+        "max_phrase_length": 4,
+        "filter_stopwords": true,
+        "methods": ["tfidf", "spacy", "yake"]
+      },
+      "sentiment_config": {
+        "enable_sentiment": true,
+        "sentiment_method": "vader",
+        "importance_weight": 0.12
+      },
+      "sources": [
+        {
+          "source_type": "rss",
+          "source_name": "The Verge",
+          "source_url": "https://www.theverge.com/rss/index.xml",
+          "fetch_interval_minutes": 45,
+          "config": {
+            "max_entries": 40
+          }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "Product Hunt",
+          "source_url": "https://www.producthunt.com/feed",
+          "fetch_interval_minutes": 120,
+          "config": {
+            "max_entries": 25
+          }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "TechRadar",
+          "source_url": "https://www.techradar.com/rss",
+          "fetch_interval_minutes": 60,
+          "config": {
+            "max_entries": 30
+          }
+        }
+      ]
+    },
+    {
+      "team_key": "researcher",
+      "team_name": "Research Team",
+      "description": "Tracks emerging technologies, academic research, and technical innovations",
+      "color": "#2563EB",
+      "icon": "science",
+      "is_active": true,
+      "keyword_config": {
+        "relevance_threshold": 0.6,
+        "min_frequency": 2,
+        "max_keywords_per_day": 100,
+        "enable_multi_word_phrases": true,
+        "max_phrase_length": 5,
+        "filter_stopwords": true,
+        "methods": ["tfidf", "spacy", "yake"]
+      },
+      "sentiment_config": {
+        "enable_sentiment": true,
+        "sentiment_method": "vader",
+        "importance_weight": 0.08
+      },
+      "sources": [
+        {
+          "source_type": "rss",
+          "source_name": "Ars Technica",
+          "source_url": "https://feeds.arstechnica.com/arstechnica/index",
+          "fetch_interval_minutes": 60,
+          "config": {
+            "max_entries": 30
+          }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "MIT Technology Review",
+          "source_url": "https://www.technologyreview.com/feed/",
+          "fetch_interval_minutes": 120,
+          "config": {
+            "max_entries": 25
+          }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "Hacker News",
+          "source_url": "https://news.ycombinator.com/rss",
+          "fetch_interval_minutes": 60,
+          "config": {
+            "max_entries": 30
+          }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "ArXiv CS",
+          "source_url": "http://export.arxiv.org/rss/cs",
+          "fetch_interval_minutes": 360,
+          "config": {
+            "max_entries": 20
+          }
+        }
+      ]
+    }
+  ]
+}
