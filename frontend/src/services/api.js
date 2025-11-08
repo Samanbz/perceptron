@@ -111,14 +111,8 @@ class ApiService {
           return { success: true, user, token: data.access_token };
         } catch (userError) {
           console.error('Error fetching user info:', userError);
-          // Token is valid but couldn't fetch user, create basic user object
-          const basicUser = {
-            id: data.user?.id || 'unknown',
-            email: data.user?.email || email,
-            full_name: data.user?.full_name || 'User'
-          };
-          this.setUser(basicUser);
-          return { success: true, user: basicUser, token: data.access_token };
+          // Token is valid but couldn't fetch user, still allow login
+          return { success: true, token: data.access_token };
         }
       }
 
@@ -136,9 +130,8 @@ class ApiService {
 
   async verifyToken() {
     try {
-      // Try to get current user - this will validate the token
-      await this.getCurrentUser();
-      return true;
+      const data = await this.request('/auth/verify');
+      return data.valid;
     } catch (error) {
       return false;
     }

@@ -16,9 +16,6 @@ import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import Cookies from './pages/Cookies';
 import Dashboard from './pages/Dashboard';
-import PeersNewsroom from './pages/PeersNewsroom';
-import ReputationMap from './pages/ReputationMap';
-import Profile from './pages/Profile';
 import './App.css';
 
 function AppContent() {
@@ -29,8 +26,6 @@ function AppContent() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/features" element={<Features />} />
-        <Route path="/peers-newsroom" element={<PeersNewsroom />} />
-        <Route path="/reputation-map" element={<ReputationMap />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/teams" element={<Teams />} />
         <Route path="/technology" element={<Technology />} />
@@ -45,14 +40,6 @@ function AppContent() {
           element={
             <ProtectedRoute>
               <Dashboard />
-            </ProtectedRoute>
-          } 
-        />
-        <Route 
-          path="/profile" 
-          element={
-            <ProtectedRoute>
-              <Profile />
             </ProtectedRoute>
           } 
         />

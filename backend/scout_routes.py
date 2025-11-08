@@ -12,18 +12,13 @@ from teams.repository import TeamRepository
 import json
 import re
 from collections import Counter
-# import spacy  # Temporarily commented out due to version compatibility issues
+import spacy
 
 # Load spaCy model once at startup
 try:
-    # nlp = spacy.load("en_core_web_md")  # Temporarily disabled
-    nlp = None
-    SPACY_AVAILABLE = False
-    print("Warning: spaCy disabled due to version compatibility issues")
+    nlp = spacy.load("en_core_web_md")
 except OSError:
     nlp = None
-    SPACY_AVAILABLE = False
-    print("Warning: spaCy model not available, some features may not work")
     print("spaCy model 'en_core_web_md' not found. Please run: python -m spacy download en_core_web_md")
 
 router = APIRouter(prefix="/api/scout", tags=["scouting"])
