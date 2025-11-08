@@ -4,6 +4,9 @@ uvicorn[standard]==0.27.0
 pydantic==2.5.3
 sqlalchemy==2.0.44
 
+# Payment Processing
+stripe==8.0.0
+
 # Azure & Authentication
 pymongo==4.6.1
 python-jose[cryptography]==3.3.0
@@ -13,6 +16,16 @@ python-dotenv==1.0.0
 
 # Content Sourcing
 feedparser==6.0.11
+beautifulsoup4==4.14.2
+aiohttp==3.13.2
+lxml==6.0.2
+playwright==1.55.0
+
+# Social Media Sourcers
+praw==7.7.1  # Reddit API
+ntscraper==0.4.0  # Twitter/X scraping (no API key)
+google-api-python-client==2.108.0  # YouTube Data API
+newsapi-python==0.2.7  # NewsAPI for news aggregation
 
 # NLP & Keyword Extraction
 scikit-learn>=1.3.0

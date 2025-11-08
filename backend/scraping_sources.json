@@ -1,0 +1,1155 @@
+{
+    "scraping_sources": {
+        "regulator": {
+            "team_name": "Regulatory Team",
+            "blogs": [{
+                    "name": "SEC Blog",
+                    "url": "https://www.sec.gov/news/pressreleases",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".newsroom-item",
+                        "link": "a[href]",
+                        "title": "h3, .title",
+                        "content": "p",
+                        "date": "time, .date"
+                    },
+                    "fetch_interval_hours": 4
+                },
+                {
+                    "name": "Federal Reserve Blog",
+                    "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".row",
+                        "link": "a",
+                        "title": "a",
+                        "content": "p",
+                        "date": ".time"
+                    },
+                    "fetch_interval_hours": 6
+                },
+                {
+                    "name": "FINRA Blog",
+                    "url": "https://www.finra.org/media-center/newsroom",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".view-content .views-row",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "CFTC Press Releases",
+                    "url": "https://www.cftc.gov/PressRoom/PressReleases/index.htm",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".pressrelease",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 8
+                },
+                {
+                    "name": "OCC News",
+                    "url": "https://www.occ.gov/news-issuances/news-releases/index.html",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".news-item",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Brookings Institution Finance",
+                    "url": "https://www.brookings.edu/topic/financial-regulation/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "FTC News",
+                    "url": "https://www.ftc.gov/news-events/news/press-releases",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".press-release",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "FDIC News",
+                    "url": "https://www.fdic.gov/news/press-releases",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".press-release",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Consumer Financial Protection Bureau",
+                    "url": "https://www.consumerfinance.gov/about-us/newsroom/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".press-release",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 8
+                },
+                {
+                    "name": "European Central Bank Blog",
+                    "url": "https://www.ecb.europa.eu/press/blog/html/index.en.html",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Bank of England News",
+                    "url": "https://www.bankofengland.co.uk/news",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".news-item",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                }
+            ]
+        },
+        "investor": {
+            "team_name": "Investment Team",
+            "blogs": [{
+                    "name": "TechCrunch Blog",
+                    "url": "https://techcrunch.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a.post-block__title__link",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 2
+                },
+                {
+                    "name": "VentureBeat",
+                    "url": "https://venturebeat.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 3
+                },
+                {
+                    "name": "CB Insights Blog",
+                    "url": "https://www.cbinsights.com/research/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".post",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Crunchbase News",
+                    "url": "https://news.crunchbase.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 4
+                },
+                {
+                    "name": "PitchBook Blog",
+                    "url": "https://pitchbook.com/news",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".article-card",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 6
+                },
+                {
+                    "name": "a16z Blog",
+                    "url": "https://a16z.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2, h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Y Combinator Blog",
+                    "url": "https://www.ycombinator.com/blog",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".post",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Sequoia Capital Blog",
+                    "url": "https://www.sequoiacap.com/blog/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "First Round Review",
+                    "url": "https://review.firstround.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "SaaStr Blog",
+                    "url": "https://www.saastr.com/blog/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "NFX Blog",
+                    "url": "https://www.nfx.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Bessemer Venture Partners Blog",
+                    "url": "https://www.bvp.com/atlas",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Greylock Perspectives",
+                    "url": "https://greylock.com/greymatter/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Index Ventures Blog",
+                    "url": "https://www.indexventures.com/perspectives",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Insight Partners Blog",
+                    "url": "https://www.insightpartners.com/blog/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Accel Blog",
+                    "url": "https://www.accel.com/noteworthy",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "500 Startups Blog",
+                    "url": "https://500.co/blog/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Techstars Blog",
+                    "url": "https://www.techstars.com/blog",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Bloomberg Technology",
+                    "url": "https://www.bloomberg.com/technology",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 4
+                },
+                {
+                    "name": "The Information",
+                    "url": "https://www.theinformation.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 6
+                }
+            ]
+        },
+        "competitor": {
+            "team_name": "Competitive Intelligence Team",
+            "blogs": [{
+                    "name": "The Verge",
+                    "url": "https://www.theverge.com/tech",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 3
+                },
+                {
+                    "name": "TechRadar",
+                    "url": "https://www.techradar.com/news",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 4
+                },
+                {
+                    "name": "Gartner Blog",
+                    "url": "https://www.gartner.com/en/articles",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".article-card",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Forrester Blog",
+                    "url": "https://www.forrester.com/blogs/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".blog-post",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Benedict Evans",
+                    "url": "https://www.ben-evans.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Stratechery",
+                    "url": "https://stratechery.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h1",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Product Hunt Blog",
+                    "url": "https://www.producthunt.com/stories",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".story",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 6
+                },
+                {
+                    "name": "G2 Blog",
+                    "url": "https://www.g2.com/articles",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Capterra Blog",
+                    "url": "https://blog.capterra.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Wired Business",
+                    "url": "https://www.wired.com/category/business/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 6
+                },
+                {
+                    "name": "The Information",
+                    "url": "https://www.theinformation.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 6
+                },
+                {
+                    "name": "ZDNet",
+                    "url": "https://www.zdnet.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 4
+                },
+                {
+                    "name": "ReadWrite",
+                    "url": "https://readwrite.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 8
+                },
+                {
+                    "name": "Business Insider Tech",
+                    "url": "https://www.businessinsider.com/sai",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 4
+                },
+                {
+                    "name": "CNBC Technology",
+                    "url": "https://www.cnbc.com/technology/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 3
+                },
+                {
+                    "name": "MarketWatch Tech",
+                    "url": "https://www.marketwatch.com/latest-news?mod=top_nav",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 6
+                }
+            ]
+        },
+        "researcher": {
+            "team_name": "Research Team",
+            "blogs": [{
+                    "name": "MIT Technology Review",
+                    "url": "https://www.technologyreview.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 6
+                },
+                {
+                    "name": "Ars Technica",
+                    "url": "https://arstechnica.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 4
+                },
+                {
+                    "name": "Nature Technology",
+                    "url": "https://www.nature.com/subjects/technology",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "IEEE Spectrum",
+                    "url": "https://spectrum.ieee.org/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Wired AI",
+                    "url": "https://www.wired.com/tag/artificial-intelligence/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 6
+                },
+                {
+                    "name": "Google AI Blog",
+                    "url": "https://blog.research.google/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "OpenAI Blog",
+                    "url": "https://openai.com/news/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "DeepMind Blog",
+                    "url": "https://www.deepmind.com/blog",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Meta AI Blog",
+                    "url": "https://ai.meta.com/blog/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Microsoft Research Blog",
+                    "url": "https://www.microsoft.com/en-us/research/blog/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "The Gradient",
+                    "url": "https://thegradient.pub/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Distill Research",
+                    "url": "https://distill.pub/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 48
+                },
+                {
+                    "name": "Amazon Science Blog",
+                    "url": "https://www.amazon.science/blog",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Apple Machine Learning Research",
+                    "url": "https://machinelearning.apple.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 48
+                },
+                {
+                    "name": "NVIDIA Developer Blog",
+                    "url": "https://developer.nvidia.com/blog/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Hugging Face Blog",
+                    "url": "https://huggingface.co/blog",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Towards Data Science",
+                    "url": "https://towardsdatascience.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 6
+                },
+                {
+                    "name": "Stanford HAI News",
+                    "url": "https://hai.stanford.edu/news",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Berkeley AI Research",
+                    "url": "https://bair.berkeley.edu/blog/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 48
+                },
+                {
+                    "name": "AI Index Stanford",
+                    "url": "https://aiindex.stanford.edu/report/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 168
+                },
+                {
+                    "name": "Papers with Code",
+                    "url": "https://paperswithcode.com/latest",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".paper-card",
+                        "link": "a",
+                        "title": "h1",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Quanta Magazine AI",
+                    "url": "https://www.quantamagazine.org/tag/artificial-intelligence/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                }
+            ]
+        },
+        "fintech": {
+            "team_name": "FinTech Team",
+            "blogs": [{
+                    "name": "The Block",
+                    "url": "https://www.theblock.co/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 3
+                },
+                {
+                    "name": "CoinDesk",
+                    "url": "https://www.coindesk.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 3
+                },
+                {
+                    "name": "FinExtra",
+                    "url": "https://www.finextra.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".news-item",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 6
+                },
+                {
+                    "name": "Finovate",
+                    "url": "https://finovate.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "American Banker",
+                    "url": "https://www.americanbanker.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 6
+                },
+                {
+                    "name": "Banking Innovation",
+                    "url": "https://bankinginnovation.net/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "PaymentsSource",
+                    "url": "https://www.paymentssource.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 8
+                },
+                {
+                    "name": "Stripe Blog",
+                    "url": "https://stripe.com/blog",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Square Developer Blog",
+                    "url": "https://developer.squareup.com/blog",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Plaid Blog",
+                    "url": "https://plaid.com/blog/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Robinhood Newsroom",
+                    "url": "https://newsroom.aboutrobinhood.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Coinbase Blog",
+                    "url": "https://blog.coinbase.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 6
+                },
+                {
+                    "name": "PayPal Newsroom",
+                    "url": "https://newsroom.paypal-corp.com/news",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Revolut Blog",
+                    "url": "https://www.revolut.com/news/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Chime Blog",
+                    "url": "https://www.chime.com/blog/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Klarna News",
+                    "url": "https://www.klarna.com/international/press/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Affirm Blog",
+                    "url": "https://www.affirm.com/blog",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Brex Blog",
+                    "url": "https://www.brex.com/journal",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                }
+            ]
+        }
+    }
+}

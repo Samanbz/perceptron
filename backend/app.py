@@ -1,31 +1,59 @@
 """Main FastAPI application for Signal Radar backend."""
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, HttpUrl
 from typing import List, Optional
 from datetime import datetime
 from contextlib import asynccontextmanager
+import asyncio
+import sys
+
+# Fix for Playwright on Windows - must be set before any async operations
+if sys.platform == 'win32':
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 from sourcers import RSSSourcer
+from sourcers.web_scraper import BlogScraper, NewsScraper, GenericWebScraper
 from storage import (
     ContentRepository,
     SourceConfigRepository,
     create_database,
     get_database_url,
 )
-from auth import auth_router, cosmos_client, user_repository
+from auth.routes_v2 import router as auth_router
+from auth.repository_v2 import user_repository
+from payment_routes import router as payment_router
+from scout_routes import router as scout_router
+from scheduler import get_scheduler
+
+# Global scheduler task
+scheduler_task = None
 
 # Lifespan context manager for startup/shutdown
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    global scheduler_task
     # Startup
     create_database(get_database_url())
-    cosmos_client.connect()
-    user_repository.initialize()
+    print(f"✅ Connected to Cosmos DB (MongoDB API): futurydb")
+    
+    # Start scheduler in background
+    scheduler = get_scheduler()
+    scheduler_task = asyncio.create_task(scheduler.run())
+    print(f"✅ Background scheduler started")
+    
     yield
+    
     # Shutdown
-    pass
+    if scheduler_task:
+        scheduler.stop()
+        scheduler_task.cancel()
+        try:
+            await scheduler_task
+        except asyncio.CancelledError:
+            pass
+    print(f"✅ Scheduler stopped")
 
 app = FastAPI(
     title="Perceptron API",
@@ -52,6 +80,12 @@ app.add_middleware(
 
 # Include authentication routes
 app.include_router(auth_router)
+
+# Include payment routes
+app.include_router(payment_router)
+
+# Include scouting routes
+app.include_router(scout_router)
 
 
 @app.get("/")
@@ -166,6 +200,325 @@ async def fetch_example_rss():
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to fetch example RSS feed: {str(e)}")
+
+
+# ============================================================================
+# Web Scraping API Endpoints
+# ============================================================================
+
+class BlogScrapeRequest(BaseModel):
+    """Request model for scraping a blog"""
+    base_url: HttpUrl
+    source_name: str
+    max_pages: Optional[int] = 5
+    article_selector: Optional[str] = "article"
+    title_selector: Optional[str] = "h1, h2.entry-title, .post-title"
+    content_selector: Optional[str] = ".entry-content, .post-content, article p"
+    add_to_monitoring: Optional[bool] = False
+
+
+class GenericScrapeRequest(BaseModel):
+    """Request model for generic web scraping"""
+    base_url: HttpUrl
+    source_name: str
+    max_pages: Optional[int] = 10
+    selectors: dict
+    add_to_monitoring: Optional[bool] = False
+
+
+@app.post("/api/sources/scrape/blog")
+async def scrape_blog(request: BlogScrapeRequest):
+    """
+    Scrape content from a blog website
+    
+    Works with most WordPress, Medium, and standard blog platforms
+    """
+    try:
+        scraper = BlogScraper(
+            base_url=str(request.base_url),
+            name=request.source_name,
+            article_selector=request.article_selector,
+            title_selector=request.title_selector,
+            content_selector=request.content_selector,
+            max_pages=request.max_pages
+        )
+        
+        contents = await scraper.scrape()
+        
+        # Store in data lake
+        if contents:
+            content_repo = ContentRepository()
+            stats = content_repo.save_batch(
+                contents,
+                source_type="blog_scrape",
+                source_name=request.source_name,
+                source_url=str(request.base_url)
+            )
+            content_repo.close()
+        else:
+            stats = {"saved": 0, "duplicates": 0, "errors": 0}
+        
+        # Optionally add to monitoring
+        source_id = None
+        if request.add_to_monitoring and contents:
+            config_repo = SourceConfigRepository()
+            source = config_repo.add_source(
+                source_type="blog_scrape",
+                source_name=request.source_name,
+                source_url=str(request.base_url),
+                config={
+                    "article_selector": request.article_selector,
+                    "title_selector": request.title_selector,
+                    "content_selector": request.content_selector,
+                    "max_pages": request.max_pages
+                },
+                fetch_interval_minutes=240  # 4 hours default for scraping
+            )
+            source_id = source.id
+            config_repo.close()
+        
+        return {
+            "message": "Blog scraped successfully",
+            "items_found": len(contents),
+            "stats": stats,
+            "monitoring": {
+                "added": request.add_to_monitoring,
+                "source_id": source_id
+            }
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to scrape blog: {str(e)}")
+
+
+@app.post("/api/sources/scrape/generic")
+async def scrape_generic(request: GenericScrapeRequest):
+    """
+    Scrape content using custom selectors
+    
+    Provide CSS selectors for:
+    - item: selector for article/item containers
+    - link: selector for article links
+    - title: selector for titles
+    - content: selector for content paragraphs
+    - date: selector for publication dates (optional)
+    """
+    try:
+        config = {
+            'base_url': str(request.base_url),
+            'name': request.source_name,
+            'max_pages': request.max_pages,
+            'selectors': request.selectors
+        }
+        
+        scraper = GenericWebScraper(config)
+        contents = await scraper.scrape()
+        
+        # Store in data lake
+        if contents:
+            content_repo = ContentRepository()
+            stats = content_repo.save_batch(
+                contents,
+                source_type="web_scrape",
+                source_name=request.source_name,
+                source_url=str(request.base_url)
+            )
+            content_repo.close()
+        else:
+            stats = {"saved": 0, "duplicates": 0, "errors": 0}
+        
+        # Optionally add to monitoring
+        source_id = None
+        if request.add_to_monitoring and contents:
+            config_repo = SourceConfigRepository()
+            source = config_repo.add_source(
+                source_type="web_scrape",
+                source_name=request.source_name,
+                source_url=str(request.base_url),
+                config={
+                    "selectors": request.selectors,
+                    "max_pages": request.max_pages
+                },
+                fetch_interval_minutes=360  # 6 hours default
+            )
+            source_id = source.id
+            config_repo.close()
+        
+        return {
+            "message": "Website scraped successfully",
+            "items_found": len(contents),
+            "stats": stats,
+            "monitoring": {
+                "added": request.add_to_monitoring,
+                "source_id": source_id
+            }
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to scrape website: {str(e)}")
+
+
+@app.post("/api/sources/scrape/setup-blogs")
+async def setup_blog_sources():
+    """
+    Bulk add all configured blog sources from scraping_sources.json
+    
+    This will add all blogs organized by team to the monitoring system
+    """
+    try:
+        import json
+        from pathlib import Path
+        
+        # Load scraping sources
+        config_file = Path(__file__).parent / "scraping_sources.json"
+        with open(config_file, 'r') as f:
+            config = json.load(f)
+        
+        repo = SourceConfigRepository()
+        added = []
+        skipped = []
+        errors = []
+        
+        for team_key, team_data in config['scraping_sources'].items():
+            for blog in team_data['blogs']:
+                # Check if already exists
+                existing = repo.list_sources()
+                if any(s.source_url == blog['url'] for s in existing):
+                    skipped.append(blog['name'])
+                    continue
+                
+                try:
+                    source = repo.add_source(
+                        source_type="blog_scrape",
+                        source_name=f"{team_key.upper()}: {blog['name']}",
+                        source_url=blog['url'],
+                        config={
+                            'selectors': blog['selectors'],
+                            'max_pages': 5,
+                            'team_key': team_key
+                        },
+                        fetch_interval_minutes=blog['fetch_interval_hours'] * 60
+                    )
+                    added.append({
+                        "name": blog['name'],
+                        "url": blog['url'],
+                        "team": team_key,
+                        "source_id": source.id
+                    })
+                except Exception as e:
+                    errors.append({
+                        "name": blog['name'],
+                        "error": str(e)
+                    })
+        
+        repo.close()
+        
+        return {
+            "message": "Blog sources setup complete",
+            "added": len(added),
+            "skipped": len(skipped),
+            "errors": len(errors),
+            "details": {
+                "added_sources": added,
+                "skipped_sources": skipped,
+                "errors": errors
+            }
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to setup blog sources: {str(e)}")
+
+
+@app.get("/api/sources/scrape/stats")
+async def get_scraping_stats():
+    """Get statistics about configured scraping sources"""
+    try:
+        repo = SourceConfigRepository()
+        all_sources = repo.list_sources()
+        repo.close()
+        
+        # Filter blog/web scraping sources
+        scraping_sources = [s for s in all_sources if s.source_type in ["blog_scrape", "web_scrape"]]
+        
+        # Group by team
+        by_team = {}
+        for source in scraping_sources:
+            team_key = source.config.get('team_key', 'unknown')
+            if team_key not in by_team:
+                by_team[team_key] = {
+                    "sources": [],
+                    "total_items": 0,
+                    "enabled_count": 0
+                }
+            
+            by_team[team_key]["sources"].append({
+                "id": source.id,
+                "name": source.source_name,
+                "url": source.source_url,
+                "enabled": source.enabled,
+                "items_fetched": source.total_items_fetched,
+                "last_fetched": source.last_fetched_at.isoformat() if source.last_fetched_at else None
+            })
+            by_team[team_key]["total_items"] += source.total_items_fetched
+            if source.enabled:
+                by_team[team_key]["enabled_count"] += 1
+        
+        return {
+            "total_sources": len(scraping_sources),
+            "enabled": sum(1 for s in scraping_sources if s.enabled),
+            "disabled": sum(1 for s in scraping_sources if not s.enabled),
+            "total_items_fetched": sum(s.total_items_fetched for s in scraping_sources),
+            "by_team": by_team
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get scraping stats: {str(e)}")
+
+
+# ========== SCHEDULER ENDPOINTS ==========
+
+@app.get("/api/scheduler/status")
+async def get_scheduler_status():
+    """Get scheduler status"""
+    scheduler = get_scheduler()
+    return {
+        "running": scheduler.is_running(),
+        "stats": scheduler.get_stats()
+    }
+
+
+@app.post("/api/scheduler/start")
+async def start_scheduler(background_tasks: BackgroundTasks):
+    """Manually start the scheduler"""
+    global scheduler_task
+    scheduler = get_scheduler()
+    
+    if scheduler.is_running():
+        return {"message": "Scheduler is already running", "status": "running"}
+    
+    if scheduler_task and not scheduler_task.done():
+        return {"message": "Scheduler task is already active", "status": "running"}
+    
+    # Start scheduler in background
+    scheduler_task = asyncio.create_task(scheduler.run())
+    return {"message": "Scheduler started", "status": "running"}
+
+
+@app.post("/api/scheduler/stop")
+async def stop_scheduler():
+    """Manually stop the scheduler"""
+    global scheduler_task
+    scheduler = get_scheduler()
+    
+    if not scheduler.is_running():
+        return {"message": "Scheduler is not running", "status": "stopped"}
+    
+    scheduler.stop()
+    if scheduler_task:
+        scheduler_task.cancel()
+        try:
+            await scheduler_task
+        except asyncio.CancelledError:
+            pass
+        scheduler_task = None
+    
+    return {"message": "Scheduler stopped", "status": "stopped"}
 
 
 # ============================================================================
