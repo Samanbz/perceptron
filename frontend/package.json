@@ -13,15 +13,18 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.9.5"
   },
   "devDependencies": {
+    "@esbuild/win32-x64": "^0.25.12",
     "@vitejs/plugin-react": "^4.2.1",
-    "vite": "^5.0.8",
+    "esbuild": "^0.25.12",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^3.1.1"
+    "prettier": "^3.1.1",
+    "vite": "^5.0.8"
   }
 }

@@ -5,6 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, HttpUrl
 from typing import List, Optional
 from datetime import datetime
+from contextlib import asynccontextmanager
 
 from sourcers import RSSSourcer
 from storage import (
@@ -13,32 +14,64 @@ from storage import (
     create_database,
     get_database_url,
 )
+from auth import auth_router, cosmos_client, user_repository
 
-# Initialize database on startup
-create_database(get_database_url())
+# Lifespan context manager for startup/shutdown
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup
+    create_database(get_database_url())
+    cosmos_client.connect()
+    user_repository.initialize()
+    yield
+    # Shutdown
+    pass
 
-app = FastAPI(title="Signal Radar API", version="1.0.0")
+app = FastAPI(
+    title="Perceptron API",
+    version="1.0.0",
+    lifespan=lifespan
+)
 
 # Enable CORS for React frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:5174",
+        "http://localhost:5175",
+        "http://localhost:3000",
+        "http://127.0.0.1:5173",
+        "http://127.0.0.1:5174",
+        "http://127.0.0.1:5175",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
+# Include authentication routes
+app.include_router(auth_router)
+
 
 @app.get("/")
 def home():
     """Home endpoint."""
-    return {"message": "Signal Radar API is running!"}
+    return {
+        "message": "Perceptron API is running!",
+        "version": "1.0.0",
+        "docs": "/docs"
+    }
 
 
 @app.get("/api/health")
 def health():
     """Health check endpoint."""
-    return {"status": "healthy", "service": "Signal Radar Backend"}
+    return {
+        "status": "healthy",
+        "service": "Perceptron Backend",
+        "auth": "enabled"
+    }
 
 
 @app.get("/api/hello")
