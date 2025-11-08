@@ -913,6 +913,296 @@
                 }
             ]
         },
+        "peers": {
+            "team_name": "Peers Newsroom Team",
+            "blogs": [{
+                    "name": "SEC EDGAR Company Filings",
+                    "url": "https://www.sec.gov/edgar/searchedgar/companysearch.html",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".companyInfo",
+                        "link": "a",
+                        "title": "h1, .companyName",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 4
+                },
+                {
+                    "name": "Yahoo Finance Earnings Calendar",
+                    "url": "https://finance.yahoo.com/calendar/earnings",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".data-row",
+                        "link": "a",
+                        "title": ".ticker",
+                        "content": ".eps",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 2
+                },
+                {
+                    "name": "Zacks Earnings Calendar",
+                    "url": "https://www.zacks.com/earnings/earnings-calendar",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".earnings-item",
+                        "link": "a",
+                        "title": ".company-name",
+                        "content": ".estimate",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 2
+                },
+                {
+                    "name": "Nasdaq Earnings Calendar",
+                    "url": "https://www.nasdaq.com/market-activity/earnings",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".earnings-row",
+                        "link": "a",
+                        "title": ".symbol",
+                        "content": ".time",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 2
+                },
+                {
+                    "name": "CNBC Earnings",
+                    "url": "https://www.cnbc.com/earnings/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 1
+                },
+                {
+                    "name": "Bloomberg Markets",
+                    "url": "https://www.bloomberg.com/markets",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 1
+                },
+                {
+                    "name": "Financial Times Markets",
+                    "url": "https://www.ft.com/markets",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 2
+                },
+                {
+                    "name": "Wall Street Journal Markets",
+                    "url": "https://www.wsj.com/news/markets",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 2
+                },
+                {
+                    "name": "Reuters Business News",
+                    "url": "https://www.reuters.com/business/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 1
+                },
+                {
+                    "name": "MarketWatch",
+                    "url": "https://www.marketwatch.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 2
+                },
+                {
+                    "name": "Seeking Alpha",
+                    "url": "https://seekingalpha.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 3
+                },
+                {
+                    "name": "Barron's",
+                    "url": "https://www.barrons.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 3
+                },
+                {
+                    "name": "CEO Speeches - Harvard Business Review",
+                    "url": "https://hbr.org/topic/ceo-speeches",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Executive Speeches - McKinsey",
+                    "url": "https://www.mckinsey.com/featured-insights",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "CEO Interviews - Fortune",
+                    "url": "https://fortune.com/leadership/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Executive Communications - Deloitte",
+                    "url": "https://www2.deloitte.com/us/en/insights.html",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "PwC CEO Survey",
+                    "url": "https://www.pwc.com/gx/en/ceo-survey.html",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".survey-item",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 168
+                },
+                {
+                    "name": "EY CEO Outlook",
+                    "url": "https://www.ey.com/en_gl/assurance/ceo-outlook",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 168
+                },
+                {
+                    "name": "KPMG CEO Survey",
+                    "url": "https://kpmg.com/xx/en/home/insights.html",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 168
+                },
+                {
+                    "name": "Oliver Wyman Executive Insights",
+                    "url": "https://www.oliverwyman.com/our-expertise/insights.html",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Bain Executive Insights",
+                    "url": "https://www.bain.com/insights/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Boston Consulting Group Insights",
+                    "url": "https://www.bcg.com/publications",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                }
+            ]
+        },
         "fintech": {
             "team_name": "FinTech Team",
             "blogs": [{
@@ -1148,6 +1438,231 @@
                         "date": "time"
                     },
                     "fetch_interval_hours": 24
+                }
+            ]
+        },
+        "reputation": {
+            "team_name": "Reputation Risk Team",
+            "blogs": [{
+                    "name": "RepRisk Intelligence",
+                    "url": "https://www.reprisk.com/intelligence",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".intelligence-item, .risk-report",
+                        "link": "a",
+                        "title": "h3, .title",
+                        "content": "p, .summary",
+                        "date": "time, .date"
+                    },
+                    "fetch_interval_hours": 6
+                },
+                {
+                    "name": "MSCI ESG Research",
+                    "url": "https://www.msci.com/esg-research",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".research-item, article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Sustainalytics Research",
+                    "url": "https://www.sustainalytics.com/esg-research",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".research-article, article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Glassdoor Company Reviews",
+                    "url": "https://www.glassdoor.com/Reviews/index.htm",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".review-item, .company-review",
+                        "link": "a",
+                        "title": ".company-name",
+                        "content": ".review-text",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Trustpilot Business Reviews",
+                    "url": "https://www.trustpilot.com/categories",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".review-card, article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Better Business Bureau",
+                    "url": "https://www.bbb.org/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".business-profile, .complaint-item",
+                        "link": "a",
+                        "title": ".business-name",
+                        "content": ".complaint-text",
+                        "date": ".date"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Corporate ESG Reports",
+                    "url": "https://www.ceres.org/ceres-academic-research",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".research-item, article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 48
+                },
+                {
+                    "name": "ESG News - Reuters",
+                    "url": "https://www.reuters.com/business/sustainable-business/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 4
+                },
+                {
+                    "name": "ESG News - Bloomberg",
+                    "url": "https://www.bloomberg.com/topics/esg",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 4
+                },
+                {
+                    "name": "Corporate Governance - Harvard Law",
+                    "url": "https://corpgov.law.harvard.edu/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "RiskMetrics Group",
+                    "url": "https://www.msci.com/riskmanager",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".risk-report, article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Corporate Reputation Institute",
+                    "url": "https://www.reputationinstitute.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".research-item, article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 48
+                },
+                {
+                    "name": "ESG Data & Analytics",
+                    "url": "https://www.spglobal.com/esg/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".esg-report, article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Corporate Social Responsibility News",
+                    "url": "https://www.csrwire.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Ethical Corporation",
+                    "url": "https://www.ethicalcorp.com/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 12
+                },
+                {
+                    "name": "Social Enterprise",
+                    "url": "https://www.socialenterprise.org.uk/",
+                    "type": "blog",
+                    "selectors": {
+                        "item": "article",
+                        "link": "a",
+                        "title": "h2",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 24
+                },
+                {
+                    "name": "Business Ethics Quarterly",
+                    "url": "https://www.cambridge.org/core/journals/business-ethics-quarterly",
+                    "type": "blog",
+                    "selectors": {
+                        "item": ".article-item, article",
+                        "link": "a",
+                        "title": "h3",
+                        "content": "p",
+                        "date": "time"
+                    },
+                    "fetch_interval_hours": 48
                 }
             ]
         }

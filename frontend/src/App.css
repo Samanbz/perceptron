@@ -854,6 +854,14 @@
     align-items: center;
 }
 
+.logout-icon-btn {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    justify-content: center;
+}
+
 .btn-secondary-small:hover {
     background: rgba(0, 24, 168, 0.05);
     transform: translateY(-2px);

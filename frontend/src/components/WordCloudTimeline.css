@@ -550,6 +550,47 @@
   font-weight: 700;
 }
 
+.sidebar-actions {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.export-button {
+  background: #0018a8;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 140px;
+  justify-content: center;
+}
+
+.export-button:hover:not(:disabled) {
+  background: #0033cc;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 24, 168, 0.3);
+}
+
+.export-button:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: 0 1px 4px rgba(0, 24, 168, 0.2);
+}
+
+.export-button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
 .importance-trend-section {
   margin-bottom: 2rem;
   padding: 1.5rem;
