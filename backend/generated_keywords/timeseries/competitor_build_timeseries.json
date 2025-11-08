@@ -1,0 +1,39 @@
+{
+  "keyword": "build",
+  "team_key": "competitor",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 42.87,
+      "sentiment_score": 0.115,
+      "frequency": 3,
+      "document_count": 3
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 48.76,
+      "sentiment_score": 0.033,
+      "frequency": 6,
+      "document_count": 6
+    },
+    {
+      "date": "2025-11-04",
+      "importance_score": 46.09,
+      "sentiment_score": 0.033,
+      "frequency": 6,
+      "document_count": 6
+    },
+    {
+      "date": "2025-11-05",
+      "importance_score": 44.76,
+      "sentiment_score": 0.033,
+      "frequency": 6,
+      "document_count": 6
+    }
+  ],
+  "appearances": 4,
+  "avg_importance": 45.62,
+  "max_importance": 48.76,
+  "total_frequency": 21,
+  "total_documents": 21
+}

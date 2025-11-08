@@ -1,0 +1,18 @@
+{
+  "keyword": "amazon",
+  "team_key": "investor",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 51.14,
+      "sentiment_score": 0.405,
+      "frequency": 2,
+      "document_count": 2
+    }
+  ],
+  "appearances": 1,
+  "avg_importance": 51.14,
+  "max_importance": 51.14,
+  "total_frequency": 2,
+  "total_documents": 2
+}

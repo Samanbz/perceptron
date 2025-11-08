@@ -1,0 +1,39 @@
+{
+  "keyword": "discussion",
+  "team_key": "competitor",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 41.31,
+      "sentiment_score": 0.0,
+      "frequency": 20,
+      "document_count": 20
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 47.59,
+      "sentiment_score": 0.0,
+      "frequency": 34,
+      "document_count": 34
+    },
+    {
+      "date": "2025-11-04",
+      "importance_score": 44.18,
+      "sentiment_score": 0.0,
+      "frequency": 34,
+      "document_count": 34
+    },
+    {
+      "date": "2025-11-05",
+      "importance_score": 43.18,
+      "sentiment_score": 0.0,
+      "frequency": 34,
+      "document_count": 34
+    }
+  ],
+  "appearances": 4,
+  "avg_importance": 44.065000000000005,
+  "max_importance": 47.59,
+  "total_frequency": 122,
+  "total_documents": 122
+}

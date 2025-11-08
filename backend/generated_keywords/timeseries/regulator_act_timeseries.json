@@ -1,0 +1,25 @@
+{
+  "keyword": "act",
+  "team_key": "regulator",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 41.89,
+      "sentiment_score": 0.17,
+      "frequency": 5,
+      "document_count": 5
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 49.29,
+      "sentiment_score": 0.245,
+      "frequency": 13,
+      "document_count": 13
+    }
+  ],
+  "appearances": 2,
+  "avg_importance": 45.59,
+  "max_importance": 49.29,
+  "total_frequency": 18,
+  "total_documents": 18
+}

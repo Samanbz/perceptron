@@ -1,0 +1,25 @@
+{
+  "keyword": "emergency",
+  "team_key": "regulator",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 45.1,
+      "sentiment_score": -0.165,
+      "frequency": 3,
+      "document_count": 3
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 50.35,
+      "sentiment_score": -0.058,
+      "frequency": 5,
+      "document_count": 5
+    }
+  ],
+  "appearances": 2,
+  "avg_importance": 47.725,
+  "max_importance": 50.35,
+  "total_frequency": 8,
+  "total_documents": 8
+}

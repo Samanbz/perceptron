@@ -1,0 +1,25 @@
+{
+  "keyword": "united",
+  "team_key": "regulator",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 48.54,
+      "sentiment_score": 0.589,
+      "frequency": 6,
+      "document_count": 6
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 50.23,
+      "sentiment_score": 0.578,
+      "frequency": 7,
+      "document_count": 7
+    }
+  ],
+  "appearances": 2,
+  "avg_importance": 49.385,
+  "max_importance": 50.23,
+  "total_frequency": 13,
+  "total_documents": 13
+}

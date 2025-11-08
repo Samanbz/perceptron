@@ -1,0 +1,1621 @@
+{
+  "team_key": "competitor",
+  "team_name": "Competitive Intelligence Team",
+  "total_keywords": 87,
+  "keywords": [
+    {
+      "keyword": "apple",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 48.42,
+          "sentiment_score": 0.243,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 51.82,
+          "sentiment_score": 0.247,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 52.86,
+          "sentiment_score": 0.289,
+          "frequency": 6,
+          "document_count": 6
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 54.03,
+          "sentiment_score": 0.355,
+          "frequency": 7,
+          "document_count": 7
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 51.782500000000006,
+      "max_importance": 54.03,
+      "total_frequency": 22,
+      "total_documents": 22
+    },
+    {
+      "keyword": "today",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.12,
+          "sentiment_score": 0.277,
+          "frequency": 2,
+          "document_count": 2
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 50.66,
+          "sentiment_score": 0.159,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 51.41,
+          "sentiment_score": 0.235,
+          "frequency": 8,
+          "document_count": 8
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 51.83,
+          "sentiment_score": 0.294,
+          "frequency": 9,
+          "document_count": 9
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 49.004999999999995,
+      "max_importance": 51.83,
+      "total_frequency": 23,
+      "total_documents": 23
+    },
+    {
+      "keyword": "build",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.87,
+          "sentiment_score": 0.115,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 48.76,
+          "sentiment_score": 0.033,
+          "frequency": 6,
+          "document_count": 6
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 46.09,
+          "sentiment_score": 0.033,
+          "frequency": 6,
+          "document_count": 6
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 44.76,
+          "sentiment_score": 0.033,
+          "frequency": 6,
+          "document_count": 6
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 45.62,
+      "max_importance": 48.76,
+      "total_frequency": 21,
+      "total_documents": 21
+    },
+    {
+      "keyword": "ai",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 41.04,
+          "sentiment_score": 0.039,
+          "frequency": 7,
+          "document_count": 7
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 48.65,
+          "sentiment_score": 0.038,
+          "frequency": 16,
+          "document_count": 16
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 46.56,
+          "sentiment_score": 0.038,
+          "frequency": 16,
+          "document_count": 16
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 44.96,
+          "sentiment_score": 0.038,
+          "frequency": 16,
+          "document_count": 16
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 45.3025,
+      "max_importance": 48.65,
+      "total_frequency": 55,
+      "total_documents": 55
+    },
+    {
+      "keyword": "link",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 41.99,
+          "sentiment_score": 0.0,
+          "frequency": 20,
+          "document_count": 20
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 48.35,
+          "sentiment_score": -0.009,
+          "frequency": 34,
+          "document_count": 34
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 44.94,
+          "sentiment_score": -0.009,
+          "frequency": 34,
+          "document_count": 34
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 43.94,
+          "sentiment_score": -0.009,
+          "frequency": 34,
+          "document_count": 34
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 44.805,
+      "max_importance": 48.35,
+      "total_frequency": 122,
+      "total_documents": 122
+    },
+    {
+      "keyword": "app",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.85,
+          "sentiment_score": 0.197,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 47.2,
+          "sentiment_score": 0.189,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 48.24,
+          "sentiment_score": 0.162,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 46.45,
+          "sentiment_score": 0.162,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 46.185,
+      "max_importance": 48.24,
+      "total_frequency": 17,
+      "total_documents": 17
+    },
+    {
+      "keyword": "buy",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 39.55,
+          "sentiment_score": 0.03,
+          "frequency": 2,
+          "document_count": 2
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 47.1,
+          "sentiment_score": 0.103,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 47.74,
+          "sentiment_score": 0.2,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 48.1,
+          "sentiment_score": 0.232,
+          "frequency": 6,
+          "document_count": 6
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 45.6225,
+      "max_importance": 48.1,
+      "total_frequency": 17,
+      "total_documents": 17
+    },
+    {
+      "keyword": "ve",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 39.83,
+          "sentiment_score": 0.167,
+          "frequency": 2,
+          "document_count": 2
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 47.27,
+          "sentiment_score": 0.216,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 47.73,
+          "sentiment_score": 0.239,
+          "frequency": 6,
+          "document_count": 6
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 47.98,
+          "sentiment_score": 0.261,
+          "frequency": 7,
+          "document_count": 7
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 45.70249999999999,
+      "max_importance": 47.98,
+      "total_frequency": 19,
+      "total_documents": 19
+    },
+    {
+      "keyword": "game",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 40.21,
+          "sentiment_score": 0.066,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 40.21,
+          "sentiment_score": 0.066,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 47.76,
+          "sentiment_score": 0.098,
+          "frequency": 7,
+          "document_count": 7
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 47.76,
+          "sentiment_score": 0.098,
+          "frequency": 7,
+          "document_count": 7
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 43.985,
+      "max_importance": 47.76,
+      "total_frequency": 20,
+      "total_documents": 20
+    },
+    {
+      "keyword": "discussion",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 41.31,
+          "sentiment_score": 0.0,
+          "frequency": 20,
+          "document_count": 20
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 47.59,
+          "sentiment_score": 0.0,
+          "frequency": 34,
+          "document_count": 34
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 44.18,
+          "sentiment_score": 0.0,
+          "frequency": 34,
+          "document_count": 34
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 43.18,
+          "sentiment_score": 0.0,
+          "frequency": 34,
+          "document_count": 34
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 44.065000000000005,
+      "max_importance": 47.59,
+      "total_frequency": 122,
+      "total_documents": 122
+    },
+    {
+      "keyword": "years",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 40.34,
+          "sentiment_score": 0.271,
+          "frequency": 2,
+          "document_count": 2
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 47.17,
+          "sentiment_score": 0.126,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 44.5,
+          "sentiment_score": 0.126,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 43.17,
+          "sentiment_score": 0.126,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 43.795,
+      "max_importance": 47.17,
+      "total_frequency": 14,
+      "total_documents": 14
+    },
+    {
+      "keyword": "discussion link",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 40.65,
+          "sentiment_score": 0.0,
+          "frequency": 20,
+          "document_count": 20
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 46.93,
+          "sentiment_score": 0.0,
+          "frequency": 34,
+          "document_count": 34
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 43.52,
+          "sentiment_score": 0.0,
+          "frequency": 34,
+          "document_count": 34
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 42.52,
+          "sentiment_score": 0.0,
+          "frequency": 34,
+          "document_count": 34
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 43.405,
+      "max_importance": 46.93,
+      "total_frequency": 122,
+      "total_documents": 122
+    },
+    {
+      "keyword": "update",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 40.67,
+          "sentiment_score": 0.135,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 40.67,
+          "sentiment_score": 0.135,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 45.03,
+          "sentiment_score": 0.071,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 43.69,
+          "sentiment_score": 0.071,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 42.515,
+      "max_importance": 45.03,
+      "total_frequency": 14,
+      "total_documents": 14
+    },
+    {
+      "keyword": "year",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 40.09,
+          "sentiment_score": 0.132,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 40.09,
+          "sentiment_score": 0.132,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 44.61,
+          "sentiment_score": 0.187,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 43.28,
+          "sentiment_score": 0.187,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 42.0175,
+      "max_importance": 44.61,
+      "total_frequency": 14,
+      "total_documents": 14
+    },
+    {
+      "keyword": "open",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 39.3,
+          "sentiment_score": 0.0,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 39.3,
+          "sentiment_score": 0.0,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 43.96,
+          "sentiment_score": 0.068,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 42.63,
+          "sentiment_score": 0.068,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 41.2975,
+      "max_importance": 43.96,
+      "total_frequency": 14,
+      "total_documents": 14
+    },
+    {
+      "keyword": "source",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 39.19,
+          "sentiment_score": 0.0,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 43.92,
+          "sentiment_score": -0.066,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 42.01,
+          "sentiment_score": -0.066,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 41.49,
+          "sentiment_score": -0.066,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 41.6525,
+      "max_importance": 43.92,
+      "total_frequency": 15,
+      "total_documents": 15
+    },
+    {
+      "keyword": "8217",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.09,
+          "sentiment_score": -0.011,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 42.09,
+          "sentiment_score": -0.011,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 42.09,
+          "sentiment_score": -0.011,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 42.09,
+          "sentiment_score": -0.011,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 42.09,
+      "max_importance": 42.09,
+      "total_frequency": 16,
+      "total_documents": 16
+    },
+    {
+      "keyword": "amazon",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 46.86,
+          "sentiment_score": 0.079,
+          "frequency": 2,
+          "document_count": 2
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 54.98,
+          "sentiment_score": 0.296,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 55.47,
+          "sentiment_score": 0.348,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 52.43666666666667,
+      "max_importance": 55.47,
+      "total_frequency": 11,
+      "total_documents": 11
+    },
+    {
+      "keyword": "black friday",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 47.17,
+          "sentiment_score": 0.493,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 54.16,
+          "sentiment_score": 0.431,
+          "frequency": 10,
+          "document_count": 10
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 54.51,
+          "sentiment_score": 0.454,
+          "frequency": 12,
+          "document_count": 12
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 51.946666666666665,
+      "max_importance": 54.51,
+      "total_frequency": 26,
+      "total_documents": 26
+    },
+    {
+      "keyword": "friday",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 45.36,
+          "sentiment_score": 0.493,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 52.25,
+          "sentiment_score": 0.425,
+          "frequency": 10,
+          "document_count": 10
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 52.6,
+          "sentiment_score": 0.449,
+          "frequency": 12,
+          "document_count": 12
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 50.07,
+      "max_importance": 52.6,
+      "total_frequency": 26,
+      "total_documents": 26
+    },
+    {
+      "keyword": "tv",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 43.81,
+          "sentiment_score": 0.587,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 50.46,
+          "sentiment_score": 0.51,
+          "frequency": 7,
+          "document_count": 7
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 48.46,
+          "sentiment_score": 0.51,
+          "frequency": 7,
+          "document_count": 7
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 47.576666666666675,
+      "max_importance": 50.46,
+      "total_frequency": 17,
+      "total_documents": 17
+    },
+    {
+      "keyword": "devices",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.29,
+          "sentiment_score": 0.279,
+          "frequency": 2,
+          "document_count": 2
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 48.29,
+          "sentiment_score": 0.0,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 50.07,
+          "sentiment_score": 0.193,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 46.88333333333333,
+      "max_importance": 50.07,
+      "total_frequency": 9,
+      "total_documents": 9
+    },
+    {
+      "keyword": "2025",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 45.81,
+          "sentiment_score": 0.374,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 50.01,
+          "sentiment_score": 0.297,
+          "frequency": 7,
+          "document_count": 7
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 47.68,
+          "sentiment_score": 0.297,
+          "frequency": 7,
+          "document_count": 7
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 47.833333333333336,
+      "max_importance": 50.01,
+      "total_frequency": 19,
+      "total_documents": 19
+    },
+    {
+      "keyword": "deals",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 43.62,
+          "sentiment_score": 0.422,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 49.56,
+          "sentiment_score": 0.501,
+          "frequency": 6,
+          "document_count": 6
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 49.07,
+          "sentiment_score": 0.567,
+          "frequency": 7,
+          "document_count": 7
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 47.416666666666664,
+      "max_importance": 49.56,
+      "total_frequency": 17,
+      "total_documents": 17
+    },
+    {
+      "keyword": "company",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 40.71,
+          "sentiment_score": 0.307,
+          "frequency": 2,
+          "document_count": 2
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 48.49,
+          "sentiment_score": 0.156,
+          "frequency": 6,
+          "document_count": 6
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 47.49,
+          "sentiment_score": 0.156,
+          "frequency": 6,
+          "document_count": 6
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 45.56333333333333,
+      "max_importance": 48.49,
+      "total_frequency": 14,
+      "total_documents": 14
+    },
+    {
+      "keyword": "black",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 40.85,
+          "sentiment_score": 0.381,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 47.9,
+          "sentiment_score": 0.36,
+          "frequency": 10,
+          "document_count": 10
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 48.3,
+          "sentiment_score": 0.394,
+          "frequency": 12,
+          "document_count": 12
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 45.68333333333334,
+      "max_importance": 48.3,
+      "total_frequency": 26,
+      "total_documents": 26
+    },
+    {
+      "keyword": "world",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 41.62,
+          "sentiment_score": 0.099,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 48.13,
+          "sentiment_score": 0.138,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 44.63,
+          "sentiment_score": 0.138,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 44.79333333333333,
+      "max_importance": 48.13,
+      "total_frequency": 13,
+      "total_documents": 13
+    },
+    {
+      "keyword": "android",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 43.95,
+          "sentiment_score": 0.001,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 47.39,
+          "sentiment_score": -0.054,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 45.49,
+          "sentiment_score": -0.054,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 45.61000000000001,
+      "max_importance": 47.39,
+      "total_frequency": 11,
+      "total_documents": 11
+    },
+    {
+      "keyword": "free",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 43.45,
+          "sentiment_score": 0.439,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 47.13,
+          "sentiment_score": 0.482,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 45.23,
+          "sentiment_score": 0.482,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 45.27,
+      "max_importance": 47.13,
+      "total_frequency": 11,
+      "total_documents": 11
+    },
+    {
+      "keyword": "watch",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 42.38,
+          "sentiment_score": 0.225,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 45.96,
+          "sentiment_score": 0.239,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 44.05,
+          "sentiment_score": 0.239,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 44.129999999999995,
+      "max_importance": 45.96,
+      "total_frequency": 11,
+      "total_documents": 11
+    },
+    {
+      "keyword": "apps",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 45.12,
+          "sentiment_score": -0.363,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 45.12,
+          "sentiment_score": -0.363,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 45.12,
+          "sentiment_score": -0.363,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 45.12,
+      "max_importance": 45.12,
+      "total_frequency": 12,
+      "total_documents": 12
+    },
+    {
+      "keyword": "best",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 41.59,
+          "sentiment_score": 0.344,
+          "frequency": 6,
+          "document_count": 6
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 43.67,
+          "sentiment_score": 0.402,
+          "frequency": 7,
+          "document_count": 7
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 44.83,
+          "sentiment_score": 0.462,
+          "frequency": 8,
+          "document_count": 8
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 43.36333333333334,
+      "max_importance": 44.83,
+      "total_frequency": 21,
+      "total_documents": 21
+    },
+    {
+      "keyword": "ahead",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 41.71,
+          "sentiment_score": 0.357,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 44.6,
+          "sentiment_score": 0.268,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 42.7,
+          "sentiment_score": 0.268,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 43.00333333333333,
+      "max_importance": 44.6,
+      "total_frequency": 11,
+      "total_documents": 11
+    },
+    {
+      "keyword": "look",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 39.76,
+          "sentiment_score": 0.153,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 44.12,
+          "sentiment_score": 0.35,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 42.21,
+          "sentiment_score": 0.35,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 42.03,
+      "max_importance": 44.12,
+      "total_frequency": 11,
+      "total_documents": 11
+    },
+    {
+      "keyword": "full",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 40.65,
+          "sentiment_score": 0.308,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 43.66,
+          "sentiment_score": 0.246,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 41.76,
+          "sentiment_score": 0.246,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 42.02333333333333,
+      "max_importance": 43.66,
+      "total_frequency": 11,
+      "total_documents": 11
+    },
+    {
+      "keyword": "tvs",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 49.2,
+          "sentiment_score": 0.647,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 52.05,
+          "sentiment_score": 0.695,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 50.625,
+      "max_importance": 52.05,
+      "total_frequency": 9,
+      "total_documents": 9
+    },
+    {
+      "keyword": "early black",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 44.11,
+          "sentiment_score": 0.458,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 47.69,
+          "sentiment_score": 0.578,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 45.9,
+      "max_importance": 47.69,
+      "total_frequency": 9,
+      "total_documents": 9
+    },
+    {
+      "keyword": "store",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 41.27,
+          "sentiment_score": 0.282,
+          "frequency": 2,
+          "document_count": 2
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 47.21,
+          "sentiment_score": 0.182,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 44.24,
+      "max_importance": 47.21,
+      "total_frequency": 5,
+      "total_documents": 5
+    },
+    {
+      "keyword": "team",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 40.85,
+          "sentiment_score": 0.156,
+          "frequency": 2,
+          "document_count": 2
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 46.6,
+          "sentiment_score": 0.175,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 43.725,
+      "max_importance": 46.6,
+      "total_frequency": 5,
+      "total_documents": 5
+    },
+    {
+      "keyword": "early",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 42.85,
+          "sentiment_score": 0.473,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 46.16,
+          "sentiment_score": 0.563,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 44.504999999999995,
+      "max_importance": 46.16,
+      "total_frequency": 9,
+      "total_documents": 9
+    },
+    {
+      "keyword": "live",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 42.95,
+          "sentiment_score": 0.514,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 45.83,
+          "sentiment_score": 0.562,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 44.39,
+      "max_importance": 45.83,
+      "total_frequency": 9,
+      "total_documents": 9
+    },
+    {
+      "keyword": "price",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 42.53,
+          "sentiment_score": 0.053,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 44.86,
+          "sentiment_score": 0.044,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 43.695,
+      "max_importance": 44.86,
+      "total_frequency": 9,
+      "total_documents": 9
+    },
+    {
+      "keyword": "november",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 44.7,
+          "sentiment_score": 0.209,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 44.7,
+          "sentiment_score": 0.209,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 44.7,
+      "max_importance": 44.7,
+      "total_frequency": 10,
+      "total_documents": 10
+    },
+    {
+      "keyword": "remain committed",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 43.37,
+          "sentiment_score": 0.67,
+          "frequency": 2,
+          "document_count": 2
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 43.37,
+          "sentiment_score": 0.67,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 43.37,
+      "max_importance": 43.37,
+      "total_frequency": 4,
+      "total_documents": 4
+    },
+    {
+      "keyword": "just",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 41.33,
+          "sentiment_score": 0.232,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 43.26,
+          "sentiment_score": 0.203,
+          "frequency": 6,
+          "document_count": 6
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 42.295,
+      "max_importance": 43.26,
+      "total_frequency": 11,
+      "total_documents": 11
+    },
+    {
+      "keyword": "next year",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.9,
+          "sentiment_score": 0.0,
+          "frequency": 2,
+          "document_count": 2
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 42.9,
+          "sentiment_score": 0.0,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 42.9,
+      "max_importance": 42.9,
+      "total_frequency": 4,
+      "total_documents": 4
+    },
+    {
+      "keyword": "nbsp",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.77,
+          "sentiment_score": 0.14,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 42.77,
+          "sentiment_score": 0.14,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 42.77,
+      "max_importance": 42.77,
+      "total_frequency": 6,
+      "total_documents": 6
+    },
+    {
+      "keyword": "features",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 42.71,
+          "sentiment_score": 0.149,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 42.71,
+          "sentiment_score": 0.149,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 42.71,
+      "max_importance": 42.71,
+      "total_frequency": 8,
+      "total_documents": 8
+    },
+    {
+      "keyword": "better",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.59,
+          "sentiment_score": 0.555,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 42.59,
+          "sentiment_score": 0.555,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 42.59,
+      "max_importance": 42.59,
+      "total_frequency": 6,
+      "total_documents": 6
+    },
+    {
+      "keyword": "offers",
+      "team_key": "competitor",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 42.57,
+          "sentiment_score": 0.61,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 42.57,
+          "sentiment_score": 0.61,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 42.57,
+      "max_importance": 42.57,
+      "total_frequency": 8,
+      "total_documents": 8
+    }
+  ]
+}

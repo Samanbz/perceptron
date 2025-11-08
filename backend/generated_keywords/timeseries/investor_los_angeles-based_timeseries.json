@@ -1,0 +1,18 @@
+{
+  "keyword": "los angeles-based",
+  "team_key": "investor",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 45.9,
+      "sentiment_score": 0.147,
+      "frequency": 3,
+      "document_count": 3
+    }
+  ],
+  "appearances": 1,
+  "avg_importance": 45.9,
+  "max_importance": 45.9,
+  "total_frequency": 3,
+  "total_documents": 3
+}

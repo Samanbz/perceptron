@@ -1,0 +1,1523 @@
+{
+  "team_key": "researcher",
+  "team_name": "Research Team",
+  "total_keywords": 94,
+  "keywords": [
+    {
+      "keyword": "ai",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 44.92,
+          "sentiment_score": 0.044,
+          "frequency": 10,
+          "document_count": 10
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 46.68,
+          "sentiment_score": 0.044,
+          "frequency": 11,
+          "document_count": 11
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 52.78,
+          "sentiment_score": 0.078,
+          "frequency": 18,
+          "document_count": 18
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 52.97,
+          "sentiment_score": 0.093,
+          "frequency": 21,
+          "document_count": 21
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 49.3375,
+      "max_importance": 52.97,
+      "total_frequency": 60,
+      "total_documents": 60
+    },
+    {
+      "keyword": "data",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 41.69,
+          "sentiment_score": 0.059,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 41.69,
+          "sentiment_score": 0.059,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 49.14,
+          "sentiment_score": 0.158,
+          "frequency": 6,
+          "document_count": 6
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 49.7,
+          "sentiment_score": 0.197,
+          "frequency": 9,
+          "document_count": 9
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 45.55499999999999,
+      "max_importance": 49.7,
+      "total_frequency": 21,
+      "total_documents": 21
+    },
+    {
+      "keyword": "based",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 40.59,
+          "sentiment_score": -0.031,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 40.59,
+          "sentiment_score": -0.031,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 49.1,
+          "sentiment_score": 0.254,
+          "frequency": 15,
+          "document_count": 15
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 49.27,
+          "sentiment_score": 0.264,
+          "frequency": 19,
+          "document_count": 19
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 44.8875,
+      "max_importance": 49.27,
+      "total_frequency": 40,
+      "total_documents": 40
+    },
+    {
+      "keyword": "comments",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.18,
+          "sentiment_score": 0.003,
+          "frequency": 20,
+          "document_count": 20
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 49.08,
+          "sentiment_score": -0.008,
+          "frequency": 50,
+          "document_count": 50
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 48.31,
+          "sentiment_score": 0.008,
+          "frequency": 51,
+          "document_count": 51
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 46.38,
+          "sentiment_score": 0.008,
+          "frequency": 51,
+          "document_count": 51
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 46.4875,
+      "max_importance": 49.08,
+      "total_frequency": 172,
+      "total_documents": 172
+    },
+    {
+      "keyword": "time",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 41.07,
+          "sentiment_score": 0.238,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 41.07,
+          "sentiment_score": 0.238,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 48.55,
+          "sentiment_score": 0.177,
+          "frequency": 10,
+          "document_count": 10
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 48.94,
+          "sentiment_score": 0.217,
+          "frequency": 13,
+          "document_count": 13
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 44.9075,
+      "max_importance": 48.94,
+      "total_frequency": 31,
+      "total_documents": 31
+    },
+    {
+      "keyword": "best",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 40.47,
+          "sentiment_score": 0.305,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 40.47,
+          "sentiment_score": 0.305,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 45.71,
+          "sentiment_score": 0.482,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 47.68,
+          "sentiment_score": 0.522,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 43.5825,
+      "max_importance": 47.68,
+      "total_frequency": 15,
+      "total_documents": 15
+    },
+    {
+      "keyword": "mit technology",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 47.62,
+          "sentiment_score": -0.004,
+          "frequency": 7,
+          "document_count": 7
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 47.62,
+          "sentiment_score": -0.004,
+          "frequency": 7,
+          "document_count": 7
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 47.62,
+          "sentiment_score": -0.004,
+          "frequency": 7,
+          "document_count": 7
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 47.62,
+          "sentiment_score": -0.004,
+          "frequency": 7,
+          "document_count": 7
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 47.62,
+      "max_importance": 47.62,
+      "total_frequency": 28,
+      "total_documents": 28
+    },
+    {
+      "keyword": "years",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.05,
+          "sentiment_score": 0.058,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 42.05,
+          "sentiment_score": 0.058,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 44.82,
+          "sentiment_score": 0.055,
+          "frequency": 6,
+          "document_count": 6
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 44.07,
+          "sentiment_score": 0.055,
+          "frequency": 6,
+          "document_count": 6
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 43.247499999999995,
+      "max_importance": 44.82,
+      "total_frequency": 22,
+      "total_documents": 22
+    },
+    {
+      "keyword": "technology review",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 43.18,
+          "sentiment_score": 0.014,
+          "frequency": 7,
+          "document_count": 7
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 43.18,
+          "sentiment_score": 0.014,
+          "frequency": 7,
+          "document_count": 7
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 43.18,
+          "sentiment_score": 0.014,
+          "frequency": 7,
+          "document_count": 7
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 43.18,
+          "sentiment_score": 0.014,
+          "frequency": 7,
+          "document_count": 7
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 43.18,
+      "max_importance": 43.18,
+      "total_frequency": 28,
+      "total_documents": 28
+    },
+    {
+      "keyword": "able",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 39.88,
+          "sentiment_score": 0.291,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 39.88,
+          "sentiment_score": 0.291,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 43.15,
+          "sentiment_score": 0.233,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 42.19,
+          "sentiment_score": 0.233,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 41.275,
+      "max_importance": 43.15,
+      "total_frequency": 18,
+      "total_documents": 18
+    },
+    {
+      "keyword": "full article",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.59,
+          "sentiment_score": 0.0,
+          "frequency": 18,
+          "document_count": 18
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 42.59,
+          "sentiment_score": 0.0,
+          "frequency": 18,
+          "document_count": 18
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 42.59,
+          "sentiment_score": 0.0,
+          "frequency": 18,
+          "document_count": 18
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 42.59,
+          "sentiment_score": 0.0,
+          "frequency": 18,
+          "document_count": 18
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 42.59,
+      "max_importance": 42.59,
+      "total_frequency": 72,
+      "total_documents": 72
+    },
+    {
+      "keyword": "read full",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.0,
+          "sentiment_score": 0.0,
+          "frequency": 20,
+          "document_count": 20
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 42.0,
+          "sentiment_score": 0.0,
+          "frequency": 20,
+          "document_count": 20
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 42.0,
+          "sentiment_score": 0.0,
+          "frequency": 20,
+          "document_count": 20
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 42.0,
+          "sentiment_score": 0.0,
+          "frequency": 20,
+          "document_count": 20
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 42.0,
+      "max_importance": 42.0,
+      "total_frequency": 80,
+      "total_documents": 80
+    },
+    {
+      "keyword": "earth",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 41.99,
+          "sentiment_score": 0.086,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 41.99,
+          "sentiment_score": 0.086,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 41.99,
+          "sentiment_score": 0.086,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 41.99,
+          "sentiment_score": 0.086,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 41.99,
+      "max_importance": 41.99,
+      "total_frequency": 20,
+      "total_documents": 20
+    },
+    {
+      "keyword": "article comments",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 40.65,
+          "sentiment_score": 0.0,
+          "frequency": 20,
+          "document_count": 20
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 40.65,
+          "sentiment_score": 0.0,
+          "frequency": 20,
+          "document_count": 20
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 40.65,
+          "sentiment_score": 0.0,
+          "frequency": 20,
+          "document_count": 20
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 40.65,
+          "sentiment_score": 0.0,
+          "frequency": 20,
+          "document_count": 20
+        }
+      ],
+      "appearances": 4,
+      "avg_importance": 40.65,
+      "max_importance": 40.65,
+      "total_frequency": 80,
+      "total_documents": 80
+    },
+    {
+      "keyword": "social media",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 45.41,
+          "sentiment_score": -0.07,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 49.84,
+          "sentiment_score": -0.152,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 47.94,
+          "sentiment_score": -0.152,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 47.73,
+      "max_importance": 49.84,
+      "total_frequency": 11,
+      "total_documents": 11
+    },
+    {
+      "keyword": "analysis",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 42.04,
+          "sentiment_score": 0.05,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 49.37,
+          "sentiment_score": 0.166,
+          "frequency": 10,
+          "document_count": 10
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 49.78,
+          "sentiment_score": 0.192,
+          "frequency": 17,
+          "document_count": 17
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 47.06333333333333,
+      "max_importance": 49.78,
+      "total_frequency": 30,
+      "total_documents": 30
+    },
+    {
+      "keyword": "daily",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.11,
+          "sentiment_score": 0.0,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 46.53,
+          "sentiment_score": 0.0,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 49.35,
+          "sentiment_score": 0.179,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 45.99666666666667,
+      "max_importance": 49.35,
+      "total_frequency": 12,
+      "total_documents": 12
+    },
+    {
+      "keyword": "chatgpt",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 43.64,
+          "sentiment_score": -0.043,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 43.64,
+          "sentiment_score": -0.043,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 47.79,
+          "sentiment_score": -0.04,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 45.02333333333333,
+      "max_importance": 47.79,
+      "total_frequency": 10,
+      "total_documents": 10
+    },
+    {
+      "keyword": "access",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 42.21,
+          "sentiment_score": 0.046,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 46.7,
+          "sentiment_score": -0.045,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 47.67,
+          "sentiment_score": 0.163,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 45.526666666666664,
+      "max_importance": 47.67,
+      "total_frequency": 12,
+      "total_documents": 12
+    },
+    {
+      "keyword": "aims",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-03",
+          "importance_score": 43.72,
+          "sentiment_score": -0.617,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 46.43,
+          "sentiment_score": -0.243,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 47.27,
+          "sentiment_score": -0.149,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 45.80666666666667,
+      "max_importance": 47.27,
+      "total_frequency": 12,
+      "total_documents": 12
+    },
+    {
+      "keyword": "like",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 40.65,
+          "sentiment_score": 0.226,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 40.65,
+          "sentiment_score": 0.226,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 46.56,
+          "sentiment_score": 0.171,
+          "frequency": 6,
+          "document_count": 6
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 42.62,
+      "max_importance": 46.56,
+      "total_frequency": 14,
+      "total_documents": 14
+    },
+    {
+      "keyword": "nbsp",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.82,
+          "sentiment_score": 0.25,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 42.82,
+          "sentiment_score": 0.25,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 42.82,
+          "sentiment_score": 0.25,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 42.82,
+      "max_importance": 42.82,
+      "total_frequency": 15,
+      "total_documents": 15
+    },
+    {
+      "keyword": "8217",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.02,
+          "sentiment_score": 0.031,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 42.02,
+          "sentiment_score": 0.031,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 42.02,
+          "sentiment_score": 0.031,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 42.02,
+      "max_importance": 42.02,
+      "total_frequency": 15,
+      "total_documents": 15
+    },
+    {
+      "keyword": "read",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 39.5,
+          "sentiment_score": -0.068,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 39.5,
+          "sentiment_score": -0.068,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-04",
+          "importance_score": 39.5,
+          "sentiment_score": -0.068,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 3,
+      "avg_importance": 39.5,
+      "max_importance": 39.5,
+      "total_frequency": 12,
+      "total_documents": 12
+    },
+    {
+      "keyword": "arxiv",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 48.83,
+          "sentiment_score": 0.102,
+          "frequency": 17,
+          "document_count": 17
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 54.43,
+          "sentiment_score": 0.049,
+          "frequency": 26,
+          "document_count": 26
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 51.629999999999995,
+      "max_importance": 54.43,
+      "total_frequency": 43,
+      "total_documents": 43
+    },
+    {
+      "keyword": "language models",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 45.7,
+          "sentiment_score": 0.217,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 52.48,
+          "sentiment_score": 0.218,
+          "frequency": 9,
+          "document_count": 9
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 49.09,
+      "max_importance": 52.48,
+      "total_frequency": 14,
+      "total_documents": 14
+    },
+    {
+      "keyword": "llm",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 47.76,
+          "sentiment_score": 0.321,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 52.22,
+          "sentiment_score": 0.34,
+          "frequency": 7,
+          "document_count": 7
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 49.989999999999995,
+      "max_importance": 52.22,
+      "total_frequency": 12,
+      "total_documents": 12
+    },
+    {
+      "keyword": "large language",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 44.22,
+          "sentiment_score": 0.08,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 51.99,
+          "sentiment_score": 0.206,
+          "frequency": 9,
+          "document_count": 9
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 48.105000000000004,
+      "max_importance": 51.99,
+      "total_frequency": 14,
+      "total_documents": 14
+    },
+    {
+      "keyword": "models",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 44.31,
+          "sentiment_score": 0.371,
+          "frequency": 8,
+          "document_count": 8
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 50.96,
+          "sentiment_score": 0.347,
+          "frequency": 16,
+          "document_count": 16
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 47.635000000000005,
+      "max_importance": 50.96,
+      "total_frequency": 24,
+      "total_documents": 24
+    },
+    {
+      "keyword": "elon musk",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 50.76,
+          "sentiment_score": 0.245,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 50.76,
+          "sentiment_score": 0.245,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 50.76,
+      "max_importance": 50.76,
+      "total_frequency": 8,
+      "total_documents": 8
+    },
+    {
+      "keyword": "arxiv announce",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 44.17,
+          "sentiment_score": 0.0,
+          "frequency": 15,
+          "document_count": 15
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 50.53,
+          "sentiment_score": 0.0,
+          "frequency": 24,
+          "document_count": 24
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 47.35,
+      "max_importance": 50.53,
+      "total_frequency": 39,
+      "total_documents": 39
+    },
+    {
+      "keyword": "agent",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 43.99,
+          "sentiment_score": 0.357,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 50.22,
+          "sentiment_score": 0.328,
+          "frequency": 8,
+          "document_count": 8
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 47.105000000000004,
+      "max_importance": 50.22,
+      "total_frequency": 13,
+      "total_documents": 13
+    },
+    {
+      "keyword": "accuracy",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 43.05,
+          "sentiment_score": 0.293,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 49.95,
+          "sentiment_score": 0.32,
+          "frequency": 7,
+          "document_count": 7
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 46.5,
+      "max_importance": 49.95,
+      "total_frequency": 11,
+      "total_documents": 11
+    },
+    {
+      "keyword": "google s",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 49.78,
+          "sentiment_score": 0.537,
+          "frequency": 3,
+          "document_count": 3
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 49.78,
+          "sentiment_score": 0.537,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 49.78,
+      "max_importance": 49.78,
+      "total_frequency": 6,
+      "total_documents": 6
+    },
+    {
+      "keyword": "announce type",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 43.57,
+          "sentiment_score": 0.132,
+          "frequency": 30,
+          "document_count": 30
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 49.64,
+          "sentiment_score": 0.11,
+          "frequency": 50,
+          "document_count": 50
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 46.605000000000004,
+      "max_importance": 49.64,
+      "total_frequency": 80,
+      "total_documents": 80
+    },
+    {
+      "keyword": "learning",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 43.23,
+          "sentiment_score": 0.271,
+          "frequency": 8,
+          "document_count": 8
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 49.5,
+          "sentiment_score": 0.216,
+          "frequency": 13,
+          "document_count": 13
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 46.364999999999995,
+      "max_importance": 49.5,
+      "total_frequency": 21,
+      "total_documents": 21
+    },
+    {
+      "keyword": "abstract",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 42.37,
+          "sentiment_score": 0.207,
+          "frequency": 24,
+          "document_count": 24
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 48.52,
+          "sentiment_score": 0.149,
+          "frequency": 42,
+          "document_count": 42
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 45.445,
+      "max_importance": 48.52,
+      "total_frequency": 66,
+      "total_documents": 66
+    },
+    {
+      "keyword": "announce",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 41.33,
+          "sentiment_score": 0.129,
+          "frequency": 28,
+          "document_count": 28
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 47.41,
+          "sentiment_score": 0.104,
+          "frequency": 46,
+          "document_count": 46
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 44.37,
+      "max_importance": 47.41,
+      "total_frequency": 74,
+      "total_documents": 74
+    },
+    {
+      "keyword": "performance",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 42.43,
+          "sentiment_score": 0.061,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 47.4,
+          "sentiment_score": 0.228,
+          "frequency": 7,
+          "document_count": 7
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 44.915,
+      "max_importance": 47.4,
+      "total_frequency": 12,
+      "total_documents": 12
+    },
+    {
+      "keyword": "model",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 42.89,
+          "sentiment_score": 0.409,
+          "frequency": 7,
+          "document_count": 7
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 47.22,
+          "sentiment_score": 0.312,
+          "frequency": 10,
+          "document_count": 10
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 45.055,
+      "max_importance": 47.22,
+      "total_frequency": 17,
+      "total_documents": 17
+    },
+    {
+      "keyword": "type",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 40.71,
+          "sentiment_score": 0.205,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 47.08,
+          "sentiment_score": 0.051,
+          "frequency": 8,
+          "document_count": 8
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 43.894999999999996,
+      "max_importance": 47.08,
+      "total_frequency": 13,
+      "total_documents": 13
+    },
+    {
+      "keyword": "nice things",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 47.0,
+          "sentiment_score": 0.836,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 47.0,
+          "sentiment_score": 0.836,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 47.0,
+      "max_importance": 47.0,
+      "total_frequency": 8,
+      "total_documents": 8
+    },
+    {
+      "keyword": "second",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 41.78,
+          "sentiment_score": -0.134,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 46.89,
+          "sentiment_score": -0.039,
+          "frequency": 6,
+          "document_count": 6
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 44.335,
+      "max_importance": 46.89,
+      "total_frequency": 10,
+      "total_documents": 10
+    },
+    {
+      "keyword": "mit",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 46.65,
+          "sentiment_score": -0.022,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-03",
+          "importance_score": 46.65,
+          "sentiment_score": -0.022,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 46.65,
+      "max_importance": 46.65,
+      "total_frequency": 8,
+      "total_documents": 8
+    },
+    {
+      "keyword": "using",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 42.29,
+          "sentiment_score": 0.241,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 46.62,
+          "sentiment_score": 0.222,
+          "frequency": 7,
+          "document_count": 7
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 44.455,
+      "max_importance": 46.62,
+      "total_frequency": 12,
+      "total_documents": 12
+    },
+    {
+      "keyword": "research",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 44.42,
+          "sentiment_score": 0.339,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 46.48,
+          "sentiment_score": 0.327,
+          "frequency": 6,
+          "document_count": 6
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 45.45,
+      "max_importance": 46.48,
+      "total_frequency": 11,
+      "total_documents": 11
+    },
+    {
+      "keyword": "approach",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 41.63,
+          "sentiment_score": 0.333,
+          "frequency": 7,
+          "document_count": 7
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 46.45,
+          "sentiment_score": 0.342,
+          "frequency": 10,
+          "document_count": 10
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 44.040000000000006,
+      "max_importance": 46.45,
+      "total_frequency": 17,
+      "total_documents": 17
+    },
+    {
+      "keyword": "code",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 43.53,
+          "sentiment_score": 0.149,
+          "frequency": 4,
+          "document_count": 4
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 46.29,
+          "sentiment_score": 0.163,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 44.91,
+      "max_importance": 46.29,
+      "total_frequency": 9,
+      "total_documents": 9
+    },
+    {
+      "keyword": "generation",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 43.81,
+          "sentiment_score": 0.398,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 45.89,
+          "sentiment_score": 0.351,
+          "frequency": 6,
+          "document_count": 6
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 44.85,
+      "max_importance": 45.89,
+      "total_frequency": 11,
+      "total_documents": 11
+    },
+    {
+      "keyword": "human",
+      "team_key": "researcher",
+      "data_points": [
+        {
+          "date": "2025-11-04",
+          "importance_score": 43.45,
+          "sentiment_score": 0.247,
+          "frequency": 5,
+          "document_count": 5
+        },
+        {
+          "date": "2025-11-05",
+          "importance_score": 45.85,
+          "sentiment_score": 0.296,
+          "frequency": 6,
+          "document_count": 6
+        }
+      ],
+      "appearances": 2,
+      "avg_importance": 44.650000000000006,
+      "max_importance": 45.85,
+      "total_frequency": 11,
+      "total_documents": 11
+    }
+  ]
+}

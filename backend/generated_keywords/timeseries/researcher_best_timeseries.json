@@ -1,0 +1,39 @@
+{
+  "keyword": "best",
+  "team_key": "researcher",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 40.47,
+      "sentiment_score": 0.305,
+      "frequency": 3,
+      "document_count": 3
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 40.47,
+      "sentiment_score": 0.305,
+      "frequency": 3,
+      "document_count": 3
+    },
+    {
+      "date": "2025-11-04",
+      "importance_score": 45.71,
+      "sentiment_score": 0.482,
+      "frequency": 4,
+      "document_count": 4
+    },
+    {
+      "date": "2025-11-05",
+      "importance_score": 47.68,
+      "sentiment_score": 0.522,
+      "frequency": 5,
+      "document_count": 5
+    }
+  ],
+  "appearances": 4,
+  "avg_importance": 43.5825,
+  "max_importance": 47.68,
+  "total_frequency": 15,
+  "total_documents": 15
+}

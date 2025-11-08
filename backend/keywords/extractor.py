@@ -30,7 +30,7 @@ class KeywordExtractor:
         tfidf_weight: float = 0.3,
         spacy_weight: float = 0.4,
         yake_weight: float = 0.3,
-        max_phrase_length: int = 5,
+        max_phrase_length: int = 2,
     ):
         """
         Initialize keyword extractor.
@@ -154,20 +154,35 @@ class KeywordExtractor:
         try:
             from sklearn.feature_extraction.text import TfidfVectorizer
             
-            # Configure vectorizer
+            # Skip if not enough content
+            if not texts or len(texts) == 0:
+                return {}
+            
+            # For single document, use simpler approach
+            if len(texts) == 1:
+                max_df = 1.0
+            else:
+                max_df = 0.9
+            
+            # Configure vectorizer with safer defaults
             vectorizer = TfidfVectorizer(
                 max_features=1000,
                 ngram_range=(1, self.max_phrase_length),
                 stop_words=list(self.stop_words),
                 min_df=1,  # Appear in at least 1 document
-                max_df=0.9,  # Don't appear in >90% of documents
+                max_df=max_df,  # Adjust based on corpus size
                 lowercase=True,
                 token_pattern=r'\b[a-z]{2,}\b',  # At least 2 chars
+                use_idf=len(texts) > 1,  # Only use IDF if multiple docs
             )
             
             # Fit and transform
             tfidf_matrix = vectorizer.fit_transform(texts)
             feature_names = vectorizer.get_feature_names_out()
+            
+            # Skip if no features extracted
+            if len(feature_names) == 0:
+                return {}
             
             # Get scores for the first document (or aggregate if multiple)
             if len(texts) == 1:
@@ -193,7 +208,7 @@ class KeywordExtractor:
             return dict(sorted_keywords)
         
         except Exception as e:
-            logger.error(f"TF-IDF extraction failed: {e}")
+            logger.warning(f"TF-IDF extraction failed: {e}")
             return {}
     
     def extract_spacy_keywords(
@@ -403,6 +418,11 @@ class KeywordExtractor:
                 kw_data['spacy_score'] * spacy_w +
                 kw_data['yake_score'] * yake_w
             )
+            
+            # Boost named entities significantly (they're almost always important)
+            if kw_data['type'] == 'entity':
+                combined *= 2.0  # Double the score for named entities
+            
             kw_data['relevance_score'] = combined
         
         # Convert to list and sort by relevance

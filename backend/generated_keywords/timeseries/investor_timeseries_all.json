@@ -1,0 +1,907 @@
+{
+  "team_key": "investor",
+  "team_name": "Investment Team",
+  "total_keywords": 50,
+  "keywords": [
+    {
+      "keyword": "amazon",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 51.14,
+          "sentiment_score": 0.405,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 51.14,
+      "max_importance": 51.14,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "tesla",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 49.28,
+          "sentiment_score": 0.369,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 49.28,
+      "max_importance": 49.28,
+      "total_frequency": 3,
+      "total_documents": 3
+    },
+    {
+      "keyword": "capital",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 47.88,
+          "sentiment_score": 0.096,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 47.88,
+      "max_importance": 47.88,
+      "total_frequency": 4,
+      "total_documents": 4
+    },
+    {
+      "keyword": "california",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 46.99,
+          "sentiment_score": 0.274,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 46.99,
+      "max_importance": 46.99,
+      "total_frequency": 3,
+      "total_documents": 3
+    },
+    {
+      "keyword": "texas",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 46.98,
+          "sentiment_score": 0.2,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 46.98,
+      "max_importance": 46.98,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "crunchbase",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 46.62,
+          "sentiment_score": 0.123,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 46.62,
+      "max_importance": 46.62,
+      "total_frequency": 4,
+      "total_documents": 4
+    },
+    {
+      "keyword": "los angeles-based",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 45.9,
+          "sentiment_score": 0.147,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 45.9,
+      "max_importance": 45.9,
+      "total_frequency": 3,
+      "total_documents": 3
+    },
+    {
+      "keyword": "dom guzman",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 45.79,
+          "sentiment_score": 0.045,
+          "frequency": 9,
+          "document_count": 9
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 45.79,
+      "max_importance": 45.79,
+      "total_frequency": 9,
+      "total_documents": 9
+    },
+    {
+      "keyword": "los angeles",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 45.69,
+          "sentiment_score": 0.147,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 45.69,
+      "max_importance": 45.69,
+      "total_frequency": 3,
+      "total_documents": 3
+    },
+    {
+      "keyword": "shares",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 45.23,
+          "sentiment_score": 0.42,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 45.23,
+      "max_importance": 45.23,
+      "total_frequency": 3,
+      "total_documents": 3
+    },
+    {
+      "keyword": "related crunchbase",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 45.09,
+          "sentiment_score": 0.197,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 45.09,
+      "max_importance": 45.09,
+      "total_frequency": 5,
+      "total_documents": 5
+    },
+    {
+      "keyword": "2025",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 44.68,
+          "sentiment_score": 0.215,
+          "frequency": 5,
+          "document_count": 5
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 44.68,
+      "max_importance": 44.68,
+      "total_frequency": 5,
+      "total_documents": 5
+    },
+    {
+      "keyword": "crunchbase data",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 44.37,
+          "sentiment_score": 0.24,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 44.37,
+      "max_importance": 44.37,
+      "total_frequency": 4,
+      "total_documents": 4
+    },
+    {
+      "keyword": "openai",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 44.34,
+          "sentiment_score": 0.23,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 44.34,
+      "max_importance": 44.34,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "200",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 44.12,
+          "sentiment_score": 0.086,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 44.12,
+      "max_importance": 44.12,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "musk",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 44.09,
+          "sentiment_score": 0.393,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 44.09,
+      "max_importance": 44.09,
+      "total_frequency": 3,
+      "total_documents": 3
+    },
+    {
+      "keyword": "shopping",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 44.08,
+          "sentiment_score": 0.51,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 44.08,
+      "max_importance": 44.08,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "hack",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 43.98,
+          "sentiment_score": -0.519,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 43.98,
+      "max_importance": 43.98,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "revenue",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 43.88,
+          "sentiment_score": 0.238,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 43.88,
+      "max_importance": 43.88,
+      "total_frequency": 3,
+      "total_documents": 3
+    },
+    {
+      "keyword": "chatgpt",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 43.74,
+          "sentiment_score": -0.327,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 43.74,
+      "max_importance": 43.74,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "app",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 43.69,
+          "sentiment_score": 0.504,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 43.69,
+      "max_importance": 43.69,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "500 million",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 43.64,
+          "sentiment_score": -0.062,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 43.64,
+      "max_importance": 43.64,
+      "total_frequency": 3,
+      "total_documents": 3
+    },
+    {
+      "keyword": "zero",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 43.51,
+          "sentiment_score": -0.255,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 43.51,
+      "max_importance": 43.51,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "2024",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 43.4,
+          "sentiment_score": 0.166,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 43.4,
+      "max_importance": 43.4,
+      "total_frequency": 4,
+      "total_documents": 4
+    },
+    {
+      "keyword": "million series",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 43.37,
+          "sentiment_score": 0.031,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 43.37,
+      "max_importance": 43.37,
+      "total_frequency": 3,
+      "total_documents": 3
+    },
+    {
+      "keyword": "data",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 43.3,
+          "sentiment_score": 0.445,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 43.3,
+      "max_importance": 43.3,
+      "total_frequency": 3,
+      "total_documents": 3
+    },
+    {
+      "keyword": "founder",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 43.18,
+          "sentiment_score": 0.456,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 43.18,
+      "max_importance": 43.18,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "seven",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 43.13,
+          "sentiment_score": 0.0,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 43.13,
+      "max_importance": 43.13,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "breach",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 43.03,
+          "sentiment_score": -0.009,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 43.03,
+      "max_importance": 43.03,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "techcrunch",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.95,
+          "sentiment_score": -0.055,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 42.95,
+      "max_importance": 42.95,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "startups",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.84,
+          "sentiment_score": 0.271,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 42.84,
+      "max_importance": 42.84,
+      "total_frequency": 4,
+      "total_documents": 4
+    },
+    {
+      "keyword": "september",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.83,
+          "sentiment_score": 0.134,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 42.83,
+      "max_importance": 42.83,
+      "total_frequency": 3,
+      "total_documents": 3
+    },
+    {
+      "keyword": "startup",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.57,
+          "sentiment_score": 0.216,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 42.57,
+      "max_importance": 42.57,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "ai",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.16,
+          "sentiment_score": 0.125,
+          "frequency": 6,
+          "document_count": 6
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 42.16,
+      "max_importance": 42.16,
+      "total_frequency": 6,
+      "total_documents": 6
+    },
+    {
+      "keyword": "pay package",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.13,
+          "sentiment_score": 0.051,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 42.13,
+      "max_importance": 42.13,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "list",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 42.03,
+          "sentiment_score": 0.284,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 42.03,
+      "max_importance": 42.03,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "year",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 41.91,
+          "sentiment_score": 0.126,
+          "frequency": 8,
+          "document_count": 8
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 41.91,
+      "max_importance": 41.91,
+      "total_frequency": 8,
+      "total_documents": 8
+    },
+    {
+      "keyword": "second",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 41.89,
+          "sentiment_score": 0.149,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 41.89,
+      "max_importance": 41.89,
+      "total_frequency": 3,
+      "total_documents": 3
+    },
+    {
+      "keyword": "plans",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 41.88,
+          "sentiment_score": 0.509,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 41.88,
+      "max_importance": 41.88,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "billion",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 41.62,
+          "sentiment_score": 0.193,
+          "frequency": 4,
+          "document_count": 4
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 41.62,
+      "max_importance": 41.62,
+      "total_frequency": 4,
+      "total_documents": 4
+    },
+    {
+      "keyword": "failed",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 41.58,
+          "sentiment_score": -0.449,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 41.58,
+      "max_importance": 41.58,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "platform",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 41.44,
+          "sentiment_score": 0.221,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 41.44,
+      "max_importance": 41.44,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "day",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 41.27,
+          "sentiment_score": 0.161,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 41.27,
+      "max_importance": 41.27,
+      "total_frequency": 3,
+      "total_documents": 3
+    },
+    {
+      "keyword": "confirms",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 41.07,
+          "sentiment_score": -0.436,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 41.07,
+      "max_importance": 41.07,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "million",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 41.0,
+          "sentiment_score": -0.019,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 41.0,
+      "max_importance": 41.0,
+      "total_frequency": 3,
+      "total_documents": 3
+    },
+    {
+      "keyword": "users",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 41.0,
+          "sentiment_score": -0.146,
+          "frequency": 3,
+          "document_count": 3
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 41.0,
+      "max_importance": 41.0,
+      "total_frequency": 3,
+      "total_documents": 3
+    },
+    {
+      "keyword": "pay",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 40.58,
+          "sentiment_score": 0.051,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 40.58,
+      "max_importance": 40.58,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "illustration dom",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 39.74,
+          "sentiment_score": 0.0,
+          "frequency": 7,
+          "document_count": 7
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 39.74,
+      "max_importance": 39.74,
+      "total_frequency": 7,
+      "total_documents": 7
+    },
+    {
+      "keyword": "package",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 39.68,
+          "sentiment_score": 0.051,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 39.68,
+      "max_importance": 39.68,
+      "total_frequency": 2,
+      "total_documents": 2
+    },
+    {
+      "keyword": "way",
+      "team_key": "investor",
+      "data_points": [
+        {
+          "date": "2025-11-02",
+          "importance_score": 39.34,
+          "sentiment_score": 0.087,
+          "frequency": 2,
+          "document_count": 2
+        }
+      ],
+      "appearances": 1,
+      "avg_importance": 39.34,
+      "max_importance": 39.34,
+      "total_frequency": 2,
+      "total_documents": 2
+    }
+  ]
+}

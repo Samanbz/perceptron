@@ -1,0 +1,18 @@
+{
+  "keyword": "crunchbase",
+  "team_key": "investor",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 46.62,
+      "sentiment_score": 0.123,
+      "frequency": 4,
+      "document_count": 4
+    }
+  ],
+  "appearances": 1,
+  "avg_importance": 46.62,
+  "max_importance": 46.62,
+  "total_frequency": 4,
+  "total_documents": 4
+}

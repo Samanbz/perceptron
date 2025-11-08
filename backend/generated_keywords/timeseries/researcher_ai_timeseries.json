@@ -1,0 +1,39 @@
+{
+  "keyword": "ai",
+  "team_key": "researcher",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 44.92,
+      "sentiment_score": 0.044,
+      "frequency": 10,
+      "document_count": 10
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 46.68,
+      "sentiment_score": 0.044,
+      "frequency": 11,
+      "document_count": 11
+    },
+    {
+      "date": "2025-11-04",
+      "importance_score": 52.78,
+      "sentiment_score": 0.078,
+      "frequency": 18,
+      "document_count": 18
+    },
+    {
+      "date": "2025-11-05",
+      "importance_score": 52.97,
+      "sentiment_score": 0.093,
+      "frequency": 21,
+      "document_count": 21
+    }
+  ],
+  "appearances": 4,
+  "avg_importance": 49.3375,
+  "max_importance": 52.97,
+  "total_frequency": 60,
+  "total_documents": 60
+}

@@ -177,16 +177,12 @@ class ContentRepository:
         
         return query.order_by(desc(SourcedContentModel.published_date)).all()
 
-    def mark_as_processed(
-        self,
-        content_id: int,
-        status: str = 'completed',
-    ):
+    def mark_as_processed(self, content_id: int, status: str = 'completed'):
         """
         Mark content as processed.
         
         Args:
-            content_id: Content ID
+            content_id: ID of content to mark
             status: Processing status ('completed', 'failed', etc.)
         """
         content = self.session.query(SourcedContentModel).get(content_id)
@@ -195,6 +191,18 @@ class ContentRepository:
             content.processing_status = status
             self.session.commit()
 
+    def get_content_by_id(self, content_id: int) -> Optional[SourcedContentModel]:
+        """
+        Get content by ID.
+        
+        Args:
+            content_id: ID of content to retrieve
+        
+        Returns:
+            SourcedContentModel or None if not found
+        """
+        return self.session.query(SourcedContentModel).get(content_id)
+
     def get_statistics(self) -> Dict[str, Any]:
         """
         Get database statistics.
@@ -202,13 +210,39 @@ class ContentRepository:
         Returns:
             Dictionary with statistics about stored content
         """
+        from sqlalchemy import func
+        
         total_content = self.session.query(SourcedContentModel).count()
+        
+        # Count processed/unprocessed
         processed = self.session.query(SourcedContentModel).filter(
-            SourcedContentModel.processed == True
+            SourcedContentModel.processing_status == 'completed'
         ).count()
         
+        # Count unique sources
+        unique_sources = self.session.query(
+            func.count(func.distinct(SourcedContentModel.source_name))
+        ).scalar()
+        
+        # Get date range
+        date_range = None
+        if total_content > 0:
+            oldest = self.session.query(
+                func.min(SourcedContentModel.published_date)
+            ).scalar()
+            newest = self.session.query(
+                func.max(SourcedContentModel.published_date)
+            ).scalar()
+            
+            if oldest and newest:
+                days_span = (newest - oldest).days + 1
+                date_range = {
+                    'oldest': oldest.date(),
+                    'newest': newest.date(),
+                    'days_span': days_span
+                }
+        
         # Count by source type
-        from sqlalchemy import func
         by_source_type = {}
         results = self.session.query(
             SourcedContentModel.source_type,
@@ -219,9 +253,11 @@ class ContentRepository:
             by_source_type[source_type] = count
         
         return {
-            'total_content': total_content,
+            'total_documents': total_content,
+            'unique_sources': unique_sources,
             'processed': processed,
             'unprocessed': total_content - processed,
+            'date_range': date_range,
             'by_source_type': by_source_type,
         }
 

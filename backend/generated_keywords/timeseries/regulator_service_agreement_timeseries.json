@@ -1,0 +1,25 @@
+{
+  "keyword": "service agreement",
+  "team_key": "regulator",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 46.54,
+      "sentiment_score": 0.479,
+      "frequency": 4,
+      "document_count": 4
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 51.77,
+      "sentiment_score": 0.484,
+      "frequency": 6,
+      "document_count": 6
+    }
+  ],
+  "appearances": 2,
+  "avg_importance": 49.155,
+  "max_importance": 51.77,
+  "total_frequency": 10,
+  "total_documents": 10
+}

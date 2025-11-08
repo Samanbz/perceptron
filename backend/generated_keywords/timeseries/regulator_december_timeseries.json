@@ -1,0 +1,25 @@
+{
+  "keyword": "december",
+  "team_key": "regulator",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 43.31,
+      "sentiment_score": 0.14,
+      "frequency": 3,
+      "document_count": 3
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 50.52,
+      "sentiment_score": 0.351,
+      "frequency": 5,
+      "document_count": 5
+    }
+  ],
+  "appearances": 2,
+  "avg_importance": 46.915000000000006,
+  "max_importance": 50.52,
+  "total_frequency": 8,
+  "total_documents": 8
+}

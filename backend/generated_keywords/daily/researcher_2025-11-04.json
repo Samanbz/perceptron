@@ -1,0 +1,2282 @@
+{
+  "date": "2025-11-04",
+  "team": "researcher",
+  "keywords": [
+    {
+      "keyword": "ai",
+      "team_key": "researcher",
+      "importance_score": 52.78,
+      "sentiment": {
+        "score": 0.078,
+        "magnitude": 0.076,
+        "positive": 112,
+        "negative": 64,
+        "neutral": 231
+      },
+      "metrics": {
+        "frequency": 18,
+        "document_count": 18,
+        "source_diversity": 4,
+        "velocity": 71.43
+      },
+      "content_ids": [
+        175,
+        190,
+        191,
+        193,
+        195,
+        198,
+        199,
+        201,
+        202,
+        204,
+        228,
+        236,
+        237,
+        238,
+        239,
+        240,
+        253,
+        256
+      ],
+      "sample_snippets": [
+        {
+          "text": "st the fairness of computer vision models<br /></strong>And it\u2019s confident it\u2019s been compiled in a fair and ethical way. (<a href=\"https://www.theregister.com/2025/11/05/sony_ai_vision_model_benchmark...",
+          "sentiment": 0.869,
+          "classification": "positive"
+        },
+        {
+          "text": "d communication overhead. These findings highlight the potential of lightweight, privacy-preserving AI for IoT-based healthcare monitoring, supporting scalable and secure edge deployments in smart hea...",
+          "sentiment": 0.856,
+          "classification": "positive"
+        },
+        {
+          "text": "t=fPBRAG&amp;reflink=desktopwebshare_permalink\">WSJ</a> $)<br />+ <em>Nothing says festive joy like AI slop. </em>(<a href=\"https://www.theverge.com/news/812559/coca-cola-ai-holiday-christmas-commerci...",
+          "sentiment": 0.852,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "analysis",
+      "team_key": "researcher",
+      "importance_score": 49.37,
+      "sentiment": {
+        "score": 0.166,
+        "magnitude": 0.143,
+        "positive": 6,
+        "negative": 4,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 10,
+        "document_count": 10,
+        "source_diversity": 3,
+        "velocity": 233.33
+      },
+      "content_ids": [
+        175,
+        194,
+        226,
+        235,
+        239,
+        242,
+        246,
+        247,
+        252,
+        259
+      ],
+      "sample_snippets": [
+        {
+          "text": "oderately helpful, with higher perceived usefulness for maze solving than for maze design. Thematic analysis confirmed support for CT processes such as decomposition, abstraction, and algorithmic thin...",
+          "sentiment": 0.844,
+          "classification": "positive"
+        },
+        {
+          "text": "easurements that reduce feature dimensionality by 82\\% without performance degradation. Correlation analysis between dominant measurements for small-signal and transient stability events validates gen...",
+          "sentiment": 0.634,
+          "classification": "positive"
+        },
+        {
+          "text": "n technique for its approximation have attracted considerable attention as a key tool for modeling, analysis, and control of complex dynamical systems. However, extensions towards control-affine syste...",
+          "sentiment": 0.612,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "daily",
+      "team_key": "researcher",
+      "importance_score": 49.35,
+      "sentiment": {
+        "score": 0.179,
+        "magnitude": 0.072,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 3,
+        "velocity": 42.86
+      },
+      "content_ids": [
+        195,
+        198,
+        204,
+        231,
+        258
+      ],
+      "sample_snippets": [
+        {
+          "text": "APIs from Douyin (Chinese) and YouTube (English), covering five popular video genres: comedy skits, daily life jokes, funny animal clips, humorous commentary, and talk shows. Evaluation combines autom...",
+          "sentiment": 0.896,
+          "classification": "positive"
+        },
+        {
+          "text": ".1649661040-405833893.1649413289\">The Download</a></em>,<em>\u00a0our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.</em></p>\n\n\n\n<p class=\"has-medium-fon...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": ".1649661040-405833893.1649413289\">The Download</a></em>,<em>\u00a0our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.</em> </p>\n\n\n\n<p class=\"has-medium-fo...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "data",
+      "team_key": "researcher",
+      "importance_score": 49.14,
+      "sentiment": {
+        "score": 0.158,
+        "magnitude": 0.08,
+        "positive": 10,
+        "negative": 3,
+        "neutral": 13
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 3,
+        "velocity": 100.0
+      },
+      "content_ids": [
+        191,
+        194,
+        204,
+        242,
+        262,
+        263
+      ],
+      "sample_snippets": [
+        {
+          "text": " of transitions, DreamGym leverages an experience replay buffer initialized with offline real-world data and continuously enriched with fresh interactions to actively support agent training. To improv...",
+          "sentiment": 0.827,
+          "classification": "positive"
+        },
+        {
+          "text": "nificant lead in semiconductor expertise, its cutting-edge AI research, and its vast investments in data centers.<br /><br />Today, however, China has the means, motive, and opportunity to win. When i...",
+          "sentiment": 0.765,
+          "classification": "positive"
+        },
+        {
+          "text": "ounce Type: new \nAbstract: The Koopman operator and extended dynamic mode decomposition (EDMD) as a data-driven technique for its approximation have attracted considerable attention as a key tool for ...",
+          "sentiment": 0.66,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "based",
+      "team_key": "researcher",
+      "importance_score": 49.1,
+      "sentiment": {
+        "score": 0.254,
+        "magnitude": 0.124,
+        "positive": 19,
+        "negative": 3,
+        "neutral": 5
+      },
+      "metrics": {
+        "frequency": 15,
+        "document_count": 15,
+        "source_diversity": 3,
+        "velocity": 400.0
+      },
+      "content_ids": [
+        181,
+        191,
+        200,
+        236,
+        237,
+        243,
+        245,
+        248,
+        249,
+        252,
+        253,
+        255,
+        256,
+        259,
+        264
+      ],
+      "sample_snippets": [
+        {
+          "text": "ties to faults, and performance bottlenecks. To prevent the former threat, we propose a transaction-based framework to design very complex multi-agent systems (VCMAS). To address the second threat, we...",
+          "sentiment": -0.869,
+          "classification": "negative"
+        },
+        {
+          "text": "tion overhead. These findings highlight the potential of lightweight, privacy-preserving AI for IoT-based healthcare monitoring, supporting scalable and secure edge deployments in smart health systems...",
+          "sentiment": 0.856,
+          "classification": "positive"
+        },
+        {
+          "text": "ld be \u201cfully fault tolerant,\u201d or able to implement error correction at a large scale.</p> A new ion-based quantum computer makes error correction simpler",
+          "sentiment": -0.796,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "arxiv",
+      "team_key": "researcher",
+      "importance_score": 48.83,
+      "sentiment": {
+        "score": 0.102,
+        "magnitude": 0.051,
+        "positive": 4,
+        "negative": 0,
+        "neutral": 13
+      },
+      "metrics": {
+        "frequency": 17,
+        "document_count": 17,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        236,
+        237,
+        239,
+        242,
+        243,
+        248,
+        249,
+        250,
+        253,
+        254,
+        255,
+        256,
+        257,
+        259,
+        261,
+        262,
+        264
+      ],
+      "sample_snippets": [
+        {
+          "text": "arXiv:2511.03768v1 Announce Type: new \nAbstract: Multimodal language models possess a remarkable ability ",
+          "sentiment": 0.71,
+          "classification": "positive"
+        },
+        {
+          "text": "arXiv:2511.03734v1 Announce Type: new \nAbstract: The Koopman operator and extended dynamic mode decomposi",
+          "sentiment": 0.382,
+          "classification": "positive"
+        },
+        {
+          "text": "arXiv:2511.03742v1 Announce Type: new \nAbstract: Modern manufacturing demands high flexibility and reconf",
+          "sentiment": 0.34,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "time",
+      "team_key": "researcher",
+      "importance_score": 48.55,
+      "sentiment": {
+        "score": 0.177,
+        "magnitude": 0.112,
+        "positive": 17,
+        "negative": 5,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 10,
+        "document_count": 10,
+        "source_diversity": 2,
+        "velocity": 150.0
+      },
+      "content_ids": [
+        182,
+        184,
+        190,
+        194,
+        240,
+        246,
+        252,
+        254,
+        255,
+        257
+      ],
+      "sample_snippets": [
+        {
+          "text": "-1-trillion-man/#comments\">Comments</a></p> Elon Musk wins $1 trillion Tesla pay vote despite \u201cpart-time CEO\u201d criticism",
+          "sentiment": 0.691,
+          "classification": "positive"
+        },
+        {
+          "text": "en struggle with inefficiencies including extended dwelling time, which increases in-vehicle travel time for non-alighting passengers. A stop-less autonomous modular (SLAM) bus service has emerged as ...",
+          "sentiment": -0.674,
+          "classification": "negative"
+        },
+        {
+          "text": "randomly lost measurements has been widely studied. We revisit this problem in a general continuous-time framework, where both the measurement matrix and noise covariance evolve as random processes, c...",
+          "sentiment": -0.662,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "comments",
+      "team_key": "researcher",
+      "importance_score": 48.31,
+      "sentiment": {
+        "score": 0.008,
+        "magnitude": 0.128,
+        "positive": 14,
+        "negative": 16,
+        "neutral": 42
+      },
+      "metrics": {
+        "frequency": 51,
+        "document_count": 51,
+        "source_diversity": 3,
+        "velocity": 45.71
+      },
+      "content_ids": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        216,
+        219,
+        220,
+        208,
+        228,
+        209,
+        212,
+        210,
+        233,
+        206,
+        226,
+        231,
+        217,
+        207,
+        205,
+        218,
+        221,
+        215,
+        223,
+        232,
+        229,
+        214,
+        230,
+        213,
+        211,
+        224,
+        225,
+        227,
+        222,
+        234,
+        258
+      ],
+      "sample_snippets": [
+        {
+          "text": " reshaping user engagement and cultural dissemination. Among the various forms of user interaction, comments play a vital role in fostering community participation and enabling content re-creation. Ho...",
+          "sentiment": 0.765,
+          "classification": "positive"
+        },
+        {
+          "text": "<a href=\"https://news.ycombinator.com/item?id=45851786\">Comments</a> Using the Web Monetization API for fun and profit",
+          "sentiment": 0.735,
+          "classification": "positive"
+        },
+        {
+          "text": "ps://arstechnica.com/tech-policy/2025/11/mark-zuckerbergs-illegal-school-drove-his-neighbors-crazy/#comments\">Comments</a></p> Mark Zuckerberg\u2019s illegal school drove his neighbors crazy",
+          "sentiment": -0.718,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "social media",
+      "team_key": "researcher",
+      "importance_score": 47.94,
+      "sentiment": {
+        "score": -0.152,
+        "magnitude": 0.154,
+        "positive": 2,
+        "negative": 4,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 3,
+        "velocity": 14.29
+      },
+      "content_ids": [
+        175,
+        195,
+        198,
+        221
+      ],
+      "sample_snippets": [
+        {
+          "text": "1.04195\">released</a> a study revealing that AI models remain easily distinguishable from humans in social media conversations, with overly friendly emotional tone serving as the most persistent givea...",
+          "sentiment": 0.735,
+          "classification": "positive"
+        },
+        {
+          "text": "ps://news.ycombinator.com/item?id=45848083\">Comments</a> Denmark's government aims to ban access to social media for children under 15",
+          "sentiment": -0.557,
+          "classification": "negative"
+        },
+        {
+          "text": "<p>The next time you encounter an unusually polite reply on social media, you might want to check twice. It could be an AI model trying (and failing) to blend in with the c",
+          "sentiment": -0.459,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "chatgpt",
+      "team_key": "researcher",
+      "importance_score": 47.79,
+      "sentiment": {
+        "score": -0.04,
+        "magnitude": 0.048,
+        "positive": 2,
+        "negative": 3,
+        "neutral": 12
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 3,
+        "velocity": 33.33
+      },
+      "content_ids": [
+        181,
+        195,
+        201,
+        262
+      ],
+      "sample_snippets": [
+        {
+          "text": "acing a wave of new lawsuits\u00a0</strong><br />The cases concern wrongful death complaints, and claims ChatGPT caused mental breakdowns. (<a href=\"https://www.nytimes.com/2025/11/06/technology/chatgpt-la...",
+          "sentiment": -0.802,
+          "classification": "negative"
+        },
+        {
+          "text": "tm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>8 Kim Kardashian blames ChatGPT for failing her law exams</strong><br />It\u2019s almost like she shouldn\u2019t have been consulting ...",
+          "sentiment": -0.585,
+          "classification": "negative"
+        },
+        {
+          "text": "Clients are triggered.</strong></p>\n\n\n\n<p>Declan would never have found out his therapist was using ChatGPT had it not been for a technical mishap where his therapist began inadvertently sharing his s...",
+          "sentiment": 0.421,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "llm",
+      "team_key": "researcher",
+      "importance_score": 47.76,
+      "sentiment": {
+        "score": 0.321,
+        "magnitude": 0.101,
+        "positive": 10,
+        "negative": 1,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        235,
+        237,
+        244,
+        245,
+        263
+      ],
+      "sample_snippets": [
+        {
+          "text": "tures, cross-domain benchmarking, and governance. The goal is to support responsible integration of LLMs in sensitive settings where people need accompaniment and guidance, not only answers. Beyond Ch...",
+          "sentiment": 0.612,
+          "classification": "positive"
+        },
+        {
+          "text": "le steering framework with dynamic layer selection, enabling precise control of trait expression in LLM outputs. Our findings reveal that personality traits occupy a low-rank shared subspace, and that...",
+          "sentiment": 0.612,
+          "classification": "positive"
+        },
+        {
+          "text": "tched suggestions and fabricated algorithmic solutions. These findings demonstrate the potential of LLM-based scaffolding to support CT and underscore directions for design refinement to enhance MazeM...",
+          "sentiment": 0.527,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "mit technology",
+      "team_key": "researcher",
+      "importance_score": 47.62,
+      "sentiment": {
+        "score": -0.004,
+        "magnitude": 0.086,
+        "positive": 8,
+        "negative": 6,
+        "neutral": 13
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        195,
+        197,
+        198,
+        199,
+        201,
+        202,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "gn=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>8 Kim Kardashian blames ChatGPT for failing her law exa...",
+          "sentiment": -0.718,
+          "classification": "negative"
+        },
+        {
+          "text": "gn=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>6 Microsoft let AI shopping agents loose in a fake mark...",
+          "sentiment": -0.66,
+          "classification": "negative"
+        },
+        {
+          "text": "gn=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>2 Norway\u2019s oil fund has rejected Elon Musk\u2019s $1 trillio...",
+          "sentiment": -0.572,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "ai models",
+      "team_key": "researcher",
+      "importance_score": 47.26,
+      "sentiment": {
+        "score": 0.358,
+        "magnitude": 0.121,
+        "positive": 5,
+        "negative": 1,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 3,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        175,
+        202,
+        237,
+        238
+      ],
+      "sample_snippets": [
+        {
+          "text": " New York University <a href=\"https://arxiv.org/abs/2511.04195\">released</a> a study revealing that AI models remain easily distinguishable from humans in social media conversations, with overly frien...",
+          "sentiment": 0.681,
+          "classification": "positive"
+        },
+        {
+          "text": "ype: new \nAbstract: Explainable Artificial Intelligence (XAI) aims to create transparency in modern AI models by offering explanations of the models to human users. There are many ways in which resear...",
+          "sentiment": 0.637,
+          "classification": "positive"
+        },
+        {
+          "text": " becomes much wider, allowing us to better leverage the generative and creative capabilities of the AI models we use.</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Context is critical in the agentic era...",
+          "sentiment": 0.542,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "access",
+      "team_key": "researcher",
+      "importance_score": 46.7,
+      "sentiment": {
+        "score": -0.045,
+        "magnitude": 0.149,
+        "positive": 2,
+        "negative": 2,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 3,
+        "velocity": 33.33
+      },
+      "content_ids": [
+        181,
+        182,
+        221,
+        237
+      ],
+      "sample_snippets": [
+        {
+          "text": " href=\"https://news.ycombinator.com/item?id=45848083\">Comments</a> Denmark's government aims to ban access to social media for children under 15",
+          "sentiment": -0.557,
+          "classification": "negative"
+        },
+        {
+          "text": "ypically use to monitor search traffic, not lurk private chats.</p>\n<p>Normally, when site managers access GSC performance reports, they see queries based on keywords or short phrases that Internet us...",
+          "sentiment": 0.493,
+          "classification": "positive"
+        },
+        {
+          "text": " It also analyzes risks including over-reliance, hallucination, bias, privacy exposure, and unequal access, and proposes future directions spanning unified evaluation, hybrid human-AI models, memory a...",
+          "sentiment": -0.318,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "aims",
+      "team_key": "researcher",
+      "importance_score": 46.43,
+      "sentiment": {
+        "score": -0.243,
+        "magnitude": 0.141,
+        "positive": 1,
+        "negative": 3,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 3,
+        "velocity": 33.33
+      },
+      "content_ids": [
+        182,
+        189,
+        221,
+        238
+      ],
+      "sample_snippets": [
+        {
+          "text": "through waves of enemies that converge somewhat mindlessly on your position. The game automatically aims and deploys weapons to carve some safe space through what can be screens full of hazardous enem...",
+          "sentiment": -0.751,
+          "classification": "negative"
+        },
+        {
+          "text": "arXiv:2511.03730v1 Announce Type: new \nAbstract: Explainable Artificial Intelligence (XAI) aims to create transparency in modern AI models by offering explanations of the models to human users. T",
+          "sentiment": 0.637,
+          "classification": "positive"
+        },
+        {
+          "text": "<a href=\"https://news.ycombinator.com/item?id=45848083\">Comments</a> Denmark's government aims to ban access to social media for children under 15",
+          "sentiment": -0.557,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "best",
+      "team_key": "researcher",
+      "importance_score": 45.71,
+      "sentiment": {
+        "score": 0.482,
+        "magnitude": 0.14,
+        "positive": 6,
+        "negative": 1,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 33.33
+      },
+      "content_ids": [
+        182,
+        183,
+        185,
+        261
+      ],
+      "sample_snippets": [
+        {
+          "text": "<p>The Crescent Park neighborhood of Palo Alto, California, has some of the best real estate in the country, with a charming hodgepodge of homes ranging in style from Tudor revival",
+          "sentiment": 0.84,
+          "classification": "positive"
+        },
+        {
+          "text": "through a massive visual menu of upgrade options, considering which path of stat and ability tweaks best fits your character and your play style.</p>\n<p>With <em>Skigill</em>, indie developer Achromi ...",
+          "sentiment": 0.836,
+          "classification": "positive"
+        },
+        {
+          "text": "nguage models possess a remarkable ability to handle an open-vocabulary's worth of objects. Yet the best models still suffer from hallucinations when reasoning about scenes in the real world, revealin...",
+          "sentiment": 0.818,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "language models",
+      "team_key": "researcher",
+      "importance_score": 45.7,
+      "sentiment": {
+        "score": 0.217,
+        "magnitude": 0.078,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        235,
+        237,
+        244,
+        245,
+        261
+      ],
+      "sample_snippets": [
+        {
+          "text": "arXiv:2511.03768v1 Announce Type: new \nAbstract: Multimodal language models possess a remarkable ability to handle an open-vocabulary's worth of objects. Yet the best models s",
+          "sentiment": 0.9,
+          "classification": "positive"
+        },
+        {
+          "text": " and gamified programming environments are a widely adopted approach to cultivating it. While large language models (LLMs) provide on-demand programming support, current applications rarely foster CT ...",
+          "sentiment": 0.402,
+          "classification": "positive"
+        },
+        {
+          "text": "arXiv:2511.03729v1 Announce Type: new \nAbstract: Large language models are moving beyond transactional question answering to act as companions, coaches, mediators, and cu",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "years",
+      "team_key": "researcher",
+      "importance_score": 44.82,
+      "sentiment": {
+        "score": 0.055,
+        "magnitude": 0.079,
+        "positive": 10,
+        "negative": 4,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 3,
+        "velocity": 20.0
+      },
+      "content_ids": [
+        184,
+        196,
+        201,
+        202,
+        203,
+        259
+      ],
+      "sample_snippets": [
+        {
+          "text": " officer, says the company modeled the most severe hurricanes that Florida expects over the next 20 years and designed the tether to withstand them. Even if the worst happens and the link is broken, D...",
+          "sentiment": -0.878,
+          "classification": "negative"
+        },
+        {
+          "text": "s a clear signal of the direction of travel in software engineering and even AI more broadly. After years of the industry assuming progress in AI is <a href=\"https://www.technologyreview.com/2024/10/0...",
+          "sentiment": 0.66,
+          "classification": "positive"
+        },
+        {
+          "text": "earch should serve public interests, not be locked up as intellectual property.</p>\n\n\n\n<p>In recent years, a handful of for-profit startup companies have emerged that are striving to develop SRM techn...",
+          "sentiment": 0.649,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "research",
+      "team_key": "researcher",
+      "importance_score": 44.42,
+      "sentiment": {
+        "score": 0.339,
+        "magnitude": 0.128,
+        "positive": 20,
+        "negative": 3,
+        "neutral": 6
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 3,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        191,
+        203,
+        239,
+        247,
+        259
+      ],
+      "sample_snippets": [
+        {
+          "text": "ds. But research won\u2019t be useful unless it\u2019s trusted, and trust depends on transparency. That means researchers must be eager to examine pros and cons, committed to following the evidence where it lea...",
+          "sentiment": 0.96,
+          "classification": "positive"
+        },
+        {
+          "text": "of doing research into SRM can be diverse: identifying risks as well as finding better methods. But research won\u2019t be useful unless it\u2019s trusted, and trust depends on transparency. That means research...",
+          "sentiment": 0.937,
+          "classification": "positive"
+        },
+        {
+          "text": " be used should be made through multilateral government discussions, informed by the best available research on the promise and risks of such interventions\u2014not the profit motives of companies or their...",
+          "sentiment": 0.807,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "models",
+      "team_key": "researcher",
+      "importance_score": 44.31,
+      "sentiment": {
+        "score": 0.371,
+        "magnitude": 0.114,
+        "positive": 21,
+        "negative": 1,
+        "neutral": 7
+      },
+      "metrics": {
+        "frequency": 8,
+        "document_count": 8,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        175,
+        237,
+        238,
+        244,
+        247,
+        254,
+        261,
+        264
+      ],
+      "sample_snippets": [
+        {
+          "text": "arXiv:2511.03768v1 Announce Type: new \nAbstract: Multimodal language models possess a remarkable ability to handle an open-vocabulary's worth of objects. Yet the best models s",
+          "sentiment": 0.9,
+          "classification": "positive"
+        },
+        {
+          "text": "ges is tractable for most models, yet reasoning across scenes is very challenging even for the best models, including reasoning models. Despite saturating many leaderboards focusing on perception, the...",
+          "sentiment": 0.883,
+          "classification": "positive"
+        },
+        {
+          "text": "dels, yet reasoning across scenes is very challenging even for the best models, including reasoning models. Despite saturating many leaderboards focusing on perception, the best performing model only ...",
+          "sentiment": 0.883,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "large language",
+      "team_key": "researcher",
+      "importance_score": 44.22,
+      "sentiment": {
+        "score": 0.08,
+        "magnitude": 0.018,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        235,
+        237,
+        244,
+        245,
+        263
+      ],
+      "sample_snippets": [
+        {
+          "text": "skill, and gamified programming environments are a widely adopted approach to cultivating it. While large language models (LLMs) provide on-demand programming support, current applications rarely fost...",
+          "sentiment": 0.402,
+          "classification": "positive"
+        },
+        {
+          "text": "arXiv:2511.03729v1 Announce Type: new \nAbstract: Large language models are moving beyond transactional question answering to act as companions, coaches, mediators,",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "arXiv:2511.03738v1 Announce Type: new \nAbstract: Large Language Models exhibit implicit personalities in their generation, but reliably controlling or aligning the",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "arxiv announce",
+      "team_key": "researcher",
+      "importance_score": 44.17,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 15,
+        "document_count": 15,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        236,
+        237,
+        239,
+        242,
+        243,
+        248,
+        249,
+        250,
+        253,
+        254,
+        255,
+        257,
+        259,
+        262,
+        264
+      ],
+      "sample_snippets": []
+    },
+    {
+      "keyword": "agent",
+      "team_key": "researcher",
+      "importance_score": 43.99,
+      "sentiment": {
+        "score": 0.357,
+        "magnitude": 0.141,
+        "positive": 13,
+        "negative": 2,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        236,
+        238,
+        239,
+        259,
+        263
+      ],
+      "sample_snippets": [
+        {
+          "text": "le human interviews better capture cultural and emotional nuances. These findings suggest that dual-agent constitutional AI supports effective human-AI collaboration, enabling replicable, scalable and...",
+          "sentiment": 0.844,
+          "classification": "positive"
+        },
+        {
+          "text": " with offline real-world data and continuously enriched with fresh interactions to actively support agent training. To improve knowledge acquisition, DreamGym adaptively generates new tasks that chall...",
+          "sentiment": 0.84,
+          "classification": "positive"
+        },
+        {
+          "text": "To prevent the former threat, we propose a transaction-based framework to design very complex multi-agent systems (VCMAS). To address the second threat, we offer to integrate transaction scheduling in...",
+          "sentiment": -0.772,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "generation",
+      "team_key": "researcher",
+      "importance_score": 43.81,
+      "sentiment": {
+        "score": 0.398,
+        "magnitude": 0.167,
+        "positive": 8,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        188,
+        244,
+        248,
+        252,
+        258
+      ],
+      "sample_snippets": [
+        {
+          "text": "g path to enhance user engagement and creative interaction. Laugh, Relate, Engage: Stylized Comment Generation for Short Videos",
+          "sentiment": 0.898,
+          "classification": "positive"
+        },
+        {
+          "text": "5% on YouTube. This work presents a scalable and culturally adaptive framework for stylized comment generation on short-video platforms, offering a promising path to enhance user engagement and creati...",
+          "sentiment": 0.823,
+          "classification": "positive"
+        },
+        {
+          "text": "11/imaging-black-holes-may-help-us-rule-out-some-models-of-gravity/#comments\">Comments</a></p> Next-generation black hole imaging may help us understand gravity better",
+          "sentiment": 0.681,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "evaluation",
+      "team_key": "researcher",
+      "importance_score": 43.7,
+      "sentiment": {
+        "score": 0.399,
+        "magnitude": 0.129,
+        "positive": 8,
+        "negative": 1,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        237,
+        238,
+        245,
+        258,
+        262
+      ],
+      "sample_snippets": [
+        {
+          "text": "eo genres: comedy skits, daily life jokes, funny animal clips, humorous commentary, and talk shows. Evaluation combines automated metrics originality, relevance, and style conformity with a large-scal...",
+          "sentiment": 0.84,
+          "classification": "positive"
+        },
+        {
+          "text": "onalization, guardrails, memory with privacy, and a balance of empathy and reliability. It outlines evaluation metrics that extend beyond accuracy to trust, engagement, and longitudinal outcomes. It a...",
+          "sentiment": 0.791,
+          "classification": "positive"
+        },
+        {
+          "text": "els, such as user studies or proposed objective metrics like \"fidelity\". However, these current XAI evaluation techniques are ad hoc at best and not generalizable. Thus, most studies done within this ...",
+          "sentiment": 0.772,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "announce type",
+      "team_key": "researcher",
+      "importance_score": 43.57,
+      "sentiment": {
+        "score": 0.132,
+        "magnitude": 0.062,
+        "positive": 10,
+        "negative": 1,
+        "neutral": 19
+      },
+      "metrics": {
+        "frequency": 30,
+        "document_count": 30,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264
+      ],
+      "sample_snippets": [
+        {
+          "text": "arXiv:2511.03768v1 Announce Type: new \nAbstract: Multimodal language models possess a remarkable ability to handle an open-vocabular",
+          "sentiment": 0.71,
+          "classification": "positive"
+        },
+        {
+          "text": "arXiv:2511.03730v1 Announce Type: new \nAbstract: Explainable Artificial Intelligence (XAI) aims to create transparency in modern AI ",
+          "sentiment": 0.637,
+          "classification": "positive"
+        },
+        {
+          "text": "arXiv:2511.03732v1 Announce Type: new \nAbstract: Hyperchat AI is a novel agentic technology that enables thoughtful conversations am",
+          "sentiment": 0.599,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "code",
+      "team_key": "researcher",
+      "importance_score": 43.53,
+      "sentiment": {
+        "score": 0.149,
+        "magnitude": 0.071,
+        "positive": 6,
+        "negative": 2,
+        "neutral": 8
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 3,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        187,
+        202,
+        241,
+        264
+      ],
+      "sample_snippets": [
+        {
+          "text": "ent=MIT-article\" rel=\"noreferrer noopener\" target=\"_blank\">using generative AI to understand legacy codebases</a>. Indeed, done effectively with the appropriate context, it can even help when <a href=...",
+          "sentiment": 0.681,
+          "classification": "positive"
+        },
+        {
+          "text": "to provide equitable educational opportunities in computer science, HACI aims to improve non-visual code navigation, comprehension, summarizing, editing, and debugging for students with visual impairm...",
+          "sentiment": 0.67,
+          "classification": "positive"
+        },
+        {
+          "text": "d from the underlying system \u2014 or, in other words, further removed from the specifics of the legacy code. This is because the solution space becomes much wider, allowing us to better leverage the gene...",
+          "sentiment": 0.637,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "human",
+      "team_key": "researcher",
+      "importance_score": 43.45,
+      "sentiment": {
+        "score": 0.247,
+        "magnitude": 0.108,
+        "positive": 15,
+        "negative": 3,
+        "neutral": 6
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 3,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        175,
+        198,
+        237,
+        239,
+        240
+      ],
+      "sample_snippets": [
+        {
+          "text": "rg/abs/2511.04195\">released</a> a study revealing that AI models remain easily distinguishable from humans in social media conversations, with overly friendly emotional tone serving as the most persis...",
+          "sentiment": 0.735,
+          "classification": "positive"
+        },
+        {
+          "text": " and emotional nuances. These findings suggest that dual-agent constitutional AI supports effective human-AI collaboration, enabling replicable, scalable and quality-controlled qualitative research. M...",
+          "sentiment": 0.735,
+          "classification": "positive"
+        },
+        {
+          "text": "s in medicine stem, in large part, from a common root cause: a severe shortage of ethically-sourced human bodies.<br /><br />There might be a way to get out of this moral and scientific deadlock. Rece...",
+          "sentiment": -0.718,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "learning",
+      "team_key": "researcher",
+      "importance_score": 43.23,
+      "sentiment": {
+        "score": 0.271,
+        "magnitude": 0.096,
+        "positive": 8,
+        "negative": 1,
+        "neutral": 5
+      },
+      "metrics": {
+        "frequency": 8,
+        "document_count": 8,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        187,
+        235,
+        249,
+        252,
+        253,
+        254,
+        256,
+        263
+      ],
+      "sample_snippets": [
+        {
+          "text": "care monitoring, supporting scalable and secure edge deployments in smart health systems. Federated Learning with Gramian Angular Fields for Privacy-Preserving ECG Classification on Heterogeneous IoT ...",
+          "sentiment": 0.881,
+          "classification": "positive"
+        },
+        {
+          "text": "9\\% average accuracies, respectively, surpassing all tested benchmarks, including classical machine learning algorithms and recent graph-based models. The framework identifies optimal combinations of ...",
+          "sentiment": 0.599,
+          "classification": "positive"
+        },
+        {
+          "text": "erates new tasks that challenge the current agent policy, enabling more effective online curriculum learning. Experiments across diverse environments and agent backbones demonstrate that DreamGym subs...",
+          "sentiment": 0.571,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "arxiv 2511",
+      "team_key": "researcher",
+      "importance_score": 43.21,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        236,
+        239,
+        242,
+        244,
+        257
+      ],
+      "sample_snippets": []
+    },
+    {
+      "keyword": "technology review",
+      "team_key": "researcher",
+      "importance_score": 43.18,
+      "sentiment": {
+        "score": 0.014,
+        "magnitude": 0.095,
+        "positive": 10,
+        "negative": 6,
+        "neutral": 11
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        195,
+        197,
+        198,
+        199,
+        201,
+        202,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "he_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>8 Kim Kardashian blames ChatGPT for failing her law exams</...",
+          "sentiment": -0.718,
+          "classification": "negative"
+        },
+        {
+          "text": "he_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>6 Microsoft let AI shopping agents loose in a fake marketpl...",
+          "sentiment": -0.66,
+          "classification": "negative"
+        },
+        {
+          "text": "he_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>2 Norway\u2019s oil fund has rejected Elon Musk\u2019s $1 trillion pa...",
+          "sentiment": -0.572,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "able",
+      "team_key": "researcher",
+      "importance_score": 43.15,
+      "sentiment": {
+        "score": 0.233,
+        "magnitude": 0.044,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 2,
+        "velocity": 25.0
+      },
+      "content_ids": [
+        180,
+        182,
+        188,
+        191,
+        259
+      ],
+      "sample_snippets": [
+        {
+          "text": "coming back for a long time, it\u2019s still a clever and engaging take on the genre that I haven\u2019t been able to put down for long.</p>\n<h2>Clear the way, I need +5 armor!</h2>\n<p>Like <em>Vampire Survivor...",
+          "sentiment": 0.69,
+          "classification": "positive"
+        },
+        {
+          "text": "rch option to the Finance chatbot. The company claims that with the more powerful AI, users will be able to generate \u201cfully cited\u201d research reports on a given topic in just a few minutes. So you can e...",
+          "sentiment": 0.475,
+          "classification": "positive"
+        },
+        {
+          "text": "n-pricing-to-american-patients/\">the announcement</a>, Medicare and state Medicaid programs will be able to purchase a month\u2019s supply of Ozempic, Wegovy, Mounjaro, and Zepbound at $245 each for eligib...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "accuracy",
+      "team_key": "researcher",
+      "importance_score": 43.05,
+      "sentiment": {
+        "score": 0.293,
+        "magnitude": 0.082,
+        "positive": 3,
+        "negative": 0,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        175,
+        237,
+        240,
+        256
+      ],
+      "sample_snippets": [
+        {
+          "text": "rivacy, and a balance of empathy and reliability. It outlines evaluation metrics that extend beyond accuracy to trust, engagement, and longitudinal outcomes. It also analyzes risks including over-reli...",
+          "sentiment": 0.807,
+          "classification": "positive"
+        },
+        {
+          "text": " the group's Collective Intelligence (CI). A formal study was conducted to quantify the forecasting accuracy of human groups using Hyperchat AI to conversationally predict the outcome of Major League ...",
+          "sentiment": 0.477,
+          "classification": "positive"
+        },
+        {
+          "text": "rates were 88% accurate, suggesting that real-time interactive deliberation is central to amplified accuracy. Conversational Collective Intelligence (CCI) using Hyperchat AI in an Authentic Forecastin...",
+          "sentiment": 0.477,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "framework",
+      "team_key": "researcher",
+      "importance_score": 42.98,
+      "sentiment": {
+        "score": 0.228,
+        "magnitude": 0.103,
+        "positive": 16,
+        "negative": 4,
+        "neutral": 5
+      },
+      "metrics": {
+        "frequency": 12,
+        "document_count": 12,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        210,
+        236,
+        237,
+        239,
+        244,
+        245,
+        246,
+        250,
+        251,
+        252,
+        256,
+        259
+      ],
+      "sample_snippets": [
+        {
+          "text": "o faults, and performance bottlenecks. To prevent the former threat, we propose a transaction-based framework to design very complex multi-agent systems (VCMAS). To address the second threat, we offer...",
+          "sentiment": -0.869,
+          "classification": "negative"
+        },
+        {
+          "text": "mly lost measurements has been widely studied. We revisit this problem in a general continuous-time framework, where both the measurement matrix and noise covariance evolve as random processes, captur...",
+          "sentiment": -0.662,
+          "classification": "negative"
+        },
+        {
+          "text": "ators that scaffold human growth, decision-making, and well-being. This paper proposes a role-based framework for human-centered LLM support systems, compares real deployments across domains, and iden...",
+          "sentiment": 0.649,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "model",
+      "team_key": "researcher",
+      "importance_score": 42.89,
+      "sentiment": {
+        "score": 0.409,
+        "magnitude": 0.13,
+        "positive": 28,
+        "negative": 1,
+        "neutral": 7
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        239,
+        244,
+        248,
+        249,
+        254,
+        261,
+        263
+      ],
+      "sample_snippets": [
+        {
+          "text": "arXiv:2511.03768v1 Announce Type: new \nAbstract: Multimodal language models possess a remarkable ability to handle an open-vocabulary's worth of objects. Yet the best models ",
+          "sentiment": 0.9,
+          "classification": "positive"
+        },
+        {
+          "text": "ges is tractable for most models, yet reasoning across scenes is very challenging even for the best models, including reasoning models. Despite saturating many leaderboards focusing on perception, the...",
+          "sentiment": 0.883,
+          "classification": "positive"
+        },
+        {
+          "text": "dels, yet reasoning across scenes is very challenging even for the best models, including reasoning models. Despite saturating many leaderboards focusing on perception, the best performing model only ...",
+          "sentiment": 0.883,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "nbsp",
+      "team_key": "researcher",
+      "importance_score": 42.82,
+      "sentiment": {
+        "score": 0.25,
+        "magnitude": 0.125,
+        "positive": 30,
+        "negative": 11,
+        "neutral": 8
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        196,
+        199,
+        200,
+        202,
+        203
+      ],
+      "sample_snippets": [
+        {
+          "text": "ily evaluate the benefits of the product, then competitive, for-profit capitalism can work wonders.&nbsp;&nbsp;</p>\n\n\n\n<p>But SRM is already technically feasible and inexpensive, with deployment costs...",
+          "sentiment": 0.827,
+          "classification": "positive"
+        },
+        {
+          "text": "vely shifts the burden of worrying about the environment from fossil-fuel companies to individuals.&nbsp;</p>\n\n\n\n<p>The reality is, no one person can address climate change alone: Our entire society i...",
+          "sentiment": -0.818,
+          "classification": "negative"
+        },
+        {
+          "text": " to achieve cooling over small areas, purportedly to help farmers or cities deal with extreme heat.&nbsp;&nbsp;</p>\n\n\n\n\n\n<p>Our strong impression is that people in these companies are driven by the sa...",
+          "sentiment": 0.8,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "full article",
+      "team_key": "researcher",
+      "importance_score": 42.59,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 18
+      },
+      "metrics": {
+        "frequency": 18,
+        "document_count": 18,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193
+      ],
+      "sample_snippets": [
+        {
+          "text": "ation-technology/2025/11/being-too-nice-online-is-a-dead-giveaway-for-ai-bots-study-suggests/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/information-technology/2025/11/being-too-ni...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "/gadgets/2025/11/commercial-spyware-landfall-ran-rampant-on-samsung-phones-for-almost-a-year/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/gadgets/2025/11/commercial-spyware-landfall...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "om/space/2025/11/faa-says-commercial-rockets-must-launch-at-night-citing-government-shutdown/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2025/11/faa-says-commercial-rockets-m...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "information",
+      "team_key": "researcher",
+      "importance_score": 42.51,
+      "sentiment": {
+        "score": 0.059,
+        "magnitude": 0.089,
+        "positive": 5,
+        "negative": 3,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 3,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        179,
+        200,
+        247,
+        249
+      ],
+      "sample_snippets": [
+        {
+          "text": "fective, manner. Specifically, the responses from a unique degree of freedom along with their class information train and validate a one-dimensional convolutional neural network. In doing so, the netw...",
+          "sentiment": 0.772,
+          "classification": "positive"
+        },
+        {
+          "text": " advantages and drawbacks of each. Additionally, we analyze the three bottom-up level operations of information fusion in existing models. We conclude by discussing the challenges and opportunities in...",
+          "sentiment": 0.66,
+          "classification": "positive"
+        },
+        {
+          "text": ", quantum computers occasionally make mistakes. Classical computers correct these errors by storing information redundantly. Owing to quirks of quantum mechanics, quantum computers can\u2019t do this and r...",
+          "sentiment": -0.561,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "performance",
+      "team_key": "researcher",
+      "importance_score": 42.43,
+      "sentiment": {
+        "score": 0.061,
+        "magnitude": 0.067,
+        "positive": 3,
+        "negative": 2,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        223,
+        213,
+        252,
+        263,
+        264
+      ],
+      "sample_snippets": [
+        {
+          "text": "ined purely on synthetic experiences to real-environment RL, DreamGym yields significant additional performance gains while requiring far fewer real-world interactions, providing a scalable warm-start...",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "sive validations on modified IEEE 9-bus, 39-bus, and a multi-terminal HVDC network demonstrate high performance, achieving 99.85\\%, 99.90\\%, and 99.69\\% average accuracies, respectively, surpassing al...",
+          "sentiment": 0.34,
+          "classification": "positive"
+        },
+        {
+          "text": "oprietary, pretraining corpora raises a critical concern for both practitioners and users: inflated performance due to test-set leakage. While prior works have proposed mitigation strategies such as d...",
+          "sentiment": -0.318,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "abstract",
+      "team_key": "researcher",
+      "importance_score": 42.37,
+      "sentiment": {
+        "score": 0.207,
+        "magnitude": 0.083,
+        "positive": 11,
+        "negative": 1,
+        "neutral": 13
+      },
+      "metrics": {
+        "frequency": 24,
+        "document_count": 24,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        242,
+        243,
+        244,
+        246,
+        247,
+        248,
+        249,
+        250,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        261,
+        262,
+        264
+      ],
+      "sample_snippets": [
+        {
+          "text": "arXiv:2511.03768v1 Announce Type: new \nAbstract: Multimodal language models possess a remarkable ability to handle an open-vocabulary's worth of ob",
+          "sentiment": 0.778,
+          "classification": "positive"
+        },
+        {
+          "text": "g than for maze design. Thematic analysis confirmed support for CT processes such as decomposition, abstraction, and algorithmic thinking, while also revealing limitations in supporting maze design, i...",
+          "sentiment": 0.681,
+          "classification": "positive"
+        },
+        {
+          "text": "arXiv:2511.03730v1 Announce Type: new \nAbstract: Explainable Artificial Intelligence (XAI) aims to create transparency in modern AI models by offer",
+          "sentiment": 0.637,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "using",
+      "team_key": "researcher",
+      "importance_score": 42.29,
+      "sentiment": {
+        "score": 0.241,
+        "magnitude": 0.116,
+        "positive": 8,
+        "negative": 2,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 3,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        199,
+        220,
+        240,
+        249,
+        264
+      ],
+      "sample_snippets": [
+        {
+          "text": "<a href=\"https://news.ycombinator.com/item?id=45851786\">Comments</a> Using the Web Monetization API for fun and profit",
+          "sentiment": 0.735,
+          "classification": "positive"
+        },
+        {
+          "text": " do to reduce your AI footprint. Generating videos tends to be especially energy-intensive, as does using reasoning models to engage with long prompts and produce long answers. Asking a chatbot to hel...",
+          "sentiment": 0.625,
+          "classification": "positive"
+        },
+        {
+          "text": "gh real-time conversation facilitated by AI agents. The results showed that when debating the games using Hyperchat AI technology, the groups converged on High Confidence predictions that significantl...",
+          "sentiment": 0.511,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "8217",
+      "team_key": "researcher",
+      "importance_score": 42.02,
+      "sentiment": {
+        "score": 0.031,
+        "magnitude": 0.015,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 12
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        195,
+        198,
+        201,
+        203,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "ne</em></a><em> or </em><a href=\"https://bsky.app/profile/rhiannonwilliams.bsky.social\"><em>skeet &#8217;em at me</em></a><em>.)</em></p>\n\n\n\n<p>+ If you\u2019re a wildlife fan, take a look at this <a href=...",
+          "sentiment": 0.318,
+          "classification": "positive"
+        },
+        {
+          "text": "ne</em></a><em> or </em><a href=\"https://bsky.app/profile/rhiannonwilliams.bsky.social\"><em>skeet &#8217;em at me</em></a><em>.)</em></p>\n\n\n\n<p>+ Make sure to look up so you don\u2019t miss <a href=\"https:...",
+          "sentiment": 0.112,
+          "classification": "positive"
+        },
+        {
+          "text": "<p><em>This is today&#8217;s edition of\u00a0<a href=\"https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.1",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "read full",
+      "team_key": "researcher",
+      "importance_score": 42.0,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 20
+      },
+      "metrics": {
+        "frequency": 20,
+        "document_count": 20,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194
+      ],
+      "sample_snippets": [
+        {
+          "text": "nformation-technology/2025/11/being-too-nice-online-is-a-dead-giveaway-for-ai-bots-study-suggests/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/information-technology/2025/11/being-t...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "a.com/gadgets/2025/11/commercial-spyware-landfall-ran-rampant-on-samsung-phones-for-almost-a-year/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/gadgets/2025/11/commercial-spyware-lan...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "ica.com/space/2025/11/faa-says-commercial-rockets-must-launch-at-night-citing-government-shutdown/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2025/11/faa-says-commercial-rock...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "earth",
+      "team_key": "researcher",
+      "importance_score": 41.99,
+      "sentiment": {
+        "score": 0.086,
+        "magnitude": 0.064,
+        "positive": 4,
+        "negative": 1,
+        "neutral": 6
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        186,
+        188,
+        197,
+        203,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "king the planet. Then, just days later on February 24, experts declared that the danger had passed. Earth would be spared.<br /><br />How did they do it? What was it like to track the rising danger of...",
+          "sentiment": -0.649,
+          "classification": "negative"
+        },
+        {
+          "text": "es are ready, and Blue Origin has set a launch date for Sunday, November 9. The mission will depart Earth outside of the usual interplanetary launch window, so orbital dynamics wizards came up with a ...",
+          "sentiment": 0.597,
+          "classification": "positive"
+        },
+        {
+          "text": ", and safe for humans and ecosystems.\u201d According to the company, \u201cThe particles naturally return to Earth\u2019s surface over time and recycle safely back into the biosphere.\u201d</p>\n\n\n\n<p>But it\u2019s nonsense f...",
+          "sentiment": 0.527,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "second",
+      "team_key": "researcher",
+      "importance_score": 41.78,
+      "sentiment": {
+        "score": -0.134,
+        "magnitude": 0.079,
+        "positive": 2,
+        "negative": 3,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 3,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        186,
+        203,
+        254,
+        259
+      ],
+      "sample_snippets": [
+        {
+          "text": "se a transaction-based framework to design very complex multi-agent systems (VCMAS). To address the second threat, we offer to integrate transaction scheduling into the proposed framework. We implemen...",
+          "sentiment": -0.527,
+          "classification": "negative"
+        },
+        {
+          "text": "ocket is only making its second flight, and it hasn\u2019t been certified by NASA or the US Space Force. Second, the schedule for ESCAPADE\u2019s launch has been at the whim of Blue Origin, which has delayed th...",
+          "sentiment": -0.361,
+          "classification": "negative"
+        },
+        {
+          "text": "arXiv:2511.03749v1 Announce Type: new \nAbstract: Grasslands, constituting the world's second-largest terrestrial carbon sink, play a crucial role in biodiversity and the regulation of the carb",
+          "sentiment": 0.34,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "approach",
+      "team_key": "researcher",
+      "importance_score": 41.63,
+      "sentiment": {
+        "score": 0.333,
+        "magnitude": 0.119,
+        "positive": 8,
+        "negative": 1,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        177,
+        235,
+        242,
+        243,
+        248,
+        256,
+        264
+      ],
+      "sample_snippets": [
+        {
+          "text": "er individual appliance control, but the installation cost is much higher. There have been very few approaches aiming to combine these methods. In this paper we show that extending a smart plug-based ...",
+          "sentiment": 0.758,
+          "classification": "positive"
+        },
+        {
+          "text": "y for maximizing the minimal singular value. Further, we demonstrate the usefulness of the proposed approach using bilinear EDMD with control for non-holonomic robots. On excitation of control-affine ...",
+          "sentiment": 0.751,
+          "classification": "positive"
+        },
+        {
+          "text": "vironments. By transforming 1D ECG signals into 2D Gramian Angular Field (GAF) images, the proposed approach enables efficient feature extraction through Convolutional Neural Networks (CNNs) while ens...",
+          "sentiment": 0.599,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "announce",
+      "team_key": "researcher",
+      "importance_score": 41.33,
+      "sentiment": {
+        "score": 0.129,
+        "magnitude": 0.064,
+        "positive": 9,
+        "negative": 1,
+        "neutral": 18
+      },
+      "metrics": {
+        "frequency": 28,
+        "document_count": 28,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264
+      ],
+      "sample_snippets": [
+        {
+          "text": "arXiv:2511.03768v1 Announce Type: new \nAbstract: Multimodal language models possess a remarkable ability to handle an open-voca",
+          "sentiment": 0.71,
+          "classification": "positive"
+        },
+        {
+          "text": "arXiv:2511.03730v1 Announce Type: new \nAbstract: Explainable Artificial Intelligence (XAI) aims to create transparency in moder",
+          "sentiment": 0.637,
+          "classification": "positive"
+        },
+        {
+          "text": "arXiv:2511.03732v1 Announce Type: new \nAbstract: Hyperchat AI is a novel agentic technology that enables thoughtful conversatio",
+          "sentiment": 0.599,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "type",
+      "team_key": "researcher",
+      "importance_score": 40.71,
+      "sentiment": {
+        "score": 0.205,
+        "magnitude": 0.072,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        243,
+        250,
+        255,
+        259,
+        262
+      ],
+      "sample_snippets": [
+        {
+          "text": ", the presented algorithm only removes regions with a determined winner. The paper introduces a new type of attractor that can guarantee finding the minimal dominion of a parity game. The attractor ru...",
+          "sentiment": 0.891,
+          "classification": "positive"
+        },
+        {
+          "text": "arXiv:2511.03752v1 Announce Type: new \nAbstract: This paper provides a polynomial-time algorithm for solving parity games that runs ",
+          "sentiment": 0.34,
+          "classification": "positive"
+        },
+        {
+          "text": "arXiv:2511.03737v1 Announce Type: new \nAbstract: Electrical load classification is generally divided into intrusive and non-intrusiv",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "article comments",
+      "team_key": "researcher",
+      "importance_score": 40.65,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 20,
+        "document_count": 20,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194
+      ],
+      "sample_snippets": []
+    },
+    {
+      "keyword": "read",
+      "team_key": "researcher",
+      "importance_score": 39.5,
+      "sentiment": {
+        "score": -0.068,
+        "magnitude": 0.03,
+        "positive": 0,
+        "negative": 1,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        179,
+        183,
+        187,
+        193
+      ],
+      "sample_snippets": [
+        {
+          "text": "s that Ford\u2019s management is \u201cin active discussions about scrapping\u201d the Lightning. Production had already been suspended a few weeks ago due to an aluminum shortage following <a href=\"https://www.cara...",
+          "sentiment": -0.34,
+          "classification": "negative"
+        },
+        {
+          "text": "technica.com/tech-policy/2025/11/fbi-subpoena-tries-to-unmask-mysterious-founder-of-archive-today/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/tech-policy/2025/11/fbi-subpoena-tries...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "ttps://arstechnica.com/cars/2025/11/ford-says-no-exact-date-to-restart-f-150-lightning-production/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/cars/2025/11/ford-says-no-exact-date-t...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    }
+  ],
+  "count": 50
+}

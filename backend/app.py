@@ -380,3 +380,283 @@ async def mark_content_processed(content_id: int, status: str = "completed"):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to mark content: {str(e)}")
 
+
+# ============================================================================
+# Keywords API Endpoints
+# ============================================================================
+
+import sqlite3
+import json
+from pathlib import Path
+
+# Database paths for keywords
+KEYWORDS_DB = Path(__file__).parent / "data" / "keywords.db"
+TEAMS_DB = Path(__file__).parent / "data" / "teams.db"
+
+
+def get_keywords_db():
+    """Get keywords database connection."""
+    conn = sqlite3.connect(KEYWORDS_DB)
+    conn.row_factory = sqlite3.Row
+    return conn
+
+
+def get_teams_db():
+    """Get teams database connection."""
+    conn = sqlite3.connect(TEAMS_DB)
+    conn.row_factory = sqlite3.Row
+    return conn
+
+
+@app.get("/api/teams")
+async def get_teams():
+    """Get all active teams."""
+    try:
+        conn = get_teams_db()
+        cur = conn.cursor()
+        
+        cur.execute("""
+            SELECT team_key, team_name, description, color, icon, is_active
+            FROM internal_teams
+            WHERE is_active = 1
+            ORDER BY team_name
+        """)
+        
+        teams = []
+        for row in cur.fetchall():
+            teams.append({
+                "team_key": row['team_key'],
+                "team_name": row['team_name'],
+                "description": row['description'],
+                "color": row['color'],
+                "icon": row['icon'],
+                "is_active": bool(row['is_active'])
+            })
+        
+        conn.close()
+        return {"teams": teams, "count": len(teams)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get teams: {str(e)}")
+
+
+@app.get("/api/keywords")
+async def get_keywords(
+    date: str,
+    team: Optional[str] = None,
+    limit: int = 50,
+    min_score: float = 0
+):
+    """
+    Get keywords for a specific date and optional team.
+    
+    Query parameters:
+    - date: YYYY-MM-DD (required)
+    - team: team_key (optional, default: all teams)
+    - limit: max results (optional, default: 50)
+    - min_score: minimum importance score (optional, default: 0)
+    """
+    try:
+        # Validate date format
+        from datetime import datetime
+        try:
+            datetime.strptime(date, '%Y-%m-%d')
+        except ValueError:
+            raise HTTPException(status_code=400, detail="Invalid date format. Use YYYY-MM-DD")
+        
+        # Query database
+        conn = get_keywords_db()
+        cur = conn.cursor()
+        
+        # Build query
+        sql = """
+            SELECT 
+                keyword,
+                team_key,
+                importance_score,
+                sentiment_score,
+                sentiment_magnitude,
+                frequency,
+                document_count,
+                source_diversity,
+                velocity,
+                positive_mentions,
+                negative_mentions,
+                neutral_mentions,
+                content_ids,
+                sample_snippets
+            FROM keyword_importance
+            WHERE date = ?
+              AND importance_score >= ?
+        """
+        params = [date, min_score]
+        
+        if team:
+            sql += " AND team_key = ?"
+            params.append(team)
+        
+        sql += " ORDER BY importance_score DESC LIMIT ?"
+        params.append(limit)
+        
+        cur.execute(sql, params)
+        
+        keywords = []
+        for row in cur.fetchall():
+            # Parse JSON fields
+            content_ids = json.loads(row['content_ids']) if row['content_ids'] else []
+            snippets_raw = json.loads(row['sample_snippets']) if row['sample_snippets'] else []
+            
+            keywords.append({
+                "keyword": row['keyword'],
+                "team_key": row['team_key'],
+                "importance_score": round(row['importance_score'], 2),
+                "sentiment": {
+                    "score": round(row['sentiment_score'], 3),
+                    "magnitude": round(row['sentiment_magnitude'], 3),
+                    "positive": row['positive_mentions'],
+                    "negative": row['negative_mentions'],
+                    "neutral": row['neutral_mentions']
+                },
+                "metrics": {
+                    "frequency": row['frequency'],
+                    "document_count": row['document_count'],
+                    "source_diversity": row['source_diversity'],
+                    "velocity": round(row['velocity'], 2) if row['velocity'] else 0.0
+                },
+                "content_ids": content_ids,
+                "sample_snippets": snippets_raw[:3]  # Max 3 snippets
+            })
+        
+        conn.close()
+        
+        return {
+            "date": date,
+            "team": team or "all",
+            "keywords": keywords,
+            "count": len(keywords)
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get keywords: {str(e)}")
+
+
+@app.get("/api/keywords/stats")
+async def get_keyword_stats():
+    """Get overall keyword statistics."""
+    try:
+        conn = get_keywords_db()
+        cur = conn.cursor()
+        
+        # Total keywords
+        cur.execute("SELECT COUNT(*) as total FROM keyword_importance")
+        total = cur.fetchone()['total']
+        
+        # By team
+        cur.execute("""
+            SELECT team_key, COUNT(*) as count
+            FROM keyword_importance
+            GROUP BY team_key
+            ORDER BY count DESC
+        """)
+        by_team = [{"team": row['team_key'], "count": row['count']} for row in cur.fetchall()]
+        
+        # By date
+        cur.execute("""
+            SELECT date, COUNT(DISTINCT keyword) as count
+            FROM keyword_importance
+            GROUP BY date
+            ORDER BY date DESC
+            LIMIT 10
+        """)
+        by_date = [{"date": row['date'], "count": row['count']} for row in cur.fetchall()]
+        
+        # Date range
+        cur.execute("""
+            SELECT MIN(date) as min_date, MAX(date) as max_date
+            FROM keyword_importance
+        """)
+        date_range_row = cur.fetchone()
+        
+        conn.close()
+        
+        return {
+            "total_keywords": total,
+            "by_team": by_team,
+            "by_date": by_date,
+            "date_range": {
+                "start": date_range_row['min_date'],
+                "end": date_range_row['max_date']
+            }
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get statistics: {str(e)}")
+
+
+@app.get("/api/keywords/search")
+async def search_keywords(
+    q: str,
+    team: Optional[str] = None,
+    limit: int = 20
+):
+    """
+    Search for keywords by text.
+    
+    Query parameters:
+    - q: search query (required)
+    - team: team_key (optional)
+    - limit: max results (optional, default: 20)
+    """
+    if not q or not q.strip():
+        raise HTTPException(status_code=400, detail="Query parameter 'q' is required and cannot be empty")
+    
+    try:
+        conn = get_keywords_db()
+        cur = conn.cursor()
+        
+        sql = """
+            SELECT DISTINCT
+                keyword,
+                team_key,
+                MAX(importance_score) as max_score,
+                SUM(frequency) as total_freq,
+                COUNT(*) as occurrences
+            FROM keyword_importance
+            WHERE keyword LIKE ?
+        """
+        params = [f"%{q.strip()}%"]
+        
+        if team:
+            sql += " AND team_key = ?"
+            params.append(team)
+        
+        sql += """
+            GROUP BY keyword, team_key
+            ORDER BY max_score DESC
+            LIMIT ?
+        """
+        params.append(limit)
+        
+        cur.execute(sql, params)
+        
+        results = []
+        for row in cur.fetchall():
+            results.append({
+                "keyword": row['keyword'],
+                "team_key": row['team_key'],
+                "max_score": round(row['max_score'], 2),
+                "total_frequency": row['total_freq'],
+                "occurrences": row['occurrences']
+            })
+        
+        conn.close()
+        
+        return {
+            "query": q.strip(),
+            "results": results,
+            "count": len(results)
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to search keywords: {str(e)}")
+

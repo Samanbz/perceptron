@@ -1,0 +1,25 @@
+{
+  "keyword": "postal service",
+  "team_key": "regulator",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 45.49,
+      "sentiment_score": 0.296,
+      "frequency": 5,
+      "document_count": 5
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 49.91,
+      "sentiment_score": 0.353,
+      "frequency": 7,
+      "document_count": 7
+    }
+  ],
+  "appearances": 2,
+  "avg_importance": 47.7,
+  "max_importance": 49.91,
+  "total_frequency": 12,
+  "total_documents": 12
+}

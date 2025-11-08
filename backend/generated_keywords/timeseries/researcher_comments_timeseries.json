@@ -1,0 +1,39 @@
+{
+  "keyword": "comments",
+  "team_key": "researcher",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 42.18,
+      "sentiment_score": 0.003,
+      "frequency": 20,
+      "document_count": 20
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 49.08,
+      "sentiment_score": -0.008,
+      "frequency": 50,
+      "document_count": 50
+    },
+    {
+      "date": "2025-11-04",
+      "importance_score": 48.31,
+      "sentiment_score": 0.008,
+      "frequency": 51,
+      "document_count": 51
+    },
+    {
+      "date": "2025-11-05",
+      "importance_score": 46.38,
+      "sentiment_score": 0.008,
+      "frequency": 51,
+      "document_count": 51
+    }
+  ],
+  "appearances": 4,
+  "avg_importance": 46.4875,
+  "max_importance": 49.08,
+  "total_frequency": 172,
+  "total_documents": 172
+}

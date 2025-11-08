@@ -1,0 +1,39 @@
+{
+  "keyword": "ve",
+  "team_key": "competitor",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 39.83,
+      "sentiment_score": 0.167,
+      "frequency": 2,
+      "document_count": 2
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 47.27,
+      "sentiment_score": 0.216,
+      "frequency": 4,
+      "document_count": 4
+    },
+    {
+      "date": "2025-11-04",
+      "importance_score": 47.73,
+      "sentiment_score": 0.239,
+      "frequency": 6,
+      "document_count": 6
+    },
+    {
+      "date": "2025-11-05",
+      "importance_score": 47.98,
+      "sentiment_score": 0.261,
+      "frequency": 7,
+      "document_count": 7
+    }
+  ],
+  "appearances": 4,
+  "avg_importance": 45.70249999999999,
+  "max_importance": 47.98,
+  "total_frequency": 19,
+  "total_documents": 19
+}

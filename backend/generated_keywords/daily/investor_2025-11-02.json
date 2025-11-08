@@ -1,0 +1,1946 @@
+{
+  "date": "2025-11-02",
+  "team": "investor",
+  "keywords": [
+    {
+      "keyword": "amazon",
+      "team_key": "investor",
+      "importance_score": 51.14,
+      "sentiment": {
+        "score": 0.405,
+        "magnitude": 0.15,
+        "positive": 8,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        59,
+        78
+      ],
+      "sample_snippets": [
+        {
+          "text": "/www.crunchbase.com/organization/whatsapp\">WhatsApp</a>).</p>\n<p>We don\u2019t know the precise value of Amazon\u2019s stake in Anthropic, but it\u2019s also certain to be sizable. The e-commerce and cloud giant com...",
+          "sentiment": 0.718,
+          "classification": "positive"
+        },
+        {
+          "text": "ing destination for Asia, Africa, and Latin America that will be available separately from the main Amazon shopping app. Amazon launches a low-price standalone shopping app, Amazon Bazaar, in over a d...",
+          "sentiment": 0.477,
+          "classification": "positive"
+        },
+        {
+          "text": "sia, Africa, and Latin America that will be available separately from the main Amazon shopping app. Amazon launches a low-price standalone shopping app, Amazon Bazaar, in over a dozen markets",
+          "sentiment": 0.477,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "tesla",
+      "team_key": "investor",
+      "importance_score": 49.28,
+      "sentiment": {
+        "score": 0.369,
+        "magnitude": 0.109,
+        "positive": 4,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        63,
+        65,
+        68
+      ],
+      "sample_snippets": [
+        {
+          "text": " received more than 75% approval. Musk can earn the $1 trillion in shares over the next 10 years if Tesla hits a number of milestones. Tesla shareholders approve Elon Musk\u2019s $1T pay package",
+          "sentiment": 0.667,
+          "classification": "positive"
+        },
+        {
+          "text": "Elon Musk said he expects Tesla to be able to put all the Cybercabs it builds on the road, and thanked Waymo for \"paving the path.\"",
+          "sentiment": 0.44,
+          "classification": "positive"
+        },
+        {
+          "text": "to be able to put all the Cybercabs it builds on the road, and thanked Waymo for \"paving the path.\" Tesla to begin Cybercab production in April, Musk claims",
+          "sentiment": 0.44,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "capital",
+      "team_key": "investor",
+      "importance_score": 47.88,
+      "sentiment": {
+        "score": 0.096,
+        "magnitude": 0.04,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 14
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        64,
+        74,
+        75,
+        76
+      ],
+      "sample_snippets": [
+        {
+          "text": "dership team, so I went to the investment committee and secured an upfront commitment for follow-on capital. Ultimately, we put a set of five actions down on a single page, shook hands, and only then ...",
+          "sentiment": 0.599,
+          "classification": "positive"
+        },
+        {
+          "text": "\">LionTree</a> and included participation from <a href=\"https://www.crunchbase.com/organization/bdt-capital-partners\">BDT &amp; MSD Partners</a>\u2019 affiliated credit funds, <a href=\"https://www.crunchba...",
+          "sentiment": 0.382,
+          "classification": "positive"
+        },
+        {
+          "text": "With fusion advances showing real promise, Lowercarbon Capital plans to double down. Chris Sacca\u2019s\u00a0VC\u00a0firm is raising a second\u00a0nuclear\u00a0fusion fund",
+          "sentiment": 0.318,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "california",
+      "team_key": "investor",
+      "importance_score": 46.99,
+      "sentiment": {
+        "score": 0.274,
+        "magnitude": 0.138,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        71,
+        72,
+        79
+      ],
+      "sample_snippets": [
+        {
+          "text": "usa.com/2025/09/24/who-leads-in-residential-solar-equipment-market-share/\"> attachment rates</a> in California and Texas, respectively, in H1 2025.</p>\n<p>These stats are proof that distributed energy...",
+          "sentiment": 0.691,
+          "classification": "positive"
+        },
+        {
+          "text": "hbase.com/organization/constellation-brands\">Constellation Brands</a> early this year. The Southern California startup promotes itself as a festive alternative to alcoholic beverages.</p>\n<p>Venice, C...",
+          "sentiment": 0.66,
+          "classification": "positive"
+        },
+        {
+          "text": " California startup promotes itself as a festive alternative to alcoholic beverages.</p>\n<p>Venice, California-based <a href=\"https://www.crunchbase.com/organization/magic-mind#overview\">Magic Mind</a...",
+          "sentiment": 0.66,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "texas",
+      "team_key": "investor",
+      "importance_score": 46.98,
+      "sentiment": {
+        "score": 0.2,
+        "magnitude": 0.054,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        61,
+        76
+      ],
+      "sample_snippets": [
+        {
+          "text": "it over the safety of children, and said the platform has become a \"breeding ground for predators.\" Texas AG sues Roblox, accusing it of prioritizing \u2018pixel pedophiles\u2019 over child safety",
+          "sentiment": 0.599,
+          "classification": "positive"
+        },
+        {
+          "text": "e at <a href=\"https://www.crunchbase.com/organization/mccombs-school-of-business\">The University of Texas at Austin McCombs School of Business</a>. He attended <a href=\"https://www.crunchbase.com/orga...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "ol of Business</a>, where he earned his MBA and was an Arjay Miller Scholar. Morse lives in Austin, Texas.</em></p>\n<p><em>Illustration: <a href=\"https://www.domguzman.com/\">Dom Guzman</a></em></p>\n<i...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "crunchbase",
+      "team_key": "investor",
+      "importance_score": 46.62,
+      "sentiment": {
+        "score": 0.123,
+        "magnitude": 0.055,
+        "positive": 38,
+        "negative": 2,
+        "neutral": 65
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        72,
+        74,
+        77,
+        78
+      ],
+      "sample_snippets": [
+        {
+          "text": "href=\"https://www.crunchbase.com/organization/vista-credit-partners\">Vista</a>.<a href=\"https://www.crunchbase.com/organization/metropolis-db86\"><br />\n</a></p>\n<p>The company also secured a $1.1 bill...",
+          "sentiment": 0.691,
+          "classification": "positive"
+        },
+        {
+          "text": "p>\n<p>It\u2019s been a good year for the crypto sector. Shares of blockchain lender <a href=\"https://www.crunchbase.com/organization/figure-66e9#overview\">Figure</a> closed up 24.4% at <a href=\"https://new...",
+          "sentiment": 0.625,
+          "classification": "positive"
+        },
+        {
+          "text": ", prime brokerage and corporate treasury, leveraging digital assets like XRP,\u201d <a href=\"https://www.crunchbase.com/person/brad-garlinghouse/person_overview_investor/timeline\">Brad Garlinghouse</a>, Ri...",
+          "sentiment": 0.612,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "los angeles-based",
+      "team_key": "investor",
+      "importance_score": 45.9,
+      "sentiment": {
+        "score": 0.147,
+        "magnitude": 0.032,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        71,
+        72,
+        74
+      ],
+      "sample_snippets": [
+        {
+          "text": "unced Thursday.<a href=\"https://www.crunchbase.com/organization/metropolis-db86\"><br />\n</a></p>\n<p>Los Angeles-based Metropolis says it is now valued at about $5 billion after the Series D raise, whi...",
+          "sentiment": 0.44,
+          "classification": "positive"
+        },
+        {
+          "text": "czE3NjI1MjY4MDgkbzk0MyRnMSR0MTc2MjUyODgzMCRqMSRsMCRoMA..\">LionTree</a> led the equity financing for Los Angeles-based Metropolis, while <a href=\"https://www.crunchbase.com/organization/jpmorgan-chase-...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": " <a href=\"https://www.crunchbase.com/organization/don-t-quit\">Don\u2019t Quit</a> is another option. The Los Angeles-based company sells canned sodas that feature 15 grams of whey protein.</p>\n<h2>Energy</...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "dom guzman",
+      "team_key": "investor",
+      "importance_score": 45.79,
+      "sentiment": {
+        "score": 0.045,
+        "magnitude": 0.022,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 8
+      },
+      "metrics": {
+        "frequency": 9,
+        "document_count": 9,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        80
+      ],
+      "sample_snippets": [
+        {
+          "text": "usual winter holiday season slowdown.</p>\n<p><em>Illustration: <a href=\"https://www.domguzman.com/\">Dom Guzman</a></em></p>\n<img class=\"ss-hidden-pin-image\" src=\"https://news.crunchbase.com/wp-content...",
+          "sentiment": 0.402,
+          "classification": "positive"
+        },
+        {
+          "text": "rounds are reported late in the week.</p>\n<p><em>Illustration: <a href=\"https://www.domguzman.com/\">Dom Guzman</a></em></p>\n<img class=\"ss-hidden-pin-image\" src=\"https://news.crunchbase.com/wp-content...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "unded In 2025, Sample List</a></li>\n</ul>\n<p><em>Illustration: <a href=\"https://www.domguzman.com/\">Dom Guzman</a></em></p>\n<img class=\"ss-hidden-pin-image\" src=\"https://news.crunchbase.com/wp-content...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "los angeles",
+      "team_key": "investor",
+      "importance_score": 45.69,
+      "sentiment": {
+        "score": 0.147,
+        "magnitude": 0.036,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        71,
+        72,
+        74
+      ],
+      "sample_snippets": [
+        {
+          "text": "unced Thursday.<a href=\"https://www.crunchbase.com/organization/metropolis-db86\"><br />\n</a></p>\n<p>Los Angeles-based Metropolis says it is now valued at about $5 billion after the Series D raise, whi...",
+          "sentiment": 0.44,
+          "classification": "positive"
+        },
+        {
+          "text": "czE3NjI1MjY4MDgkbzk0MyRnMSR0MTc2MjUyODgzMCRqMSRsMCRoMA..\">LionTree</a> led the equity financing for Los Angeles-based Metropolis, while <a href=\"https://www.crunchbase.com/organization/jpmorgan-chase-...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": " <a href=\"https://www.crunchbase.com/organization/don-t-quit\">Don\u2019t Quit</a> is another option. The Los Angeles-based company sells canned sodas that feature 15 grams of whey protein.</p>\n<h2>Energy</...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "shares",
+      "team_key": "investor",
+      "importance_score": 45.23,
+      "sentiment": {
+        "score": 0.42,
+        "magnitude": 0.139,
+        "positive": 9,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        68,
+        77,
+        80
+      ],
+      "sample_snippets": [
+        {
+          "text": "The proposal received more than 75% approval. Musk can earn the $1 trillion in shares over the next 10 years if Tesla hits a number of milestones. Tesla shareholders approve Elon Musk\u2019s",
+          "sentiment": 0.706,
+          "classification": "positive"
+        },
+        {
+          "text": "h a market cap of around $16.7 billion and renewing hopes for an IPO market rebound. More recently, shares have traded in the $118 range.</p>\n<h2>Related Crunchbase query:</h2>\n<ul>\n<li><a href=\"https...",
+          "sentiment": 0.646,
+          "classification": "positive"
+        },
+        {
+          "text": "or the overall tech sector.</p>\n<p>The stock closed at $36 per share up 6% for the day. Beta priced shares for its offering at $34 each late Monday, slightly above the top of the projected range. The ...",
+          "sentiment": 0.604,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "related crunchbase",
+      "team_key": "investor",
+      "importance_score": 45.09,
+      "sentiment": {
+        "score": 0.197,
+        "magnitude": 0.061,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        72,
+        74,
+        77,
+        78,
+        80
+      ],
+      "sample_snippets": [
+        {
+          "text": "ewing hopes for an IPO market rebound. More recently, shares have traded in the $118 range.</p>\n<h2>Related Crunchbase query:</h2>\n<ul>\n<li><a href=\"https://www.crunchbase.com/discover/saved/financial...",
+          "sentiment": 0.646,
+          "classification": "positive"
+        },
+        {
+          "text": "many of these companies have shot up in valuation, there are financial gains to be had too.</p>\n<h2>Related Crunchbase lists:</h2>\n<ul>\n<li><a href=\"https://www.crunchbase.com/discover/saved/big-5-inv...",
+          "sentiment": 0.34,
+          "classification": "positive"
+        },
+        {
+          "text": "e of drinks, the next step will be to see which ones consumers believe actually taste good.</p>\n<h2>Related Crunchbase list:</h2>\n<ul>\n<li><a href=\"https://www.crunchbase.com/lists/beverages/8aac4692-...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "2025",
+      "team_key": "investor",
+      "importance_score": 44.68,
+      "sentiment": {
+        "score": 0.215,
+        "magnitude": 0.098,
+        "positive": 13,
+        "negative": 1,
+        "neutral": 9
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        56,
+        71,
+        77,
+        79,
+        80
+      ],
+      "sample_snippets": [
+        {
+          "text": " many industry-defining companies exhibiting and pitching on the Showcase Stage. TechCrunch Disrupt 2025 Startup Battlefield 200: Celebrating outstanding achievements",
+          "sentiment": 0.727,
+          "classification": "positive"
+        },
+        {
+          "text": "l-solar-equipment-market-share/\"> attachment rates</a> in California and Texas, respectively, in H1 2025.</p>\n<p>These stats are proof that distributed energy is feasible, and now the onus is on scali...",
+          "sentiment": 0.691,
+          "classification": "positive"
+        },
+        {
+          "text": "y/update/end-use.php\">Average electricity prices nationwide increased 5%</a> from July 2024 to July 2025 and more than 20% in some states. Outages have increased as well, with the average American <a ...",
+          "sentiment": 0.649,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "crunchbase data",
+      "team_key": "investor",
+      "importance_score": 44.37,
+      "sentiment": {
+        "score": 0.24,
+        "magnitude": 0.08,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        72,
+        74,
+        77,
+        78
+      ],
+      "sample_snippets": [
+        {
+          "text": "ugh to appreciate it? Enter our next favored funding category: energy-boosting drinks.</p>\n<p>Using Crunchbase data, we assembled a sample list of five such startups funded this year.</p>\n<div style=\"...",
+          "sentiment": 0.402,
+          "classification": "positive"
+        },
+        {
+          "text": "estments. They\u2019re also actively partaking in startup rounds at various sizes and stages.</p>\n<p>Per Crunchbase data, so far this year, the group <a href=\"https://news.crunchbase.com/feed/#footnote-1-9...",
+          "sentiment": 0.318,
+          "classification": "positive"
+        },
+        {
+          "text": "enets of launching and scaling a beverage startup targeting the modern consumer. Per an analysis of Crunchbase data, recently funded companies in the drinks space typically check one if not all of tho...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "openai",
+      "team_key": "investor",
+      "importance_score": 44.34,
+      "sentiment": {
+        "score": 0.23,
+        "magnitude": 0.085,
+        "positive": 8,
+        "negative": 1,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        52,
+        78
+      ],
+      "sample_snippets": [
+        {
+          "text": "ly reported <a href=\"https://www.nbcnews.com/tech/tech-news/microsoft-openai-reach-new-deal-valuing-openai-500-billion-rcna240255\">$500 billion valuation</a>.</p>\n<h2>Other big solo stakes</h2>\n<p>Mic...",
+          "sentiment": 0.557,
+          "classification": "positive"
+        },
+        {
+          "text": "0-billion-rcna240255\">$500 billion valuation</a>.</p>\n<h2>Other big solo stakes</h2>\n<p>Microsoft\u2019s OpenAI stake looks to be the most valuable private startup holding by one of the five largest techno...",
+          "sentiment": 0.526,
+          "classification": "positive"
+        },
+        {
+          "text": "ety.</p>\n<p>Those stakes are adding up. Last week, <a href=\"https://www.crunchbase.com/organization/openai\">OpenAI</a> and Microsoft drove home the reality of just how valuable a startup investment ca...",
+          "sentiment": 0.477,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "200",
+      "team_key": "investor",
+      "importance_score": 44.12,
+      "sentiment": {
+        "score": 0.086,
+        "magnitude": 0.111,
+        "positive": 1,
+        "negative": 1,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        56,
+        71
+      ],
+      "sample_snippets": [
+        {
+          "text": "ompanies exhibiting and pitching on the Showcase Stage. TechCrunch Disrupt 2025 Startup Battlefield 200: Celebrating outstanding achievements",
+          "sentiment": 0.727,
+          "classification": "positive"
+        },
+        {
+          "text": "Among the Startup Battlefield 200 at TechCrunch Disrupt 2025 were many industry-defining companies exhibiting and pitching on the Sho",
+          "sentiment": -0.382,
+          "classification": "negative"
+        },
+        {
+          "text": "ny.</p>\n<p>4. <strong><a href=\"https://www.crunchbase.com/organization/synchron-inc\">Synchron</a>, $200M, neurotech:</strong> Synchron, a developer of nonsurgical brain-computer interface technology, ...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "musk",
+      "team_key": "investor",
+      "importance_score": 44.09,
+      "sentiment": {
+        "score": 0.393,
+        "magnitude": 0.138,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        63,
+        65,
+        68
+      ],
+      "sample_snippets": [
+        {
+          "text": "The proposal received more than 75% approval. Musk can earn the $1 trillion in shares over the next 10 years if Tesla hits a number of milestones. Tes",
+          "sentiment": 0.706,
+          "classification": "positive"
+        },
+        {
+          "text": "Elon Musk said he expects Tesla to be able to put all the Cybercabs it builds on the road, and thanked Waymo ",
+          "sentiment": 0.44,
+          "classification": "positive"
+        },
+        {
+          "text": " on the road, and thanked Waymo for \"paving the path.\" Tesla to begin Cybercab production in April, Musk claims",
+          "sentiment": 0.44,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "shopping",
+      "team_key": "investor",
+      "importance_score": 44.08,
+      "sentiment": {
+        "score": 0.51,
+        "magnitude": 0.17,
+        "positive": 4,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        53,
+        59
+      ],
+      "sample_snippets": [
+        {
+          "text": "l be available separately from the main Amazon shopping app. Amazon launches a low-price standalone shopping app, Amazon Bazaar, in over a dozen markets",
+          "sentiment": 0.727,
+          "classification": "positive"
+        },
+        {
+          "text": "GoWish, an app for making wish lists, is having a record year, and has doubled its users. GoWish\u2019s shopping and wish list app is having its biggest year yet",
+          "sentiment": 0.66,
+          "classification": "positive"
+        },
+        {
+          "text": "tination for Asia, Africa, and Latin America that will be available separately from the main Amazon shopping app. Amazon launches a low-price standalone shopping app, Amazon Bazaar, in over a dozen ma...",
+          "sentiment": 0.477,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "hack",
+      "team_key": "investor",
+      "importance_score": 43.98,
+      "sentiment": {
+        "score": -0.519,
+        "magnitude": 0.181,
+        "positive": 0,
+        "negative": 3,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        58,
+        62
+      ],
+      "sample_snippets": [
+        {
+          "text": "se CBO failed to patch a firewall for more than a year. Congressional Budget Office\u00a0confirms\u00a0it was hacked",
+          "sentiment": -0.718,
+          "classification": "negative"
+        },
+        {
+          "text": " in the Middle East, researchers exclusively tell TechCrunch. \u2018Landfall\u2019 spyware abused zero-day to hack Samsung Galaxy phones",
+          "sentiment": -0.511,
+          "classification": "negative"
+        },
+        {
+          "text": "ch office confirmed a breach, but did not comment on the cause. A security researcher suggested the hack may have originated because CBO failed to patch a firewall for more than a year. Congressional ...",
+          "sentiment": -0.329,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "revenue",
+      "team_key": "investor",
+      "importance_score": 43.88,
+      "sentiment": {
+        "score": 0.238,
+        "magnitude": 0.105,
+        "positive": 7,
+        "negative": 2,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        70,
+        73,
+        80
+      ],
+      "sample_snippets": [
+        {
+          "text": " goes wild, it\u2019s easy to lose sight of where success really comes from. Headline metrics like total revenue or customer count rarely tell the whole story. The best finance teams dig deeper and break d...",
+          "sentiment": 0.891,
+          "classification": "positive"
+        },
+        {
+          "text": "doesn\u2019t have to be complex. Reconcile accounts, categorize spending and track the basics: recurring revenue, outstanding invoices and payments in progress. Even assigning one person to chase late invo...",
+          "sentiment": 0.778,
+          "classification": "positive"
+        },
+        {
+          "text": " may be intended to solicit payments from less savvy users. Meta estimates that it earns 10% of its revenue from scams, report says",
+          "sentiment": -0.586,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "chatgpt",
+      "team_key": "investor",
+      "importance_score": 43.74,
+      "sentiment": {
+        "score": -0.327,
+        "magnitude": 0.109,
+        "positive": 0,
+        "negative": 4,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        52,
+        57
+      ],
+      "sample_snippets": [
+        {
+          "text": "tted that she has failed legal exams after blindly relying on ChatGPT's advice. Kim Kardashian says ChatGPT is her \u2018frenemy\u2019",
+          "sentiment": -0.421,
+          "classification": "negative"
+        },
+        {
+          "text": "Kim Kardashian admitted that she has failed legal exams after blindly relying on ChatGPT's advice. Kim Kardashian says ChatGPT is her \u2018frenemy\u2019",
+          "sentiment": -0.34,
+          "classification": "negative"
+        },
+        {
+          "text": "In one case, 23-year-old Zane Shamblin had a conversation with ChatGPT that lasted more than four hours. Seven more families are now suing OpenAI over ChatGPT\u2019s role in s",
+          "sentiment": -0.273,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "app",
+      "team_key": "investor",
+      "importance_score": 43.69,
+      "sentiment": {
+        "score": 0.504,
+        "magnitude": 0.169,
+        "positive": 4,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        53,
+        59
+      ],
+      "sample_snippets": [
+        {
+          "text": "ing wish lists, is having a record year, and has doubled its users. GoWish\u2019s shopping and wish list app is having its biggest year yet",
+          "sentiment": 0.66,
+          "classification": "positive"
+        },
+        {
+          "text": "for Asia, Africa, and Latin America that will be available separately from the main Amazon shopping app. Amazon launches a low-price standalone shopping app, Amazon Bazaar, in over a dozen markets",
+          "sentiment": 0.477,
+          "classification": "positive"
+        },
+        {
+          "text": "lable separately from the main Amazon shopping app. Amazon launches a low-price standalone shopping app, Amazon Bazaar, in over a dozen markets",
+          "sentiment": 0.477,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "500 million",
+      "team_key": "investor",
+      "importance_score": 43.64,
+      "sentiment": {
+        "score": -0.062,
+        "magnitude": 0.043,
+        "positive": 1,
+        "negative": 1,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        71,
+        74,
+        77
+      ],
+      "sample_snippets": [
+        {
+          "text": "wered-parking-platform-metropolis-seriesd/\">$1.6 billion in debt and equity financing, including a $500 million Series D</a> at a $5 billion valuation. <a href=\"https://www.crunchbase.com/organization...",
+          "sentiment": -0.361,
+          "classification": "negative"
+        },
+        {
+          "text": "I-powered checkout-free parking platform, has secured $1.6 billion in debt and equity, including a $500 million Series D fundraise, the company announced Thursday.<a href=\"https://www.crunchbase.com/o...",
+          "sentiment": 0.052,
+          "classification": "positive"
+        },
+        {
+          "text": "cor-savvymoney/\">here</a>.</em></p>\n<p>This week has been a busy one for good-sized rounds, led by $500 million financings for crypto unicorn <a href=\"https://www.crunchbase.com/organization/ripple-la...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "zero",
+      "team_key": "investor",
+      "importance_score": 43.51,
+      "sentiment": {
+        "score": -0.255,
+        "magnitude": 0.077,
+        "positive": 0,
+        "negative": 1,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        62,
+        72
+      ],
+      "sample_snippets": [
+        {
+          "text": "luding users in the Middle East, researchers exclusively tell TechCrunch. \u2018Landfall\u2019 spyware abused zero-day to hack Samsung Galaxy phones",
+          "sentiment": -0.511,
+          "classification": "negative"
+        },
+        {
+          "text": "ps, with a sizable chunk of this year\u2019s investment recipient boasting this attribute. It\u2019s not just zero-calorie drinks either. In fact, both startups and established brands are increasingly pushing t...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "2024",
+      "team_key": "investor",
+      "importance_score": 43.4,
+      "sentiment": {
+        "score": 0.166,
+        "magnitude": 0.095,
+        "positive": 3,
+        "negative": 1,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        74,
+        77,
+        78,
+        79
+      ],
+      "sample_snippets": [
+        {
+          "text": "ricity/monthly/update/end-use.php\">Average electricity prices nationwide increased 5%</a> from July 2024 to July 2025 and more than 20% in some states. Outages have increased as well, with the average...",
+          "sentiment": 0.649,
+          "classification": "positive"
+        },
+        {
+          "text": ".org/wp-content/uploads/2025/02/MONTHLY-CHINA-ENERGY-UPDATE-Feb-2025.pdf\">429 GW</a> of capacity in 2024 \u2014 nearly 7x that of the U.S.</p>\n<h2>The solution is at the edge</h2>\n<p>Fortunately, innovatio...",
+          "sentiment": 0.599,
+          "classification": "positive"
+        },
+        {
+          "text": "wth in distributed solar is proof that this is working: Of the 32 GW of solar capacity installed in 2024, 5.4 GW was distributed (defined as residential, commercial and industrial, and community solar...",
+          "sentiment": -0.527,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "million series",
+      "team_key": "investor",
+      "importance_score": 43.37,
+      "sentiment": {
+        "score": 0.031,
+        "magnitude": 0.108,
+        "positive": 2,
+        "negative": 1,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        71,
+        72,
+        74
+      ],
+      "sample_snippets": [
+        {
+          "text": "ving secured a <a href=\"https://www.crunchbase.com/funding_round/slate-milk-series-b--66ad9fe3\">$23 million Series B in September</a>. More than three-fourths of the calories in its drinks come from p...",
+          "sentiment": 0.402,
+          "classification": "positive"
+        },
+        {
+          "text": "d-parking-platform-metropolis-seriesd/\">$1.6 billion in debt and equity financing, including a $500 million Series D</a> at a $5 billion valuation. <a href=\"https://www.crunchbase.com/organization/lio...",
+          "sentiment": -0.361,
+          "classification": "negative"
+        },
+        {
+          "text": "wered checkout-free parking platform, has secured $1.6 billion in debt and equity, including a $500 million Series D fundraise, the company announced Thursday.<a href=\"https://www.crunchbase.com/organ...",
+          "sentiment": 0.052,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "data",
+      "team_key": "investor",
+      "importance_score": 43.3,
+      "sentiment": {
+        "score": 0.445,
+        "magnitude": 0.151,
+        "positive": 9,
+        "negative": 1,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        54,
+        73,
+        77
+      ],
+      "sample_snippets": [
+        {
+          "text": " in any scaling business, as well as being one of the richest sources of insight. By linking hiring data with performance metrics, finance and HR teams can spot productivity patterns early. If certain...",
+          "sentiment": 0.872,
+          "classification": "positive"
+        },
+        {
+          "text": "es. The best finance leaders ask why expenditure mattered, not what was spent.</p>\n<h2>Using talent data as a forecasting tool</h2>\n<p>Headcount is one of the biggest line items in any scaling busines...",
+          "sentiment": 0.791,
+          "classification": "positive"
+        },
+        {
+          "text": "ng because of pricing? Is churn higher because onboarding takes too long?</p>\n<p>Blending financial data with real-world insight is where the smartest growth decisions happen.</p>\n<h2>Turning retentio...",
+          "sentiment": 0.788,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "founder",
+      "team_key": "investor",
+      "importance_score": 43.18,
+      "sentiment": {
+        "score": 0.456,
+        "magnitude": 0.138,
+        "positive": 13,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        60,
+        76
+      ],
+      "sample_snippets": [
+        {
+          "text": "Point Plan, is the most promising way to begin a partnership between a private equity sponsor and a founder/CEO. I am sharing this approach in the interest of encouraging others to experiment with it....",
+          "sentiment": 0.904,
+          "classification": "positive"
+        },
+        {
+          "text": "uld have closed but for agreement on the Five Point Plan. In practice, we have closed several dozen founder-led deals versus a handful of walk-aways. Both we and the founder are better off without doi...",
+          "sentiment": 0.846,
+          "classification": "positive"
+        },
+        {
+          "text": "ly and simply walk away. We then lose a deal we could otherwise have closed.</p>\n<p>But perhaps the founder/CEO would be\u00a0excited\u00a0about the action plan, provide input to improve it, and refocus their e...",
+          "sentiment": 0.807,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "seven",
+      "team_key": "investor",
+      "importance_score": 43.13,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.065,
+        "positive": 1,
+        "negative": 1,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        52,
+        75
+      ],
+      "sample_snippets": [
+        {
+          "text": "e case, 23-year-old Zane Shamblin had a conversation with ChatGPT that lasted more than four hours. Seven more families are now suing OpenAI over ChatGPT\u2019s role in suicides, delusions",
+          "sentiment": -0.273,
+          "classification": "negative"
+        },
+        {
+          "text": "s for lead investors, Andreessen once again led the pack on this count. The Silicon Valley firm led seven known U.S. post-seed rounds in October, well ahead of any other investor.</p>\n<p>Meanwhile, th...",
+          "sentiment": 0.273,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "breach",
+      "team_key": "investor",
+      "importance_score": 43.03,
+      "sentiment": {
+        "score": -0.009,
+        "magnitude": 0.159,
+        "positive": 1,
+        "negative": 1,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        54,
+        58
+      ],
+      "sample_snippets": [
+        {
+          "text": "lied on vulnerabilities in Oracle software used by many corporations. Washington Post confirms data breach linked to Oracle hacks",
+          "sentiment": -0.494,
+          "classification": "negative"
+        },
+        {
+          "text": "The congressional research office confirmed a breach, but did not comment on the cause. A security researcher suggested the hack may have originated bec",
+          "sentiment": 0.477,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "techcrunch",
+      "team_key": "investor",
+      "importance_score": 42.95,
+      "sentiment": {
+        "score": -0.055,
+        "magnitude": 0.162,
+        "positive": 1,
+        "negative": 2,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        56,
+        62
+      ],
+      "sample_snippets": [
+        {
+          "text": "h Disrupt 2025 were many industry-defining companies exhibiting and pitching on the Showcase Stage. TechCrunch Disrupt 2025 Startup Battlefield 200: Celebrating outstanding achievements",
+          "sentiment": 0.727,
+          "classification": "positive"
+        },
+        {
+          "text": "alaxy devices for close to a year, including users in the Middle East, researchers exclusively tell TechCrunch. \u2018Landfall\u2019 spyware abused zero-day to hack Samsung Galaxy phones",
+          "sentiment": -0.511,
+          "classification": "negative"
+        },
+        {
+          "text": "Among the Startup Battlefield 200 at TechCrunch Disrupt 2025 were many industry-defining companies exhibiting and pitching on the Showcase Stage. T",
+          "sentiment": -0.382,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "startups",
+      "team_key": "investor",
+      "importance_score": 42.84,
+      "sentiment": {
+        "score": 0.271,
+        "magnitude": 0.102,
+        "positive": 11,
+        "negative": 1,
+        "neutral": 9
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        69,
+        72,
+        73,
+        79
+      ],
+      "sample_snippets": [
+        {
+          "text": " it\u2019s to bring clarity, consistency and control to a business moving too fast for its own good. The startups that survive this scaling mayhem are those that treat financial discipline as a growth enab...",
+          "sentiment": 0.872,
+          "classification": "positive"
+        },
+        {
+          "text": "l of Business</a>.</em></p>\n<h2>Related reading:</h2>\n<ul>\n<li><a href=\"https://news.crunchbase.com/startups/variable-compensation-build-teamwork-martinez-abacum/\">Want A Team That Thinks Like Owners?...",
+          "sentiment": 0.67,
+          "classification": "positive"
+        },
+        {
+          "text": " health and fitness buffs are also attracting investors. To illustrate, we assembled a list of five startups funded this year that meet this criteria.</p>\n<div style=\"width: 100%; height: 0px; padding...",
+          "sentiment": 0.637,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "september",
+      "team_key": "investor",
+      "importance_score": 42.83,
+      "sentiment": {
+        "score": 0.134,
+        "magnitude": 0.025,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        72,
+        75,
+        80
+      ],
+      "sample_snippets": [
+        {
+          "text": "rics including deal count, lead rounds and size of lead rounds. Overall, activity remained close to September\u2019s busy levels, even as some big names scaled back a bit.</p>\n<p>Below, we look at October\u2019...",
+          "sentiment": 0.402,
+          "classification": "positive"
+        },
+        {
+          "text": "ef=\"https://www.crunchbase.com/funding_round/slate-milk-series-b--66ad9fe3\">$23 million Series B in September</a>. More than three-fourths of the calories in its drinks come from protein.</p>\n<p>For t...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "ef=\"https://www.crunchbase.com/organization/ge-aerospace\">General Electric</a>-backed investment in September.</p>\n<p>Per Beta\u2019s IPO prospectus, investors also hold considerable stakes in the company....",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "startup",
+      "team_key": "investor",
+      "importance_score": 42.57,
+      "sentiment": {
+        "score": 0.216,
+        "magnitude": 0.088,
+        "positive": 11,
+        "negative": 2,
+        "neutral": 6
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        56,
+        78
+      ],
+      "sample_snippets": [
+        {
+          "text": " industry-defining companies exhibiting and pitching on the Showcase Stage. TechCrunch Disrupt 2025 Startup Battlefield 200: Celebrating outstanding achievements",
+          "sentiment": 0.727,
+          "classification": "positive"
+        },
+        {
+          "text": " have a combined market capitalization of over $18 trillion, they can afford to buy pretty much any startup they want.</p>\n<p>More likely, tech giants see strategic advantages in owning stakes of the ...",
+          "sentiment": 0.691,
+          "classification": "positive"
+        },
+        {
+          "text": "nds</h2>\n<p>The Big Five aren\u2019t just making huge AI investments. They\u2019re also actively partaking in startup rounds at various sizes and stages.</p>\n<p>Per Crunchbase data, so far this year, the group ...",
+          "sentiment": 0.557,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "ai",
+      "team_key": "investor",
+      "importance_score": 42.16,
+      "sentiment": {
+        "score": 0.125,
+        "magnitude": 0.063,
+        "positive": 40,
+        "negative": 8,
+        "neutral": 48
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        69,
+        71,
+        74,
+        75,
+        78,
+        79
+      ],
+      "sample_snippets": [
+        {
+          "text": "sApp</a>).</p>\n<p>We don\u2019t know the precise value of Amazon\u2019s stake in Anthropic, but it\u2019s also certain to be sizable. The e-commerce and cloud giant committed to invest $8 billion in the Gen AI compa...",
+          "sentiment": 0.718,
+          "classification": "positive"
+        },
+        {
+          "text": "g names scaled back a bit.</p>\n<p>Below, we look at October\u2019s active investor rankings in closer detail across four metrics: active venture investors, lead backers, high spenders and seed dealmakers.<...",
+          "sentiment": 0.66,
+          "classification": "positive"
+        },
+        {
+          "text": "a> are using crypto-based networks to align incentives between homeowners and the grid. Instead of waiting for utilities or governments to fund new infrastructure, the Daylight Network rewards consume...",
+          "sentiment": 0.66,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "pay package",
+      "team_key": "investor",
+      "importance_score": 42.13,
+      "sentiment": {
+        "score": 0.051,
+        "magnitude": 0.073,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        51,
+        68
+      ],
+      "sample_snippets": [
+        {
+          "text": "h, due to the \"unlikeliness\" that the associated goals could be met. Rivian gives RJ Scaringe a new pay package worth up to $5B",
+          "sentiment": 0.128,
+          "classification": "positive"
+        },
+        {
+          "text": " the next 10 years if Tesla hits a number of milestones. Tesla shareholders approve Elon Musk\u2019s $1T pay package",
+          "sentiment": -0.026,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "list",
+      "team_key": "investor",
+      "importance_score": 42.03,
+      "sentiment": {
+        "score": 0.284,
+        "magnitude": 0.096,
+        "positive": 4,
+        "negative": 0,
+        "neutral": 6
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        53,
+        72
+      ],
+      "sample_snippets": [
+        {
+          "text": "wellness benefits, as well as an energy boost, if not a buzz.</p>\n<p>That\u2019s reflected in our sample list of <a href=\"https://www.crunchbase.com/lists/beverages/8aac4692-a77d-4be5-8abb-a2fa9afcbc70/org...",
+          "sentiment": 0.886,
+          "classification": "positive"
+        },
+        {
+          "text": "GoWish, an app for making wish lists, is having a record year, and has doubled its users. GoWish\u2019s shopping and wish list app is having",
+          "sentiment": 0.66,
+          "classification": "positive"
+        },
+        {
+          "text": "r making wish lists, is having a record year, and has doubled its users. GoWish\u2019s shopping and wish list app is having its biggest year yet",
+          "sentiment": 0.66,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "year",
+      "team_key": "investor",
+      "importance_score": 41.91,
+      "sentiment": {
+        "score": 0.126,
+        "magnitude": 0.072,
+        "positive": 9,
+        "negative": 2,
+        "neutral": 13
+      },
+      "metrics": {
+        "frequency": 8,
+        "document_count": 8,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        52,
+        53,
+        58,
+        62,
+        63,
+        72,
+        77,
+        80
+      ],
+      "sample_snippets": [
+        {
+          "text": "rcher suggested the hack may have originated because CBO failed to patch a firewall for more than a year. Congressional Budget Office\u00a0confirms\u00a0it was hacked",
+          "sentiment": -0.718,
+          "classification": "negative"
+        },
+        {
+          "text": "GoWish, an app for making wish lists, is having a record year, and has doubled its users. GoWish\u2019s shopping and wish list app is having its biggest year yet",
+          "sentiment": 0.66,
+          "classification": "positive"
+        },
+        {
+          "text": "=\"https://www.crunchbase.com/organization/constellation-brands\">Constellation Brands</a> early this year. The Southern California startup promotes itself as a festive alternative to alcoholic beverage...",
+          "sentiment": 0.66,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "second",
+      "team_key": "investor",
+      "importance_score": 41.89,
+      "sentiment": {
+        "score": 0.149,
+        "magnitude": 0.06,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        64,
+        75,
+        79
+      ],
+      "sample_snippets": [
+        {
+          "text": " showing real promise, Lowercarbon Capital plans to double down. Chris Sacca\u2019s\u00a0VC\u00a0firm is raising a second\u00a0nuclear\u00a0fusion fund",
+          "sentiment": 0.318,
+          "classification": "positive"
+        },
+        {
+          "text": "ally over the past decade</a> (mostly in part to weather).</p>\n<p>Increasing energy capacity is the second to-do, yet we\u2019re falling behind. The U.S. will add <a href=\"https://www.eia.gov/todayinenergy...",
+          "sentiment": 0.128,
+          "classification": "positive"
+        },
+        {
+          "text": "/www.crunchbase.com/organization/sequoia-capital\">Sequoia Capital</a> and General Catalyst tied for second place, with 13 deals each, followed by Accel, with nine.</p>\n<div style=\"width: 100%; height:...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "plans",
+      "team_key": "investor",
+      "importance_score": 41.88,
+      "sentiment": {
+        "score": 0.509,
+        "magnitude": 0.142,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        60,
+        64
+      ],
+      "sample_snippets": [
+        {
+          "text": "ranova has developed a new way to raise cities to protect them from sea-level rise. How one founder plans to save cities from flooding with terraforming robots",
+          "sentiment": 0.7,
+          "classification": "positive"
+        },
+        {
+          "text": "With fusion advances showing real promise, Lowercarbon Capital plans to double down. Chris Sacca\u2019s\u00a0VC\u00a0firm is raising a second\u00a0nuclear\u00a0fusion fund",
+          "sentiment": 0.318,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "billion",
+      "team_key": "investor",
+      "importance_score": 41.62,
+      "sentiment": {
+        "score": 0.193,
+        "magnitude": 0.066,
+        "positive": 15,
+        "negative": 1,
+        "neutral": 11
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        74,
+        77,
+        78,
+        80
+      ],
+      "sample_snippets": [
+        {
+          "text": "thropic, but it\u2019s also certain to be sizable. The e-commerce and cloud giant committed to invest $8 billion in the Gen AI company in 2023 and 2024.</p>\n<p>With Anthropic\u2019s valuation <a href=\"https://n...",
+          "sentiment": 0.649,
+          "classification": "positive"
+        },
+        {
+          "text": "kaDA.\">New York Stock Exchange,</a> minting the stablecoin issuer with a market cap of around $16.7 billion and renewing hopes for an IPO market rebound. More recently, shares have traded in the $118 ...",
+          "sentiment": 0.646,
+          "classification": "positive"
+        },
+        {
+          "text": "sitions/field/organizations/num_acquisitions/ripple-labs\">data</a>, including two valued at over $1 billion each. Those buys helped the company expand its footprint across payments, custody and stable...",
+          "sentiment": 0.637,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "failed",
+      "team_key": "investor",
+      "importance_score": 41.58,
+      "sentiment": {
+        "score": -0.449,
+        "magnitude": 0.144,
+        "positive": 0,
+        "negative": 2,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        57,
+        58
+      ],
+      "sample_snippets": [
+        {
+          "text": " not comment on the cause. A security researcher suggested the hack may have originated because CBO failed to patch a firewall for more than a year. Congressional Budget Office\u00a0confirms\u00a0it was hacked",
+          "sentiment": -0.557,
+          "classification": "negative"
+        },
+        {
+          "text": "Kim Kardashian admitted that she has failed legal exams after blindly relying on ChatGPT's advice. Kim Kardashian says ChatGPT is her \u2018frenemy\u2019",
+          "sentiment": -0.34,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "platform",
+      "team_key": "investor",
+      "importance_score": 41.44,
+      "sentiment": {
+        "score": 0.221,
+        "magnitude": 0.085,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        61,
+        74
+      ],
+      "sample_snippets": [
+        {
+          "text": "oblox chooses to prioritize \"pixel pedophiles\" and profit over the safety of children, and said the platform has become a \"breeding ground for predators.\" Texas AG sues Roblox, accusing it of prioriti...",
+          "sentiment": 0.612,
+          "classification": "positive"
+        },
+        {
+          "text": "ww.crunchbase.com/organization/metropolis-db86\">Metropolis</a>, an AI-powered checkout-free parking platform, has secured $1.6 billion in debt and equity, including a $500 million Series D fundraise, ...",
+          "sentiment": 0.052,
+          "classification": "positive"
+        },
+        {
+          "text": "image\" src=\"https://news.crunchbase.com/wp-content/uploads/Giant_Funding.jpg\" /> AI-Powered Parking Platform Metropolis Raises $500M Series D At $5B Valuation",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "day",
+      "team_key": "investor",
+      "importance_score": 41.27,
+      "sentiment": {
+        "score": 0.161,
+        "magnitude": 0.074,
+        "positive": 4,
+        "negative": 1,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        62,
+        63,
+        80
+      ],
+      "sample_snippets": [
+        {
+          "text": "amid a down day for the overall tech sector.</p>\n<p>The stock closed at $36 per share up 6% for the day. Beta priced shares for its offering at $34 each late Monday, slightly above the top of the proj...",
+          "sentiment": 0.604,
+          "classification": "positive"
+        },
+        {
+          "text": " closed at $36 per share up 6% for the day. Beta priced shares for its offering at $34 each late Monday, slightly above the top of the projected range. The IPO brought in just over $1 billion for the ...",
+          "sentiment": 0.604,
+          "classification": "positive"
+        },
+        {
+          "text": "g users in the Middle East, researchers exclusively tell TechCrunch. \u2018Landfall\u2019 spyware abused zero-day to hack Samsung Galaxy phones",
+          "sentiment": -0.511,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "confirms",
+      "team_key": "investor",
+      "importance_score": 41.07,
+      "sentiment": {
+        "score": -0.436,
+        "magnitude": 0.162,
+        "positive": 0,
+        "negative": 2,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        54,
+        58
+      ],
+      "sample_snippets": [
+        {
+          "text": "originated because CBO failed to patch a firewall for more than a year. Congressional Budget Office\u00a0confirms\u00a0it was hacked",
+          "sentiment": -0.718,
+          "classification": "negative"
+        },
+        {
+          "text": "gang, which relied on vulnerabilities in Oracle software used by many corporations. Washington Post confirms data breach linked to Oracle hacks",
+          "sentiment": -0.153,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "million",
+      "team_key": "investor",
+      "importance_score": 41.0,
+      "sentiment": {
+        "score": -0.019,
+        "magnitude": 0.047,
+        "positive": 5,
+        "negative": 5,
+        "neutral": 12
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        71,
+        74,
+        80
+      ],
+      "sample_snippets": [
+        {
+          "text": ":</strong> Synchron, a developer of nonsurgical brain-computer interface technology, picked up $200 million in Series D funding led by <a href=\"https://www.crunchbase.com/organization/double-point-ven...",
+          "sentiment": 0.511,
+          "classification": "positive"
+        },
+        {
+          "text": "M, marketing automation:</strong> MoEngage, an AI-enabled customer engagement platform, raised $100 million in new financing, with <a href=\"https://techcrunch.com/2025/11/04/goldman-sachs-doubles-down...",
+          "sentiment": 0.459,
+          "classification": "positive"
+        },
+        {
+          "text": "on developing antibody drug conjugates for improving cancer outcomes, emerged from stealth with $75 million, backed by Korean biotech <a href=\"https://www.crunchbase.com/organization/abl-bio\">ABL Bio<...",
+          "sentiment": -0.421,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "users",
+      "team_key": "investor",
+      "importance_score": 41.0,
+      "sentiment": {
+        "score": -0.146,
+        "magnitude": 0.129,
+        "positive": 1,
+        "negative": 2,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        53,
+        62,
+        70
+      ],
+      "sample_snippets": [
+        {
+          "text": "GoWish, an app for making wish lists, is having a record year, and has doubled its users. GoWish\u2019s shopping and wish list app is having its biggest year yet",
+          "sentiment": 0.66,
+          "classification": "positive"
+        },
+        {
+          "text": "roduct or service that isn't actually real, and may be intended to solicit payments from less savvy users. Meta estimates that it earns 10% of its revenue from scams, report says",
+          "sentiment": -0.586,
+          "classification": "negative"
+        },
+        {
+          "text": "A newly identified Android spyware targeted Galaxy devices for close to a year, including users in the Middle East, researchers exclusively tell TechCrunch. \u2018Landfall\u2019 spyware abused zero-day to ",
+          "sentiment": -0.511,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "pay",
+      "team_key": "investor",
+      "importance_score": 40.58,
+      "sentiment": {
+        "score": 0.051,
+        "magnitude": 0.073,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        51,
+        68
+      ],
+      "sample_snippets": [
+        {
+          "text": "h, due to the \"unlikeliness\" that the associated goals could be met. Rivian gives RJ Scaringe a new pay package worth up to $5B",
+          "sentiment": 0.128,
+          "classification": "positive"
+        },
+        {
+          "text": " the next 10 years if Tesla hits a number of milestones. Tesla shareholders approve Elon Musk\u2019s $1T pay package",
+          "sentiment": -0.026,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "illustration dom",
+      "team_key": "investor",
+      "importance_score": 39.74,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        72,
+        73,
+        74,
+        75,
+        77,
+        78,
+        80
+      ],
+      "sample_snippets": []
+    },
+    {
+      "keyword": "package",
+      "team_key": "investor",
+      "importance_score": 39.68,
+      "sentiment": {
+        "score": 0.051,
+        "magnitude": 0.076,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        51,
+        68
+      ],
+      "sample_snippets": [
+        {
+          "text": "ue to the \"unlikeliness\" that the associated goals could be met. Rivian gives RJ Scaringe a new pay package worth up to $5B",
+          "sentiment": 0.128,
+          "classification": "positive"
+        },
+        {
+          "text": " next 10 years if Tesla hits a number of milestones. Tesla shareholders approve Elon Musk\u2019s $1T pay package",
+          "sentiment": -0.026,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "way",
+      "team_key": "investor",
+      "importance_score": 39.34,
+      "sentiment": {
+        "score": 0.087,
+        "magnitude": 0.146,
+        "positive": 1,
+        "negative": 1,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        55,
+        60
+      ],
+      "sample_snippets": [
+        {
+          "text": "Instead of building seawalls or dikes, Terranova has developed a new way to raise cities to protect them from sea-level rise. How one founder plans to save cities from floo",
+          "sentiment": 0.7,
+          "classification": "positive"
+        },
+        {
+          "text": "Apple's new Crossbody Strap is a convenient way to go hands-free but the strap can rub uncomfortably at times, and the phone looks silly when the s",
+          "sentiment": -0.527,
+          "classification": "negative"
+        }
+      ]
+    }
+  ],
+  "count": 50
+}

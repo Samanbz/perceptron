@@ -1,0 +1,39 @@
+{
+  "keyword": "time",
+  "team_key": "researcher",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 41.07,
+      "sentiment_score": 0.238,
+      "frequency": 4,
+      "document_count": 4
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 41.07,
+      "sentiment_score": 0.238,
+      "frequency": 4,
+      "document_count": 4
+    },
+    {
+      "date": "2025-11-04",
+      "importance_score": 48.55,
+      "sentiment_score": 0.177,
+      "frequency": 10,
+      "document_count": 10
+    },
+    {
+      "date": "2025-11-05",
+      "importance_score": 48.94,
+      "sentiment_score": 0.217,
+      "frequency": 13,
+      "document_count": 13
+    }
+  ],
+  "appearances": 4,
+  "avg_importance": 44.9075,
+  "max_importance": 48.94,
+  "total_frequency": 31,
+  "total_documents": 31
+}

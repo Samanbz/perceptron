@@ -1,0 +1,25 @@
+{
+  "keyword": "negotiated service",
+  "team_key": "regulator",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 47.17,
+      "sentiment_score": 0.576,
+      "frequency": 5,
+      "document_count": 5
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 51.23,
+      "sentiment_score": 0.56,
+      "frequency": 7,
+      "document_count": 7
+    }
+  ],
+  "appearances": 2,
+  "avg_importance": 49.2,
+  "max_importance": 51.23,
+  "total_frequency": 12,
+  "total_documents": 12
+}

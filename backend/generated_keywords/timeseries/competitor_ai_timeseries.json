@@ -1,0 +1,39 @@
+{
+  "keyword": "ai",
+  "team_key": "competitor",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 41.04,
+      "sentiment_score": 0.039,
+      "frequency": 7,
+      "document_count": 7
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 48.65,
+      "sentiment_score": 0.038,
+      "frequency": 16,
+      "document_count": 16
+    },
+    {
+      "date": "2025-11-04",
+      "importance_score": 46.56,
+      "sentiment_score": 0.038,
+      "frequency": 16,
+      "document_count": 16
+    },
+    {
+      "date": "2025-11-05",
+      "importance_score": 44.96,
+      "sentiment_score": 0.038,
+      "frequency": 16,
+      "document_count": 16
+    }
+  ],
+  "appearances": 4,
+  "avg_importance": 45.3025,
+  "max_importance": 48.65,
+  "total_frequency": 55,
+  "total_documents": 55
+}

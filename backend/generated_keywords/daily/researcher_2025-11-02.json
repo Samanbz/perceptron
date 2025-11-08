@@ -1,0 +1,2032 @@
+{
+  "date": "2025-11-02",
+  "team": "researcher",
+  "keywords": [
+    {
+      "keyword": "elon musk",
+      "team_key": "researcher",
+      "importance_score": 50.76,
+      "sentiment": {
+        "score": 0.245,
+        "magnitude": 0.151,
+        "positive": 4,
+        "negative": 1,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        190,
+        195,
+        201,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "5/11/elon-musk-wins-tesla-pay-vote-that-could-make-him-a-1-trillion-man/#comments\">Comments</a></p> Elon Musk wins $1 trillion Tesla pay vote despite \u201cpart-time CEO\u201d criticism",
+          "sentiment": 0.691,
+          "classification": "positive"
+        },
+        {
+          "text": "t=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>2 Norway\u2019s oil fund has rejected Elon Musk\u2019s $1 trillion pay package</strong><br />The Tesla shareholder is concerned about the size ...",
+          "sentiment": -0.572,
+          "classification": "negative"
+        },
+        {
+          "text": "<p>Tesla shareholders today voted to approve a compensation plan that would pay Elon Musk more than $1 trillion over the next decade if he hits all of the plan\u2019s goals. Musk won over 75 per",
+          "sentiment": 0.511,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "google s",
+      "team_key": "researcher",
+      "importance_score": 49.78,
+      "sentiment": {
+        "score": 0.537,
+        "magnitude": 0.189,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        191,
+        198,
+        200
+      ],
+      "sample_snippets": [
+        {
+          "text": "want to bother with Deep Research on simple queries\u2014there are faster, easier ways to get that done. Google suggests using Deep Research on more complex things, like the doozy below.</p><p><a href=\"htt...",
+          "sentiment": 0.537,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "conspiracy age",
+      "team_key": "researcher",
+      "importance_score": 49.34,
+      "sentiment": {
+        "score": -0.778,
+        "magnitude": 0.307,
+        "positive": 0,
+        "negative": 3,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        198,
+        201,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\"><strong>The New Conspiracy Age</strong></a><strong>,\u201d on how the present boom in conspiracy theories is reshaping sc...",
+          "sentiment": -0.778,
+          "classification": "negative"
+        },
+        {
+          "text": "trong><a href=\"https://www.technologyreview.com/supertopic/the-new-conspiracy-age/\"><strong>The New Conspiracy Age</strong></a><strong>,\u201d about how the present boom in conspiracy theories is reshaping...",
+          "sentiment": -0.778,
+          "classification": "negative"
+        },
+        {
+          "text": "unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\"><strong>The New Conspiracy Age</strong></a><strong>,\u201d on how the present boom in conspiracy theories is reshaping sc...",
+          "sentiment": -0.778,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "mit technology",
+      "team_key": "researcher",
+      "importance_score": 47.62,
+      "sentiment": {
+        "score": -0.004,
+        "magnitude": 0.086,
+        "positive": 8,
+        "negative": 6,
+        "neutral": 13
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        195,
+        197,
+        198,
+        199,
+        201,
+        202,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "gn=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>8 Kim Kardashian blames ChatGPT for failing her law exa...",
+          "sentiment": -0.718,
+          "classification": "negative"
+        },
+        {
+          "text": "gn=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>6 Microsoft let AI shopping agents loose in a fake mark...",
+          "sentiment": -0.66,
+          "classification": "negative"
+        },
+        {
+          "text": "gn=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>2 Norway\u2019s oil fund has rejected Elon Musk\u2019s $1 trillio...",
+          "sentiment": -0.572,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "conspiracy theories",
+      "team_key": "researcher",
+      "importance_score": 47.18,
+      "sentiment": {
+        "score": -0.684,
+        "magnitude": 0.235,
+        "positive": 0,
+        "negative": 6,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        198,
+        201,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "%7CDATE:m-d-Y%7C*\"><strong>The New Conspiracy Age</strong></a><strong>,\u201d on how the present boom in conspiracy theories is reshaping science and technology.</strong></p>\n\n\n\n<p></p>\n\n\n\n<p class=\"has-me...",
+          "sentiment": -0.778,
+          "classification": "negative"
+        },
+        {
+          "text": "onspiracy-age/\"><strong>The New Conspiracy Age</strong></a><strong>,\u201d about how the present boom in conspiracy theories is reshaping science and technology.</strong></p>\n\n\n\n<p></p>\n\n\n\n<p class=\"has-me...",
+          "sentiment": -0.778,
+          "classification": "negative"
+        },
+        {
+          "text": "%7CDATE:m-d-Y%7C*\"><strong>The New Conspiracy Age</strong></a><strong>,\u201d on how the present boom in conspiracy theories is reshaping science and technology.</strong></p>\n\n\n\n<p></p>\n\n\n\n<p class=\"has-me...",
+          "sentiment": -0.778,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "nice things",
+      "team_key": "researcher",
+      "importance_score": 47.0,
+      "sentiment": {
+        "score": 0.836,
+        "magnitude": 0.335,
+        "positive": 4,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        195,
+        198,
+        201,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "<em>\u2014Geoff Manaugh</em></p>\n\n\n\n<p></p>\n\n\n\n<p class=\"has-medium-font-size\"><strong>We can still have nice things</strong></p>\n\n\n\n<p><em>A place for comfort, fun and distraction to brighten up your day....",
+          "sentiment": 0.836,
+          "classification": "positive"
+        },
+        {
+          "text": "Hiromitsu Nakauchi</em></p>\n\n\n\n<p></p>\n\n\n\n<p class=\"has-medium-font-size\"><strong>We can still have nice things</strong></p>\n\n\n\n<p><em>A place for comfort, fun and distraction to brighten up your day....",
+          "sentiment": 0.836,
+          "classification": "positive"
+        },
+        {
+          "text": "/><em>\u2014Mike Orcutt</em></p>\n\n\n\n<p></p>\n\n\n\n<p class=\"has-medium-font-size\"><strong>We can still have nice things</strong></p>\n\n\n\n<p><em>A place for comfort, fun and distraction to brighten up your day....",
+          "sentiment": 0.836,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "mit",
+      "team_key": "researcher",
+      "importance_score": 46.65,
+      "sentiment": {
+        "score": -0.022,
+        "magnitude": 0.09,
+        "positive": 7,
+        "negative": 6,
+        "neutral": 14
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        195,
+        198,
+        201,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "gn=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>8 Kim Kardashian blames ChatGPT for failing her law exa...",
+          "sentiment": -0.718,
+          "classification": "negative"
+        },
+        {
+          "text": "gn=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>6 Microsoft let AI shopping agents loose in a fake mark...",
+          "sentiment": -0.66,
+          "classification": "negative"
+        },
+        {
+          "text": "rong>1 Amazon is suing Perplexity over its Comet AI agent</strong><br />It alleges Perplexity is committing computer fraud by not disclosing when Comet is shopping on a human\u2019s behalf. (<a href=\"https...",
+          "sentiment": -0.599,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "climate change",
+      "team_key": "researcher",
+      "importance_score": 45.59,
+      "sentiment": {
+        "score": 0.138,
+        "magnitude": 0.149,
+        "positive": 6,
+        "negative": 3,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        199,
+        201,
+        203
+      ],
+      "sample_snippets": [
+        {
+          "text": "p>Many people already distrust the idea of engineering the atmosphere\u2014at whichever scale\u2014to address climate change, fearing negative side effects, inequitable impacts on different parts of the world, ...",
+          "sentiment": -0.881,
+          "classification": "negative"
+        },
+        {
+          "text": "\n\n\n<p>Our strong impression is that people in these companies are driven by the same concerns about climate change that move us in our research. We agree that more research, and more innovation, is ne...",
+          "sentiment": 0.862,
+          "classification": "positive"
+        },
+        {
+          "text": "rospect that a world expecting such solutions will feel less pressure to address the root causes of climate change.</p>\n\n\n\n<p>Adding business interests, profit motives, and rich investors into this si...",
+          "sentiment": 0.807,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "social media",
+      "team_key": "researcher",
+      "importance_score": 45.41,
+      "sentiment": {
+        "score": -0.07,
+        "magnitude": 0.141,
+        "positive": 2,
+        "negative": 3,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        175,
+        195,
+        198
+      ],
+      "sample_snippets": [
+        {
+          "text": "1.04195\">released</a> a study revealing that AI models remain easily distinguishable from humans in social media conversations, with overly friendly emotional tone serving as the most persistent givea...",
+          "sentiment": 0.735,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>The next time you encounter an unusually polite reply on social media, you might want to check twice. It could be an AI model trying (and failing) to blend in with the c",
+          "sentiment": -0.459,
+          "classification": "negative"
+        },
+        {
+          "text": "m-kardashian-chatgpt-made-her-fail-law-exams-1236418403/\">Hollywood Reporter</a>)<br />+ <em>AI and social media is worsening brain rot. </em>(<a href=\"https://www.nytimes.com/2025/11/06/technology/pe...",
+          "sentiment": -0.459,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "ai",
+      "team_key": "researcher",
+      "importance_score": 44.92,
+      "sentiment": {
+        "score": 0.044,
+        "magnitude": 0.07,
+        "positive": 82,
+        "negative": 59,
+        "neutral": 219
+      },
+      "metrics": {
+        "frequency": 10,
+        "document_count": 10,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        175,
+        190,
+        191,
+        193,
+        195,
+        198,
+        199,
+        201,
+        202,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "st the fairness of computer vision models<br /></strong>And it\u2019s confident it\u2019s been compiled in a fair and ethical way. (<a href=\"https://www.theregister.com/2025/11/05/sony_ai_vision_model_benchmark...",
+          "sentiment": 0.869,
+          "classification": "positive"
+        },
+        {
+          "text": "t=fPBRAG&amp;reflink=desktopwebshare_permalink\">WSJ</a> $)<br />+ <em>Nothing says festive joy like AI slop. </em>(<a href=\"https://www.theverge.com/news/812559/coca-cola-ai-holiday-christmas-commerci...",
+          "sentiment": 0.852,
+          "classification": "positive"
+        },
+        {
+          "text": "othing says festive joy like AI slop. </em>(<a href=\"https://www.theverge.com/news/812559/coca-cola-ai-holiday-christmas-commercial-2025\">The Verge</a>)</p>\n\n\n\n<p><strong>10 Facebook Dating is a\u2026hit?<...",
+          "sentiment": 0.852,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "recent years",
+      "team_key": "researcher",
+      "importance_score": 44.42,
+      "sentiment": {
+        "score": -0.209,
+        "magnitude": 0.169,
+        "positive": 1,
+        "negative": 2,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        194,
+        196,
+        203
+      ],
+      "sample_snippets": [
+        {
+          "text": "cbi.nlm.nih.gov/articles/PMC5382743/\">increasingly linked</a> to outbreaks of foodborne illness. In recent years, FDA investigators have uncovered disturbing lapses in facilities producing food bound ...",
+          "sentiment": -0.718,
+          "classification": "negative"
+        },
+        {
+          "text": "hat research should serve public interests, not be locked up as intellectual property.</p>\n\n\n\n<p>In recent years, a handful of for-profit startup companies have emerged that are striving to develop SR...",
+          "sentiment": 0.649,
+          "classification": "positive"
+        },
+        {
+          "text": "ims to be Nakamoto later collapsed.&nbsp;</p>\n\n\n\n<p>MacGregor has kept a very low public profile in recent years. When contacted for comment, Deep spokesperson Mike Bohan refused to comment on the lin...",
+          "sentiment": -0.556,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "big tech",
+      "team_key": "researcher",
+      "importance_score": 44.04,
+      "sentiment": {
+        "score": 0.249,
+        "magnitude": 0.105,
+        "positive": 2,
+        "negative": 1,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        195,
+        198,
+        199
+      ],
+      "sample_snippets": [
+        {
+          "text": "ty about using chatbots too frequently when we need to focus on the bigger picture.&nbsp;</p>\n\n\n\n<p>Big tech companies are playing into this narrative by providing energy-use estimates for their produ...",
+          "sentiment": 0.527,
+          "classification": "positive"
+        },
+        {
+          "text": "=\"https://www.nytimes.com/2025/11/04/technology/ibm-layoffs-ai.html\">NYT</a> $)</p>\n\n\n\n<p><strong>5 Big Tech\u2019s data centers aren\u2019t the job-generators we were promised</strong><br />The jobs they do cr...",
+          "sentiment": 0.273,
+          "classification": "positive"
+        },
+        {
+          "text": "$)<br /><br /><strong>3 The EU is poised to water down the AI act</strong><br />After pressure from Big Tech and the US government. (<a href=\"https://www.ft.com/content/af6c6dbe-ce63-47cc-8923-8bce400...",
+          "sentiment": -0.052,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "april",
+      "team_key": "researcher",
+      "importance_score": 43.72,
+      "sentiment": {
+        "score": -0.483,
+        "magnitude": 0.115,
+        "positive": 0,
+        "negative": 3,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        176,
+        189,
+        202
+      ],
+      "sample_snippets": [
+        {
+          "text": "lying on a software flaw now catalogued as CVE-2025-21042. Samsung issued a patch for its phones in April 2025, but details of the attack have only been revealed now.</p>\n<p>Even if you were out there...",
+          "sentiment": -0.747,
+          "classification": "negative"
+        },
+        {
+          "text": " in the country\u2019s ongoing war against neighboring Ukraine, researchers reported Thursday.</p>\n<p>In April, the group targeted a Ukrainian university with two wipers, a form of malware that aims to per...",
+          "sentiment": -0.599,
+          "classification": "negative"
+        },
+        {
+          "text": "_campaign=tech-radar_2025-11&amp;utm_content=MIT-article\" rel=\"noreferrer noopener\" target=\"_blank\">April episode of our technology podcast</a>, we talked about our concerns and were cautious about ho...",
+          "sentiment": -0.103,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "chatgpt",
+      "team_key": "researcher",
+      "importance_score": 43.64,
+      "sentiment": {
+        "score": -0.043,
+        "magnitude": 0.051,
+        "positive": 2,
+        "negative": 3,
+        "neutral": 11
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        181,
+        195,
+        201
+      ],
+      "sample_snippets": [
+        {
+          "text": "acing a wave of new lawsuits\u00a0</strong><br />The cases concern wrongful death complaints, and claims ChatGPT caused mental breakdowns. (<a href=\"https://www.nytimes.com/2025/11/06/technology/chatgpt-la...",
+          "sentiment": -0.802,
+          "classification": "negative"
+        },
+        {
+          "text": "tm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>8 Kim Kardashian blames ChatGPT for failing her law exams</strong><br />It\u2019s almost like she shouldn\u2019t have been consulting ...",
+          "sentiment": -0.585,
+          "classification": "negative"
+        },
+        {
+          "text": "Clients are triggered.</strong></p>\n\n\n\n<p>Declan would never have found out his therapist was using ChatGPT had it not been for a technical mishap where his therapist began inadvertently sharing his s...",
+          "sentiment": 0.421,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "conspiracy",
+      "team_key": "researcher",
+      "importance_score": 43.58,
+      "sentiment": {
+        "score": -0.394,
+        "magnitude": 0.16,
+        "positive": 1,
+        "negative": 12,
+        "neutral": 6
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        198,
+        201,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\"><strong>The New Conspiracy Age</strong></a><strong>,\u201d on how the present boom in conspiracy theories is reshaping sc...",
+          "sentiment": -0.778,
+          "classification": "negative"
+        },
+        {
+          "text": "%7CDATE:m-d-Y%7C*\"><strong>The New Conspiracy Age</strong></a><strong>,\u201d on how the present boom in conspiracy theories is reshaping science and technology.</strong></p>\n\n\n\n<p></p>\n\n\n\n<p class=\"has-me...",
+          "sentiment": -0.778,
+          "classification": "negative"
+        },
+        {
+          "text": "trong><a href=\"https://www.technologyreview.com/supertopic/the-new-conspiracy-age/\"><strong>The New Conspiracy Age</strong></a><strong>,\u201d about how the present boom in conspiracy theories is reshaping...",
+          "sentiment": -0.778,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "american",
+      "team_key": "researcher",
+      "importance_score": 43.47,
+      "sentiment": {
+        "score": 0.091,
+        "magnitude": 0.086,
+        "positive": 2,
+        "negative": 1,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        194,
+        203,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": " prepared to cut its data centers a sweet deal</strong><br />If they agree to use native chips over American rivals\u2019, that is. (<a href=\"https://t.co/3qo3LvWSUK\">FT</a> $)<br />+ <em>What happened whe...",
+          "sentiment": 0.649,
+          "classification": "positive"
+        },
+        {
+          "text": "nt years, FDA investigators have uncovered disturbing lapses in facilities producing food bound for American supermarkets. In Indonesia, cookie factory workers hauled dough in soiled buckets. In China...",
+          "sentiment": -0.511,
+          "classification": "negative"
+        },
+        {
+          "text": "<p>Last week, an American-Israeli company that claims it\u2019s developed proprietary technology to cool the planet announced it h",
+          "sentiment": 0.318,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "technology review",
+      "team_key": "researcher",
+      "importance_score": 43.18,
+      "sentiment": {
+        "score": 0.014,
+        "magnitude": 0.095,
+        "positive": 10,
+        "negative": 6,
+        "neutral": 11
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        195,
+        197,
+        198,
+        199,
+        201,
+        202,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "he_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>8 Kim Kardashian blames ChatGPT for failing her law exams</...",
+          "sentiment": -0.718,
+          "classification": "negative"
+        },
+        {
+          "text": "he_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>6 Microsoft let AI shopping agents loose in a fake marketpl...",
+          "sentiment": -0.66,
+          "classification": "negative"
+        },
+        {
+          "text": "he_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>2 Norway\u2019s oil fund has rejected Elon Musk\u2019s $1 trillion pa...",
+          "sentiment": -0.572,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "wednesday",
+      "team_key": "researcher",
+      "importance_score": 43.11,
+      "sentiment": {
+        "score": -0.095,
+        "magnitude": 0.062,
+        "positive": 1,
+        "negative": 1,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        175,
+        198,
+        199
+      ],
+      "sample_snippets": [
+        {
+          "text": " to check twice. It could be an AI model trying (and failing) to blend in with the crowd.</p>\n<p>On Wednesday, researchers from the University of Zurich, University of Amsterdam, Duke University, and ...",
+          "sentiment": -0.511,
+          "classification": "negative"
+        },
+        {
+          "text": "rom The Spark, MIT Technology Review\u2019s weekly climate newsletter. To receive it in your inbox every Wednesday, </strong><a href=\"https://forms.technologyreview.com/newsletters/climate-energy-the-spark...",
+          "sentiment": 0.226,
+          "classification": "positive"
+        },
+        {
+          "text": "park, </em>MIT Technology Review<em>\u2019s weekly climate newsletter. To receive it in your inbox every Wednesday, </em><a href=\"https://forms.technologyreview.com/newsletters/climate-energy-the-spark/\" r...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "pay",
+      "team_key": "researcher",
+      "importance_score": 42.88,
+      "sentiment": {
+        "score": 0.35,
+        "magnitude": 0.211,
+        "positive": 6,
+        "negative": 2,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        180,
+        187,
+        190
+      ],
+      "sample_snippets": [
+        {
+          "text": " <a href=\"https://www.sec.gov/Archives/edgar/data/1318605/000110465925087598/tm252289-4_pre14a.htm\">pay plan</a> would give Musk 423,743,904 shares, awarded in 12 tranches of 35,311,992 shares each if...",
+          "sentiment": 0.727,
+          "classification": "positive"
+        },
+        {
+          "text": "e-that-could-make-him-a-1-trillion-man/#comments\">Comments</a></p> Elon Musk wins $1 trillion Tesla pay vote despite \u201cpart-time CEO\u201d criticism",
+          "sentiment": 0.691,
+          "classification": "positive"
+        },
+        {
+          "text": "d full article</a></p>\n<p><a href=\"https://arstechnica.com/tech-policy/2025/11/elon-musk-wins-tesla-pay-vote-that-could-make-him-a-1-trillion-man/#comments\">Comments</a></p> Elon Musk wins $1 trillion...",
+          "sentiment": 0.572,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "nbsp",
+      "team_key": "researcher",
+      "importance_score": 42.82,
+      "sentiment": {
+        "score": 0.25,
+        "magnitude": 0.125,
+        "positive": 30,
+        "negative": 11,
+        "neutral": 8
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        196,
+        199,
+        200,
+        202,
+        203
+      ],
+      "sample_snippets": [
+        {
+          "text": "ily evaluate the benefits of the product, then competitive, for-profit capitalism can work wonders.&nbsp;&nbsp;</p>\n\n\n\n<p>But SRM is already technically feasible and inexpensive, with deployment costs...",
+          "sentiment": 0.827,
+          "classification": "positive"
+        },
+        {
+          "text": "vely shifts the burden of worrying about the environment from fossil-fuel companies to individuals.&nbsp;</p>\n\n\n\n<p>The reality is, no one person can address climate change alone: Our entire society i...",
+          "sentiment": -0.818,
+          "classification": "negative"
+        },
+        {
+          "text": " to achieve cooling over small areas, purportedly to help farmers or cities deal with extreme heat.&nbsp;&nbsp;</p>\n\n\n\n\n\n<p>Our strong impression is that people in these companies are driven by the sa...",
+          "sentiment": 0.8,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "thursday",
+      "team_key": "researcher",
+      "importance_score": 42.73,
+      "sentiment": {
+        "score": -0.187,
+        "magnitude": 0.11,
+        "positive": 1,
+        "negative": 2,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        177,
+        180,
+        189
+      ],
+      "sample_snippets": [
+        {
+          "text": "ructive cyberattacks in the country\u2019s ongoing war against neighboring Ukraine, researchers reported Thursday.</p>\n<p>In April, the group targeted a Ukrainian university with two wipers, a form of malw...",
+          "sentiment": -0.599,
+          "classification": "negative"
+        },
+        {
+          "text": "<p>At a White House event Thursday, President Trump announced deals with drugmakers Novo Nordisk and Eli Lilly to offer their popular ",
+          "sentiment": 0.421,
+          "classification": "positive"
+        },
+        {
+          "text": " in its 38th day, prompted the Federal Aviation Administration to issue a temporary emergency order Thursday prohibiting commercial rocket launches from occurring during \u201cpeak hours\u201d of air traffic.</...",
+          "sentiment": -0.382,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "full article",
+      "team_key": "researcher",
+      "importance_score": 42.59,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 18
+      },
+      "metrics": {
+        "frequency": 18,
+        "document_count": 18,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193
+      ],
+      "sample_snippets": [
+        {
+          "text": "ation-technology/2025/11/being-too-nice-online-is-a-dead-giveaway-for-ai-bots-study-suggests/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/information-technology/2025/11/being-too-ni...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "/gadgets/2025/11/commercial-spyware-landfall-ran-rampant-on-samsung-phones-for-almost-a-year/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/gadgets/2025/11/commercial-spyware-landfall...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "om/space/2025/11/faa-says-commercial-rockets-must-launch-at-night-citing-government-shutdown/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2025/11/faa-says-commercial-rockets-m...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "comments",
+      "team_key": "researcher",
+      "importance_score": 42.18,
+      "sentiment": {
+        "score": 0.003,
+        "magnitude": 0.141,
+        "positive": 8,
+        "negative": 10,
+        "neutral": 22
+      },
+      "metrics": {
+        "frequency": 20,
+        "document_count": 20,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194
+      ],
+      "sample_snippets": [
+        {
+          "text": "ps://arstechnica.com/tech-policy/2025/11/mark-zuckerbergs-illegal-school-drove-his-neighbors-crazy/#comments\">Comments</a></p> Mark Zuckerberg\u2019s illegal school drove his neighbors crazy",
+          "sentiment": -0.718,
+          "classification": "negative"
+        },
+        {
+          "text": "chnica.com/tech-policy/2025/11/mark-zuckerbergs-illegal-school-drove-his-neighbors-crazy/#comments\">Comments</a></p> Mark Zuckerberg\u2019s illegal school drove his neighbors crazy",
+          "sentiment": -0.718,
+          "classification": "negative"
+        },
+        {
+          "text": "chnica.com/tech-policy/2025/11/att-falsely-promised-everyone-a-free-iphone-ad-industry-board-rules/#comments\">Comments</a></p> AT&T falsely promised \u201ceveryone\u201d a free iPhone, ad-industry board rules",
+          "sentiment": 0.7,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "daily",
+      "team_key": "researcher",
+      "importance_score": 42.11,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        195,
+        198,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": ".1649661040-405833893.1649413289\">The Download</a></em>,<em>\u00a0our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.</em></p>\n\n\n\n<p class=\"has-medium-fon...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": ".1649661040-405833893.1649413289\">The Download</a></em>,<em>\u00a0our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.</em> </p>\n\n\n\n<p class=\"has-medium-fo...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": ".1649661040-405833893.1649413289\">The Download</a></em>,<em>\u00a0our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.</em></p>\n\n\n\n<p class=\"has-medium-fon...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "years",
+      "team_key": "researcher",
+      "importance_score": 42.05,
+      "sentiment": {
+        "score": 0.058,
+        "magnitude": 0.083,
+        "positive": 10,
+        "negative": 4,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        184,
+        196,
+        201,
+        202,
+        203
+      ],
+      "sample_snippets": [
+        {
+          "text": " officer, says the company modeled the most severe hurricanes that Florida expects over the next 20 years and designed the tether to withstand them. Even if the worst happens and the link is broken, D...",
+          "sentiment": -0.878,
+          "classification": "negative"
+        },
+        {
+          "text": "s a clear signal of the direction of travel in software engineering and even AI more broadly. After years of the industry assuming progress in AI is <a href=\"https://www.technologyreview.com/2024/10/0...",
+          "sentiment": 0.66,
+          "classification": "positive"
+        },
+        {
+          "text": "earch should serve public interests, not be locked up as intellectual property.</p>\n\n\n\n<p>In recent years, a handful of for-profit startup companies have emerged that are striving to develop SRM techn...",
+          "sentiment": 0.649,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "full story",
+      "team_key": "researcher",
+      "importance_score": 42.03,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 11
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        195,
+        198,
+        201,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "wnload.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">Read the full story</a>.</p>\n\n\n\n<p><em>\u2014Jessica Hamzelou</em></p>\n\n\n\n<p><strong>This article first appeared i...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "wnload.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">Read the full story</a>.</p>\n\n\n\n<p><em>\u2014Geoff Manaugh</em></p>\n\n\n\n<p></p>\n\n\n\n<p class=\"has-medium-font-size\">...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "wnload.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">Read the full story</a>.<br /><br /><em>\u2014Rhiannon Williams</em></p>\n\n\n\n<p><strong>This story is part of <em>M...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "8217",
+      "team_key": "researcher",
+      "importance_score": 42.02,
+      "sentiment": {
+        "score": 0.031,
+        "magnitude": 0.015,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 12
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        195,
+        198,
+        201,
+        203,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "ne</em></a><em> or </em><a href=\"https://bsky.app/profile/rhiannonwilliams.bsky.social\"><em>skeet &#8217;em at me</em></a><em>.)</em></p>\n\n\n\n<p>+ If you\u2019re a wildlife fan, take a look at this <a href=...",
+          "sentiment": 0.318,
+          "classification": "positive"
+        },
+        {
+          "text": "ne</em></a><em> or </em><a href=\"https://bsky.app/profile/rhiannonwilliams.bsky.social\"><em>skeet &#8217;em at me</em></a><em>.)</em></p>\n\n\n\n<p>+ Make sure to look up so you don\u2019t miss <a href=\"https:...",
+          "sentiment": 0.112,
+          "classification": "positive"
+        },
+        {
+          "text": "<p><em>This is today&#8217;s edition of\u00a0<a href=\"https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.1",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "weekly",
+      "team_key": "researcher",
+      "importance_score": 42.0,
+      "sentiment": {
+        "score": 0.271,
+        "magnitude": 0.078,
+        "positive": 3,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        197,
+        198,
+        199
+      ],
+      "sample_snippets": [
+        {
+          "text": " homes.\u201d</p>\n\n\n\n<p><em>This article first appeared in The Checkup,\u00a0</em>MIT Technology Review\u2019s<em>\u00a0weekly biotech newsletter. To receive it in your inbox every Thursday, and read articles like this f...",
+          "sentiment": 0.361,
+          "classification": "positive"
+        },
+        {
+          "text": "-d-Y%7C*\">Here\u2019s why</a>.</p>\n\n\n\n<p><strong>This article is from The Spark, MIT Technology Review\u2019s weekly climate newsletter. To receive it in your inbox every Wednesday, </strong><a href=\"https://fo...",
+          "sentiment": 0.226,
+          "classification": "positive"
+        },
+        {
+          "text": "nd our planet.&nbsp;</p>\n\n\n\n<p><em>This article is from The Spark, </em>MIT Technology Review<em>\u2019s weekly climate newsletter. To receive it in your inbox every Wednesday, </em><a href=\"https://forms....",
+          "sentiment": 0.226,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "read full",
+      "team_key": "researcher",
+      "importance_score": 42.0,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 20
+      },
+      "metrics": {
+        "frequency": 20,
+        "document_count": 20,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194
+      ],
+      "sample_snippets": [
+        {
+          "text": "nformation-technology/2025/11/being-too-nice-online-is-a-dead-giveaway-for-ai-bots-study-suggests/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/information-technology/2025/11/being-t...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "a.com/gadgets/2025/11/commercial-spyware-landfall-ran-rampant-on-samsung-phones-for-almost-a-year/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/gadgets/2025/11/commercial-spyware-lan...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "ica.com/space/2025/11/faa-says-commercial-rockets-must-launch-at-night-citing-government-shutdown/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2025/11/faa-says-commercial-rock...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "earth",
+      "team_key": "researcher",
+      "importance_score": 41.99,
+      "sentiment": {
+        "score": 0.086,
+        "magnitude": 0.064,
+        "positive": 4,
+        "negative": 1,
+        "neutral": 6
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        186,
+        188,
+        197,
+        203,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "king the planet. Then, just days later on February 24, experts declared that the danger had passed. Earth would be spared.<br /><br />How did they do it? What was it like to track the rising danger of...",
+          "sentiment": -0.649,
+          "classification": "negative"
+        },
+        {
+          "text": "es are ready, and Blue Origin has set a launch date for Sunday, November 9. The mission will depart Earth outside of the usual interplanetary launch window, so orbital dynamics wizards came up with a ...",
+          "sentiment": 0.597,
+          "classification": "positive"
+        },
+        {
+          "text": ", and safe for humans and ecosystems.\u201d According to the company, \u201cThe particles naturally return to Earth\u2019s surface over time and recycle safely back into the biosphere.\u201d</p>\n\n\n\n<p>But it\u2019s nonsense f...",
+          "sentiment": 0.527,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "long",
+      "team_key": "researcher",
+      "importance_score": 41.92,
+      "sentiment": {
+        "score": 0.366,
+        "magnitude": 0.131,
+        "positive": 6,
+        "negative": 2,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        182,
+        196,
+        199
+      ],
+      "sample_snippets": [
+        {
+          "text": "Early Access game currently lacks the kind of deep content that will keep players coming back for a long time, it\u2019s still a clever and engaging take on the genre that I haven\u2019t been able to put down f...",
+          "sentiment": 0.813,
+          "classification": "positive"
+        },
+        {
+          "text": "ating videos tends to be especially energy-intensive, as does using reasoning models to engage with long prompts and produce long answers. Asking a chatbot to help plan your day, suggest fun activitie...",
+          "sentiment": 0.813,
+          "classification": "positive"
+        },
+        {
+          "text": "especially energy-intensive, as does using reasoning models to engage with long prompts and produce long answers. Asking a chatbot to help plan your day, suggest fun activities to do with your family,...",
+          "sentiment": 0.813,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "weekday",
+      "team_key": "researcher",
+      "importance_score": 41.83,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        195,
+        198,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289\">The Download</a></em>,<em>\u00a0our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.</...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289\">The Download</a></em>,<em>\u00a0our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.</...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289\">The Download</a></em>,<em>\u00a0our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.</...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "data",
+      "team_key": "researcher",
+      "importance_score": 41.69,
+      "sentiment": {
+        "score": 0.059,
+        "magnitude": 0.073,
+        "positive": 3,
+        "negative": 2,
+        "neutral": 8
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        191,
+        194,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "nificant lead in semiconductor expertise, its cutting-edge AI research, and its vast investments in data centers.<br /><br />Today, however, China has the means, motive, and opportunity to win. When i...",
+          "sentiment": 0.765,
+          "classification": "positive"
+        },
+        {
+          "text": "t/scary/fascinating stories about technology.</em></p>\n\n\n\n<p><strong>1 China is prepared to cut its data centers a sweet deal</strong><br />If they agree to use native chips over American rivals\u2019, tha...",
+          "sentiment": 0.649,
+          "classification": "positive"
+        },
+        {
+          "text": "ined conveyor belts. Investigators have reported crawling insects, dripping pipes, and fake testing data purporting to show food products were pathogen free.</p><p><a href=\"https://arstechnica.com/hea...",
+          "sentiment": -0.477,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "researchers",
+      "team_key": "researcher",
+      "importance_score": 41.69,
+      "sentiment": {
+        "score": -0.153,
+        "magnitude": 0.13,
+        "positive": 2,
+        "negative": 2,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        175,
+        176,
+        189
+      ],
+      "sample_snippets": [
+        {
+          "text": "ched a series of destructive cyberattacks in the country\u2019s ongoing war against neighboring Ukraine, researchers reported Thursday.</p>\n<p>In April, the group targeted a Ukrainian university with two w...",
+          "sentiment": -0.836,
+          "classification": "negative"
+        },
+        {
+          "text": "wice. It could be an AI model trying (and failing) to blend in with the crowd.</p>\n<p>On Wednesday, researchers from the University of Zurich, University of Amsterdam, Duke University, and New York Un...",
+          "sentiment": -0.511,
+          "classification": "negative"
+        },
+        {
+          "text": "/11/being-too-nice-online-is-a-dead-giveaway-for-ai-bots-study-suggests/#comments\">Comments</a></p> Researchers surprised that with AI, toxicity is harder to fake than intelligence",
+          "sentiment": 0.226,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "business",
+      "team_key": "researcher",
+      "importance_score": 41.37,
+      "sentiment": {
+        "score": 0.11,
+        "magnitude": 0.08,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        178,
+        181,
+        187
+      ],
+      "sample_snippets": [
+        {
+          "text": "s, the chats appeared to be from unwitting people prompting a chatbot to help solve relationship or business problems, who likely expected those conversations would remain private.</p>\n<p>Jason Packer...",
+          "sentiment": 0.202,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>Helping companies pay ransoms to digital extortionists is kind of an odd\u00a0business.</p>\n<p>On the one hand, you \u201cnegotiate\u201d with cybercriminals and in so doing may drive down the cos",
+          "sentiment": 0.128,
+          "classification": "positive"
+        },
+        {
+          "text": "os-discovery-bankers-bid-1236571997/\">drew new attention</a> by being open to selling its streaming business (WBD is also still open to moving forward with <a href=\"https://variety.com/2025/tv/news/wa...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "time",
+      "team_key": "researcher",
+      "importance_score": 41.07,
+      "sentiment": {
+        "score": 0.238,
+        "magnitude": 0.113,
+        "positive": 5,
+        "negative": 1,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        182,
+        184,
+        190,
+        194
+      ],
+      "sample_snippets": [
+        {
+          "text": "-1-trillion-man/#comments\">Comments</a></p> Elon Musk wins $1 trillion Tesla pay vote despite \u201cpart-time CEO\u201d criticism",
+          "sentiment": 0.691,
+          "classification": "positive"
+        },
+        {
+          "text": " Access game currently lacks the kind of deep content that will keep players coming back for a long time, it\u2019s still a clever and engaging take on the genre that I haven\u2019t been able to put down for lo...",
+          "sentiment": 0.66,
+          "classification": "positive"
+        },
+        {
+          "text": "ter and your play style.</p>\n<p>With <em>Skigill</em>, indie developer Achromi has taken that break-time menu and transformed it into the playing field for an intriguing <em>Vampire Survivors</em>-sty...",
+          "sentiment": 0.494,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "date",
+      "team_key": "researcher",
+      "importance_score": 40.69,
+      "sentiment": {
+        "score": 0.153,
+        "magnitude": 0.042,
+        "positive": 3,
+        "negative": 0,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        183,
+        184,
+        186
+      ],
+      "sample_snippets": [
+        {
+          "text": "ds to happen.</p>\n<p>New Glenn is ready, the satellites are ready, and Blue Origin has set a launch date for Sunday, November 9. The mission will depart Earth outside of the usual interplanetary launc...",
+          "sentiment": 0.612,
+          "classification": "positive"
+        },
+        {
+          "text": "2px-Pierre_taillee_Melka_Kunture_Ethiopie_fond-1024x849.jpg\" width=\"1024\" />\n      Oldowan choppers dated to 1.7 million years ago, from Melka Kunture, Ethiopia.\n        Credit:\n          By Didier De...",
+          "sentiment": 0.382,
+          "classification": "positive"
+        },
+        {
+          "text": "300,000 years, and include a period of intense environmental upheaval. The oldest tools at the site date back to 2.75 million years ago. According to a recent study, the finds suggest that for hundred...",
+          "sentiment": 0.077,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "like",
+      "team_key": "researcher",
+      "importance_score": 40.65,
+      "sentiment": {
+        "score": 0.226,
+        "magnitude": 0.147,
+        "positive": 14,
+        "negative": 6,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        195,
+        197,
+        202,
+        204
+      ],
+      "sample_snippets": [
+        {
+          "text": "1e2?st=fPBRAG&amp;reflink=desktopwebshare_permalink\">WSJ</a> $)<br />+ <em>Nothing says festive joy like AI slop. </em>(<a href=\"https://www.theverge.com/news/812559/coca-cola-ai-holiday-christmas-com...",
+          "sentiment": 0.852,
+          "classification": "positive"
+        },
+        {
+          "text": "referrer noopener\" target=\"_blank\">curated shared instructions</a> for software teams may not sound like the hottest innovation on the planet, but they can be remarkably powerful for helping teams wor...",
+          "sentiment": 0.851,
+          "classification": "positive"
+        },
+        {
+          "text": "interest in engineering context. We\u2019re well aware of its importance, working with coding assistants like <a href=\"http://www.thoughtworks.com/radar/tools/claude-code?utm_source=media-buy&amp;utm_mediu...",
+          "sentiment": 0.844,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "article comments",
+      "team_key": "researcher",
+      "importance_score": 40.65,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 20,
+        "document_count": 20,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194
+      ],
+      "sample_snippets": []
+    },
+    {
+      "keyword": "based",
+      "team_key": "researcher",
+      "importance_score": 40.59,
+      "sentiment": {
+        "score": -0.031,
+        "magnitude": 0.106,
+        "positive": 2,
+        "negative": 2,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        181,
+        191,
+        200
+      ],
+      "sample_snippets": [
+        {
+          "text": "ld be \u201cfully fault tolerant,\u201d or able to implement error correction at a large scale.</p> A new ion-based quantum computer makes error correction simpler",
+          "sentiment": -0.796,
+          "classification": "negative"
+        },
+        {
+          "text": "e has design benefits that could ultimately make it easier to scale. Ions (which are used by the US-based startup IonQ as well as Quantinuum) offer an advantage because they produce relatively few err...",
+          "sentiment": 0.727,
+          "classification": "positive"
+        },
+        {
+          "text": "ducting qubits. And qubits made of neutral atoms, such as the quantum computers built by the Boston-based startup QuEra, are \u201ceasier to trap\u201d than ions, he says.&nbsp;</p>\n\n\n\n<p>Besides increasing the...",
+          "sentiment": -0.34,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "best",
+      "team_key": "researcher",
+      "importance_score": 40.47,
+      "sentiment": {
+        "score": 0.305,
+        "magnitude": 0.11,
+        "positive": 2,
+        "negative": 1,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        182,
+        183,
+        185
+      ],
+      "sample_snippets": [
+        {
+          "text": "<p>The Crescent Park neighborhood of Palo Alto, California, has some of the best real estate in the country, with a charming hodgepodge of homes ranging in style from Tudor revival",
+          "sentiment": 0.84,
+          "classification": "positive"
+        },
+        {
+          "text": "through a massive visual menu of upgrade options, considering which path of stat and ability tweaks best fits your character and your play style.</p>\n<p>With <em>Skigill</em>, indie developer Achromi ...",
+          "sentiment": 0.836,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>When Ford electrified its bestselling pickup truck, it pulled out all the stops. The F-150 Lightning may look virtually identical ",
+          "sentiment": -0.153,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "active",
+      "team_key": "researcher",
+      "importance_score": 40.33,
+      "sentiment": {
+        "score": -0.076,
+        "magnitude": 0.154,
+        "positive": 1,
+        "negative": 2,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        176,
+        183,
+        189
+      ],
+      "sample_snippets": [
+        {
+          "text": "veraged a zero-day exploit in Samsung Android software to steal a raft of personal data, and it was active for almost a year. Thankfully, the underlying vulnerability has now been patched, and the att...",
+          "sentiment": -0.488,
+          "classification": "negative"
+        },
+        {
+          "text": "wiper variants against a host of Ukrainian critical infrastructure targets, including organizations active in government, energy, and logistics. The targets have long been in the crosshairs of Russian...",
+          "sentiment": 0.361,
+          "classification": "positive"
+        },
+        {
+          "text": "tning-ev-decision-89dc0d84\">The Wall Street Journal</a>, which claims that Ford\u2019s management is \u201cin active discussions about scrapping\u201d the Lightning. Production had already been suspended a few weeks...",
+          "sentiment": -0.103,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "appeared",
+      "team_key": "researcher",
+      "importance_score": 40.18,
+      "sentiment": {
+        "score": -0.118,
+        "magnitude": 0.072,
+        "positive": 1,
+        "negative": 1,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        176,
+        181,
+        185
+      ],
+      "sample_snippets": [
+        {
+          "text": "purchases were driving up the market. Then, about five years later, neighbors noticed that a school appeared to be operating out of the Zuckerberg compound. This would be illegal under the area\u2019s resi...",
+          "sentiment": -0.557,
+          "classification": "negative"
+        },
+        {
+          "text": "imes more than 300 characters long, could also be found in GSC. Showing only user inputs, the chats appeared to be from unwitting people prompting a chatbot to help solve relationship or business prob...",
+          "sentiment": 0.202,
+          "classification": "positive"
+        },
+        {
+          "text": "etworks.com/landfall-is-new-commercial-grade-android-spyware/\">Unit 42 says</a> that Landfall first appeared in July 2024, relying on a software flaw now catalogued as CVE-2025-21042. Samsung issued a...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "don t",
+      "team_key": "researcher",
+      "importance_score": 40.16,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        190,
+        198,
+        202,
+        204
+      ],
+      "sample_snippets": []
+    },
+    {
+      "keyword": "review",
+      "team_key": "researcher",
+      "importance_score": 40.09,
+      "sentiment": {
+        "score": 0.032,
+        "magnitude": 0.1,
+        "positive": 20,
+        "negative": 13,
+        "neutral": 28
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        195,
+        198,
+        201
+      ],
+      "sample_snippets": [
+        {
+          "text": ".unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>8 Kim Kardashian blames ChatGPT for failing her law exams</strong><br ...",
+          "sentiment": -0.718,
+          "classification": "negative"
+        },
+        {
+          "text": ".unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*\">MIT Technology Review</a>)</p>\n\n\n\n<p><strong>6 Microsoft let AI shopping agents loose in a fake marketplace\u00a0</stron...",
+          "sentiment": -0.66,
+          "classification": "negative"
+        },
+        {
+          "text": "hange and clean energy. You can read the rest of the series </strong><a href=\"https://www.technologyreview.com/tag/heatexchange/?utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_downl...",
+          "sentiment": 0.586,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "able",
+      "team_key": "researcher",
+      "importance_score": 39.88,
+      "sentiment": {
+        "score": 0.291,
+        "magnitude": 0.055,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        180,
+        182,
+        188,
+        191
+      ],
+      "sample_snippets": [
+        {
+          "text": "coming back for a long time, it\u2019s still a clever and engaging take on the genre that I haven\u2019t been able to put down for long.</p>\n<h2>Clear the way, I need +5 armor!</h2>\n<p>Like <em>Vampire Survivor...",
+          "sentiment": 0.69,
+          "classification": "positive"
+        },
+        {
+          "text": "rch option to the Finance chatbot. The company claims that with the more powerful AI, users will be able to generate \u201cfully cited\u201d research reports on a given topic in just a few minutes. So you can e...",
+          "sentiment": 0.475,
+          "classification": "positive"
+        },
+        {
+          "text": "n-pricing-to-american-patients/\">the announcement</a>, Medicare and state Medicaid programs will be able to purchase a month\u2019s supply of Ozempic, Wegovy, Mounjaro, and Zepbound at $245 each for eligib...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "read",
+      "team_key": "researcher",
+      "importance_score": 39.5,
+      "sentiment": {
+        "score": -0.068,
+        "magnitude": 0.03,
+        "positive": 0,
+        "negative": 1,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        179,
+        183,
+        187,
+        193
+      ],
+      "sample_snippets": [
+        {
+          "text": "s that Ford\u2019s management is \u201cin active discussions about scrapping\u201d the Lightning. Production had already been suspended a few weeks ago due to an aluminum shortage following <a href=\"https://www.cara...",
+          "sentiment": -0.34,
+          "classification": "negative"
+        },
+        {
+          "text": "technica.com/tech-policy/2025/11/fbi-subpoena-tries-to-unmask-mysterious-founder-of-archive-today/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/tech-policy/2025/11/fbi-subpoena-tries...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "ttps://arstechnica.com/cars/2025/11/ford-says-no-exact-date-to-restart-f-150-lightning-production/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/cars/2025/11/ford-says-no-exact-date-t...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "cut",
+      "team_key": "researcher",
+      "importance_score": 39.35,
+      "sentiment": {
+        "score": -0.184,
+        "magnitude": 0.083,
+        "positive": 0,
+        "negative": 3,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        180,
+        187,
+        189
+      ],
+      "sample_snippets": [
+        {
+          "text": "ut-throat-hackers-rain-destruction-on-ukraine/#comments\">Comments</a></p> Wipers from Russia\u2019s most cut-throat hackers rain destruction on Ukraine",
+          "sentiment": -0.572,
+          "classification": "negative"
+        },
+        {
+          "text": " can operate as a service where you essentially \u201crent\u201d the code from its developers in return for a cut of the profits\u2026</p><p><a href=\"https://arstechnica.com/security/2025/11/fbi-arrests-ransomware-c...",
+          "sentiment": -0.273,
+          "classification": "negative"
+        },
+        {
+          "text": "s. Eligible people on Medicare will have a $50 co-pay.</p>\n<p>The negotiated price is a significant cut from the drugs\u2019 list prices: The list price for Ozempic is $997, Wegovy is $1,350, Mounjaro is $...",
+          "sentiment": -0.077,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "comfort fun",
+      "team_key": "researcher",
+      "importance_score": 39.29,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        195,
+        198,
+        201,
+        204
+      ],
+      "sample_snippets": []
+    },
+    {
+      "keyword": "mit review",
+      "team_key": "researcher",
+      "importance_score": 39.1,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        195,
+        198,
+        201
+      ],
+      "sample_snippets": []
+    }
+  ],
+  "count": 50
+}

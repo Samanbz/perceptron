@@ -1,0 +1,18 @@
+{
+  "keyword": "tesla",
+  "team_key": "investor",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 49.28,
+      "sentiment_score": 0.369,
+      "frequency": 3,
+      "document_count": 3
+    }
+  ],
+  "appearances": 1,
+  "avg_importance": 49.28,
+  "max_importance": 49.28,
+  "total_frequency": 3,
+  "total_documents": 3
+}

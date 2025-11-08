@@ -1,0 +1,18 @@
+{
+  "keyword": "dom guzman",
+  "team_key": "investor",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 45.79,
+      "sentiment_score": 0.045,
+      "frequency": 9,
+      "document_count": 9
+    }
+  ],
+  "appearances": 1,
+  "avg_importance": 45.79,
+  "max_importance": 45.79,
+  "total_frequency": 9,
+  "total_documents": 9
+}

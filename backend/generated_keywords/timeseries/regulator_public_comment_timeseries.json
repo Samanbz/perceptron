@@ -1,0 +1,25 @@
+{
+  "keyword": "public comment",
+  "team_key": "regulator",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 44.21,
+      "sentiment_score": 0.37,
+      "frequency": 4,
+      "document_count": 4
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 50.51,
+      "sentiment_score": 0.309,
+      "frequency": 8,
+      "document_count": 8
+    }
+  ],
+  "appearances": 2,
+  "avg_importance": 47.36,
+  "max_importance": 50.51,
+  "total_frequency": 12,
+  "total_documents": 12
+}

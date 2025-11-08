@@ -1,0 +1,18 @@
+{
+  "keyword": "texas",
+  "team_key": "investor",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 46.98,
+      "sentiment_score": 0.2,
+      "frequency": 2,
+      "document_count": 2
+    }
+  ],
+  "appearances": 1,
+  "avg_importance": 46.98,
+  "max_importance": 46.98,
+  "total_frequency": 2,
+  "total_documents": 2
+}

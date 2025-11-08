@@ -1,0 +1,2066 @@
+{
+  "date": "2025-11-03",
+  "team": "competitor",
+  "keywords": [
+    {
+      "keyword": "apple",
+      "team_key": "competitor",
+      "importance_score": 51.82,
+      "sentiment": {
+        "score": 0.247,
+        "magnitude": 0.101,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 3,
+        "velocity": 25.0
+      },
+      "content_ids": [
+        85,
+        90,
+        96,
+        115,
+        131
+      ],
+      "sample_snippets": [
+        {
+          "text": "ed</a>, it would have $131.90 today, a profit of $31.90. If it had put that money into all-American Apple instead, it would be sitting on an even better $136.57, profiting by $36.57. Invested in the S...",
+          "sentiment": 0.813,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Art therapy app with Apple Health that unlocks a better you\n          </p>\n          <p>\n            <a href=\"https://www.prod",
+          "sentiment": 0.44,
+          "classification": "positive"
+        },
+        {
+          "text": "Apple\u2019s new web App Store exposed its full front-end code, giving developers temporary insight before lik",
+          "sentiment": 0.273,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "today",
+      "team_key": "competitor",
+      "importance_score": 50.66,
+      "sentiment": {
+        "score": 0.159,
+        "magnitude": 0.095,
+        "positive": 3,
+        "negative": 1,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 3,
+        "velocity": 100.0
+      },
+      "content_ids": [
+        87,
+        90,
+        105,
+        130
+      ],
+      "sample_snippets": [
+        {
+          "text": "for what's next, depending on your favorite device. Should I look for Black Friday smartphone deals today or wait for what\u2019s coming tomorrow? I\u2019ve previewed the future, here\u2019s what I\u2019d wait for",
+          "sentiment": 0.459,
+          "classification": "positive"
+        },
+        {
+          "text": "ile-network-t1-trademark-application\">when the Trump phone was announced</a>, it would have $131.90 today, a profit of $31.90. If it had put that money into all-American Apple instead, it would be sit...",
+          "sentiment": 0.44,
+          "classification": "positive"
+        },
+        {
+          "text": "iting by $36.57. Invested in the S&amp;P 500 index, gains would be a little more modest: $110.79 by today, for a profit of just over $10.</p>\n\n<p class=\"has-text-align-none\">Per phone, that ain\u2019t much...",
+          "sentiment": 0.392,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "build",
+      "team_key": "competitor",
+      "importance_score": 48.76,
+      "sentiment": {
+        "score": 0.033,
+        "magnitude": 0.096,
+        "positive": 2,
+        "negative": 2,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 2,
+        "velocity": 100.0
+      },
+      "content_ids": [
+        89,
+        90,
+        102,
+        93,
+        111,
+        119
+      ],
+      "sample_snippets": [
+        {
+          "text": "ttps://blog.bioware.com/2025/11/07/n7-day-2025/\">Mike Gamble says</a>. \u201cWe\u2019re excited by what we\u2019re building, and we promise you: when we\u2019re ready, it\u2019ll be a lot of fun to show.\u201d Gamble also addresse...",
+          "sentiment": 0.859,
+          "classification": "positive"
+        },
+        {
+          "text": "ial advice \u2014 is that it tends to make more money. Even if Trump Mobile had made no effort at all to build a single smartphone (and we have absolutely no evidence that it ever has!) those deposits alon...",
+          "sentiment": -0.717,
+          "classification": "negative"
+        },
+        {
+          "text": "ducer.</p>\n\n<p class=\"has-text-align-none\">\u201cWe have a lot of universe to cover, lots of features to build, and lots of romances to figure out.\u201d <a href=\"https://blog.bioware.com/2025/11/07/n7-day-2025...",
+          "sentiment": 0.318,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "ai",
+      "team_key": "competitor",
+      "importance_score": 48.65,
+      "sentiment": {
+        "score": 0.038,
+        "magnitude": 0.021,
+        "positive": 4,
+        "negative": 1,
+        "neutral": 34
+      },
+      "metrics": {
+        "frequency": 16,
+        "document_count": 16,
+        "source_diversity": 2,
+        "velocity": 128.57
+      },
+      "content_ids": [
+        92,
+        97,
+        91,
+        104,
+        107,
+        108,
+        101,
+        105,
+        111,
+        121,
+        118,
+        123,
+        98,
+        120,
+        113,
+        137
+      ],
+      "sample_snippets": [
+        {
+          "text": "<p>\n             Automatic UTMs with AI + Intelligent Analytics\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.c",
+          "sentiment": 0.459,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Sleep smarter: AI driven sleep insights based on your habits\n          </p>\n          <p>\n            <a href=\"https:",
+          "sentiment": 0.459,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Personal URLs for sharing context with AI\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/context-link",
+          "sentiment": 0.421,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "link",
+      "team_key": "competitor",
+      "importance_score": 48.35,
+      "sentiment": {
+        "score": -0.009,
+        "magnitude": 0.006,
+        "positive": 0,
+        "negative": 1,
+        "neutral": 35
+      },
+      "metrics": {
+        "frequency": 34,
+        "document_count": 34,
+        "source_diversity": 1,
+        "velocity": 70.0
+      },
+      "content_ids": [
+        95,
+        99,
+        94,
+        96,
+        92,
+        97,
+        100,
+        91,
+        104,
+        109,
+        107,
+        106,
+        108,
+        115,
+        102,
+        110,
+        101,
+        114,
+        112,
+        103,
+        105,
+        93,
+        111,
+        121,
+        118,
+        122,
+        116,
+        123,
+        119,
+        98,
+        117,
+        120,
+        124,
+        113
+      ],
+      "sample_snippets": [
+        {
+          "text": "scussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1034279?app_id=339\">Link</a>\n          </p> Fire Your QA Today",
+          "sentiment": -0.34,
+          "classification": "negative"
+        },
+        {
+          "text": "scussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1035368?app_id=339\">Link</a>\n          </p> Kimi K2 Thinking",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "scussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1035347?app_id=339\">Link</a>\n          </p> Burner Terminal",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "devices",
+      "team_key": "competitor",
+      "importance_score": 48.29,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.127,
+        "positive": 2,
+        "negative": 1,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 50.0
+      },
+      "content_ids": [
+        86,
+        87,
+        128
+      ],
+      "sample_snippets": [
+        {
+          "text": "Threat actors expanded operations using malicious apps, outdated devices, and IoT exploits while global attack volumes surged across key regions. Watch out, these malicious",
+          "sentiment": -0.836,
+          "classification": "negative"
+        },
+        {
+          "text": "ink appropriately to fit well\u201d and that the pages adapt \u201cto fit on tablets, Steam Decks, and mobile devices.\u201d Valve says it\u2019s even tested the changes \u201con a tiny old iPod that someone had laying around...",
+          "sentiment": 0.612,
+          "classification": "positive"
+        },
+        {
+          "text": "day\u2019s price makes it an especially solid investment.</p> Anker\u2019s 521 PowerHouse can power up to six devices, and it&#8217;s on sale",
+          "sentiment": 0.225,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "microsoft",
+      "team_key": "competitor",
+      "importance_score": 48.18,
+      "sentiment": {
+        "score": 0.137,
+        "magnitude": 0.057,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        137
+      ],
+      "sample_snippets": [
+        {
+          "text": "ude the free-to-play multiplayer of <em>Infinite</em>, as Xbox hardware sales continue to slow, and Microsoft\u2019s profitability push <a href=\"https://www.theverge.com/news/805280/microsoft-xbox-gaming-p...",
+          "sentiment": 0.273,
+          "classification": "positive"
+        },
+        {
+          "text": " continue to slow, and Microsoft\u2019s profitability push <a href=\"https://www.theverge.com/news/805280/microsoft-xbox-gaming-profit-targets-layoffs\">shuts down studios and raises prices</a>.</p>\n\n<p clas...",
+          "sentiment": 0.273,
+          "classification": "positive"
+        },
+        {
+          "text": "e customization mode.  The infamous Craig did <a href=\"https://www.theverge.com/2021/10/25/22744656/microsoft-halo-infinite-craig-brute-improved-graphics\">get a glow-up</a>, and <a href=\"https://www.t...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "discussion",
+      "team_key": "competitor",
+      "importance_score": 47.59,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 34
+      },
+      "metrics": {
+        "frequency": 34,
+        "document_count": 34,
+        "source_diversity": 1,
+        "velocity": 70.0
+      },
+      "content_ids": [
+        95,
+        99,
+        94,
+        96,
+        92,
+        97,
+        100,
+        91,
+        104,
+        109,
+        107,
+        106,
+        108,
+        115,
+        102,
+        110,
+        101,
+        114,
+        112,
+        103,
+        105,
+        93,
+        111,
+        121,
+        118,
+        122,
+        116,
+        123,
+        119,
+        98,
+        117,
+        120,
+        124,
+        113
+      ],
+      "sample_snippets": [
+        {
+          "text": "ign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1035368?app_id=339...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "ign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1035347?app_id=339...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "ign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1035147?app_id=339...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "ve",
+      "team_key": "competitor",
+      "importance_score": 47.27,
+      "sentiment": {
+        "score": 0.216,
+        "magnitude": 0.097,
+        "positive": 26,
+        "negative": 7,
+        "neutral": 16
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 100.0
+      },
+      "content_ids": [
+        89,
+        90,
+        130,
+        134
+      ],
+      "sample_snippets": [
+        {
+          "text": "o all-American Apple instead, it would be sitting on an even better $136.57, profiting by $36.57. Invested in the S&amp;P 500 index, gains would be a little more modest: $110.79 by today, for a profit...",
+          "sentiment": 0.869,
+          "classification": "positive"
+        },
+        {
+          "text": "fit of $31.90. If it had put that money into all-American Apple instead, it would be sitting on an even better $136.57, profiting by $36.57. Invested in the S&amp;P 500 index, gains would be a little ...",
+          "sentiment": 0.856,
+          "classification": "positive"
+        },
+        {
+          "text": "icked 19 of the best deals that I'd buy on TVs, appliances, laptops, headphones, and more. The massive Currys Black Friday sale is here \u2013 I've picked the 19 best deals on TVs, appliances, laptops, hea...",
+          "sentiment": 0.856,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "store",
+      "team_key": "competitor",
+      "importance_score": 47.21,
+      "sentiment": {
+        "score": 0.182,
+        "magnitude": 0.102,
+        "positive": 5,
+        "negative": 1,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 3,
+        "velocity": 50.0
+      },
+      "content_ids": [
+        87,
+        115,
+        131
+      ],
+      "sample_snippets": [
+        {
+          "text": "t-align-none\">If your browser or client window is narrower than 1200 pixels, Valve says that \u201cSteam store pages are designed to shrink appropriately to fit well\u201d and that the pages adapt \u201cto fit on ta...",
+          "sentiment": 0.612,
+          "classification": "positive"
+        },
+        {
+          "text": "pple's development secrets? It accidentally leaked its entire front-end source code for its new App Store, which is available for anyone to view - for now",
+          "sentiment": -0.572,
+          "classification": "negative"
+        },
+        {
+          "text": "h include a more adaptable UI and reprocessing videos to work better with the new player.</p> Steam store pages are wider now",
+          "sentiment": 0.44,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "app",
+      "team_key": "competitor",
+      "importance_score": 47.2,
+      "sentiment": {
+        "score": 0.189,
+        "magnitude": 0.083,
+        "positive": 13,
+        "negative": 1,
+        "neutral": 14
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 3,
+        "velocity": 33.33
+      },
+      "content_ids": [
+        85,
+        96,
+        115,
+        131
+      ],
+      "sample_snippets": [
+        {
+          "text": "three native platforms now supported.</p>\n\n<p class=\"has-text-align-none\">Other improvements to the app include detailed and immediate alerts when an external drive is disconnected to help prevent dat...",
+          "sentiment": 0.796,
+          "classification": "positive"
+        },
+        {
+          "text": "le video feeds on a device with a larger screen like an iPad or a Mac.</p> Blackmagic\u2019s free camera app can now stream directly to YouTube and Twitch",
+          "sentiment": 0.7,
+          "classification": "positive"
+        },
+        {
+          "text": "Apple\u2019s new web App Store exposed its full front-end code, giving developers temporary insight before l",
+          "sentiment": 0.625,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "black friday",
+      "team_key": "competitor",
+      "importance_score": 47.17,
+      "sentiment": {
+        "score": 0.493,
+        "magnitude": 0.121,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        130,
+        134,
+        138,
+        140
+      ],
+      "sample_snippets": [
+        {
+          "text": "f the best deals that I'd buy on TVs, appliances, laptops, headphones, and more. The massive Currys Black Friday sale is here \u2013 I've picked the 19 best deals on TVs, appliances, laptops, headphones, a...",
+          "sentiment": 0.856,
+          "classification": "positive"
+        },
+        {
+          "text": "Black Friday may not have officially arrived, but early deals are already appearing on some of 2025's best TVs. ",
+          "sentiment": 0.778,
+          "classification": "positive"
+        },
+        {
+          "text": "ls are already appearing on some of 2025's best TVs. I'm a TV reviewer and these are my top 6 early Black Friday TV deals from LG, Samsung and Hisense",
+          "sentiment": 0.718,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "years",
+      "team_key": "competitor",
+      "importance_score": 47.17,
+      "sentiment": {
+        "score": 0.126,
+        "magnitude": 0.055,
+        "positive": 2,
+        "negative": 1,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 100.0
+      },
+      "content_ids": [
+        82,
+        86,
+        132,
+        136
+      ],
+      "sample_snippets": [
+        {
+          "text": "anels.</p>\n\n<p class=\"has-text-align-none\">Anker also says the battery is designed to last up to 10 years, and you get a five-year warranty for extra peace of mind. Plus, it comes with charging cables...",
+          "sentiment": 0.542,
+          "classification": "positive"
+        },
+        {
+          "text": " talks to snap up ITV's broadcasting arm in what would be the biggest British broadcasting deal for years \u2013here's what it means for TV viewers. Will ITV still be free? The potential Sky-ITV deal expla...",
+          "sentiment": 0.511,
+          "classification": "positive"
+        },
+        {
+          "text": "deals for years, I know how to spot a real VPN deal. These VPN deals blew us away over the last few years \u2013 will they be beaten in 2025?",
+          "sentiment": -0.421,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "buy",
+      "team_key": "competitor",
+      "importance_score": 47.1,
+      "sentiment": {
+        "score": 0.103,
+        "magnitude": 0.035,
+        "positive": 4,
+        "negative": 1,
+        "neutral": 14
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 100.0
+      },
+      "content_ids": [
+        83,
+        86,
+        130,
+        134
+      ],
+      "sample_snippets": [
+        {
+          "text": "ted the best smartphones of 2025, and I've seen what's coming in 2026. I can tell you if you should buy now or wait for what's next, depending on your favorite device. Should I look for Black Friday s...",
+          "sentiment": 0.802,
+          "classification": "positive"
+        },
+        {
+          "text": "I've searched through the Curry Black Friday sale and hand-picked 19 of the best deals that I'd buy on TVs, appliances, laptops, headphones, and more. The massive Currys Black Friday sale is here \u2013 I",
+          "sentiment": 0.637,
+          "classification": "positive"
+        },
+        {
+          "text": "e the <strong>Anker 521 PowerHouse </strong>can be a lifesaver. Normally $249.99, right now you can buy the power station for the new low price of $128.99 at checkout <a href=\"https://www.amazon.com/d...",
+          "sentiment": 0.402,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "discussion link",
+      "team_key": "competitor",
+      "importance_score": 46.93,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 34,
+        "document_count": 34,
+        "source_diversity": 1,
+        "velocity": 70.0
+      },
+      "content_ids": [
+        95,
+        99,
+        94,
+        96,
+        92,
+        97,
+        100,
+        91,
+        104,
+        109,
+        107,
+        106,
+        108,
+        115,
+        102,
+        110,
+        101,
+        114,
+        112,
+        103,
+        105,
+        93,
+        111,
+        121,
+        118,
+        122,
+        116,
+        123,
+        119,
+        98,
+        117,
+        120,
+        124,
+        113
+      ],
+      "sample_snippets": []
+    },
+    {
+      "keyword": "2026",
+      "team_key": "competitor",
+      "importance_score": 46.88,
+      "sentiment": {
+        "score": 0.401,
+        "magnitude": 0.092,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        130
+      ],
+      "sample_snippets": [
+        {
+          "text": "I've tested the best smartphones of 2025, and I've seen what's coming in 2026. I can tell you if you should buy now or wait for what's next, depending on your favorite device. S",
+          "sentiment": 0.802,
+          "classification": "positive"
+        },
+        {
+          "text": "a <a href=\"https://www.theverge.com/news/805174/halo-campaign-evolved-remake-xbox-ps5-release-date\">2026 multiplatform release for the <em>Halo: Campaign Evolved</em> remake</a>, but that\u2019s the way th...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "team",
+      "team_key": "competitor",
+      "importance_score": 46.6,
+      "sentiment": {
+        "score": 0.175,
+        "magnitude": 0.048,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 3,
+        "velocity": 50.0
+      },
+      "content_ids": [
+        81,
+        107,
+        133
+      ],
+      "sample_snippets": [
+        {
+          "text": "low\">\n<p class=\"has-text-align-none\">With multiple Halo titles in development, we\u2019ll need our whole team&#8217;s combined focus to deliver new experiences with the same passion and care that our commu...",
+          "sentiment": 0.625,
+          "classification": "positive"
+        },
+        {
+          "text": "w the new 4D show ahead of its opening, experiencing the production \u2013 created by the same animation team behind Zootopia 2 \u2013 and getting an up-close look at an all-new animatronic from Walt Disney Ima...",
+          "sentiment": 0.25,
+          "classification": "positive"
+        },
+        {
+          "text": "ations, but <a href=\"https://www.halowaypoint.com/news/operation-infinite-preview\">according to the team</a>,  that\u2019s it for this game\u2019s content updates:</p>\n\n<blockquote class=\"wp-block-quote is-layo...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "2025",
+      "team_key": "competitor",
+      "importance_score": 45.81,
+      "sentiment": {
+        "score": 0.374,
+        "magnitude": 0.167,
+        "positive": 4,
+        "negative": 2,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        125,
+        130,
+        135,
+        136,
+        140
+      ],
+      "sample_snippets": [
+        {
+          "text": "Black Friday may not have officially arrived, but early deals are already appearing on some of 2025's best TVs. I'm a TV reviewer and these are my top 6 early Black Friday TV deals from LG, Samsung a",
+          "sentiment": 0.84,
+          "classification": "positive"
+        },
+        {
+          "text": "You can still get a Fubo TV free trial in 2025 \u2013 here are all the ways you can try out  the live TV streaming service. How to get a Fubo TV free t",
+          "sentiment": 0.765,
+          "classification": "positive"
+        },
+        {
+          "text": "As the world's best players head to Wolverhampton, here's how to watch Grand Slam of Darts 2025 live streams online from anywhere in the world. How to watch Grand Slam of Darts 2025 online: live ",
+          "sentiment": 0.718,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "friday",
+      "team_key": "competitor",
+      "importance_score": 45.36,
+      "sentiment": {
+        "score": 0.493,
+        "magnitude": 0.125,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        130,
+        134,
+        138,
+        140
+      ],
+      "sample_snippets": [
+        {
+          "text": "best deals that I'd buy on TVs, appliances, laptops, headphones, and more. The massive Currys Black Friday sale is here \u2013 I've picked the 19 best deals on TVs, appliances, laptops, headphones, and mor...",
+          "sentiment": 0.856,
+          "classification": "positive"
+        },
+        {
+          "text": "Black Friday may not have officially arrived, but early deals are already appearing on some of 2025's best TVs. ",
+          "sentiment": 0.778,
+          "classification": "positive"
+        },
+        {
+          "text": " already appearing on some of 2025's best TVs. I'm a TV reviewer and these are my top 6 early Black Friday TV deals from LG, Samsung and Hisense",
+          "sentiment": 0.718,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "apps",
+      "team_key": "competitor",
+      "importance_score": 45.12,
+      "sentiment": {
+        "score": -0.363,
+        "magnitude": 0.136,
+        "positive": 0,
+        "negative": 3,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        115,
+        93,
+        111,
+        128
+      ],
+      "sample_snippets": [
+        {
+          "text": "Threat actors expanded operations using malicious apps, outdated devices, and IoT exploits while global attack volumes surged across key regions. Watch ou",
+          "sentiment": -0.836,
+          "classification": "negative"
+        },
+        {
+          "text": " exploits while global attack volumes surged across key regions. Watch out, these malicious Android apps have been downloaded 42 million times - and could leave you seriously out of pocket",
+          "sentiment": -0.751,
+          "classification": "negative"
+        },
+        {
+          "text": "<p>\n            Model your data, then build apps with blocks and actions\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.c",
+          "sentiment": -0.226,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "android",
+      "team_key": "competitor",
+      "importance_score": 43.95,
+      "sentiment": {
+        "score": 0.001,
+        "magnitude": 0.116,
+        "positive": 3,
+        "negative": 1,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        85,
+        127,
+        128
+      ],
+      "sample_snippets": [
+        {
+          "text": " and IoT exploits while global attack volumes surged across key regions. Watch out, these malicious Android apps have been downloaded 42 million times - and could leave you seriously out of pocket",
+          "sentiment": -0.751,
+          "classification": "negative"
+        },
+        {
+          "text": "ll appreciate. Both the <a href=\"https://play.google.com/store/apps/details?id=com.blackmagicdesign.android.blackmagiccam\">Android</a> and <a href=\"https://apps.apple.com/us/app/blackmagic-camera/id64...",
+          "sentiment": 0.402,
+          "classification": "positive"
+        },
+        {
+          "text": "The legal dispute between Google and Epic Games has been settled, with big changes coming to Android. Android could soon change in a big way thanks to the Google and Epic settlement \u2013 here\u2019s what it m",
+          "sentiment": 0.178,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "source",
+      "team_key": "competitor",
+      "importance_score": 43.92,
+      "sentiment": {
+        "score": -0.066,
+        "magnitude": 0.016,
+        "positive": 0,
+        "negative": 1,
+        "neutral": 7
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 33.33
+      },
+      "content_ids": [
+        95,
+        101,
+        103,
+        131
+      ],
+      "sample_snippets": [
+        {
+          "text": "al. Want to take a look at Apple's development secrets? It accidentally leaked its entire front-end source code for its new App Store, which is available for anyone to view - for now",
+          "sentiment": -0.527,
+          "classification": "negative"
+        },
+        {
+          "text": "<p>\n            The 1T Parameters Open-Source Thinking Model - SOTA on HLE\n          </p>\n          <p>\n            <a href=\"https://www.producth",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "products/kimi-ai-assistant?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.pr...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "tv",
+      "team_key": "competitor",
+      "importance_score": 43.81,
+      "sentiment": {
+        "score": 0.587,
+        "magnitude": 0.134,
+        "positive": 10,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        125,
+        132,
+        140
+      ],
+      "sample_snippets": [
+        {
+          "text": "riday may not have officially arrived, but early deals are already appearing on some of 2025's best TVs. I'm a TV reviewer and these are my top 6 early Black Friday TV deals from LG, Samsung and Hisen...",
+          "sentiment": 0.84,
+          "classification": "positive"
+        },
+        {
+          "text": "ot have officially arrived, but early deals are already appearing on some of 2025's best TVs. I'm a TV reviewer and these are my top 6 early Black Friday TV deals from LG, Samsung and Hisense",
+          "sentiment": 0.84,
+          "classification": "positive"
+        },
+        {
+          "text": "You can still get a Fubo TV free trial in 2025 \u2013 here are all the ways you can try out  the live TV streaming service. How to get a Fubo TV free trial",
+          "sentiment": 0.765,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "deals",
+      "team_key": "competitor",
+      "importance_score": 43.62,
+      "sentiment": {
+        "score": 0.422,
+        "magnitude": 0.134,
+        "positive": 5,
+        "negative": 1,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        130,
+        134,
+        136,
+        140
+      ],
+      "sample_snippets": [
+        {
+          "text": "Black Friday may not have officially arrived, but early deals are already appearing on some of 2025's best TVs. I'm a TV reviewer and these are my top 6 early Bl",
+          "sentiment": 0.925,
+          "classification": "positive"
+        },
+        {
+          "text": "ppearing on some of 2025's best TVs. I'm a TV reviewer and these are my top 6 early Black Friday TV deals from LG, Samsung and Hisense",
+          "sentiment": 0.718,
+          "classification": "positive"
+        },
+        {
+          "text": "I've searched through the Curry Black Friday sale and hand-picked 19 of the best deals that I'd buy on TVs, appliances, laptops, headphones, and more. The massive Currys Black Friday sal",
+          "sentiment": 0.637,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "free",
+      "team_key": "competitor",
+      "importance_score": 43.45,
+      "sentiment": {
+        "score": 0.439,
+        "magnitude": 0.111,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        85,
+        125,
+        132
+      ],
+      "sample_snippets": [
+        {
+          "text": "ut of multiple video feeds on a device with a larger screen like an iPad or a Mac.</p> Blackmagic\u2019s free camera app can now stream directly to YouTube and Twitch",
+          "sentiment": 0.7,
+          "classification": "positive"
+        },
+        {
+          "text": "You can still get a Fubo TV free trial in 2025 \u2013 here are all the ways you can try out  the live TV streaming service. How to get a ",
+          "sentiment": 0.511,
+          "classification": "positive"
+        },
+        {
+          "text": "n 2025 \u2013 here are all the ways you can try out  the live TV streaming service. How to get a Fubo TV free trial",
+          "sentiment": 0.511,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "remain committed",
+      "team_key": "competitor",
+      "importance_score": 43.37,
+      "sentiment": {
+        "score": 0.67,
+        "magnitude": 0.19,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        89
+      ],
+      "sample_snippets": [
+        {
+          "text": "to deliver new experiences with the same passion and care that our community has given us. While we remain committed to supporting Halo Infinite on the road ahead, Operation: Infinite is the last majo...",
+          "sentiment": 0.881,
+          "classification": "positive"
+        },
+        {
+          "text": "tting the record straight: the next <em>Mass Effect</em> game is in development, and EA and BioWare remain committed to telling more stories in this universe.</p>\n\n<p class=\"has-text-align-none\">The b...",
+          "sentiment": 0.459,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "next year",
+      "team_key": "competitor",
+      "importance_score": 42.9,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        89
+      ],
+      "sample_snippets": [
+        {
+          "text": " floored by the response\u201d to <em>Campaign Evolved</em>, which will be released on both PS5 and Xbox next year.</p>\n<div class=\"youtube-embed\"></div> Halo Infinite is about to get its last major update",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "ing forward to what\u2019s next for the series all the same. Fingers crossed we don\u2019t have to wait until next year\u2019s N7 Day to hear more about the next game.</p>\n\n<p class=\"has-text-align-none\"><em><strong...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "nbsp",
+      "team_key": "competitor",
+      "importance_score": 42.77,
+      "sentiment": {
+        "score": 0.14,
+        "magnitude": 0.127,
+        "positive": 12,
+        "negative": 6,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        83,
+        88,
+        90
+      ],
+      "sample_snippets": [
+        {
+          "text": " 10 days of battery life. (Though it\u2019s more like two to three if you enable the always-on display.)&nbsp;</p>\n<img alt=\"Close up of Fitbit Inspire 3 screen. The Fitbit is resting on a vibrant green pl...",
+          "sentiment": 0.872,
+          "classification": "positive"
+        },
+        {
+          "text": "$69.95 at <strong>Google</strong></a></li></ul></div>\n<p>The Inspire line hasn\u2019t always felt, well,&nbsp;<em>inspired</em>. But the $99.95 Inspire 3 is different. With a color OLED display, it\u2019s remin...",
+          "sentiment": 0.813,
+          "classification": "positive"
+        },
+        {
+          "text": "red</em>. But the $99.95 Inspire 3 is different. With a color OLED display, it\u2019s reminiscent of the&nbsp;<a href=\"https://www.theverge.com/2021/4/19/22386394/fitbit-luxe-fitness-wellness-tracker-price...",
+          "sentiment": 0.723,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "community",
+      "team_key": "competitor",
+      "importance_score": 42.63,
+      "sentiment": {
+        "score": 0.294,
+        "magnitude": 0.091,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        117
+      ],
+      "sample_snippets": [
+        {
+          "text": "hole team&#8217;s combined focus to deliver new experiences with the same passion and care that our community has given us. While we remain committed to supporting Halo Infinite on the road ahead, Ope...",
+          "sentiment": 0.881,
+          "classification": "positive"
+        },
+        {
+          "text": "nfinite-winter-update-campaign-co-op-forge-match-xp\">subsequent updates</a> checked off some of the community\u2019s wishlist items. Still, it\u2019s clearer than ever that <a href=\"https://www.theverge.com/ent...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "         <a href=\"https://www.producthunt.com/r/p/1033550?app_id=339\">Link</a>\n          </p> Uneed Community",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "better",
+      "team_key": "competitor",
+      "importance_score": 42.59,
+      "sentiment": {
+        "score": 0.555,
+        "magnitude": 0.154,
+        "positive": 3,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        87,
+        90,
+        96
+      ],
+      "sample_snippets": [
+        {
+          "text": "of $31.90. If it had put that money into all-American Apple instead, it would be sitting on an even better $136.57, profiting by $36.57. Invested in the S&amp;P 500 index, gains would be a little more...",
+          "sentiment": 0.784,
+          "classification": "positive"
+        },
+        {
+          "text": "/500579723494031419\">in July</a>, which include a more adaptable UI and reprocessing videos to work better with the new player.</p> Steam store pages are wider now",
+          "sentiment": 0.44,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Art therapy app with Apple Health that unlocks a better you\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/groodles",
+          "sentiment": 0.44,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "open source",
+      "team_key": "competitor",
+      "importance_score": 42.55,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        95,
+        101,
+        103
+      ],
+      "sample_snippets": [
+        {
+          "text": "      <a href=\"https://www.producthunt.com/r/p/1034392?app_id=339\">Link</a>\n          </p> Packmind Open Source",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "watch",
+      "team_key": "competitor",
+      "importance_score": 42.38,
+      "sentiment": {
+        "score": 0.225,
+        "magnitude": 0.098,
+        "positive": 28,
+        "negative": 4,
+        "neutral": 20
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        83,
+        128,
+        135
+      ],
+      "sample_snippets": [
+        {
+          "text": "ng resources in projects under the Fitbit name. The hardware improvements introduced with the Pixel Watch 4 are also a positive sign that Google remains committed to developing compelling wearable har...",
+          "sentiment": 0.836,
+          "classification": "positive"
+        },
+        {
+          "text": "\u201cactive minutes,\u201d which fill a cute progress meter called a Noodle that runs around the face of the watch. Active minutes earn time with the Ace LTE\u2019s built-in games that, combined with activities, un...",
+          "sentiment": 0.818,
+          "classification": "positive"
+        },
+        {
+          "text": " Watch 4\u2019s mix of hardware, features, and price make it the best Fitbit, and one of the top Android watches overall.</p>\n\n<p class=\"has-text-align-none\">If all you want is a fitness tracker that&nbsp;...",
+          "sentiment": 0.813,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "coding",
+      "team_key": "competitor",
+      "importance_score": 42.17,
+      "sentiment": {
+        "score": 0.165,
+        "magnitude": 0.066,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        107,
+        103,
+        118
+      ],
+      "sample_snippets": [
+        {
+          "text": "<p>\n            Roll out coding standards safely across repos and agents\n          </p>\n          <p>\n            <a href=\"https://",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Orchestrate multiple AI coding agents with your team\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "<p>\n            AI-powered cloud IDE for coding from anywhere\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/product",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "8217",
+      "team_key": "competitor",
+      "importance_score": 42.09,
+      "sentiment": {
+        "score": -0.011,
+        "magnitude": 0.087,
+        "positive": 3,
+        "negative": 2,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        86,
+        88,
+        89
+      ],
+      "sample_snippets": [
+        {
+          "text": "<p class=\"has-text-align-none\">With multiple Halo titles in development, we\u2019ll need our whole team&#8217;s combined focus to deliver new experiences with the same passion and care that our community h...",
+          "sentiment": 0.735,
+          "classification": "positive"
+        },
+        {
+          "text": "tify and blackmail victims into sexually explicit acts or self harm. According to the suit, Roblox&#8217;s parental controls push only began after a number of lawsuits, and <a href=\"https://www.thever...",
+          "sentiment": -0.727,
+          "classification": "negative"
+        },
+        {
+          "text": "gaging in grooming and child sexual exploitation.\u201d</p>\n\n<p class=\"has-text-align-none\">The lawsuit&#8217;s examples focus on instances of children who have been abused by predators they met via Roblox...",
+          "sentiment": -0.511,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "code",
+      "team_key": "competitor",
+      "importance_score": 42.04,
+      "sentiment": {
+        "score": -0.072,
+        "magnitude": 0.07,
+        "positive": 1,
+        "negative": 2,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        92,
+        131,
+        137
+      ],
+      "sample_snippets": [
+        {
+          "text": "t to take a look at Apple's development secrets? It accidentally leaked its entire front-end source code for its new App Store, which is available for anyone to view - for now",
+          "sentiment": -0.572,
+          "classification": "negative"
+        },
+        {
+          "text": "Apple\u2019s new web App Store exposed its full front-end code, giving developers temporary insight before likely removal. Want to take a look at Apple's developm",
+          "sentiment": 0.34,
+          "classification": "positive"
+        },
+        {
+          "text": "Malicious VS Code extension stuck around for a little while, but it is now removed. Malicious AI-made extension with ",
+          "sentiment": -0.128,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "create",
+      "team_key": "competitor",
+      "importance_score": 41.88,
+      "sentiment": {
+        "score": 0.273,
+        "magnitude": 0.156,
+        "positive": 3,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        104,
+        109,
+        112
+      ],
+      "sample_snippets": [
+        {
+          "text": "<p>\n            Create your own AI generated expression grid\n          </p>\n          <p>\n            <a href=\"https://www",
+          "sentiment": 0.273,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Create, learn, and grow as a musician \n          </p>\n          <p>\n            <a href=\"https://www.produ",
+          "sentiment": 0.273,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Create reminders & calendar events instantly by speaking\n          </p>\n          <p>\n            <a href=",
+          "sentiment": 0.273,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "ahead",
+      "team_key": "competitor",
+      "importance_score": 41.71,
+      "sentiment": {
+        "score": 0.357,
+        "magnitude": 0.095,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        133,
+        138
+      ],
+      "sample_snippets": [
+        {
+          "text": " that our community has given us. While we remain committed to supporting Halo Infinite on the road ahead, Operation: Infinite is the last major content update currently planned.</p>\n</blockquote>\n\n<p...",
+          "sentiment": 0.612,
+          "classification": "positive"
+        },
+        {
+          "text": "TechRadar had the chance to preview the new 4D show ahead of its opening, experiencing the production \u2013 created by the same animation team behind Zootopia 2 ",
+          "sentiment": 0.459,
+          "classification": "positive"
+        },
+        {
+          "text": "CIe Gen4 performance with read speeds of up to 7,100MB/s, and it\u2019s currently priced at just \u00a3105.99 ahead of Black Friday. Don\u2019t wait for Black Friday: Get Crucial\u2019s 2TB P310 Gen4 SSD with 7,100MB/s r...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "world",
+      "team_key": "competitor",
+      "importance_score": 41.62,
+      "sentiment": {
+        "score": 0.099,
+        "magnitude": 0.071,
+        "positive": 4,
+        "negative": 2,
+        "neutral": 6
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        84,
+        133,
+        135
+      ],
+      "sample_snippets": [
+        {
+          "text": "ia 2 \u2013 and getting an up-close look at an all-new animatronic from Walt Disney Imagineering. Disney World\u2019s new Zootopia experience is fun, fast, and full of fur \u2013 literally, thanks to one incredible ...",
+          "sentiment": 0.735,
+          "classification": "positive"
+        },
+        {
+          "text": "As the world's best players head to Wolverhampton, here's how to watch Grand Slam of Darts 2025 live streams onl",
+          "sentiment": 0.681,
+          "classification": "positive"
+        },
+        {
+          "text": "more than a thousand mounts earnable in-game and only a few dozen from the shop.\u201d</p>\n</blockquote> World of Warcraft is getting a new kind of fake money",
+          "sentiment": -0.526,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "best",
+      "team_key": "competitor",
+      "importance_score": 41.59,
+      "sentiment": {
+        "score": 0.344,
+        "magnitude": 0.102,
+        "positive": 11,
+        "negative": 1,
+        "neutral": 9
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        83,
+        130,
+        134,
+        135,
+        139,
+        140
+      ],
+      "sample_snippets": [
+        {
+          "text": "ack Friday may not have officially arrived, but early deals are already appearing on some of 2025's best TVs. I'm a TV reviewer and these are my top 6 early Black Friday TV deals from LG, Samsung and ...",
+          "sentiment": 0.84,
+          "classification": "positive"
+        },
+        {
+          "text": "o reflect current pricing and availability. Brandt Ranj also contributed to this post.</em></p> The best Fitbits for your fitness and health",
+          "sentiment": 0.743,
+          "classification": "positive"
+        },
+        {
+          "text": ">Read our coverage of the Fitbit Inspire 3 here</a>.</h5>\n\n<h2 class=\"wp-block-heading\" id=\"U8kv2D\">Best Fitbit fitness tracker</h2>\n<div class=\"product-block\"><h3>Fitbit Charge 6</h3>\n<div class=\"pro...",
+          "sentiment": 0.7,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "content",
+      "team_key": "competitor",
+      "importance_score": 41.3,
+      "sentiment": {
+        "score": 0.252,
+        "magnitude": 0.069,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        87
+      ],
+      "sample_snippets": [
+        {
+          "text": "d that 1200 pixels number because it found that it \u201cfelt like a good balance where we can show more content on screen without overwhelming the page and making it hard to navigate.\u201d</p>\n\n<p class=\"has-...",
+          "sentiment": 0.649,
+          "classification": "positive"
+        },
+        {
+          "text": "main committed to supporting Halo Infinite on the road ahead, Operation: Infinite is the last major content update currently planned.</p>\n</blockquote>\n\n<p class=\"has-text-align-none\">Putting this gam...",
+          "sentiment": 0.612,
+          "classification": "positive"
+        },
+        {
+          "text": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23845823/CoOp_0.jpeg?quality=90&#038;strip=all&#03",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "black",
+      "team_key": "competitor",
+      "importance_score": 40.85,
+      "sentiment": {
+        "score": 0.381,
+        "magnitude": 0.088,
+        "positive": 4,
+        "negative": 0,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        130,
+        134,
+        138,
+        140
+      ],
+      "sample_snippets": [
+        {
+          "text": "f the best deals that I'd buy on TVs, appliances, laptops, headphones, and more. The massive Currys Black Friday sale is here \u2013 I've picked the 19 best deals on TVs, appliances, laptops, headphones, a...",
+          "sentiment": 0.856,
+          "classification": "positive"
+        },
+        {
+          "text": "ls are already appearing on some of 2025's best TVs. I'm a TV reviewer and these are my top 6 early Black Friday TV deals from LG, Samsung and Hisense",
+          "sentiment": 0.718,
+          "classification": "positive"
+        },
+        {
+          "text": "I've searched through the Curry Black Friday sale and hand-picked 19 of the best deals that I'd buy on TVs, appliances, laptops, headphon",
+          "sentiment": 0.637,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "update",
+      "team_key": "competitor",
+      "importance_score": 40.67,
+      "sentiment": {
+        "score": 0.135,
+        "magnitude": 0.033,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 6
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        85,
+        87
+      ],
+      "sample_snippets": [
+        {
+          "text": "you can adjust settings like exposure and focus on the fly.</p>\n\n<p class=\"has-text-align-none\">The update also adds support for SRT: a more modern streaming protocol frequently used by professional b...",
+          "sentiment": 0.637,
+          "classification": "positive"
+        },
+        {
+          "text": "mitted to supporting Halo Infinite on the road ahead, Operation: Infinite is the last major content update currently planned.</p>\n</blockquote>\n\n<p class=\"has-text-align-none\">Putting this game into m...",
+          "sentiment": 0.44,
+          "classification": "positive"
+        },
+        {
+          "text": ".com/news/operation-infinite-preview\">according to the team</a>,  that\u2019s it for this game\u2019s content updates:</p>\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p cl...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "last month",
+      "team_key": "competitor",
+      "importance_score": 40.66,
+      "sentiment": {
+        "score": -0.077,
+        "magnitude": 0.043,
+        "positive": 0,
+        "negative": 1,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        88
+      ],
+      "sample_snippets": [
+        {
+          "text": "class=\"has-text-align-none\">Putting this game into maintenance mode is an awkward counterpart after last month\u2019s news of a <a href=\"https://www.theverge.com/news/805174/halo-campaign-evolved-remake-xb...",
+          "sentiment": -0.153,
+          "classification": "negative"
+        },
+        {
+          "text": "-is-suing-roblox\">Kentucky also sued Roblox</a>, calling it \u201ca hunting ground for child predators.\u201d Last month, Florida Attorney General James Uthmeier <a href=\"https://www.nbcnews.com/tech/tech-news/...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "full",
+      "team_key": "competitor",
+      "importance_score": 40.65,
+      "sentiment": {
+        "score": 0.308,
+        "magnitude": 0.182,
+        "positive": 3,
+        "negative": 1,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        126,
+        131,
+        133
+      ],
+      "sample_snippets": [
+        {
+          "text": "animatronic from Walt Disney Imagineering. Disney World\u2019s new Zootopia experience is fun, fast, and full of fur \u2013 literally, thanks to one incredible animatronic",
+          "sentiment": 0.735,
+          "classification": "positive"
+        },
+        {
+          "text": "ll be legal. Elon Musk says Tesla is \"almost ready\" to allow texting when behind the wheel with its Full Self-Driving system",
+          "sentiment": 0.518,
+          "classification": "positive"
+        },
+        {
+          "text": "Musk claims Full Self-Driving will soon allow texting when at the wheel, but fails to explain how that will be legal",
+          "sentiment": -0.361,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "like",
+      "team_key": "competitor",
+      "importance_score": 40.65,
+      "sentiment": {
+        "score": 0.405,
+        "magnitude": 0.169,
+        "positive": 5,
+        "negative": 3,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        85,
+        86,
+        88
+      ],
+      "sample_snippets": [
+        {
+          "text": "sional broadcasters that\u2019s optimized for networks whose speeds and reliability are less consistent, like the internet. Blackmagic Camera also gains support for custom RTMP and SRT servers for streamer...",
+          "sentiment": 0.853,
+          "classification": "positive"
+        },
+        {
+          "text": "re flexibility when customizing the layout of multiple video feeds on a device with a larger screen like an iPad or a Mac.</p> Blackmagic\u2019s free camera app can now stream directly to YouTube and Twitc...",
+          "sentiment": 0.802,
+          "classification": "positive"
+        },
+        {
+          "text": "-align-none\">From weekend camping trips to unexpected power outages, having a reliable power source like the <strong>Anker 521 PowerHouse </strong>can be a lifesaver. Normally $249.99, right now you c...",
+          "sentiment": 0.743,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "game",
+      "team_key": "competitor",
+      "importance_score": 40.21,
+      "sentiment": {
+        "score": 0.066,
+        "magnitude": 0.081,
+        "positive": 7,
+        "negative": 7,
+        "neutral": 10
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        84,
+        89
+      ],
+      "sample_snippets": [
+        {
+          "text": "re shared a promising sign of life: the BioWare team is \u201cheads-down and focused exclusively\u201d on the game, according to its executive producer.</p>\n\n<p class=\"has-text-align-none\">\u201cWe have a lot of uni...",
+          "sentiment": 0.772,
+          "classification": "positive"
+        },
+        {
+          "text": "/2020/11/7/21554092/bioware-new-mass-effect-game-announced-n7-day\">a brand new <em>Mass Effect</em> game</a>. But today, November 7th (N7 Day), BioWare shared a promising sign of life: the BioWare tea...",
+          "sentiment": 0.768,
+          "classification": "positive"
+        },
+        {
+          "text": "the series\u2019s future if <a href=\"https://www.theverge.com/games/787723/ea-private-deal-buyout-future-games-layoffs\">the deal to take EA private</a> goes through. \u201cYou\u2019ve made it clear you care deeply a...",
+          "sentiment": 0.7,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "year",
+      "team_key": "competitor",
+      "importance_score": 40.09,
+      "sentiment": {
+        "score": 0.132,
+        "magnitude": 0.076,
+        "positive": 3,
+        "negative": 2,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        88,
+        89
+      ],
+      "sample_snippets": [
+        {
+          "text": "rely sure what this image might mean, but as someone who finally finished the original trilogy last year thanks to the <a href=\"https://www.theverge.com/2021/2/2/22256806/mass-effect-legendary-edition...",
+          "sentiment": 0.815,
+          "classification": "positive"
+        },
+        {
+          "text": "ensationalized claims.\u201d He added, \u201cWe have introduced over 145 safety measures on the platform this year alone.\u201d&nbsp;</p>\n\n<p class=\"has-text-align-none\">Roblox <a href=\"https://corp.roblox.com/newsr...",
+          "sentiment": 0.421,
+          "classification": "positive"
+        },
+        {
+          "text": "tember</a> that it has over 111 million daily active users, many of whom are children. Earlier this year, Roblox announced plans to roll out <a href=\"https://www.theverge.com/news/708670/roblox-truste...",
+          "sentiment": 0.402,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "look",
+      "team_key": "competitor",
+      "importance_score": 39.76,
+      "sentiment": {
+        "score": 0.153,
+        "magnitude": 0.09,
+        "positive": 2,
+        "negative": 1,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        130,
+        131,
+        133
+      ],
+      "sample_snippets": [
+        {
+          "text": "tell you if you should buy now or wait for what's next, depending on your favorite device. Should I look for Black Friday smartphone deals today or wait for what\u2019s coming tomorrow? I\u2019ve previewed the ...",
+          "sentiment": 0.459,
+          "classification": "positive"
+        },
+        {
+          "text": " its full front-end code, giving developers temporary insight before likely removal. Want to take a look at Apple's development secrets? It accidentally leaked its entire front-end source code for its...",
+          "sentiment": -0.25,
+          "classification": "negative"
+        },
+        {
+          "text": "ing the production \u2013 created by the same animation team behind Zootopia 2 \u2013 and getting an up-close look at an all-new animatronic from Walt Disney Imagineering. Disney World\u2019s new Zootopia experience...",
+          "sentiment": 0.25,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "open",
+      "team_key": "competitor",
+      "importance_score": 39.3,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        95,
+        101,
+        103
+      ],
+      "sample_snippets": [
+        {
+          "text": "<p>\n            The 1T Parameters Open-Source Thinking Model - SOTA on HLE\n          </p>\n          <p>\n            <a href=\"https://www.p",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "<p>\n            The open-source AI gateway for AI-native startups\n          </p>\n          <p>\n            <a href=\"https://",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "nts\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/packmind-open-source?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producth...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "ai discussion",
+      "team_key": "competitor",
+      "importance_score": 39.1,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        108,
+        105,
+        113
+      ],
+      "sample_snippets": []
+    }
+  ],
+  "count": 50
+}

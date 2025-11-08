@@ -1,0 +1,1926 @@
+{
+  "date": "2025-11-02",
+  "team": "competitor",
+  "keywords": [
+    {
+      "keyword": "ipad",
+      "team_key": "competitor",
+      "importance_score": 48.47,
+      "sentiment": {
+        "score": 0.35,
+        "magnitude": 0.076,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        85,
+        115
+      ],
+      "sample_snippets": [
+        {
+          "text": "bility when customizing the layout of multiple video feeds on a device with a larger screen like an iPad or a Mac.</p> Blackmagic\u2019s free camera app can now stream directly to YouTube and Twitch",
+          "sentiment": 0.7,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Find apps & games for iPhone, iPad, Mac & more \u2014 on the web\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "apple",
+      "team_key": "competitor",
+      "importance_score": 48.42,
+      "sentiment": {
+        "score": 0.243,
+        "magnitude": 0.084,
+        "positive": 3,
+        "negative": 0,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        85,
+        90,
+        96,
+        115
+      ],
+      "sample_snippets": [
+        {
+          "text": "ed</a>, it would have $131.90 today, a profit of $31.90. If it had put that money into all-American Apple instead, it would be sitting on an even better $136.57, profiting by $36.57. Invested in the S...",
+          "sentiment": 0.813,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Art therapy app with Apple Health that unlocks a better you\n          </p>\n          <p>\n            <a href=\"https://www.prod",
+          "sentiment": 0.44,
+          "classification": "positive"
+        },
+        {
+          "text": "ernal drive is disconnected to help prevent data loss when working with high-res and high framerate Apple ProRes files the iPhone can\u2019t record internally. And there\u2019s now an option to select the numbe...",
+          "sentiment": 0.202,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "iphone",
+      "team_key": "competitor",
+      "importance_score": 47.5,
+      "sentiment": {
+        "score": 0.101,
+        "magnitude": 0.068,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        85,
+        115
+      ],
+      "sample_snippets": [
+        {
+          "text": "cted to help prevent data loss when working with high-res and high framerate Apple ProRes files the iPhone can\u2019t record internally. And there\u2019s now an option to select the number of multi-view angles ...",
+          "sentiment": 0.202,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Find apps & games for iPhone, iPad, Mac & more \u2014 on the web\n          </p>\n          <p>\n            <a href=\"https://www.produc",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "amazon",
+      "team_key": "competitor",
+      "importance_score": 46.86,
+      "sentiment": {
+        "score": 0.079,
+        "magnitude": 0.075,
+        "positive": 2,
+        "negative": 2,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        86,
+        89
+      ],
+      "sample_snippets": [
+        {
+          "text": "</em> TV series BioWare is <a href=\"https://www.theverge.com/2024/11/7/24290596/mass-effect-tv-show-amazon-fallout\">working on with Amazon</a>, too. \u201cThe writers room is going strong, and we\u2019ve got a ...",
+          "sentiment": 0.511,
+          "classification": "positive"
+        },
+        {
+          "text": "ef=\"https://www.theverge.com/2024/11/7/24290596/mass-effect-tv-show-amazon-fallout\">working on with Amazon</a>, too. \u201cThe writers room is going strong, and we\u2019ve got a lot figured out about how it fit...",
+          "sentiment": 0.511,
+          "classification": "positive"
+        },
+        {
+          "text": "now you can buy the power station for the new low price of $128.99 at checkout <a href=\"https://www.amazon.com/dp/B09FF46FQ9/\">at Amazon</a>.</p>\n<div class=\"product-block\"><h3>Anker 521 PowerHouse</h...",
+          "sentiment": -0.273,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "the verge",
+      "team_key": "competitor",
+      "importance_score": 45.43,
+      "sentiment": {
+        "score": -0.717,
+        "magnitude": 0.268,
+        "positive": 0,
+        "negative": 2,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        82,
+        88
+      ],
+      "sample_snippets": [
+        {
+          "text": "f=\"https://www.theverge.com/gadgets/816352/peloton-q1-2026-earnings-fitness\">Read the full story at The Verge.</a></p> Maybe Peloton is its own worst enemy",
+          "sentiment": -0.823,
+          "classification": "negative"
+        },
+        {
+          "text": " Senior Director of Policy Communications at Roblox, responded to the lawsuit in a statement to <em>The Verge</em>, saying, \u201cWe are disappointed that, rather than working collaboratively with Roblox o...",
+          "sentiment": -0.612,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "analytics",
+      "team_key": "competitor",
+      "importance_score": 45.28,
+      "sentiment": {
+        "score": 0.43,
+        "magnitude": 0.253,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        97,
+        114
+      ],
+      "sample_snippets": [
+        {
+          "text": "<p>\n             Automatic UTMs with AI + Intelligent Analytics\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/sourmize?utm",
+          "sentiment": 0.459,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Simple growth analytics. Know your funnel.\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/pr",
+          "sentiment": 0.402,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "care",
+      "team_key": "competitor",
+      "importance_score": 43.63,
+      "sentiment": {
+        "score": 0.826,
+        "magnitude": 0.247,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        89
+      ],
+      "sample_snippets": [
+        {
+          "text": "\u2019ll need our whole team&#8217;s combined focus to deliver new experiences with the same passion and care that our community has given us. While we remain committed to supporting Halo Infinite on the r...",
+          "sentiment": 0.881,
+          "classification": "positive"
+        },
+        {
+          "text": "uyout-future-games-layoffs\">the deal to take EA private</a> goes through. \u201cYou\u2019ve made it clear you care deeply about what\u2019s next. So let\u2019s start by setting the record straight: the next <em>Mass Effe...",
+          "sentiment": 0.772,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "stream",
+      "team_key": "competitor",
+      "importance_score": 43.59,
+      "sentiment": {
+        "score": 0.29,
+        "magnitude": 0.082,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 5
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        85,
+        102
+      ],
+      "sample_snippets": [
+        {
+          "text": "istent, like the internet. Blackmagic Camera also gains support for custom RTMP and SRT servers for streamers wanting alternatives to the three native platforms now supported.</p>\n\n<p class=\"has-text-...",
+          "sentiment": 0.765,
+          "classification": "positive"
+        },
+        {
+          "text": "ds on a device with a larger screen like an iPad or a Mac.</p> Blackmagic\u2019s free camera app can now stream directly to YouTube and Twitch",
+          "sentiment": 0.7,
+          "classification": "positive"
+        },
+        {
+          "text": "on the fly.</p>\n\n<p class=\"has-text-align-none\">The update also adds support for SRT: a more modern streaming protocol frequently used by professional broadcasters that\u2019s optimized for networks whose ...",
+          "sentiment": 0.691,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "remain committed",
+      "team_key": "competitor",
+      "importance_score": 43.37,
+      "sentiment": {
+        "score": 0.67,
+        "magnitude": 0.19,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        89
+      ],
+      "sample_snippets": [
+        {
+          "text": "to deliver new experiences with the same passion and care that our community has given us. While we remain committed to supporting Halo Infinite on the road ahead, Operation: Infinite is the last majo...",
+          "sentiment": 0.881,
+          "classification": "positive"
+        },
+        {
+          "text": "tting the record straight: the next <em>Mass Effect</em> game is in development, and EA and BioWare remain committed to telling more stories in this universe.</p>\n\n<p class=\"has-text-align-none\">The b...",
+          "sentiment": 0.459,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "next year",
+      "team_key": "competitor",
+      "importance_score": 42.9,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        89
+      ],
+      "sample_snippets": [
+        {
+          "text": " floored by the response\u201d to <em>Campaign Evolved</em>, which will be released on both PS5 and Xbox next year.</p>\n<div class=\"youtube-embed\"></div> Halo Infinite is about to get its last major update",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "ing forward to what\u2019s next for the series all the same. Fingers crossed we don\u2019t have to wait until next year\u2019s N7 Day to hear more about the next game.</p>\n\n<p class=\"has-text-align-none\"><em><strong...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "build",
+      "team_key": "competitor",
+      "importance_score": 42.87,
+      "sentiment": {
+        "score": 0.115,
+        "magnitude": 0.139,
+        "positive": 2,
+        "negative": 1,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        89,
+        90,
+        102
+      ],
+      "sample_snippets": [
+        {
+          "text": "ttps://blog.bioware.com/2025/11/07/n7-day-2025/\">Mike Gamble says</a>. \u201cWe\u2019re excited by what we\u2019re building, and we promise you: when we\u2019re ready, it\u2019ll be a lot of fun to show.\u201d Gamble also addresse...",
+          "sentiment": 0.859,
+          "classification": "positive"
+        },
+        {
+          "text": "ial advice \u2014 is that it tends to make more money. Even if Trump Mobile had made no effort at all to build a single smartphone (and we have absolutely no evidence that it ever has!) those deposits alon...",
+          "sentiment": -0.717,
+          "classification": "negative"
+        },
+        {
+          "text": "ducer.</p>\n\n<p class=\"has-text-align-none\">\u201cWe have a lot of universe to cover, lots of features to build, and lots of romances to figure out.\u201d <a href=\"https://blog.bioware.com/2025/11/07/n7-day-2025...",
+          "sentiment": 0.318,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "app",
+      "team_key": "competitor",
+      "importance_score": 42.85,
+      "sentiment": {
+        "score": 0.197,
+        "magnitude": 0.066,
+        "positive": 10,
+        "negative": 0,
+        "neutral": 14
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        85,
+        96,
+        115
+      ],
+      "sample_snippets": [
+        {
+          "text": "three native platforms now supported.</p>\n\n<p class=\"has-text-align-none\">Other improvements to the app include detailed and immediate alerts when an external drive is disconnected to help prevent dat...",
+          "sentiment": 0.796,
+          "classification": "positive"
+        },
+        {
+          "text": "le video feeds on a device with a larger screen like an iPad or a Mac.</p> Blackmagic\u2019s free camera app can now stream directly to YouTube and Twitch",
+          "sentiment": 0.7,
+          "classification": "positive"
+        },
+        {
+          "text": "ct your platform and enter a secure stream key. While broadcasting, you\u2019ll still have access to the app\u2019s controls so you can adjust settings like exposure and focus on the fly.</p>\n\n<p class=\"has-tex...",
+          "sentiment": 0.599,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "nbsp",
+      "team_key": "competitor",
+      "importance_score": 42.77,
+      "sentiment": {
+        "score": 0.14,
+        "magnitude": 0.127,
+        "positive": 12,
+        "negative": 6,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        83,
+        88,
+        90
+      ],
+      "sample_snippets": [
+        {
+          "text": " 10 days of battery life. (Though it\u2019s more like two to three if you enable the always-on display.)&nbsp;</p>\n<img alt=\"Close up of Fitbit Inspire 3 screen. The Fitbit is resting on a vibrant green pl...",
+          "sentiment": 0.872,
+          "classification": "positive"
+        },
+        {
+          "text": "$69.95 at <strong>Google</strong></a></li></ul></div>\n<p>The Inspire line hasn\u2019t always felt, well,&nbsp;<em>inspired</em>. But the $99.95 Inspire 3 is different. With a color OLED display, it\u2019s remin...",
+          "sentiment": 0.813,
+          "classification": "positive"
+        },
+        {
+          "text": "red</em>. But the $99.95 Inspire 3 is different. With a color OLED display, it\u2019s reminiscent of the&nbsp;<a href=\"https://www.theverge.com/2021/4/19/22386394/fitbit-luxe-fitness-wellness-tracker-price...",
+          "sentiment": 0.723,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "better",
+      "team_key": "competitor",
+      "importance_score": 42.59,
+      "sentiment": {
+        "score": 0.555,
+        "magnitude": 0.154,
+        "positive": 3,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        87,
+        90,
+        96
+      ],
+      "sample_snippets": [
+        {
+          "text": "of $31.90. If it had put that money into all-American Apple instead, it would be sitting on an even better $136.57, profiting by $36.57. Invested in the S&amp;P 500 index, gains would be a little more...",
+          "sentiment": 0.784,
+          "classification": "positive"
+        },
+        {
+          "text": "/500579723494031419\">in July</a>, which include a more adaptable UI and reprocessing videos to work better with the new player.</p> Steam store pages are wider now",
+          "sentiment": 0.44,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Art therapy app with Apple Health that unlocks a better you\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/groodles",
+          "sentiment": 0.44,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "open source",
+      "team_key": "competitor",
+      "importance_score": 42.55,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        95,
+        101,
+        103
+      ],
+      "sample_snippets": [
+        {
+          "text": "      <a href=\"https://www.producthunt.com/r/p/1034392?app_id=339\">Link</a>\n          </p> Packmind Open Source",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "good",
+      "team_key": "competitor",
+      "importance_score": 42.4,
+      "sentiment": {
+        "score": 0.752,
+        "magnitude": 0.262,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        82,
+        87
+      ],
+      "sample_snippets": [
+        {
+          "text": "7/akrales_170407_1569_0741.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tA good product and loyal audience is a winning formula for everyone except, it seems, Peloton.\t</figca...",
+          "sentiment": 0.856,
+          "classification": "positive"
+        },
+        {
+          "text": "B\">Valve says</a>. The company picked that 1200 pixels number because it found that it \u201cfelt like a good balance where we can show more content on screen without overwhelming the page and making it ha...",
+          "sentiment": 0.649,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "amp",
+      "team_key": "competitor",
+      "importance_score": 42.38,
+      "sentiment": {
+        "score": 0.69,
+        "magnitude": 0.198,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        82,
+        90
+      ],
+      "sample_snippets": [
+        {
+          "text": "pple instead, it would be sitting on an even better $136.57, profiting by $36.57. Invested in the S&amp;P 500 index, gains would be a little more modest: $110.79 by today, for a profit of just over $1...",
+          "sentiment": 0.869,
+          "classification": "positive"
+        },
+        {
+          "text": ", plus the company was offering<strong> </strong>a free replacement seat. Later, when asked in an Q&amp;A with  \u2026</p>\n<p><a href=\"https://www.theverge.com/gadgets/816352/peloton-q1-2026-earnings-fitne...",
+          "sentiment": 0.511,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "camera",
+      "team_key": "competitor",
+      "importance_score": 42.37,
+      "sentiment": {
+        "score": 0.209,
+        "magnitude": 0.06,
+        "positive": 4,
+        "negative": 0,
+        "neutral": 7
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        85,
+        86
+      ],
+      "sample_snippets": [
+        {
+          "text": "imized for networks whose speeds and reliability are less consistent, like the internet. Blackmagic Camera also gains support for custom RTMP and SRT servers for streamers wanting alternatives to the ...",
+          "sentiment": 0.745,
+          "classification": "positive"
+        },
+        {
+          "text": " multiple video feeds on a device with a larger screen like an iPad or a Mac.</p> Blackmagic\u2019s free camera app can now stream directly to YouTube and Twitch",
+          "sentiment": 0.7,
+          "classification": "positive"
+        },
+        {
+          "text": "rnally. And there\u2019s now an option to select the number of multi-view angles while monitoring remote cameras, allowing for more flexibility when customizing the layout of multiple video feeds on a devi...",
+          "sentiment": 0.458,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "devices",
+      "team_key": "competitor",
+      "importance_score": 42.29,
+      "sentiment": {
+        "score": 0.279,
+        "magnitude": 0.07,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        86,
+        87
+      ],
+      "sample_snippets": [
+        {
+          "text": "ink appropriately to fit well\u201d and that the pages adapt \u201cto fit on tablets, Steam Decks, and mobile devices.\u201d Valve says it\u2019s even tested the changes \u201con a tiny old iPod that someone had laying around...",
+          "sentiment": 0.612,
+          "classification": "positive"
+        },
+        {
+          "text": "day\u2019s price makes it an especially solid investment.</p> Anker\u2019s 521 PowerHouse can power up to six devices, and it&#8217;s on sale",
+          "sentiment": 0.225,
+          "classification": "positive"
+        },
+        {
+          "text": "That gives you everything you need to recharge your phone, laptop, tablet, camera, drone, and other devices multiple times. It can also run gadgets that draw up to 300 watts of power, so you can use s...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "this year",
+      "team_key": "competitor",
+      "importance_score": 42.24,
+      "sentiment": {
+        "score": 0.036,
+        "magnitude": 0.098,
+        "positive": 2,
+        "negative": 2,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        88,
+        90
+      ],
+      "sample_snippets": [
+        {
+          "text": "s changed since last week. The website sits there, unchanged. There\u2019s still no release date beyond \u201cthis year,\u201d I\u2019ve still had no reply from my emails to Trump Mobile, and the company\u2019s social channel...",
+          "sentiment": -0.527,
+          "classification": "negative"
+        },
+        {
+          "text": "and sensationalized claims.\u201d He added, \u201cWe have introduced over 145 safety measures on the platform this year alone.\u201d&nbsp;</p>\n\n<p class=\"has-text-align-none\">Roblox <a href=\"https://corp.roblox.com/...",
+          "sentiment": 0.421,
+          "classification": "positive"
+        },
+        {
+          "text": "n September</a> that it has over 111 million daily active users, many of whom are children. Earlier this year, Roblox announced plans to roll out <a href=\"https://www.theverge.com/news/708670/roblox-t...",
+          "sentiment": 0.402,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "battery",
+      "team_key": "competitor",
+      "importance_score": 42.24,
+      "sentiment": {
+        "score": 0.15,
+        "magnitude": 0.094,
+        "positive": 9,
+        "negative": 3,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        83,
+        86
+      ],
+      "sample_snippets": [
+        {
+          "text": "OLED display is also a step up from the Inspire 2\u2019s monochrome screen, and you still get 10 days of battery life. (Though it\u2019s more like two to three if you enable the always-on display.)&nbsp;</p>\n<i...",
+          "sentiment": 0.757,
+          "classification": "positive"
+        },
+        {
+          "text": "sers to \u201creduce the risk of battery overheating,\u201d which had the unfortunate side effect of reducing battery life from as many as six days to as few as one for some users. However, the fact that we\u2019re ...",
+          "sentiment": -0.625,
+          "classification": "negative"
+        },
+        {
+          "text": "earables\">a mandatory software update</a> for Fitbit Versa 3 and Sense users to \u201creduce the risk of battery overheating,\u201d which had the unfortunate side effect of reducing battery life from as many as...",
+          "sentiment": -0.586,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "blog post",
+      "team_key": "competitor",
+      "importance_score": 42.16,
+      "sentiment": {
+        "score": 0.137,
+        "magnitude": 0.037,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        84,
+        89
+      ],
+      "sample_snippets": [
+        {
+          "text": " remain committed to telling more stories in this universe.</p>\n\n<p class=\"has-text-align-none\">The blog post has some info about the upcoming <em>Mass Effect</em> TV series BioWare is <a href=\"https:...",
+          "sentiment": 0.273,
+          "classification": "positive"
+        },
+        {
+          "text": "/news/24242736/developer-insight-hearthsteel-virtual-currency-and-housing-in-midnight\">announcement blog post</a> for Hearthsteel that it will only be for Housing, not the Trading Post, mounts, or oth...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "today",
+      "team_key": "competitor",
+      "importance_score": 42.12,
+      "sentiment": {
+        "score": 0.277,
+        "magnitude": 0.066,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        87,
+        90
+      ],
+      "sample_snippets": [
+        {
+          "text": "ile-network-t1-trademark-application\">when the Trump phone was announced</a>, it would have $131.90 today, a profit of $31.90. If it had put that money into all-American Apple instead, it would be sit...",
+          "sentiment": 0.44,
+          "classification": "positive"
+        },
+        {
+          "text": "iting by $36.57. Invested in the S&amp;P 500 index, gains would be a little more modest: $110.79 by today, for a profit of just over $10.</p>\n\n<p class=\"has-text-align-none\">Per phone, that ain\u2019t much...",
+          "sentiment": 0.392,
+          "classification": "positive"
+        },
+        {
+          "text": "s=\"has-text-align-none\">Valve is making Steam store pages wider as part of a new update rolling out today. With the changes, \u201cmany pages\u201d will be widened from \u201c940 pixels to now 1200 pixels,\u201d <a href=...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "8217",
+      "team_key": "competitor",
+      "importance_score": 42.09,
+      "sentiment": {
+        "score": -0.011,
+        "magnitude": 0.087,
+        "positive": 3,
+        "negative": 2,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        86,
+        88,
+        89
+      ],
+      "sample_snippets": [
+        {
+          "text": "<p class=\"has-text-align-none\">With multiple Halo titles in development, we\u2019ll need our whole team&#8217;s combined focus to deliver new experiences with the same passion and care that our community h...",
+          "sentiment": 0.735,
+          "classification": "positive"
+        },
+        {
+          "text": "tify and blackmail victims into sexually explicit acts or self harm. According to the suit, Roblox&#8217;s parental controls push only began after a number of lawsuits, and <a href=\"https://www.thever...",
+          "sentiment": -0.727,
+          "classification": "negative"
+        },
+        {
+          "text": "gaging in grooming and child sexual exploitation.\u201d</p>\n\n<p class=\"has-text-align-none\">The lawsuit&#8217;s examples focus on instances of children who have been abused by predators they met via Roblox...",
+          "sentiment": -0.511,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "asked",
+      "team_key": "competitor",
+      "importance_score": 42.07,
+      "sentiment": {
+        "score": 0.539,
+        "magnitude": 0.183,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        82,
+        90
+      ],
+      "sample_snippets": [
+        {
+          "text": "ext-align-none\">Last week <a href=\"https://www.theverge.com/news/810500/where-is-the-trump-phone\">I asked</a> where the Trump phone was. The answer? Nowhere. There\u2019s no update, no response, no sign of...",
+          "sentiment": 0.567,
+          "classification": "positive"
+        },
+        {
+          "text": "d two injuries, plus the company was offering<strong> </strong>a free replacement seat. Later, when asked in an Q&amp;A with  \u2026</p>\n<p><a href=\"https://www.theverge.com/gadgets/816352/peloton-q1-2026-...",
+          "sentiment": 0.511,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "link",
+      "team_key": "competitor",
+      "importance_score": 41.99,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 20
+      },
+      "metrics": {
+        "frequency": 20,
+        "document_count": 20,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        95,
+        99,
+        94,
+        96,
+        92,
+        97,
+        100,
+        91,
+        104,
+        109,
+        107,
+        106,
+        108,
+        115,
+        102,
+        110,
+        101,
+        114,
+        112,
+        103
+      ],
+      "sample_snippets": [
+        {
+          "text": "scussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1035368?app_id=339\">Link</a>\n          </p> Kimi K2 Thinking",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "scussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1035347?app_id=339\">Link</a>\n          </p> Burner Terminal",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "scussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1035147?app_id=339\">Link</a>\n          </p> Layrr",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "financial",
+      "team_key": "competitor",
+      "importance_score": 41.98,
+      "sentiment": {
+        "score": -0.09,
+        "magnitude": 0.045,
+        "positive": 0,
+        "negative": 1,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        90,
+        110
+      ],
+      "sample_snippets": [
+        {
+          "text": "w much?</p>\n\n<p class=\"has-text-align-none\">Since we\u2019ve already established that I am by no means a financial expert, I turned to the entirely legitimate sounding <a href=\"http://stoculator.com\">stocu...",
+          "sentiment": -0.296,
+          "classification": "negative"
+        },
+        {
+          "text": "almost five months now. The thing about money \u2014 and please take this as whatever is the opposite of financial advice \u2014 is that it tends to make more money. Even if Trump Mobile had made no effort at a...",
+          "sentiment": 0.026,
+          "classification": "neutral"
+        },
+        {
+          "text": "<p>\n            Have a natural-language conversation with financial markets\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/alph",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "calendar",
+      "team_key": "competitor",
+      "importance_score": 41.91,
+      "sentiment": {
+        "score": 0.137,
+        "magnitude": 0.074,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        91,
+        112
+      ],
+      "sample_snippets": [
+        {
+          "text": "<p>\n            Create reminders & calendar events instantly by speaking\n          </p>\n          <p>\n            <a href=\"https://www.producth",
+          "sentiment": 0.273,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Never lift a finger again. Voice AI for email & calendar\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/wagoo?utm_ca",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "create",
+      "team_key": "competitor",
+      "importance_score": 41.88,
+      "sentiment": {
+        "score": 0.273,
+        "magnitude": 0.156,
+        "positive": 3,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        104,
+        109,
+        112
+      ],
+      "sample_snippets": [
+        {
+          "text": "<p>\n            Create your own AI generated expression grid\n          </p>\n          <p>\n            <a href=\"https://www",
+          "sentiment": 0.273,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Create, learn, and grow as a musician \n          </p>\n          <p>\n            <a href=\"https://www.produ",
+          "sentiment": 0.273,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Create reminders & calendar events instantly by speaking\n          </p>\n          <p>\n            <a href=",
+          "sentiment": 0.273,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "product",
+      "team_key": "competitor",
+      "importance_score": 41.63,
+      "sentiment": {
+        "score": 0.122,
+        "magnitude": 0.049,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 6
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        82,
+        92
+      ],
+      "sample_snippets": [
+        {
+          "text": "ales_170407_1569_0741.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tA good product and loyal audience is a winning formula for everyone except, it seems, Peloton.\t</figcaption...",
+          "sentiment": 0.856,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            The first AI agent for product, design, and code\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/pro",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "I agent for product, design, and code\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/builder-io?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "discussion",
+      "team_key": "competitor",
+      "importance_score": 41.31,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 20
+      },
+      "metrics": {
+        "frequency": 20,
+        "document_count": 20,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        95,
+        99,
+        94,
+        96,
+        92,
+        97,
+        100,
+        91,
+        104,
+        109,
+        107,
+        106,
+        108,
+        115,
+        102,
+        110,
+        101,
+        114,
+        112,
+        103
+      ],
+      "sample_snippets": [
+        {
+          "text": "ign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1035368?app_id=339...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "ign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1035347?app_id=339...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "ign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1035147?app_id=339...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "content",
+      "team_key": "competitor",
+      "importance_score": 41.3,
+      "sentiment": {
+        "score": 0.252,
+        "magnitude": 0.069,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        87
+      ],
+      "sample_snippets": [
+        {
+          "text": "d that 1200 pixels number because it found that it \u201cfelt like a good balance where we can show more content on screen without overwhelming the page and making it hard to navigate.\u201d</p>\n\n<p class=\"has-...",
+          "sentiment": 0.649,
+          "classification": "positive"
+        },
+        {
+          "text": "main committed to supporting Halo Infinite on the road ahead, Operation: Infinite is the last major content update currently planned.</p>\n</blockquote>\n\n<p class=\"has-text-align-none\">Putting this gam...",
+          "sentiment": 0.612,
+          "classification": "positive"
+        },
+        {
+          "text": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23845823/CoOp_0.jpeg?quality=90&#038;strip=all&#03",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "store",
+      "team_key": "competitor",
+      "importance_score": 41.27,
+      "sentiment": {
+        "score": 0.282,
+        "magnitude": 0.08,
+        "positive": 4,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        87,
+        115
+      ],
+      "sample_snippets": [
+        {
+          "text": "t-align-none\">If your browser or client window is narrower than 1200 pixels, Valve says that \u201cSteam store pages are designed to shrink appropriately to fit well\u201d and that the pages adapt \u201cto fit on ta...",
+          "sentiment": 0.612,
+          "classification": "positive"
+        },
+        {
+          "text": "h include a more adaptable UI and reprocessing videos to work better with the new player.</p> Steam store pages are wider now",
+          "sentiment": 0.44,
+          "classification": "positive"
+        },
+        {
+          "text": "class=\"has-text-align-none\">The changes follow Valve\u2019s improvements to the Steam Trailer Player for store pages that it introduced <a href=\"https://store.steampowered.com/news/app/593110/view/50057972...",
+          "sentiment": 0.318,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "ai",
+      "team_key": "competitor",
+      "importance_score": 41.04,
+      "sentiment": {
+        "score": 0.039,
+        "magnitude": 0.02,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 17
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        92,
+        97,
+        91,
+        104,
+        107,
+        108,
+        101
+      ],
+      "sample_snippets": [
+        {
+          "text": "<p>\n             Automatic UTMs with AI + Intelligent Analytics\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.c",
+          "sentiment": 0.459,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Create your own AI generated expression grid\n          </p>\n          <p>\n            <a href=\"https://www.producthunt",
+          "sentiment": 0.273,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            The first AI agent for product, design, and code\n          </p>\n          <p>\n            <a href=\"https://www.p",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "money",
+      "team_key": "competitor",
+      "importance_score": 40.99,
+      "sentiment": {
+        "score": 0.095,
+        "magnitude": 0.118,
+        "positive": 3,
+        "negative": 2,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        84,
+        90
+      ],
+      "sample_snippets": [
+        {
+          "text": " Trump phone was announced</a>, it would have $131.90 today, a profit of $31.90. If it had put that money into all-American Apple instead, it would be sitting on an even better $136.57, profiting by $...",
+          "sentiment": 0.813,
+          "classification": "positive"
+        },
+        {
+          "text": "omised a phone and failed to deliver it. No, like all good vaporware, it made sure to take people\u2019s money first, with a $100 deposit required to place a preorder.</p>\n\n<p class=\"has-text-align-none\">T...",
+          "sentiment": 0.527,
+          "classification": "positive"
+        },
+        {
+          "text": " only a few dozen from the shop.\u201d</p>\n</blockquote> World of Warcraft is getting a new kind of fake money",
+          "sentiment": -0.526,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "team",
+      "team_key": "competitor",
+      "importance_score": 40.85,
+      "sentiment": {
+        "score": 0.156,
+        "magnitude": 0.046,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        107
+      ],
+      "sample_snippets": [
+        {
+          "text": "low\">\n<p class=\"has-text-align-none\">With multiple Halo titles in development, we\u2019ll need our whole team&#8217;s combined focus to deliver new experiences with the same passion and care that our commu...",
+          "sentiment": 0.625,
+          "classification": "positive"
+        },
+        {
+          "text": "ations, but <a href=\"https://www.halowaypoint.com/news/operation-infinite-preview\">according to the team</a>,  that\u2019s it for this game\u2019s content updates:</p>\n\n<blockquote class=\"wp-block-quote is-layo...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "ets-layoffs\">shuts down studios and raises prices</a>.</p>\n\n<p class=\"has-text-align-none\">Now, the team writes, \u201cwe\u2019ve been floored by the response\u201d to <em>Campaign Evolved</em>, which will be releas...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "open-source",
+      "team_key": "competitor",
+      "importance_score": 40.8,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        95,
+        101
+      ],
+      "sample_snippets": [
+        {
+          "text": "<p>\n            The 1T Parameters Open-Source Thinking Model - SOTA on HLE\n          </p>\n          <p>\n            <a href=\"https://www.producth",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "<p>\n            The open-source AI gateway for AI-native startups\n          </p>\n          <p>\n            <a href=\"https://www.pro",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "company",
+      "team_key": "competitor",
+      "importance_score": 40.71,
+      "sentiment": {
+        "score": 0.307,
+        "magnitude": 0.106,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        82,
+        87
+      ],
+      "sample_snippets": [
+        {
+          "text": "ty.com/games/593110/announcements/detail/506217467911081529?utm_source=SteamDB\">Valve says</a>. The company picked that 1200 pixels number because it found that it \u201cfelt like a good balance where we c...",
+          "sentiment": 0.691,
+          "classification": "positive"
+        },
+        {
+          "text": "all, stating the facts - that there were only three reports of breakages and two injuries, plus the company was offering<strong> </strong>a free replacement seat. Later, when asked in an Q&amp;A with ...",
+          "sentiment": 0.511,
+          "classification": "positive"
+        },
+        {
+          "text": " - Peloton has held its earnings calls at a bright and bushy 8:30AM ET. Not yesterday. Instead, the company broke different news first thing in the morning: <span>it issued yet another <a href=\"https:...",
+          "sentiment": 0.026,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "update",
+      "team_key": "competitor",
+      "importance_score": 40.67,
+      "sentiment": {
+        "score": 0.135,
+        "magnitude": 0.033,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 6
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        85,
+        87
+      ],
+      "sample_snippets": [
+        {
+          "text": "you can adjust settings like exposure and focus on the fly.</p>\n\n<p class=\"has-text-align-none\">The update also adds support for SRT: a more modern streaming protocol frequently used by professional b...",
+          "sentiment": 0.637,
+          "classification": "positive"
+        },
+        {
+          "text": "mitted to supporting Halo Infinite on the road ahead, Operation: Infinite is the last major content update currently planned.</p>\n</blockquote>\n\n<p class=\"has-text-align-none\">Putting this game into m...",
+          "sentiment": 0.44,
+          "classification": "positive"
+        },
+        {
+          "text": ".com/news/operation-infinite-preview\">according to the team</a>,  that\u2019s it for this game\u2019s content updates:</p>\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p cl...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "last month",
+      "team_key": "competitor",
+      "importance_score": 40.66,
+      "sentiment": {
+        "score": -0.077,
+        "magnitude": 0.043,
+        "positive": 0,
+        "negative": 1,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        88
+      ],
+      "sample_snippets": [
+        {
+          "text": "class=\"has-text-align-none\">Putting this game into maintenance mode is an awkward counterpart after last month\u2019s news of a <a href=\"https://www.theverge.com/news/805174/halo-campaign-evolved-remake-xb...",
+          "sentiment": -0.153,
+          "classification": "negative"
+        },
+        {
+          "text": "-is-suing-roblox\">Kentucky also sued Roblox</a>, calling it \u201ca hunting ground for child predators.\u201d Last month, Florida Attorney General James Uthmeier <a href=\"https://www.nbcnews.com/tech/tech-news/...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "like",
+      "team_key": "competitor",
+      "importance_score": 40.65,
+      "sentiment": {
+        "score": 0.405,
+        "magnitude": 0.169,
+        "positive": 5,
+        "negative": 3,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        85,
+        86,
+        88
+      ],
+      "sample_snippets": [
+        {
+          "text": "sional broadcasters that\u2019s optimized for networks whose speeds and reliability are less consistent, like the internet. Blackmagic Camera also gains support for custom RTMP and SRT servers for streamer...",
+          "sentiment": 0.853,
+          "classification": "positive"
+        },
+        {
+          "text": "re flexibility when customizing the layout of multiple video feeds on a device with a larger screen like an iPad or a Mac.</p> Blackmagic\u2019s free camera app can now stream directly to YouTube and Twitc...",
+          "sentiment": 0.802,
+          "classification": "positive"
+        },
+        {
+          "text": "-align-none\">From weekend camping trips to unexpected power outages, having a reliable power source like the <strong>Anker 521 PowerHouse </strong>can be a lifesaver. Normally $249.99, right now you c...",
+          "sentiment": 0.743,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "discussion link",
+      "team_key": "competitor",
+      "importance_score": 40.65,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 20,
+        "document_count": 20,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        95,
+        99,
+        94,
+        96,
+        92,
+        97,
+        100,
+        91,
+        104,
+        109,
+        107,
+        106,
+        108,
+        115,
+        102,
+        110,
+        101,
+        114,
+        112,
+        103
+      ],
+      "sample_snippets": []
+    },
+    {
+      "keyword": "years",
+      "team_key": "competitor",
+      "importance_score": 40.34,
+      "sentiment": {
+        "score": 0.271,
+        "magnitude": 0.05,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        82,
+        86
+      ],
+      "sample_snippets": [
+        {
+          "text": "anels.</p>\n\n<p class=\"has-text-align-none\">Anker also says the battery is designed to last up to 10 years, and you get a five-year warranty for extra peace of mind. Plus, it comes with charging cables...",
+          "sentiment": 0.542,
+          "classification": "positive"
+        },
+        {
+          "text": " for everyone except, it seems, Peloton.\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">For years - through its pandemic-fueled highs and its post-quarantine malaise - Peloton has held its ear...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "game",
+      "team_key": "competitor",
+      "importance_score": 40.21,
+      "sentiment": {
+        "score": 0.066,
+        "magnitude": 0.081,
+        "positive": 7,
+        "negative": 7,
+        "neutral": 10
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        84,
+        89
+      ],
+      "sample_snippets": [
+        {
+          "text": "re shared a promising sign of life: the BioWare team is \u201cheads-down and focused exclusively\u201d on the game, according to its executive producer.</p>\n\n<p class=\"has-text-align-none\">\u201cWe have a lot of uni...",
+          "sentiment": 0.772,
+          "classification": "positive"
+        },
+        {
+          "text": "/2020/11/7/21554092/bioware-new-mass-effect-game-announced-n7-day\">a brand new <em>Mass Effect</em> game</a>. But today, November 7th (N7 Day), BioWare shared a promising sign of life: the BioWare tea...",
+          "sentiment": 0.768,
+          "classification": "positive"
+        },
+        {
+          "text": "the series\u2019s future if <a href=\"https://www.theverge.com/games/787723/ea-private-deal-buyout-future-games-layoffs\">the deal to take EA private</a> goes through. \u201cYou\u2019ve made it clear you care deeply a...",
+          "sentiment": 0.7,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "year",
+      "team_key": "competitor",
+      "importance_score": 40.09,
+      "sentiment": {
+        "score": 0.132,
+        "magnitude": 0.076,
+        "positive": 3,
+        "negative": 2,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        88,
+        89
+      ],
+      "sample_snippets": [
+        {
+          "text": "rely sure what this image might mean, but as someone who finally finished the original trilogy last year thanks to the <a href=\"https://www.theverge.com/2021/2/2/22256806/mass-effect-legendary-edition...",
+          "sentiment": 0.815,
+          "classification": "positive"
+        },
+        {
+          "text": "ensationalized claims.\u201d He added, \u201cWe have introduced over 145 safety measures on the platform this year alone.\u201d&nbsp;</p>\n\n<p class=\"has-text-align-none\">Roblox <a href=\"https://corp.roblox.com/newsr...",
+          "sentiment": 0.421,
+          "classification": "positive"
+        },
+        {
+          "text": "tember</a> that it has over 111 million daily active users, many of whom are children. Earlier this year, Roblox announced plans to roll out <a href=\"https://www.theverge.com/news/708670/roblox-truste...",
+          "sentiment": 0.402,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "ve",
+      "team_key": "competitor",
+      "importance_score": 39.83,
+      "sentiment": {
+        "score": 0.167,
+        "magnitude": 0.091,
+        "positive": 21,
+        "negative": 7,
+        "neutral": 15
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        89,
+        90
+      ],
+      "sample_snippets": [
+        {
+          "text": "o all-American Apple instead, it would be sitting on an even better $136.57, profiting by $36.57. Invested in the S&amp;P 500 index, gains would be a little more modest: $110.79 by today, for a profit...",
+          "sentiment": 0.869,
+          "classification": "positive"
+        },
+        {
+          "text": "fit of $31.90. If it had put that money into all-American Apple instead, it would be sitting on an even better $136.57, profiting by $36.57. Invested in the S&amp;P 500 index, gains would be a little ...",
+          "sentiment": 0.856,
+          "classification": "positive"
+        },
+        {
+          "text": "7 Day), BioWare shared a promising sign of life: the BioWare team is \u201cheads-down and focused exclusively\u201d on the game, according to its executive producer.</p>\n\n<p class=\"has-text-align-none\">\u201cWe have...",
+          "sentiment": 0.772,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "buy",
+      "team_key": "competitor",
+      "importance_score": 39.55,
+      "sentiment": {
+        "score": 0.03,
+        "magnitude": 0.023,
+        "positive": 2,
+        "negative": 1,
+        "neutral": 14
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        83,
+        86
+      ],
+      "sample_snippets": [
+        {
+          "text": "e the <strong>Anker 521 PowerHouse </strong>can be a lifesaver. Normally $249.99, right now you can buy the power station for the new low price of $128.99 at checkout <a href=\"https://www.amazon.com/d...",
+          "sentiment": 0.402,
+          "classification": "positive"
+        },
+        {
+          "text": "i>GPS maps are better, but still a bit wonky</li></ul></td></tr></tbody></table></div>\n<h3>Where to Buy:</h3><ul><li><a href=\"https://store.google.com/config/pixel_watch_4\"> $349.99 at <strong>Google ...",
+          "sentiment": 0.238,
+          "classification": "positive"
+        },
+        {
+          "text": "in-app-calling-messaging-gps-mild-2024/J39TC87JYC\"> <strike>$179.99</strike> $99.99 at <strong>Best Buy</strong></a></li><li><a href=\"https://store.google.com/us/product/fitbit_ace_lte?hl=en-US\"> <str...",
+          "sentiment": -0.128,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "open",
+      "team_key": "competitor",
+      "importance_score": 39.3,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        95,
+        101,
+        103
+      ],
+      "sample_snippets": [
+        {
+          "text": "<p>\n            The 1T Parameters Open-Source Thinking Model - SOTA on HLE\n          </p>\n          <p>\n            <a href=\"https://www.p",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "<p>\n            The open-source AI gateway for AI-native startups\n          </p>\n          <p>\n            <a href=\"https://",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "nts\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/packmind-open-source?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producth...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "continue",
+      "team_key": "competitor",
+      "importance_score": 39.21,
+      "sentiment": {
+        "score": 0.137,
+        "magnitude": 0.045,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 2,
+        "document_count": 2,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        84
+      ],
+      "sample_snippets": [
+        {
+          "text": "m</a> and doesn\u2019t include the free-to-play multiplayer of <em>Infinite</em>, as Xbox hardware sales continue to slow, and Microsoft\u2019s profitability push <a href=\"https://www.theverge.com/news/805280/m...",
+          "sentiment": 0.273,
+          "classification": "positive"
+        },
+        {
+          "text": "e-is-layout-flow\">\n<p class=\"has-text-align-none\">\u201cThe vast majority of Housing items are (and will continue to be) earnable in-game. Only a small fraction is available for purchase from the shop. Com...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "source",
+      "team_key": "competitor",
+      "importance_score": 39.19,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 7
+      },
+      "metrics": {
+        "frequency": 3,
+        "document_count": 3,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        95,
+        101,
+        103
+      ],
+      "sample_snippets": [
+        {
+          "text": "<p>\n            The 1T Parameters Open-Source Thinking Model - SOTA on HLE\n          </p>\n          <p>\n            <a href=\"https://www.producth",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "products/kimi-ai-assistant?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.pr...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "<p>\n            The open-source AI gateway for AI-native startups\n          </p>\n          <p>\n            <a href=\"https://www.pro",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    }
+  ],
+  "count": 50
+}

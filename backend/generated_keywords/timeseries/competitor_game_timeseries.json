@@ -1,0 +1,39 @@
+{
+  "keyword": "game",
+  "team_key": "competitor",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 40.21,
+      "sentiment_score": 0.066,
+      "frequency": 3,
+      "document_count": 3
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 40.21,
+      "sentiment_score": 0.066,
+      "frequency": 3,
+      "document_count": 3
+    },
+    {
+      "date": "2025-11-04",
+      "importance_score": 47.76,
+      "sentiment_score": 0.098,
+      "frequency": 7,
+      "document_count": 7
+    },
+    {
+      "date": "2025-11-05",
+      "importance_score": 47.76,
+      "sentiment_score": 0.098,
+      "frequency": 7,
+      "document_count": 7
+    }
+  ],
+  "appearances": 4,
+  "avg_importance": 43.985,
+  "max_importance": 47.76,
+  "total_frequency": 20,
+  "total_documents": 20
+}

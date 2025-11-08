@@ -1,0 +1,39 @@
+{
+  "keyword": "mit technology",
+  "team_key": "researcher",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 47.62,
+      "sentiment_score": -0.004,
+      "frequency": 7,
+      "document_count": 7
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 47.62,
+      "sentiment_score": -0.004,
+      "frequency": 7,
+      "document_count": 7
+    },
+    {
+      "date": "2025-11-04",
+      "importance_score": 47.62,
+      "sentiment_score": -0.004,
+      "frequency": 7,
+      "document_count": 7
+    },
+    {
+      "date": "2025-11-05",
+      "importance_score": 47.62,
+      "sentiment_score": -0.004,
+      "frequency": 7,
+      "document_count": 7
+    }
+  ],
+  "appearances": 4,
+  "avg_importance": 47.62,
+  "max_importance": 47.62,
+  "total_frequency": 28,
+  "total_documents": 28
+}

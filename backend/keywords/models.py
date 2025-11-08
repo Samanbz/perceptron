@@ -109,7 +109,7 @@ class KeywordExtractionConfigModel(KeywordBase):
     
     # Extraction settings
     max_keywords_per_source = Column(Integer, default=50, nullable=False)
-    max_phrase_length = Column(Integer, default=5, nullable=False)  # Max words in phrase
+    max_phrase_length = Column(Integer, default=2, nullable=False)  # Max words in phrase
     min_phrase_length = Column(Integer, default=1, nullable=False)  # Min words in phrase
     
     # Method weights (for combining scores)

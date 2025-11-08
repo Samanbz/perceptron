@@ -147,7 +147,7 @@ def reset_all_databases(force: bool = False):
             yake_weight=0.3,
             max_keywords_per_source=50,
             min_phrase_length=1,
-            max_phrase_length=5,
+            max_phrase_length=2,
             is_active=1,
         )
         print("✓ Created default keyword extraction config")

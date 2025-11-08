@@ -1,0 +1,2206 @@
+{
+  "date": "2025-11-05",
+  "team": "competitor",
+  "keywords": [
+    {
+      "keyword": "amazon",
+      "team_key": "competitor",
+      "importance_score": 55.47,
+      "sentiment": {
+        "score": 0.348,
+        "magnitude": 0.143,
+        "positive": 8,
+        "negative": 2,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 2,
+        "velocity": 66.67
+      },
+      "content_ids": [
+        86,
+        89,
+        142,
+        150,
+        173
+      ],
+      "sample_snippets": [
+        {
+          "text": "s, Apple devices, vacuums, and gift ideas. The 71 best early Black Friday deals I've found so far \u2013 Amazon, Best Buy, Target, and more",
+          "sentiment": 0.923,
+          "classification": "positive"
+        },
+        {
+          "text": "Hot on the heels of rival NordVPN, IPVanish has confirmed it's ready for Amazon's new Vega OS to ensure users of Amazon's next-gen streaming stick can stay protected from day one.",
+          "sentiment": 0.791,
+          "classification": "positive"
+        },
+        {
+          "text": "els of rival NordVPN, IPVanish has confirmed it's ready for Amazon's new Vega OS to ensure users of Amazon's next-gen streaming stick can stay protected from day one. IPVanish joins NordVPN in the rac...",
+          "sentiment": 0.791,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "black friday",
+      "team_key": "competitor",
+      "importance_score": 54.51,
+      "sentiment": {
+        "score": 0.454,
+        "magnitude": 0.155,
+        "positive": 15,
+        "negative": 2,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 12,
+        "document_count": 12,
+        "source_diversity": 1,
+        "velocity": 71.43
+      },
+      "content_ids": [
+        130,
+        134,
+        138,
+        140,
+        142,
+        143,
+        148,
+        152,
+        164,
+        165,
+        172,
+        173
+      ],
+      "sample_snippets": [
+        {
+          "text": "up today's best deals on appliances, TVs, Apple devices, vacuums, and gift ideas. The 71 best early Black Friday deals I've found so far \u2013 Amazon, Best Buy, Target, and more",
+          "sentiment": 0.955,
+          "classification": "positive"
+        },
+        {
+          "text": "so we've taken a look through and picked out the best offers worth buying now. Best Buy expands its Black Friday sale with dozens of new deals \u2013 I've picked the 17 top offers on headphones, laptops, T...",
+          "sentiment": 0.91,
+          "classification": "positive"
+        },
+        {
+          "text": "f the best deals that I'd buy on TVs, appliances, laptops, headphones, and more. The massive Currys Black Friday sale is here \u2013 I've picked the 19 best deals on TVs, appliances, laptops, headphones, a...",
+          "sentiment": 0.856,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "apple",
+      "team_key": "competitor",
+      "importance_score": 54.03,
+      "sentiment": {
+        "score": 0.355,
+        "magnitude": 0.132,
+        "positive": 7,
+        "negative": 0,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 3,
+        "velocity": 40.0
+      },
+      "content_ids": [
+        85,
+        90,
+        96,
+        115,
+        131,
+        142,
+        173
+      ],
+      "sample_snippets": [
+        {
+          "text": "s are live from your favorite retailers, and I'm rounding up today's best deals on appliances, TVs, Apple devices, vacuums, and gift ideas. The 71 best early Black Friday deals I've found so far \u2013 Ama...",
+          "sentiment": 0.946,
+          "classification": "positive"
+        },
+        {
+          "text": "ed</a>, it would have $131.90 today, a profit of $31.90. If it had put that money into all-American Apple instead, it would be sitting on an even better $136.57, profiting by $36.57. Invested in the S...",
+          "sentiment": 0.813,
+          "classification": "positive"
+        },
+        {
+          "text": "day deals are live at Amazon, and I'm rounding up today's top 35 offers worth buying right now from Apple, Ninja, Keurig, LG, and more. Black Friday is 3 weeks away \u2013 here are 35 early deals from Amaz...",
+          "sentiment": 0.625,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "friday",
+      "team_key": "competitor",
+      "importance_score": 52.6,
+      "sentiment": {
+        "score": 0.449,
+        "magnitude": 0.158,
+        "positive": 15,
+        "negative": 2,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 12,
+        "document_count": 12,
+        "source_diversity": 1,
+        "velocity": 71.43
+      },
+      "content_ids": [
+        130,
+        134,
+        138,
+        140,
+        142,
+        143,
+        148,
+        152,
+        164,
+        165,
+        172,
+        173
+      ],
+      "sample_snippets": [
+        {
+          "text": "ay's best deals on appliances, TVs, Apple devices, vacuums, and gift ideas. The 71 best early Black Friday deals I've found so far \u2013 Amazon, Best Buy, Target, and more",
+          "sentiment": 0.955,
+          "classification": "positive"
+        },
+        {
+          "text": "ve taken a look through and picked out the best offers worth buying now. Best Buy expands its Black Friday sale with dozens of new deals \u2013 I've picked the 17 top offers on headphones, laptops, TVs, an...",
+          "sentiment": 0.91,
+          "classification": "positive"
+        },
+        {
+          "text": "best deals that I'd buy on TVs, appliances, laptops, headphones, and more. The massive Currys Black Friday sale is here \u2013 I've picked the 19 best deals on TVs, appliances, laptops, headphones, and mor...",
+          "sentiment": 0.856,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "tvs",
+      "team_key": "competitor",
+      "importance_score": 52.05,
+      "sentiment": {
+        "score": 0.695,
+        "magnitude": 0.194,
+        "positive": 6,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 25.0
+      },
+      "content_ids": [
+        134,
+        140,
+        144,
+        164,
+        173
+      ],
+      "sample_snippets": [
+        {
+          "text": " sales are live from your favorite retailers, and I'm rounding up today's best deals on appliances, TVs, Apple devices, vacuums, and gift ideas. The 71 best early Black Friday deals I've found so far ...",
+          "sentiment": 0.936,
+          "classification": "positive"
+        },
+        {
+          "text": "LG has won multiple CES innovation awards including one for an unannounced RGB LED TV LG's next TVs have won awards before they're even announced \u2013 and the company might turn its mini-LED woes around",
+          "sentiment": 0.92,
+          "classification": "positive"
+        },
+        {
+          "text": "riday may not have officially arrived, but early deals are already appearing on some of 2025's best TVs. I'm a TV reviewer and these are my top 6 early Black Friday TV deals from LG, Samsung and Hisen...",
+          "sentiment": 0.84,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "today",
+      "team_key": "competitor",
+      "importance_score": 51.83,
+      "sentiment": {
+        "score": 0.294,
+        "magnitude": 0.117,
+        "positive": 9,
+        "negative": 1,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 9,
+        "document_count": 9,
+        "source_diversity": 3,
+        "velocity": 92.86
+      },
+      "content_ids": [
+        87,
+        90,
+        105,
+        130,
+        142,
+        159,
+        161,
+        162,
+        173
+      ],
+      "sample_snippets": [
+        {
+          "text": "Early Black Friday sales are live from your favorite retailers, and I'm rounding up today's best deals on appliances, TVs, Apple devices, vacuums, and gift ideas. The 71 best early Black Fr",
+          "sentiment": 0.936,
+          "classification": "positive"
+        },
+        {
+          "text": "Early Black Friday deals are live at Amazon, and I'm rounding up today's top 35 offers worth buying right now from Apple, Ninja, Keurig, LG, and more. Black Friday is 3 w",
+          "sentiment": 0.527,
+          "classification": "positive"
+        },
+        {
+          "text": "Looking for Quordle clues? We can help. Plus get the answers to Quordle today and past solutions. Quordle hints and answers for Saturday, November 8 (game #1384)",
+          "sentiment": 0.527,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "devices",
+      "team_key": "competitor",
+      "importance_score": 50.07,
+      "sentiment": {
+        "score": 0.193,
+        "magnitude": 0.183,
+        "positive": 3,
+        "negative": 1,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 60.0
+      },
+      "content_ids": [
+        86,
+        87,
+        128,
+        173
+      ],
+      "sample_snippets": [
+        {
+          "text": "live from your favorite retailers, and I'm rounding up today's best deals on appliances, TVs, Apple devices, vacuums, and gift ideas. The 71 best early Black Friday deals I've found so far \u2013 Amazon, B...",
+          "sentiment": 0.966,
+          "classification": "positive"
+        },
+        {
+          "text": "Threat actors expanded operations using malicious apps, outdated devices, and IoT exploits while global attack volumes surged across key regions. Watch out, these malicious",
+          "sentiment": -0.836,
+          "classification": "negative"
+        },
+        {
+          "text": "ink appropriately to fit well\u201d and that the pages adapt \u201cto fit on tablets, Steam Decks, and mobile devices.\u201d Valve says it\u2019s even tested the changes \u201con a tiny old iPod that someone had laying around...",
+          "sentiment": 0.612,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "deals",
+      "team_key": "competitor",
+      "importance_score": 49.07,
+      "sentiment": {
+        "score": 0.567,
+        "magnitude": 0.198,
+        "positive": 11,
+        "negative": 1,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 40.0
+      },
+      "content_ids": [
+        130,
+        134,
+        136,
+        140,
+        142,
+        164,
+        173
+      ],
+      "sample_snippets": [
+        {
+          "text": "The Best Buy Black Friday sale to expanded with dozens of new deals, so we've taken a look through and picked out the best offers worth buying now. Best Buy expands it",
+          "sentiment": 0.942,
+          "classification": "positive"
+        },
+        {
+          "text": "Early Black Friday sales are live from your favorite retailers, and I'm rounding up today's best deals on appliances, TVs, Apple devices, vacuums, and gift ideas. The 71 best early Black Friday deals ...",
+          "sentiment": 0.936,
+          "classification": "positive"
+        },
+        {
+          "text": "Black Friday may not have officially arrived, but early deals are already appearing on some of 2025's best TVs. I'm a TV reviewer and these are my top 6 early Bl",
+          "sentiment": 0.925,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "tv",
+      "team_key": "competitor",
+      "importance_score": 48.46,
+      "sentiment": {
+        "score": 0.51,
+        "magnitude": 0.151,
+        "positive": 15,
+        "negative": 1,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 40.0
+      },
+      "content_ids": [
+        125,
+        132,
+        140,
+        144,
+        150,
+        160,
+        166
+      ],
+      "sample_snippets": [
+        {
+          "text": "LG has won multiple CES innovation awards including one for an unannounced RGB LED TV LG's next TVs have won awards before they're even announced \u2013 and the company might turn its mini-L",
+          "sentiment": 0.943,
+          "classification": "positive"
+        },
+        {
+          "text": "LG has won multiple CES innovation awards including one for an unannounced RGB LED TV LG's next TVs have won awards before they're even announced \u2013 and the company might turn its mini-LED woes aroun",
+          "sentiment": 0.92,
+          "classification": "positive"
+        },
+        {
+          "text": "riday may not have officially arrived, but early deals are already appearing on some of 2025's best TVs. I'm a TV reviewer and these are my top 6 early Black Friday TV deals from LG, Samsung and Hisen...",
+          "sentiment": 0.84,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "black",
+      "team_key": "competitor",
+      "importance_score": 48.3,
+      "sentiment": {
+        "score": 0.394,
+        "magnitude": 0.135,
+        "positive": 13,
+        "negative": 2,
+        "neutral": 5
+      },
+      "metrics": {
+        "frequency": 12,
+        "document_count": 12,
+        "source_diversity": 1,
+        "velocity": 71.43
+      },
+      "content_ids": [
+        130,
+        134,
+        138,
+        140,
+        142,
+        143,
+        148,
+        152,
+        164,
+        165,
+        172,
+        173
+      ],
+      "sample_snippets": [
+        {
+          "text": "up today's best deals on appliances, TVs, Apple devices, vacuums, and gift ideas. The 71 best early Black Friday deals I've found so far \u2013 Amazon, Best Buy, Target, and more",
+          "sentiment": 0.955,
+          "classification": "positive"
+        },
+        {
+          "text": "so we've taken a look through and picked out the best offers worth buying now. Best Buy expands its Black Friday sale with dozens of new deals \u2013 I've picked the 17 top offers on headphones, laptops, T...",
+          "sentiment": 0.91,
+          "classification": "positive"
+        },
+        {
+          "text": "f the best deals that I'd buy on TVs, appliances, laptops, headphones, and more. The massive Currys Black Friday sale is here \u2013 I've picked the 19 best deals on TVs, appliances, laptops, headphones, a...",
+          "sentiment": 0.856,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "buy",
+      "team_key": "competitor",
+      "importance_score": 48.1,
+      "sentiment": {
+        "score": 0.232,
+        "magnitude": 0.078,
+        "positive": 8,
+        "negative": 1,
+        "neutral": 14
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 2,
+        "velocity": 63.64
+      },
+      "content_ids": [
+        83,
+        86,
+        130,
+        134,
+        164,
+        173
+      ],
+      "sample_snippets": [
+        {
+          "text": "ces, vacuums, and gift ideas. The 71 best early Black Friday deals I've found so far \u2013 Amazon, Best Buy, Target, and more",
+          "sentiment": 0.923,
+          "classification": "positive"
+        },
+        {
+          "text": "panded with dozens of new deals, so we've taken a look through and picked out the best offers worth buying now. Best Buy expands its Black Friday sale with dozens of new deals \u2013 I've picked the 17 top...",
+          "sentiment": 0.91,
+          "classification": "positive"
+        },
+        {
+          "text": "s of new deals, so we've taken a look through and picked out the best offers worth buying now. Best Buy expands its Black Friday sale with dozens of new deals \u2013 I've picked the 17 top offers on headph...",
+          "sentiment": 0.91,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "ve",
+      "team_key": "competitor",
+      "importance_score": 47.98,
+      "sentiment": {
+        "score": 0.261,
+        "magnitude": 0.115,
+        "positive": 31,
+        "negative": 8,
+        "neutral": 16
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 2,
+        "velocity": 75.0
+      },
+      "content_ids": [
+        89,
+        90,
+        130,
+        134,
+        143,
+        164,
+        173
+      ],
+      "sample_snippets": [
+        {
+          "text": "The Best Buy Black Friday sale to expanded with dozens of new deals, so we've taken a look through and picked out the best offers worth buying now. Best Buy expands its Black Fr",
+          "sentiment": 0.942,
+          "classification": "positive"
+        },
+        {
+          "text": " on appliances, TVs, Apple devices, vacuums, and gift ideas. The 71 best early Black Friday deals I've found so far \u2013 Amazon, Best Buy, Target, and more",
+          "sentiment": 0.923,
+          "classification": "positive"
+        },
+        {
+          "text": "e best offers worth buying now. Best Buy expands its Black Friday sale with dozens of new deals \u2013 I've picked the 17 top offers on headphones, laptops, TVs, and more",
+          "sentiment": 0.91,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "game",
+      "team_key": "competitor",
+      "importance_score": 47.76,
+      "sentiment": {
+        "score": 0.098,
+        "magnitude": 0.08,
+        "positive": 12,
+        "negative": 7,
+        "neutral": 11
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 2,
+        "velocity": 61.54
+      },
+      "content_ids": [
+        81,
+        84,
+        89,
+        154,
+        159,
+        161,
+        162
+      ],
+      "sample_snippets": [
+        {
+          "text": "re shared a promising sign of life: the BioWare team is \u201cheads-down and focused exclusively\u201d on the game, according to its executive producer.</p>\n\n<p class=\"has-text-align-none\">\u201cWe have a lot of uni...",
+          "sentiment": 0.772,
+          "classification": "positive"
+        },
+        {
+          "text": "/2020/11/7/21554092/bioware-new-mass-effect-game-announced-n7-day\">a brand new <em>Mass Effect</em> game</a>. But today, November 7th (N7 Day), BioWare shared a promising sign of life: the BioWare tea...",
+          "sentiment": 0.768,
+          "classification": "positive"
+        },
+        {
+          "text": "the series\u2019s future if <a href=\"https://www.theverge.com/games/787723/ea-private-deal-buyout-future-games-layoffs\">the deal to take EA private</a> goes through. \u201cYou\u2019ve made it clear you care deeply a...",
+          "sentiment": 0.7,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "early black",
+      "team_key": "competitor",
+      "importance_score": 47.69,
+      "sentiment": {
+        "score": 0.578,
+        "magnitude": 0.209,
+        "positive": 6,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 25.0
+      },
+      "content_ids": [
+        140,
+        142,
+        143,
+        152,
+        173
+      ],
+      "sample_snippets": [
+        {
+          "text": "nding up today's best deals on appliances, TVs, Apple devices, vacuums, and gift ideas. The 71 best early Black Friday deals I've found so far \u2013 Amazon, Best Buy, Target, and more",
+          "sentiment": 0.955,
+          "classification": "positive"
+        },
+        {
+          "text": "ly deals are already appearing on some of 2025's best TVs. I'm a TV reviewer and these are my top 6 early Black Friday TV deals from LG, Samsung and Hisense",
+          "sentiment": 0.863,
+          "classification": "positive"
+        },
+        {
+          "text": "Early Black Friday sales are live from your favorite retailers, and I'm rounding up today's best deals on appli",
+          "sentiment": 0.802,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "2025",
+      "team_key": "competitor",
+      "importance_score": 47.68,
+      "sentiment": {
+        "score": 0.297,
+        "magnitude": 0.162,
+        "positive": 5,
+        "negative": 3,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 16.67
+      },
+      "content_ids": [
+        125,
+        130,
+        135,
+        136,
+        140,
+        160,
+        168
+      ],
+      "sample_snippets": [
+        {
+          "text": "Black Friday may not have officially arrived, but early deals are already appearing on some of 2025's best TVs. I'm a TV reviewer and these are my top 6 early Black Friday TV deals from LG, Samsung a",
+          "sentiment": 0.84,
+          "classification": "positive"
+        },
+        {
+          "text": "You can still get a Fubo TV free trial in 2025 \u2013 here are all the ways you can try out  the live TV streaming service. How to get a Fubo TV free t",
+          "sentiment": 0.765,
+          "classification": "positive"
+        },
+        {
+          "text": "As the world's best players head to Wolverhampton, here's how to watch Grand Slam of Darts 2025 live streams online from anywhere in the world. How to watch Grand Slam of Darts 2025 online: live ",
+          "sentiment": 0.718,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "company",
+      "team_key": "competitor",
+      "importance_score": 47.49,
+      "sentiment": {
+        "score": 0.156,
+        "magnitude": 0.147,
+        "positive": 4,
+        "negative": 2,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 2,
+        "velocity": 50.0
+      },
+      "content_ids": [
+        82,
+        87,
+        144,
+        145,
+        147,
+        167
+      ],
+      "sample_snippets": [
+        {
+          "text": "ty.com/games/593110/announcements/detail/506217467911081529?utm_source=SteamDB\">Valve says</a>. The company picked that 1200 pixels number because it found that it \u201cfelt like a good balance where we c...",
+          "sentiment": 0.691,
+          "classification": "positive"
+        },
+        {
+          "text": "for an unannounced RGB LED TV LG's next TVs have won awards before they're even announced \u2013 and the company might turn its mini-LED woes around with next-gen RGB backlighting",
+          "sentiment": 0.586,
+          "classification": "positive"
+        },
+        {
+          "text": "The company confirmed suffering a cyberattack, but the exact number of victims is still not known. Hyundai IT s",
+          "sentiment": -0.55,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "app",
+      "team_key": "competitor",
+      "importance_score": 46.45,
+      "sentiment": {
+        "score": 0.162,
+        "magnitude": 0.081,
+        "positive": 13,
+        "negative": 2,
+        "neutral": 15
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 3,
+        "velocity": 25.0
+      },
+      "content_ids": [
+        85,
+        96,
+        115,
+        131,
+        166
+      ],
+      "sample_snippets": [
+        {
+          "text": "three native platforms now supported.</p>\n\n<p class=\"has-text-align-none\">Other improvements to the app include detailed and immediate alerts when an external drive is disconnected to help prevent dat...",
+          "sentiment": 0.796,
+          "classification": "positive"
+        },
+        {
+          "text": "le video feeds on a device with a larger screen like an iPad or a Mac.</p> Blackmagic\u2019s free camera app can now stream directly to YouTube and Twitch",
+          "sentiment": 0.7,
+          "classification": "positive"
+        },
+        {
+          "text": "Apple\u2019s new web App Store exposed its full front-end code, giving developers temporary insight before l",
+          "sentiment": 0.625,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "early",
+      "team_key": "competitor",
+      "importance_score": 46.16,
+      "sentiment": {
+        "score": 0.563,
+        "magnitude": 0.2,
+        "positive": 8,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 25.0
+      },
+      "content_ids": [
+        140,
+        142,
+        143,
+        152,
+        173
+      ],
+      "sample_snippets": [
+        {
+          "text": "nding up today's best deals on appliances, TVs, Apple devices, vacuums, and gift ideas. The 71 best early Black Friday deals I've found so far \u2013 Amazon, Best Buy, Target, and more",
+          "sentiment": 0.955,
+          "classification": "positive"
+        },
+        {
+          "text": "ly deals are already appearing on some of 2025's best TVs. I'm a TV reviewer and these are my top 6 early Black Friday TV deals from LG, Samsung and Hisense",
+          "sentiment": 0.863,
+          "classification": "positive"
+        },
+        {
+          "text": "Black Friday may not have officially arrived, but early deals are already appearing on some of 2025's best TVs. I'm a TV reviewer and these are my top 6 ea",
+          "sentiment": 0.84,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "live",
+      "team_key": "competitor",
+      "importance_score": 45.83,
+      "sentiment": {
+        "score": 0.562,
+        "magnitude": 0.182,
+        "positive": 6,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 25.0
+      },
+      "content_ids": [
+        125,
+        135,
+        142,
+        149,
+        173
+      ],
+      "sample_snippets": [
+        {
+          "text": "Early Black Friday sales are live from your favorite retailers, and I'm rounding up today's best deals on appliances, TVs, Apple devi",
+          "sentiment": 0.802,
+          "classification": "positive"
+        },
+        {
+          "text": "You can still get a Fubo TV free trial in 2025 \u2013 here are all the ways you can try out  the live TV streaming service. How to get a Fubo TV free trial",
+          "sentiment": 0.765,
+          "classification": "positive"
+        },
+        {
+          "text": "As the world's best players head to Wolverhampton, here's how to watch Grand Slam of Darts 2025 live streams online from anywhere in the world. How to watch Grand Slam of Darts 2025 online: live strea",
+          "sentiment": 0.718,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "android",
+      "team_key": "competitor",
+      "importance_score": 45.49,
+      "sentiment": {
+        "score": -0.054,
+        "magnitude": 0.101,
+        "positive": 3,
+        "negative": 2,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 14.29
+      },
+      "content_ids": [
+        85,
+        127,
+        128,
+        166
+      ],
+      "sample_snippets": [
+        {
+          "text": " and IoT exploits while global attack volumes surged across key regions. Watch out, these malicious Android apps have been downloaded 42 million times - and could leave you seriously out of pocket",
+          "sentiment": -0.751,
+          "classification": "negative"
+        },
+        {
+          "text": "utralise ads and erase trackers. Here's all you need to know. ProtonVPN crushes ads and trackers on Android TV app with latest update",
+          "sentiment": -0.44,
+          "classification": "negative"
+        },
+        {
+          "text": "ll appreciate. Both the <a href=\"https://play.google.com/store/apps/details?id=com.blackmagicdesign.android.blackmagiccam\">Android</a> and <a href=\"https://apps.apple.com/us/app/blackmagic-camera/id64...",
+          "sentiment": 0.402,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "free",
+      "team_key": "competitor",
+      "importance_score": 45.23,
+      "sentiment": {
+        "score": 0.482,
+        "magnitude": 0.126,
+        "positive": 6,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 14.29
+      },
+      "content_ids": [
+        85,
+        125,
+        132,
+        149
+      ],
+      "sample_snippets": [
+        {
+          "text": "r Piastri and Max Verstappen head to Interlagos, Brazil. How to watch Sao Paulo Grand Prix 2025 F1: free streams, schedule, Sprint weekend, weather forecast",
+          "sentiment": 0.743,
+          "classification": "positive"
+        },
+        {
+          "text": "ut of multiple video feeds on a device with a larger screen like an iPad or a Mac.</p> Blackmagic\u2019s free camera app can now stream directly to YouTube and Twitch",
+          "sentiment": 0.7,
+          "classification": "positive"
+        },
+        {
+          "text": "You can still get a Fubo TV free trial in 2025 \u2013 here are all the ways you can try out  the live TV streaming service. How to get a ",
+          "sentiment": 0.511,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "apps",
+      "team_key": "competitor",
+      "importance_score": 45.12,
+      "sentiment": {
+        "score": -0.363,
+        "magnitude": 0.136,
+        "positive": 0,
+        "negative": 3,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        115,
+        93,
+        111,
+        128
+      ],
+      "sample_snippets": [
+        {
+          "text": "Threat actors expanded operations using malicious apps, outdated devices, and IoT exploits while global attack volumes surged across key regions. Watch ou",
+          "sentiment": -0.836,
+          "classification": "negative"
+        },
+        {
+          "text": " exploits while global attack volumes surged across key regions. Watch out, these malicious Android apps have been downloaded 42 million times - and could leave you seriously out of pocket",
+          "sentiment": -0.751,
+          "classification": "negative"
+        },
+        {
+          "text": "<p>\n            Model your data, then build apps with blocks and actions\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.c",
+          "sentiment": -0.226,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "ai",
+      "team_key": "competitor",
+      "importance_score": 44.96,
+      "sentiment": {
+        "score": 0.038,
+        "magnitude": 0.021,
+        "positive": 4,
+        "negative": 1,
+        "neutral": 34
+      },
+      "metrics": {
+        "frequency": 16,
+        "document_count": 16,
+        "source_diversity": 2,
+        "velocity": 23.08
+      },
+      "content_ids": [
+        92,
+        97,
+        91,
+        104,
+        107,
+        108,
+        101,
+        105,
+        111,
+        121,
+        118,
+        123,
+        98,
+        120,
+        113,
+        137
+      ],
+      "sample_snippets": [
+        {
+          "text": "<p>\n             Automatic UTMs with AI + Intelligent Analytics\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.c",
+          "sentiment": 0.459,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Sleep smarter: AI driven sleep insights based on your habits\n          </p>\n          <p>\n            <a href=\"https:",
+          "sentiment": 0.459,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            Personal URLs for sharing context with AI\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/context-link",
+          "sentiment": 0.421,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "price",
+      "team_key": "competitor",
+      "importance_score": 44.86,
+      "sentiment": {
+        "score": 0.044,
+        "magnitude": 0.063,
+        "positive": 3,
+        "negative": 2,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 2,
+        "velocity": 25.0
+      },
+      "content_ids": [
+        86,
+        143,
+        148,
+        152,
+        172
+      ],
+      "sample_snippets": [
+        {
+          "text": "trong>can be a lifesaver. Normally $249.99, right now you can buy the power station for the new low price of $128.99 at checkout <a href=\"https://www.amazon.com/dp/B09FF46FQ9/\">at Amazon</a>.</p>\n<div...",
+          "sentiment": 0.402,
+          "classification": "positive"
+        },
+        {
+          "text": "e second-guessing myself. I\u2019ve been waiting 6 months for my dream Sennheiser headphones to hit this price \u2013 but now I\u2019m wondering if they\u2019ll go even lower this Black Friday",
+          "sentiment": -0.318,
+          "classification": "negative"
+        },
+        {
+          "text": "unts ahead of Black Friday, with savings at a range of retailers. The Nintendo Switch 2 has had its price slashed at retailers in the UK, including an EA Sports FC 26 bundle at Currys",
+          "sentiment": -0.226,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "best",
+      "team_key": "competitor",
+      "importance_score": 44.83,
+      "sentiment": {
+        "score": 0.462,
+        "magnitude": 0.147,
+        "positive": 17,
+        "negative": 1,
+        "neutral": 9
+      },
+      "metrics": {
+        "frequency": 8,
+        "document_count": 8,
+        "source_diversity": 2,
+        "velocity": 23.08
+      },
+      "content_ids": [
+        83,
+        130,
+        134,
+        135,
+        139,
+        140,
+        164,
+        173
+      ],
+      "sample_snippets": [
+        {
+          "text": "m rounding up today's best deals on appliances, TVs, Apple devices, vacuums, and gift ideas. The 71 best early Black Friday deals I've found so far \u2013 Amazon, Best Buy, Target, and more",
+          "sentiment": 0.955,
+          "classification": "positive"
+        },
+        {
+          "text": "Early Black Friday sales are live from your favorite retailers, and I'm rounding up today's best deals on appliances, TVs, Apple devices, vacuums, and gift ideas. The 71 best early Black Friday de",
+          "sentiment": 0.936,
+          "classification": "positive"
+        },
+        {
+          "text": " devices, vacuums, and gift ideas. The 71 best early Black Friday deals I've found so far \u2013 Amazon, Best Buy, Target, and more",
+          "sentiment": 0.923,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "build",
+      "team_key": "competitor",
+      "importance_score": 44.76,
+      "sentiment": {
+        "score": 0.033,
+        "magnitude": 0.096,
+        "positive": 2,
+        "negative": 2,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 2,
+        "velocity": 20.0
+      },
+      "content_ids": [
+        89,
+        90,
+        102,
+        93,
+        111,
+        119
+      ],
+      "sample_snippets": [
+        {
+          "text": "ttps://blog.bioware.com/2025/11/07/n7-day-2025/\">Mike Gamble says</a>. \u201cWe\u2019re excited by what we\u2019re building, and we promise you: when we\u2019re ready, it\u2019ll be a lot of fun to show.\u201d Gamble also addresse...",
+          "sentiment": 0.859,
+          "classification": "positive"
+        },
+        {
+          "text": "ial advice \u2014 is that it tends to make more money. Even if Trump Mobile had made no effort at all to build a single smartphone (and we have absolutely no evidence that it ever has!) those deposits alon...",
+          "sentiment": -0.717,
+          "classification": "negative"
+        },
+        {
+          "text": "ducer.</p>\n\n<p class=\"has-text-align-none\">\u201cWe have a lot of universe to cover, lots of features to build, and lots of romances to figure out.\u201d <a href=\"https://blog.bioware.com/2025/11/07/n7-day-2025...",
+          "sentiment": 0.318,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "november",
+      "team_key": "competitor",
+      "importance_score": 44.7,
+      "sentiment": {
+        "score": 0.209,
+        "magnitude": 0.078,
+        "positive": 3,
+        "negative": 0,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        89,
+        159,
+        160,
+        161,
+        162
+      ],
+      "sample_snippets": [
+        {
+          "text": "ioware-new-mass-effect-game-announced-n7-day\">a brand new <em>Mass Effect</em> game</a>. But today, November 7th (N7 Day), BioWare shared a promising sign of life: the BioWare team is \u201cheads-down and ...",
+          "sentiment": 0.876,
+          "classification": "positive"
+        },
+        {
+          "text": " to know to solve today's game, including the spangram. NYT Strands hints and answers for Saturday, November 8 (game #615)",
+          "sentiment": 0.202,
+          "classification": "positive"
+        },
+        {
+          "text": ". Plus get the answers to Quordle today and past solutions. Quordle hints and answers for Saturday, November 8 (game #1384)",
+          "sentiment": 0.178,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "world",
+      "team_key": "competitor",
+      "importance_score": 44.63,
+      "sentiment": {
+        "score": 0.138,
+        "magnitude": 0.078,
+        "positive": 6,
+        "negative": 2,
+        "neutral": 6
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 2,
+        "velocity": 25.0
+      },
+      "content_ids": [
+        84,
+        133,
+        135,
+        153,
+        158
+      ],
+      "sample_snippets": [
+        {
+          "text": "ia 2 \u2013 and getting an up-close look at an all-new animatronic from Walt Disney Imagineering. Disney World\u2019s new Zootopia experience is fun, fast, and full of fur \u2013 literally, thanks to one incredible ...",
+          "sentiment": 0.735,
+          "classification": "positive"
+        },
+        {
+          "text": "As the world's best players head to Wolverhampton, here's how to watch Grand Slam of Darts 2025 live streams onl",
+          "sentiment": 0.681,
+          "classification": "positive"
+        },
+        {
+          "text": "more than a thousand mounts earnable in-game and only a few dozen from the shop.\u201d</p>\n</blockquote> World of Warcraft is getting a new kind of fake money",
+          "sentiment": -0.526,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "watch",
+      "team_key": "competitor",
+      "importance_score": 44.05,
+      "sentiment": {
+        "score": 0.239,
+        "magnitude": 0.1,
+        "positive": 30,
+        "negative": 4,
+        "neutral": 20
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 14.29
+      },
+      "content_ids": [
+        83,
+        128,
+        135,
+        149
+      ],
+      "sample_snippets": [
+        {
+          "text": "ng resources in projects under the Fitbit name. The hardware improvements introduced with the Pixel Watch 4 are also a positive sign that Google remains committed to developing compelling wearable har...",
+          "sentiment": 0.836,
+          "classification": "positive"
+        },
+        {
+          "text": "\u201cactive minutes,\u201d which fill a cute progress meter called a Noodle that runs around the face of the watch. Active minutes earn time with the Ace LTE\u2019s built-in games that, combined with activities, un...",
+          "sentiment": 0.818,
+          "classification": "positive"
+        },
+        {
+          "text": " Watch 4\u2019s mix of hardware, features, and price make it the best Fitbit, and one of the top Android watches overall.</p>\n\n<p class=\"has-text-align-none\">If all you want is a fitness tracker that&nbsp;...",
+          "sentiment": 0.813,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "link",
+      "team_key": "competitor",
+      "importance_score": 43.94,
+      "sentiment": {
+        "score": -0.009,
+        "magnitude": 0.006,
+        "positive": 0,
+        "negative": 1,
+        "neutral": 35
+      },
+      "metrics": {
+        "frequency": 34,
+        "document_count": 34,
+        "source_diversity": 1,
+        "velocity": 15.91
+      },
+      "content_ids": [
+        95,
+        99,
+        94,
+        96,
+        92,
+        97,
+        100,
+        91,
+        104,
+        109,
+        107,
+        106,
+        108,
+        115,
+        102,
+        110,
+        101,
+        114,
+        112,
+        103,
+        105,
+        93,
+        111,
+        121,
+        118,
+        122,
+        116,
+        123,
+        119,
+        98,
+        117,
+        120,
+        124,
+        113
+      ],
+      "sample_snippets": [
+        {
+          "text": "scussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1034279?app_id=339\">Link</a>\n          </p> Fire Your QA Today",
+          "sentiment": -0.34,
+          "classification": "negative"
+        },
+        {
+          "text": "scussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1035368?app_id=339\">Link</a>\n          </p> Kimi K2 Thinking",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "scussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1035347?app_id=339\">Link</a>\n          </p> Burner Terminal",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "update",
+      "team_key": "competitor",
+      "importance_score": 43.69,
+      "sentiment": {
+        "score": 0.071,
+        "magnitude": 0.045,
+        "positive": 2,
+        "negative": 1,
+        "neutral": 6
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 20.0
+      },
+      "content_ids": [
+        81,
+        85,
+        87,
+        166
+      ],
+      "sample_snippets": [
+        {
+          "text": "you can adjust settings like exposure and focus on the fly.</p>\n\n<p class=\"has-text-align-none\">The update also adds support for SRT: a more modern streaming protocol frequently used by professional b...",
+          "sentiment": 0.637,
+          "classification": "positive"
+        },
+        {
+          "text": "mitted to supporting Halo Infinite on the road ahead, Operation: Infinite is the last major content update currently planned.</p>\n</blockquote>\n\n<p class=\"has-text-align-none\">Putting this game into m...",
+          "sentiment": 0.44,
+          "classification": "positive"
+        },
+        {
+          "text": "kers. Here's all you need to know. ProtonVPN crushes ads and trackers on Android TV app with latest update",
+          "sentiment": -0.44,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "year",
+      "team_key": "competitor",
+      "importance_score": 43.28,
+      "sentiment": {
+        "score": 0.187,
+        "magnitude": 0.077,
+        "positive": 5,
+        "negative": 2,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 20.0
+      },
+      "content_ids": [
+        81,
+        88,
+        89,
+        153
+      ],
+      "sample_snippets": [
+        {
+          "text": "rely sure what this image might mean, but as someone who finally finished the original trilogy last year thanks to the <a href=\"https://www.theverge.com/2021/2/2/22256806/mass-effect-legendary-edition...",
+          "sentiment": 0.815,
+          "classification": "positive"
+        },
+        {
+          "text": "elayed again \u2013 but there are alternatives to consider over the next year. GTA 6 won't be here for a year \u2013 here are 5 imminent and upcoming open-world games to play instead",
+          "sentiment": 0.477,
+          "classification": "positive"
+        },
+        {
+          "text": "ensationalized claims.\u201d He added, \u201cWe have introduced over 145 safety measures on the platform this year alone.\u201d&nbsp;</p>\n\n<p class=\"has-text-align-none\">Roblox <a href=\"https://corp.roblox.com/newsr...",
+          "sentiment": 0.421,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "just",
+      "team_key": "competitor",
+      "importance_score": 43.26,
+      "sentiment": {
+        "score": 0.203,
+        "magnitude": 0.076,
+        "positive": 4,
+        "negative": 0,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 2,
+        "velocity": 20.0
+      },
+      "content_ids": [
+        90,
+        138,
+        152,
+        165,
+        169,
+        172
+      ],
+      "sample_snippets": [
+        {
+          "text": "al channels are still sitting silent.&nbsp;</p>\n\n<p class=\"has-text-align-none\">Trump Mobile hasn\u2019t just promised a phone and failed to deliver it. No, like all good vaporware, it made sure to take pe...",
+          "sentiment": 0.71,
+          "classification": "positive"
+        },
+        {
+          "text": "ed in the S&amp;P 500 index, gains would be a little more modest: $110.79 by today, for a profit of just over $10.</p>\n\n<p class=\"has-text-align-none\">Per phone, that ain\u2019t much. But we don\u2019t know how...",
+          "sentiment": 0.392,
+          "classification": "positive"
+        },
+        {
+          "text": "Grime music fan? You might want to check out Moto Buds Bass Moto just revealed super-cheap wireless earbuds with surprisingly beefy driver and Hi-Res Audio certification",
+          "sentiment": 0.318,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "discussion",
+      "team_key": "competitor",
+      "importance_score": 43.18,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 34
+      },
+      "metrics": {
+        "frequency": 34,
+        "document_count": 34,
+        "source_diversity": 1,
+        "velocity": 15.91
+      },
+      "content_ids": [
+        95,
+        99,
+        94,
+        96,
+        92,
+        97,
+        100,
+        91,
+        104,
+        109,
+        107,
+        106,
+        108,
+        115,
+        102,
+        110,
+        101,
+        114,
+        112,
+        103,
+        105,
+        93,
+        111,
+        121,
+        118,
+        122,
+        116,
+        123,
+        119,
+        98,
+        117,
+        120,
+        124,
+        113
+      ],
+      "sample_snippets": [
+        {
+          "text": "ign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1035368?app_id=339...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "ign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1035347?app_id=339...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "ign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1035147?app_id=339...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "years",
+      "team_key": "competitor",
+      "importance_score": 43.17,
+      "sentiment": {
+        "score": 0.126,
+        "magnitude": 0.055,
+        "positive": 2,
+        "negative": 1,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 20.0
+      },
+      "content_ids": [
+        82,
+        86,
+        132,
+        136
+      ],
+      "sample_snippets": [
+        {
+          "text": "anels.</p>\n\n<p class=\"has-text-align-none\">Anker also says the battery is designed to last up to 10 years, and you get a five-year warranty for extra peace of mind. Plus, it comes with charging cables...",
+          "sentiment": 0.542,
+          "classification": "positive"
+        },
+        {
+          "text": " talks to snap up ITV's broadcasting arm in what would be the biggest British broadcasting deal for years \u2013here's what it means for TV viewers. Will ITV still be free? The potential Sky-ITV deal expla...",
+          "sentiment": 0.511,
+          "classification": "positive"
+        },
+        {
+          "text": "deals for years, I know how to spot a real VPN deal. These VPN deals blew us away over the last few years \u2013 will they be beaten in 2025?",
+          "sentiment": -0.421,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "features",
+      "team_key": "competitor",
+      "importance_score": 42.71,
+      "sentiment": {
+        "score": 0.149,
+        "magnitude": 0.125,
+        "positive": 8,
+        "negative": 3,
+        "neutral": 5
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 3,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        83,
+        119,
+        141,
+        146
+      ],
+      "sample_snippets": [
+        {
+          "text": "l, what it lacks in smarts it makes up for with Fitbit\u2019s advanced sleep tracking, stress management features, and irregular heart rate notifications. The OLED display is also a step up from the Inspir...",
+          "sentiment": 0.866,
+          "classification": "positive"
+        },
+        {
+          "text": "class=\"product-block\"><h3>Fitbit Charge 6</h3>\n<div class=\"product-description\">The Fitbit Charge 6 features a haptic side button, an improved heart rate algorithm, turn-by-turn navigation with Google...",
+          "sentiment": 0.807,
+          "classification": "positive"
+        },
+        {
+          "text": "New ClickFix variants seen with extra features including video explainers. Experts warn ClickFix malware attacks are back, and more dangerous than",
+          "sentiment": -0.771,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "ahead",
+      "team_key": "competitor",
+      "importance_score": 42.7,
+      "sentiment": {
+        "score": 0.268,
+        "magnitude": 0.071,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 14.29
+      },
+      "content_ids": [
+        81,
+        133,
+        138,
+        148
+      ],
+      "sample_snippets": [
+        {
+          "text": " that our community has given us. While we remain committed to supporting Halo Infinite on the road ahead, Operation: Infinite is the last major content update currently planned.</p>\n</blockquote>\n\n<p...",
+          "sentiment": 0.612,
+          "classification": "positive"
+        },
+        {
+          "text": "TechRadar had the chance to preview the new 4D show ahead of its opening, experiencing the production \u2013 created by the same animation team behind Zootopia 2 ",
+          "sentiment": 0.459,
+          "classification": "positive"
+        },
+        {
+          "text": "CIe Gen4 performance with read speeds of up to 7,100MB/s, and it\u2019s currently priced at just \u00a3105.99 ahead of Black Friday. Don\u2019t wait for Black Friday: Get Crucial\u2019s 2TB P310 Gen4 SSD with 7,100MB/s r...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "open",
+      "team_key": "competitor",
+      "importance_score": 42.63,
+      "sentiment": {
+        "score": 0.068,
+        "magnitude": 0.017,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 20.0
+      },
+      "content_ids": [
+        95,
+        101,
+        103,
+        153
+      ],
+      "sample_snippets": [
+        {
+          "text": "s to consider over the next year. GTA 6 won't be here for a year \u2013 here are 5 imminent and upcoming open-world games to play instead",
+          "sentiment": 0.34,
+          "classification": "positive"
+        },
+        {
+          "text": "<p>\n            The 1T Parameters Open-Source Thinking Model - SOTA on HLE\n          </p>\n          <p>\n            <a href=\"https://www.p",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "<p>\n            The open-source AI gateway for AI-native startups\n          </p>\n          <p>\n            <a href=\"https://",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "offers",
+      "team_key": "competitor",
+      "importance_score": 42.57,
+      "sentiment": {
+        "score": 0.61,
+        "magnitude": 0.172,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        139,
+        142,
+        152,
+        164
+      ],
+      "sample_snippets": [
+        {
+          "text": "ay sale to expanded with dozens of new deals, so we've taken a look through and picked out the best offers worth buying now. Best Buy expands its Black Friday sale with dozens of new deals \u2013 I've pick...",
+          "sentiment": 0.893,
+          "classification": "positive"
+        },
+        {
+          "text": "uying now. Best Buy expands its Black Friday sale with dozens of new deals \u2013 I've picked the 17 top offers on headphones, laptops, TVs, and more",
+          "sentiment": 0.751,
+          "classification": "positive"
+        },
+        {
+          "text": "y not point your browser to the best URL on the planet for this purpose: design.com. But is what it offers as cool as its name? Design.com logo maker review",
+          "sentiment": 0.676,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "discussion link",
+      "team_key": "competitor",
+      "importance_score": 42.52,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 34,
+        "document_count": 34,
+        "source_diversity": 1,
+        "velocity": 15.91
+      },
+      "content_ids": [
+        95,
+        99,
+        94,
+        96,
+        92,
+        97,
+        100,
+        91,
+        104,
+        109,
+        107,
+        106,
+        108,
+        115,
+        102,
+        110,
+        101,
+        114,
+        112,
+        103,
+        105,
+        93,
+        111,
+        121,
+        118,
+        122,
+        116,
+        123,
+        119,
+        98,
+        117,
+        120,
+        124,
+        113
+      ],
+      "sample_snippets": []
+    },
+    {
+      "keyword": "look",
+      "team_key": "competitor",
+      "importance_score": 42.21,
+      "sentiment": {
+        "score": 0.35,
+        "magnitude": 0.153,
+        "positive": 3,
+        "negative": 1,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 14.29
+      },
+      "content_ids": [
+        130,
+        131,
+        133,
+        164
+      ],
+      "sample_snippets": [
+        {
+          "text": "The Best Buy Black Friday sale to expanded with dozens of new deals, so we've taken a look through and picked out the best offers worth buying now. Best Buy expands its Black Friday sale wit",
+          "sentiment": 0.942,
+          "classification": "positive"
+        },
+        {
+          "text": "tell you if you should buy now or wait for what's next, depending on your favorite device. Should I look for Black Friday smartphone deals today or wait for what\u2019s coming tomorrow? I\u2019ve previewed the ...",
+          "sentiment": 0.459,
+          "classification": "positive"
+        },
+        {
+          "text": " its full front-end code, giving developers temporary insight before likely removal. Want to take a look at Apple's development secrets? It accidentally leaked its entire front-end source code for its...",
+          "sentiment": -0.25,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "8217",
+      "team_key": "competitor",
+      "importance_score": 42.09,
+      "sentiment": {
+        "score": -0.011,
+        "magnitude": 0.087,
+        "positive": 3,
+        "negative": 2,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        81,
+        86,
+        88,
+        89
+      ],
+      "sample_snippets": [
+        {
+          "text": "<p class=\"has-text-align-none\">With multiple Halo titles in development, we\u2019ll need our whole team&#8217;s combined focus to deliver new experiences with the same passion and care that our community h...",
+          "sentiment": 0.735,
+          "classification": "positive"
+        },
+        {
+          "text": "tify and blackmail victims into sexually explicit acts or self harm. According to the suit, Roblox&#8217;s parental controls push only began after a number of lawsuits, and <a href=\"https://www.thever...",
+          "sentiment": -0.727,
+          "classification": "negative"
+        },
+        {
+          "text": "gaging in grooming and child sexual exploitation.\u201d</p>\n\n<p class=\"has-text-align-none\">The lawsuit&#8217;s examples focus on instances of children who have been abused by predators they met via Roblox...",
+          "sentiment": -0.511,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "looking",
+      "team_key": "competitor",
+      "importance_score": 41.9,
+      "sentiment": {
+        "score": 0.392,
+        "magnitude": 0.139,
+        "positive": 4,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        139,
+        159,
+        161,
+        162
+      ],
+      "sample_snippets": [
+        {
+          "text": "When looking for design services, why not point your browser to the best URL on the planet for this purpose: des",
+          "sentiment": 0.637,
+          "classification": "positive"
+        },
+        {
+          "text": "Looking for Quordle clues? We can help. Plus get the answers to Quordle today and past solutions. Quordle h",
+          "sentiment": 0.527,
+          "classification": "positive"
+        },
+        {
+          "text": "Looking for NYT Connections answers and hints? Here's all you need to know to solve today's game, plus my c",
+          "sentiment": 0.202,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "full",
+      "team_key": "competitor",
+      "importance_score": 41.76,
+      "sentiment": {
+        "score": 0.246,
+        "magnitude": 0.146,
+        "positive": 3,
+        "negative": 1,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 1,
+        "velocity": 14.29
+      },
+      "content_ids": [
+        126,
+        131,
+        133,
+        155
+      ],
+      "sample_snippets": [
+        {
+          "text": "animatronic from Walt Disney Imagineering. Disney World\u2019s new Zootopia experience is fun, fast, and full of fur \u2013 literally, thanks to one incredible animatronic",
+          "sentiment": 0.735,
+          "classification": "positive"
+        },
+        {
+          "text": "ll be legal. Elon Musk says Tesla is \"almost ready\" to allow texting when behind the wheel with its Full Self-Driving system",
+          "sentiment": 0.518,
+          "classification": "positive"
+        },
+        {
+          "text": "Musk claims Full Self-Driving will soon allow texting when at the wheel, but fails to explain how that will be legal",
+          "sentiment": -0.361,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "need",
+      "team_key": "competitor",
+      "importance_score": 41.75,
+      "sentiment": {
+        "score": 0.182,
+        "magnitude": 0.094,
+        "positive": 7,
+        "negative": 2,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 8,
+        "document_count": 8,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        85,
+        145,
+        156,
+        159,
+        162,
+        165,
+        166,
+        168
+      ],
+      "sample_snippets": [
+        {
+          "text": "agon X laptop? Your dream has come true \u2013 and the battle royale reportedly runs smoothly. You don't need a gaming laptop to play Fortnite smoothly anymore \u2013 it can now run on super-thin-and-light Copi...",
+          "sentiment": 0.557,
+          "classification": "positive"
+        },
+        {
+          "text": "Just need a cheap plan to cover the basics? Here's an incredibly cheap option over at Mint Mobile. This easy-",
+          "sentiment": 0.523,
+          "classification": "positive"
+        },
+        {
+          "text": "After demoing Freepik Spaces at the company's Upscale event, these are the essential things pros need to know. The 5 key takeaways creative teams need to know about Freepik Spaces",
+          "sentiment": 0.44,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "deal",
+      "team_key": "competitor",
+      "importance_score": 41.54,
+      "sentiment": {
+        "score": 0.197,
+        "magnitude": 0.093,
+        "positive": 5,
+        "negative": 2,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        132,
+        136,
+        143,
+        152,
+        165
+      ],
+      "sample_snippets": [
+        {
+          "text": "This amazing early Black Friday deal on my dream wired headphones has got me second-guessing myself. I\u2019ve been waiting 6 months for my d",
+          "sentiment": 0.7,
+          "classification": "positive"
+        },
+        {
+          "text": "Sky is in talks to snap up ITV's broadcasting arm in what would be the biggest British broadcasting deal for years \u2013here's what it means for TV viewers. Will ITV still be free? The potential Sky-ITV d...",
+          "sentiment": 0.511,
+          "classification": "positive"
+        },
+        {
+          "text": " deal for years \u2013here's what it means for TV viewers. Will ITV still be free? The potential Sky-ITV deal explained \u2013and what it means for TV watchers",
+          "sentiment": 0.511,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "source",
+      "team_key": "competitor",
+      "importance_score": 41.49,
+      "sentiment": {
+        "score": -0.066,
+        "magnitude": 0.016,
+        "positive": 0,
+        "negative": 1,
+        "neutral": 7
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 9.09
+      },
+      "content_ids": [
+        95,
+        101,
+        103,
+        131
+      ],
+      "sample_snippets": [
+        {
+          "text": "al. Want to take a look at Apple's development secrets? It accidentally leaked its entire front-end source code for its new App Store, which is available for anyone to view - for now",
+          "sentiment": -0.527,
+          "classification": "negative"
+        },
+        {
+          "text": "<p>\n            The 1T Parameters Open-Source Thinking Model - SOTA on HLE\n          </p>\n          <p>\n            <a href=\"https://www.producth",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "products/kimi-ai-assistant?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.pr...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "know",
+      "team_key": "competitor",
+      "importance_score": 41.25,
+      "sentiment": {
+        "score": 0.012,
+        "magnitude": 0.116,
+        "positive": 5,
+        "negative": 4,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 9,
+        "document_count": 9,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        114,
+        136,
+        145,
+        157,
+        159,
+        162,
+        166,
+        168,
+        170
+      ],
+      "sample_snippets": [
+        {
+          "text": "niques, Cisco is warning. Cisco firewalls are facing another huge surge of attacks - here's what we know about these latest issues",
+          "sentiment": -0.459,
+          "classification": "negative"
+        },
+        {
+          "text": " demoing Freepik Spaces at the company's Upscale event, these are the essential things pros need to know. The 5 key takeaways creative teams need to know about Freepik Spaces",
+          "sentiment": 0.44,
+          "classification": "positive"
+        },
+        {
+          "text": "event, these are the essential things pros need to know. The 5 key takeaways creative teams need to know about Freepik Spaces",
+          "sentiment": 0.44,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "plus",
+      "team_key": "competitor",
+      "importance_score": 41.08,
+      "sentiment": {
+        "score": 0.313,
+        "magnitude": 0.088,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 4,
+        "document_count": 4,
+        "source_diversity": 2,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        82,
+        146,
+        159,
+        161
+      ],
+      "sample_snippets": [
+        {
+          "text": "Looking for Quordle clues? We can help. Plus get the answers to Quordle today and past solutions. Quordle hints and answers for Saturday, Novemb",
+          "sentiment": 0.527,
+          "classification": "positive"
+        },
+        {
+          "text": "arnings call, stating the facts - that there were only three reports of breakages and two injuries, plus the company was offering<strong> </strong>a free replacement seat. Later, when asked in an Q&am...",
+          "sentiment": 0.511,
+          "classification": "positive"
+        },
+        {
+          "text": "the morning: <span>it issued yet another <a href=\"https://www.theverge.com/news/815376/peloton-bike-plus-recall-seat-post\" target=\"_blank\">recall for 833,000 of its original Bike Plus units</a></span>...",
+          "sentiment": 0.318,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "need know",
+      "team_key": "competitor",
+      "importance_score": 39.46,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        145,
+        159,
+        162,
+        166,
+        168
+      ],
+      "sample_snippets": []
+    }
+  ],
+  "count": 50
+}

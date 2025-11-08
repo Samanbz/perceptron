@@ -1,0 +1,2091 @@
+{
+  "date": "2025-11-03",
+  "team": "regulator",
+  "keywords": [
+    {
+      "keyword": "service agreement",
+      "team_key": "regulator",
+      "importance_score": 51.77,
+      "sentiment": {
+        "score": 0.484,
+        "magnitude": 0.119,
+        "positive": 7,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 1,
+        "velocity": 50.0
+      },
+      "content_ids": [
+        10,
+        18,
+        21,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": " noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes o...",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": " noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes o...",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "riority Mail Express International, Priority Mail International & First-Class Package International Service Agreement",
+          "sentiment": 0.494,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "negotiated service",
+      "team_key": "regulator",
+      "importance_score": 51.23,
+      "sentiment": {
+        "score": 0.56,
+        "magnitude": 0.176,
+        "positive": 10,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 40.0
+      },
+      "content_ids": [
+        10,
+        18,
+        21,
+        27,
+        29,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "l, and USPS Ground Advantage Negotiated Service Agreements; Priority Mail and USPS Ground Advantage Negotiated Service Agreements; Priority Mail Negotiated Service Agreements",
+          "sentiment": 0.807,
+          "classification": "positive"
+        },
+        {
+          "text": "ce Agreements; Priority Mail and USPS Ground Advantage Negotiated Service Agreements; Priority Mail Negotiated Service Agreements",
+          "sentiment": 0.743,
+          "classification": "positive"
+        },
+        {
+          "text": "itive Products List. Product Change-Priority Mail Express, Priority Mail, and USPS Ground Advantage Negotiated Service Agreements; Priority Mail and USPS Ground Advantage Negotiated Service Agreements...",
+          "sentiment": 0.735,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "united states",
+      "team_key": "regulator",
+      "importance_score": 50.67,
+      "sentiment": {
+        "score": 0.513,
+        "magnitude": 0.2,
+        "positive": 11,
+        "negative": 1,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 16.67
+      },
+      "content_ids": [
+        4,
+        7,
+        8,
+        9,
+        11,
+        12,
+        38
+      ],
+      "sample_snippets": [
+        {
+          "text": "The Parties to the Agreement between the United States of America, the United Mexican States, and Canada (USMCA) intend to hold the third meeting of the L",
+          "sentiment": 0.935,
+          "classification": "positive"
+        },
+        {
+          "text": "hnological innovation, and support critical infrastructure vital for a modern American economy. The United States is heavily reliant on imports of certain mineral commodities from foreign sources, som...",
+          "sentiment": 0.863,
+          "classification": "positive"
+        },
+        {
+          "text": "er 17, 2025, USTR announced a public hearing relating to the operation of the Agreement between the United States of America, the United Mexican States, and Canada (USMCA), scheduled for November 17, ...",
+          "sentiment": 0.832,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "december",
+      "team_key": "regulator",
+      "importance_score": 50.52,
+      "sentiment": {
+        "score": 0.351,
+        "magnitude": 0.09,
+        "positive": 3,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 66.67
+      },
+      "content_ids": [
+        7,
+        8,
+        9,
+        32,
+        49
+      ],
+      "sample_snippets": [
+        {
+          "text": "ct (Act), there will be a 2.8 percent cost-of-living increase in Social Security benefits effective December 2025. In addition, the national average wage index for 2024 is $69,846.57. The cost-of-livi...",
+          "sentiment": 0.856,
+          "classification": "positive"
+        },
+        {
+          "text": "rder). The partial relief gives SEPTA until November 14, 2025 to complete Condition No. 8 and until December 5, 2025 to complete Condition No. 9. This notice also establishes three additional conditio...",
+          "sentiment": 0.477,
+          "classification": "positive"
+        },
+        {
+          "text": " United Mexican States, and Canada (USMCA) intend to hold the third meeting of the Labor Council on December 9-10, 2025. The meeting will include a closed in-person government-to-government Labor Coun...",
+          "sentiment": 0.421,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "public comment",
+      "team_key": "regulator",
+      "importance_score": 50.51,
+      "sentiment": {
+        "score": 0.309,
+        "magnitude": 0.074,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 8,
+        "document_count": 8,
+        "source_diversity": 1,
+        "velocity": 100.0
+      },
+      "content_ids": [
+        10,
+        13,
+        18,
+        27,
+        33,
+        43,
+        45,
+        47
+      ],
+      "sample_snippets": [
+        {
+          "text": "on concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "on concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "on concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "emergency",
+      "team_key": "regulator",
+      "importance_score": 50.35,
+      "sentiment": {
+        "score": -0.058,
+        "magnitude": 0.254,
+        "positive": 4,
+        "negative": 2,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 66.67
+      },
+      "content_ids": [
+        1,
+        2,
+        3,
+        32,
+        36
+      ],
+      "sample_snippets": [
+        {
+          "text": "ak[lstrok]ady Lotnicze Sp. z o.o. Model PZL M28 05 airplanes. The FAA previously sent this AD as an emergency AD to all known U.S. owners and operators of these airplanes. This AD was prompted by dama...",
+          "sentiment": -0.765,
+          "classification": "negative"
+        },
+        {
+          "text": " Continuation of the National Emergency With Respect to the Proliferation of Weapons of Mass Destruction",
+          "sentiment": -0.727,
+          "classification": "negative"
+        },
+        {
+          "text": "ty (SEPTA) with partial relief from the 30-day timeline to complete two of 14 conditions imposed by Emergency Order No. 34 (Order). The partial relief gives SEPTA until November 14, 2025 to complete C...",
+          "sentiment": 0.71,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "united",
+      "team_key": "regulator",
+      "importance_score": 50.23,
+      "sentiment": {
+        "score": 0.578,
+        "magnitude": 0.217,
+        "positive": 14,
+        "negative": 1,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 16.67
+      },
+      "content_ids": [
+        4,
+        7,
+        8,
+        9,
+        11,
+        12,
+        38
+      ],
+      "sample_snippets": [
+        {
+          "text": "The Parties to the Agreement between the United States of America, the United Mexican States, and Canada (USMCA) intend to hold the third meeting o",
+          "sentiment": 0.888,
+          "classification": "positive"
+        },
+        {
+          "text": "The Parties to the Agreement between the United States of America, the United Mexican States, and Canada (USMCA) intend to hold the third meeting of the Labor Council on Decembe",
+          "sentiment": 0.888,
+          "classification": "positive"
+        },
+        {
+          "text": "hnological innovation, and support critical infrastructure vital for a modern American economy. The United States is heavily reliant on imports of certain mineral commodities from foreign sources, som...",
+          "sentiment": 0.863,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "postal service",
+      "team_key": "regulator",
+      "importance_score": 49.91,
+      "sentiment": {
+        "score": 0.353,
+        "magnitude": 0.099,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 40.0
+      },
+      "content_ids": [
+        10,
+        18,
+        21,
+        27,
+        29,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice in",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice in",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice in",
+          "sentiment": 0.494,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "november",
+      "team_key": "regulator",
+      "importance_score": 49.52,
+      "sentiment": {
+        "score": 0.32,
+        "magnitude": 0.087,
+        "positive": 6,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 1,
+        "velocity": 50.0
+      },
+      "content_ids": [
+        9,
+        16,
+        19,
+        24,
+        32,
+        34
+      ],
+      "sample_snippets": [
+        {
+          "text": " between the United States of America, the United Mexican States, and Canada (USMCA), scheduled for November 17, 2025, in the main hearing room of the U.S. International Trade Commission. USTR is modi...",
+          "sentiment": 0.681,
+          "classification": "positive"
+        },
+        {
+          "text": "ive date for those regulations. This final rule changes the effective date for those regulations to November 5, 2025. This final rule makes no other changes. Protection of Federal Property; Changed Ef...",
+          "sentiment": 0.612,
+          "classification": "positive"
+        },
+        {
+          "text": "n of South Sudan for Temporary Protected Status. The designation of South Sudan is set to expire on November 3, 2025. After reviewing country conditions and consulting with appropriate U.S. Government...",
+          "sentiment": 0.44,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "act",
+      "team_key": "regulator",
+      "importance_score": 49.29,
+      "sentiment": {
+        "score": 0.245,
+        "magnitude": 0.134,
+        "positive": 24,
+        "negative": 3,
+        "neutral": 9
+      },
+      "metrics": {
+        "frequency": 13,
+        "document_count": 13,
+        "source_diversity": 1,
+        "velocity": 160.0
+      },
+      "content_ids": [
+        14,
+        16,
+        23,
+        26,
+        28,
+        34,
+        35,
+        37,
+        38,
+        39,
+        44,
+        46,
+        49
+      ],
+      "sample_snippets": [
+        {
+          "text": "Under title II of the Social Security Act (Act), there will be a 2.8 percent cost-of-living increase in Social Security benefits effective De",
+          "sentiment": 0.896,
+          "classification": "positive"
+        },
+        {
+          "text": "Under title II of the Social Security Act (Act), there will be a 2.8 percent cost-of-living increase in Social Security benefits effective Decembe",
+          "sentiment": 0.896,
+          "classification": "positive"
+        },
+        {
+          "text": "equired notification, made an appropriate determination regarding that notification, and taken such actions as required by that determination. Significant New Use Rules on Certain Chemical Substances ...",
+          "sentiment": 0.807,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "negotiated",
+      "team_key": "regulator",
+      "importance_score": 49.24,
+      "sentiment": {
+        "score": 0.56,
+        "magnitude": 0.18,
+        "positive": 10,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 40.0
+      },
+      "content_ids": [
+        10,
+        18,
+        21,
+        27,
+        29,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "l, and USPS Ground Advantage Negotiated Service Agreements; Priority Mail and USPS Ground Advantage Negotiated Service Agreements; Priority Mail Negotiated Service Agreements",
+          "sentiment": 0.807,
+          "classification": "positive"
+        },
+        {
+          "text": "ce Agreements; Priority Mail and USPS Ground Advantage Negotiated Service Agreements; Priority Mail Negotiated Service Agreements",
+          "sentiment": 0.743,
+          "classification": "positive"
+        },
+        {
+          "text": "itive Products List. Product Change-Priority Mail Express, Priority Mail, and USPS Ground Advantage Negotiated Service Agreements; Priority Mail and USPS Ground Advantage Negotiated Service Agreements...",
+          "sentiment": 0.735,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "notice",
+      "team_key": "regulator",
+      "importance_score": 49.0,
+      "sentiment": {
+        "score": 0.308,
+        "magnitude": 0.099,
+        "positive": 12,
+        "negative": 0,
+        "neutral": 12
+      },
+      "metrics": {
+        "frequency": 18,
+        "document_count": 18,
+        "source_diversity": 1,
+        "velocity": 80.0
+      },
+      "content_ids": [
+        9,
+        10,
+        14,
+        15,
+        18,
+        19,
+        21,
+        22,
+        27,
+        29,
+        32,
+        33,
+        34,
+        35,
+        38,
+        43,
+        45,
+        47
+      ],
+      "sample_snippets": [
+        {
+          "text": "l other findings, conditions, and requirements of the Order remain in effect and unmodified by this notice. Southeastern Pennsylvania Transportation Authority Passenger Trains; Notice of Partial Relie...",
+          "sentiment": 0.751,
+          "classification": "positive"
+        },
+        {
+          "text": "l Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative step...",
+          "sentiment": 0.735,
+          "classification": "positive"
+        },
+        {
+          "text": "l Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative step...",
+          "sentiment": 0.735,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "public",
+      "team_key": "regulator",
+      "importance_score": 48.47,
+      "sentiment": {
+        "score": 0.362,
+        "magnitude": 0.089,
+        "positive": 15,
+        "negative": 0,
+        "neutral": 8
+      },
+      "metrics": {
+        "frequency": 10,
+        "document_count": 10,
+        "source_diversity": 1,
+        "velocity": 66.67
+      },
+      "content_ids": [
+        7,
+        9,
+        10,
+        17,
+        18,
+        27,
+        33,
+        43,
+        45,
+        47
+      ],
+      "sample_snippets": [
+        {
+          "text": "In a notice published on September 17, 2025, USTR announced a public hearing relating to the operation of the Agreement between the United States of America, the United",
+          "sentiment": 0.832,
+          "classification": "positive"
+        },
+        {
+          "text": ", in the main hearing room of the U.S. International Trade Commission. Notice of Change to Date for Public Hearing Relating to the Operation of the Agreement Between the United States of America, the ...",
+          "sentiment": 0.832,
+          "classification": "positive"
+        },
+        {
+          "text": ". Department of Labor (DOL) invite comments and questions from the public in advance of the virtual public session. Notification of the Third United States-Mexico-Canada Agreement Labor Council Meetin...",
+          "sentiment": 0.765,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "service",
+      "team_key": "regulator",
+      "importance_score": 48.4,
+      "sentiment": {
+        "score": 0.435,
+        "magnitude": 0.136,
+        "positive": 19,
+        "negative": 0,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 9,
+        "document_count": 9,
+        "source_diversity": 1,
+        "velocity": 50.0
+      },
+      "content_ids": [
+        10,
+        18,
+        21,
+        25,
+        27,
+        29,
+        33,
+        38,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": " Ground Advantage Negotiated Service Agreements; Priority Mail and USPS Ground Advantage Negotiated Service Agreements; Priority Mail Negotiated Service Agreements",
+          "sentiment": 0.807,
+          "classification": "positive"
+        },
+        {
+          "text": "cts List. Product Change-Priority Mail Express, Priority Mail, and USPS Ground Advantage Negotiated Service Agreements; Priority Mail and USPS Ground Advantage Negotiated Service Agreements; Priority ...",
+          "sentiment": 0.735,
+          "classification": "positive"
+        },
+        {
+          "text": "ts; Priority Mail and USPS Ground Advantage Negotiated Service Agreements; Priority Mail Negotiated Service Agreements",
+          "sentiment": 0.637,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "agreement",
+      "team_key": "regulator",
+      "importance_score": 48.39,
+      "sentiment": {
+        "score": 0.605,
+        "magnitude": 0.182,
+        "positive": 11,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 8,
+        "document_count": 8,
+        "source_diversity": 1,
+        "velocity": 33.33
+      },
+      "content_ids": [
+        7,
+        9,
+        10,
+        18,
+        21,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "The Parties to the Agreement between the United States of America, the United Mexican States, and Canada (USMCA) intend to hold ",
+          "sentiment": 0.888,
+          "classification": "positive"
+        },
+        {
+          "text": "e published on September 17, 2025, USTR announced a public hearing relating to the operation of the Agreement between the United States of America, the United Mexican States, and Canada (USMCA), sched...",
+          "sentiment": 0.832,
+          "classification": "positive"
+        },
+        {
+          "text": "onal Trade Commission. Notice of Change to Date for Public Hearing Relating to the Operation of the Agreement Between the United States of America, the United Mexican States, and Canada",
+          "sentiment": 0.832,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "certain",
+      "team_key": "regulator",
+      "importance_score": 48.38,
+      "sentiment": {
+        "score": 0.399,
+        "magnitude": 0.228,
+        "positive": 6,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 66.67
+      },
+      "content_ids": [
+        1,
+        15,
+        30,
+        39,
+        48
+      ],
+      "sample_snippets": [
+        {
+          "text": " Regulatory Relief for Certain Stationary Sources To Promote American Mineral Security",
+          "sentiment": 0.848,
+          "classification": "positive"
+        },
+        {
+          "text": "otification, and taken such actions as required by that determination. Significant New Use Rules on Certain Chemical Substances (24-4.5e)",
+          "sentiment": 0.681,
+          "classification": "positive"
+        },
+        {
+          "text": "EPA is issuing significant new use rules (SNURs) under the Toxic Substances Control Act (TSCA) for certain chemical substances that were the subject of premanufacture notices (PMNs) and are also subje...",
+          "sentiment": 0.44,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "postal",
+      "team_key": "regulator",
+      "importance_score": 47.99,
+      "sentiment": {
+        "score": 0.176,
+        "magnitude": 0.051,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 9
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 40.0
+      },
+      "content_ids": [
+        10,
+        18,
+        21,
+        27,
+        29,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This n",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This n",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This n",
+          "sentiment": 0.494,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "economic",
+      "team_key": "regulator",
+      "importance_score": 47.98,
+      "sentiment": {
+        "score": 0.091,
+        "magnitude": 0.096,
+        "positive": 2,
+        "negative": 4,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 1,
+        "velocity": 100.0
+      },
+      "content_ids": [
+        4,
+        11,
+        20,
+        40,
+        41,
+        42
+      ],
+      "sample_snippets": [
+        {
+          "text": " chains raise the potential for risks to national security, defense readiness, price stability, and economic prosperity and resilience. The Nation possesses vast mineral resources that can create jobs...",
+          "sentiment": 0.599,
+          "classification": "positive"
+        },
+        {
+          "text": " Modifying Reciprocal Tariff Rates Consistent With the Economic and Trade Arrangement Between the United States and the People's Republic of China",
+          "sentiment": 0.421,
+          "classification": "positive"
+        },
+        {
+          "text": "o vessels participating in the BSAI trawl limited access sector fishery. Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Ocean Perch in the Eastern Aleutian District of the Bering Sea and...",
+          "sentiment": -0.103,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "federal",
+      "team_key": "regulator",
+      "importance_score": 47.56,
+      "sentiment": {
+        "score": 0.029,
+        "magnitude": 0.035,
+        "positive": 2,
+        "negative": 1,
+        "neutral": 11
+      },
+      "metrics": {
+        "frequency": 8,
+        "document_count": 8,
+        "source_diversity": 1,
+        "velocity": 60.0
+      },
+      "content_ids": [
+        8,
+        12,
+        14,
+        23,
+        24,
+        35,
+        38,
+        43
+      ],
+      "sample_snippets": [
+        {
+          "text": "On June 9, 2025, DHS published a final rule promulgating regulations for the protection of Federal property. That rule set January 1, 2026, as the effective date for those regulations. This final ru",
+          "sentiment": 0.477,
+          "classification": "positive"
+        },
+        {
+          "text": "the quota has been harvested, and to advise vessel permit holders and dealer permit holders that no Federal commercial quota is available for landing summer flounder in Massachusetts. Fisheries of the...",
+          "sentiment": -0.296,
+          "classification": "negative"
+        },
+        {
+          "text": "te for those regulations to November 5, 2025. This final rule makes no other changes. Protection of Federal Property; Changed Effective Date",
+          "sentiment": 0.226,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "filing",
+      "team_key": "regulator",
+      "importance_score": 47.52,
+      "sentiment": {
+        "score": 0.412,
+        "magnitude": 0.102,
+        "positive": 10,
+        "negative": 0,
+        "neutral": 2
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 40.0
+      },
+      "content_ids": [
+        10,
+        18,
+        21,
+        27,
+        29,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs t",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "on's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs t",
+          "sentiment": 0.494,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "products",
+      "team_key": "regulator",
+      "importance_score": 47.21,
+      "sentiment": {
+        "score": -0.031,
+        "magnitude": 0.046,
+        "positive": 1,
+        "negative": 3,
+        "neutral": 5
+      },
+      "metrics": {
+        "frequency": 9,
+        "document_count": 9,
+        "source_diversity": 1,
+        "velocity": 80.0
+      },
+      "content_ids": [
+        10,
+        18,
+        27,
+        29,
+        30,
+        31,
+        33,
+        36,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "ract to the list of Negotiated Service Agreements in the Mail Classification Schedule's Competitive Products List. Product Change-Priority Mail Express, Priority Mail, and USPS Ground Advantage Negoti...",
+          "sentiment": 0.586,
+          "classification": "positive"
+        },
+        {
+          "text": "yaw steady fitting block bolts. The FAA is issuing this AD to address the unsafe condition on these products. Airworthiness Directives; MHI RJ Aviation ULC (Type Certificate Previously Held by Bombard...",
+          "sentiment": -0.44,
+          "classification": "negative"
+        },
+        {
+          "text": "able ballast box door assembly. The FAA is issuing this AD to address the unsafe condition on these products. Airworthiness Directives; Bell Textron Canada Limited Helicopters",
+          "sentiment": -0.226,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "comment",
+      "team_key": "regulator",
+      "importance_score": 47.15,
+      "sentiment": {
+        "score": 0.281,
+        "magnitude": 0.069,
+        "positive": 7,
+        "negative": 0,
+        "neutral": 5
+      },
+      "metrics": {
+        "frequency": 10,
+        "document_count": 10,
+        "source_diversity": 1,
+        "velocity": 100.0
+      },
+      "content_ids": [
+        8,
+        10,
+        13,
+        18,
+        27,
+        33,
+        43,
+        45,
+        47,
+        50
+      ],
+      "sample_snippets": [
+        {
+          "text": "erning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "erning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "erning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "meeting",
+      "team_key": "regulator",
+      "importance_score": 47.0,
+      "sentiment": {
+        "score": 0.108,
+        "magnitude": 0.048,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 11
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 1,
+        "velocity": 50.0
+      },
+      "content_ids": [
+        7,
+        14,
+        17,
+        22,
+        35,
+        47
+      ],
+      "sample_snippets": [
+        {
+          "text": "rtual public session. Notification of the Third United States-Mexico-Canada Agreement Labor Council Meeting",
+          "sentiment": 0.718,
+          "classification": "positive"
+        },
+        {
+          "text": "he United States of America, the United Mexican States, and Canada (USMCA) intend to hold the third meeting of the Labor Council on December 9-10, 2025. The meeting will include a closed in-person gov...",
+          "sentiment": 0.681,
+          "classification": "positive"
+        },
+        {
+          "text": "nd Canada (USMCA) intend to hold the third meeting of the Labor Council on December 9-10, 2025. The meeting will include a closed in-person government-to-government Labor Council session in Ottawa, Ca...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "service filing",
+      "team_key": "regulator",
+      "importance_score": 46.84,
+      "sentiment": {
+        "score": 0.494,
+        "magnitude": 0.132,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        10,
+        18,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs t",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs t",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs t",
+          "sentiment": 0.494,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "notice informs",
+      "team_key": "regulator",
+      "importance_score": 46.55,
+      "sentiment": {
+        "score": 0.735,
+        "magnitude": 0.181,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        10,
+        18,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "l Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative step...",
+          "sentiment": 0.735,
+          "classification": "positive"
+        },
+        {
+          "text": "l Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative step...",
+          "sentiment": 0.735,
+          "classification": "positive"
+        },
+        {
+          "text": "l Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative step...",
+          "sentiment": 0.735,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "action",
+      "team_key": "regulator",
+      "importance_score": 46.42,
+      "sentiment": {
+        "score": 0.004,
+        "magnitude": 0.06,
+        "positive": 3,
+        "negative": 4,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 75.0
+      },
+      "content_ids": [
+        13,
+        16,
+        20,
+        23,
+        40,
+        41,
+        42
+      ],
+      "sample_snippets": [
+        {
+          "text": "er Nuclear Site, Unit 1 (CRN-1). The draft SEIS evaluates the environmental impacts of the proposed action of issuing a CP that would allow the construction of CRN-1. Tennessee Valley Authority; Clinc...",
+          "sentiment": 0.296,
+          "classification": "positive"
+        },
+        {
+          "text": "This regulation establishes a tolerance action for residues of cyclobutrifluram in or on the food and feed commodities of cotton, gin byproducts; ",
+          "sentiment": 0.296,
+          "classification": "positive"
+        },
+        {
+          "text": " habitat, and establish requirements pertaining to the monitoring and reporting of such taking. The Action Proponents' activities are considered military readiness activities pursuant to the MMPA, as ...",
+          "sentiment": 0.25,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "takes",
+      "team_key": "regulator",
+      "importance_score": 46.24,
+      "sentiment": {
+        "score": 0.412,
+        "magnitude": 0.11,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 1,
+        "velocity": 50.0
+      },
+      "content_ids": [
+        10,
+        16,
+        18,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "tiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "tiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "tiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "recent postal",
+      "team_key": "regulator",
+      "importance_score": 46.18,
+      "sentiment": {
+        "score": 0.494,
+        "magnitude": 0.144,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        10,
+        18,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This n",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This n",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This n",
+          "sentiment": 0.494,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "commission",
+      "team_key": "regulator",
+      "importance_score": 46.08,
+      "sentiment": {
+        "score": 0.216,
+        "magnitude": 0.048,
+        "positive": 7,
+        "negative": 0,
+        "neutral": 8
+      },
+      "metrics": {
+        "frequency": 9,
+        "document_count": 9,
+        "source_diversity": 1,
+        "velocity": 28.57
+      },
+      "content_ids": [
+        9,
+        10,
+        13,
+        18,
+        21,
+        27,
+        29,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "earing will convene on December 3-5, 2025, in the main hearing room of the U.S. International Trade Commission. Notice of Change to Date for Public Hearing Relating to the Operation of the Agreement B...",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the fi",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the fi",
+          "sentiment": 0.494,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "board",
+      "team_key": "regulator",
+      "importance_score": 45.75,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.008,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 13
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 1,
+        "velocity": 50.0
+      },
+      "content_ids": [
+        8,
+        14,
+        17,
+        25,
+        38,
+        43
+      ],
+      "sample_snippets": [
+        {
+          "text": "for the proposed rule titled &quot;Revision to Rules of Practice before the Patent Trial and Appeal Board&quot; that was published in the Federal Register on October 17, 2025. The proposed rule's comm...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "s extended until December 2, 2025. Revision to Rules of Practice Before the Patent Trial and Appeal Board",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "eral Bureau of Investigation's (FBI's) Criminal Justice Information Services (CJIS) Advisory Policy Board (APB). The CJIS APB is a federal advisory committee established pursuant to the Federal Adviso...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "states",
+      "team_key": "regulator",
+      "importance_score": 45.14,
+      "sentiment": {
+        "score": 0.564,
+        "magnitude": 0.217,
+        "positive": 14,
+        "negative": 1,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 7,
+        "source_diversity": 1,
+        "velocity": 16.67
+      },
+      "content_ids": [
+        4,
+        7,
+        8,
+        9,
+        11,
+        12,
+        38
+      ],
+      "sample_snippets": [
+        {
+          "text": "The Parties to the Agreement between the United States of America, the United Mexican States, and Canada (USMCA) intend to hold the third meeting of the L",
+          "sentiment": 0.935,
+          "classification": "positive"
+        },
+        {
+          "text": "The Parties to the Agreement between the United States of America, the United Mexican States, and Canada (USMCA) intend to hold the third meeting of the Labor Council on December 9-10, 2025. T",
+          "sentiment": 0.888,
+          "classification": "positive"
+        },
+        {
+          "text": "cal innovation, and support critical infrastructure vital for a modern American economy. The United States is heavily reliant on imports of certain mineral commodities from foreign sources, some of wh...",
+          "sentiment": 0.863,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "administrative steps",
+      "team_key": "regulator",
+      "importance_score": 44.79,
+      "sentiment": {
+        "score": 0.494,
+        "magnitude": 0.138,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        10,
+        18,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "ce agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "ce agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "ce agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "postal products",
+      "team_key": "regulator",
+      "importance_score": 44.5,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 5
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        10,
+        18,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "invites public",
+      "team_key": "regulator",
+      "importance_score": 44.43,
+      "sentiment": {
+        "score": 0.494,
+        "magnitude": 0.118,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        10,
+        18,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "sideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "sideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "sideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "national",
+      "team_key": "regulator",
+      "importance_score": 44.34,
+      "sentiment": {
+        "score": 0.083,
+        "magnitude": 0.246,
+        "positive": 4,
+        "negative": 2,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 25.0
+      },
+      "content_ids": [
+        1,
+        2,
+        3,
+        11,
+        49
+      ],
+      "sample_snippets": [
+        {
+          "text": "rcent cost-of-living increase in Social Security benefits effective December 2025. In addition, the national average wage index for 2024 is $69,846.57. The cost-of-living increase and national average...",
+          "sentiment": 0.893,
+          "classification": "positive"
+        },
+        {
+          "text": " Continuation of the National Emergency With Respect to the Proliferation of Weapons of Mass Destruction",
+          "sentiment": -0.727,
+          "classification": "negative"
+        },
+        {
+          "text": "n addition, the national average wage index for 2024 is $69,846.57. The cost-of-living increase and national average wage index affect other program parameters as described below. Cost-of-Living Incre...",
+          "sentiment": 0.557,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "fishery",
+      "team_key": "regulator",
+      "importance_score": 44.02,
+      "sentiment": {
+        "score": -0.118,
+        "magnitude": 0.06,
+        "positive": 1,
+        "negative": 9,
+        "neutral": 3
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        12,
+        20,
+        37,
+        40,
+        41,
+        42
+      ],
+      "sample_snippets": [
+        {
+          "text": "consensus recommendations to reduce incidental mortality and serious injury of these stocks in this fishery to levels approaching a zero mortality and serious injury rate for each stock within 5 years...",
+          "sentiment": -0.735,
+          "classification": "negative"
+        },
+        {
+          "text": "ding summer flounder in Massachusetts. Fisheries of the Northeastern United States; Summer Flounder Fishery; 2025 Commercial Quota Harvested for the Commonwealth of Massachusetts",
+          "sentiment": 0.421,
+          "classification": "positive"
+        },
+        {
+          "text": "ian Islands management area (BSAI) by vessels participating in the BSAI trawl limited access sector fishery. This action is necessary to prevent exceeding the 2025 total allowable catch (TAC) of Pacif...",
+          "sentiment": -0.202,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "2025",
+      "team_key": "regulator",
+      "importance_score": 43.69,
+      "sentiment": {
+        "score": -0.135,
+        "magnitude": 0.069,
+        "positive": 1,
+        "negative": 7,
+        "neutral": 1
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        11,
+        20,
+        25,
+        40,
+        41,
+        42
+      ],
+      "sample_snippets": [
+        {
+          "text": "ethodology used to develop the List. Mineral criticality changes over time and therefore this final 2025 List of Critical Minerals is not a permanent list but will be dynamic and updated not less than...",
+          "sentiment": 0.412,
+          "classification": "positive"
+        },
+        {
+          "text": " the Interior, acting through the Director of the U.S. Geological Survey (USGS), presents the final 2025 List of Critical Minerals and the methodology used to develop the List. Mineral criticality cha...",
+          "sentiment": -0.318,
+          "classification": "negative"
+        },
+        {
+          "text": "thulium, tin, titanium, tungsten, uranium, vanadium, ytterbium, yttrium, zinc, and zirconium. Final 2025 List of Critical Minerals",
+          "sentiment": -0.318,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "published",
+      "team_key": "regulator",
+      "importance_score": 43.09,
+      "sentiment": {
+        "score": 0.082,
+        "magnitude": 0.023,
+        "positive": 1,
+        "negative": 0,
+        "neutral": 5
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 25.0
+      },
+      "content_ids": [
+        8,
+        9,
+        14,
+        24,
+        38
+      ],
+      "sample_snippets": [
+        {
+          "text": "In a notice published on September 17, 2025, USTR announced a public hearing relating to the operation of the Agreement b",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": " titled &quot;Revision to Rules of Practice before the Patent Trial and Appeal Board&quot; that was published in the Federal Register on October 17, 2025. The proposed rule's comment period is extende...",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "tablished pursuant to the Federal Advisory Committee Act (FACA). This meeting announcement is being published as required by Section 10 of the FACA. Meeting of the CJIS Advisory Policy Board",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "announces",
+      "team_key": "regulator",
+      "importance_score": 43.06,
+      "sentiment": {
+        "score": 0.168,
+        "magnitude": 0.041,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 1,
+        "velocity": 20.0
+      },
+      "content_ids": [
+        12,
+        15,
+        17,
+        19,
+        25,
+        38
+      ],
+      "sample_snippets": [
+        {
+          "text": "Through this notice, the Department of Homeland Security (DHS) announces that the Secretary of Homeland Security (Secretary) is terminating the designation of South Sudan f",
+          "sentiment": 0.586,
+          "classification": "positive"
+        },
+        {
+          "text": "ce with the Civil Service Reform Act of 1978, the United States Patent and Trademark Office (USPTO) announces the appointment of persons to serve as members of its Performance Review Board (PRB). This...",
+          "sentiment": 0.421,
+          "classification": "positive"
+        },
+        {
+          "text": "NMFS announces that the 2025 summer flounder commercial quota allocated to the Commonwealth of Massachusetts has b",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "administrative",
+      "team_key": "regulator",
+      "importance_score": 42.6,
+      "sentiment": {
+        "score": 0.494,
+        "magnitude": 0.138,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        10,
+        18,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "ce agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "ce agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "ce agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.494,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "concerning",
+      "team_key": "regulator",
+      "importance_score": 42.29,
+      "sentiment": {
+        "score": 0.494,
+        "magnitude": 0.103,
+        "positive": 5,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        10,
+        18,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public com...",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public com...",
+          "sentiment": 0.494,
+          "classification": "positive"
+        },
+        {
+          "text": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public com...",
+          "sentiment": 0.494,
+          "classification": "positive"
+        }
+      ]
+    },
+    {
+      "keyword": "department",
+      "team_key": "regulator",
+      "importance_score": 41.97,
+      "sentiment": {
+        "score": 0.185,
+        "magnitude": 0.056,
+        "positive": 2,
+        "negative": 0,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        6,
+        7,
+        17,
+        19,
+        25
+      ],
+      "sample_snippets": [
+        {
+          "text": "Through this notice, the Department of Homeland Security (DHS) announces that the Secretary of Homeland Security (Secretary) is termina",
+          "sentiment": 0.586,
+          "classification": "positive"
+        },
+        {
+          "text": "f the USMCA labor chapter. The Office of the United States Trade Representative (USTR) and the U.S. Department of Labor (DOL) invite comments and questions from the public in advance of the virtual pu...",
+          "sentiment": 0.527,
+          "classification": "positive"
+        },
+        {
+          "text": "The Department of State is amending the International Traffic in Arms Regulations (ITAR) in Sec. 126.1 to reflect ",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "steps",
+      "team_key": "regulator",
+      "importance_score": 40.23,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 5
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        10,
+        18,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": [
+        {
+          "text": "his notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "his notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        },
+        {
+          "text": "his notice informs the public of the filing, invites public comment, and takes other administrative steps. New Postal Products",
+          "sentiment": 0.0,
+          "classification": "neutral"
+        }
+      ]
+    },
+    {
+      "keyword": "management",
+      "team_key": "regulator",
+      "importance_score": 40.04,
+      "sentiment": {
+        "score": -0.028,
+        "magnitude": 0.046,
+        "positive": 2,
+        "negative": 4,
+        "neutral": 4
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 6,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        20,
+        34,
+        40,
+        41,
+        42,
+        50
+      ],
+      "sample_snippets": [
+        {
+          "text": " Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Current Population Survey, Basic Demogra",
+          "sentiment": 0.477,
+          "classification": "positive"
+        },
+        {
+          "text": "r Pacific ocean perch in the Eastern Aleutian district (EAI) of the Bering Sea and Aleutian Islands management area (BSAI) by vessels participating in the BSAI trawl limited access sector fishery. Thi...",
+          "sentiment": -0.226,
+          "classification": "negative"
+        },
+        {
+          "text": "ing for Atka mackerel in the Central Aleutian district (CAI) of the Bering Sea and Aleutian Islands management area (BSAI) by vessels participating in the BSAI trawl limited access sector fishery. Thi...",
+          "sentiment": -0.226,
+          "classification": "negative"
+        }
+      ]
+    },
+    {
+      "keyword": "concerning negotiated",
+      "team_key": "regulator",
+      "importance_score": 39.46,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        10,
+        18,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": []
+    },
+    {
+      "keyword": "commission noticing",
+      "team_key": "regulator",
+      "importance_score": 39.46,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        10,
+        18,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": []
+    },
+    {
+      "keyword": "commission consideration",
+      "team_key": "regulator",
+      "importance_score": 39.46,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        10,
+        18,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": []
+    },
+    {
+      "keyword": "comment takes",
+      "team_key": "regulator",
+      "importance_score": 39.46,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        10,
+        18,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": []
+    },
+    {
+      "keyword": "agreement notice",
+      "team_key": "regulator",
+      "importance_score": 39.46,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        10,
+        18,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": []
+    },
+    {
+      "keyword": "filing invites",
+      "team_key": "regulator",
+      "importance_score": 39.46,
+      "sentiment": {
+        "score": 0.0,
+        "magnitude": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 5,
+        "source_diversity": 1,
+        "velocity": 0.0
+      },
+      "content_ids": [
+        10,
+        18,
+        27,
+        33,
+        45
+      ],
+      "sample_snippets": []
+    }
+  ],
+  "count": 50
+}

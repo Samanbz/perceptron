@@ -1,0 +1,39 @@
+{
+  "keyword": "apple",
+  "team_key": "competitor",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 48.42,
+      "sentiment_score": 0.243,
+      "frequency": 4,
+      "document_count": 4
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 51.82,
+      "sentiment_score": 0.247,
+      "frequency": 5,
+      "document_count": 5
+    },
+    {
+      "date": "2025-11-04",
+      "importance_score": 52.86,
+      "sentiment_score": 0.289,
+      "frequency": 6,
+      "document_count": 6
+    },
+    {
+      "date": "2025-11-05",
+      "importance_score": 54.03,
+      "sentiment_score": 0.355,
+      "frequency": 7,
+      "document_count": 7
+    }
+  ],
+  "appearances": 4,
+  "avg_importance": 51.782500000000006,
+  "max_importance": 54.03,
+  "total_frequency": 22,
+  "total_documents": 22
+}

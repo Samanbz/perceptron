@@ -1,0 +1,39 @@
+{
+  "keyword": "based",
+  "team_key": "researcher",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 40.59,
+      "sentiment_score": -0.031,
+      "frequency": 3,
+      "document_count": 3
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 40.59,
+      "sentiment_score": -0.031,
+      "frequency": 3,
+      "document_count": 3
+    },
+    {
+      "date": "2025-11-04",
+      "importance_score": 49.1,
+      "sentiment_score": 0.254,
+      "frequency": 15,
+      "document_count": 15
+    },
+    {
+      "date": "2025-11-05",
+      "importance_score": 49.27,
+      "sentiment_score": 0.264,
+      "frequency": 19,
+      "document_count": 19
+    }
+  ],
+  "appearances": 4,
+  "avg_importance": 44.8875,
+  "max_importance": 49.27,
+  "total_frequency": 40,
+  "total_documents": 40
+}

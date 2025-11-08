@@ -1,0 +1,39 @@
+{
+  "keyword": "able",
+  "team_key": "researcher",
+  "data_points": [
+    {
+      "date": "2025-11-02",
+      "importance_score": 39.88,
+      "sentiment_score": 0.291,
+      "frequency": 4,
+      "document_count": 4
+    },
+    {
+      "date": "2025-11-03",
+      "importance_score": 39.88,
+      "sentiment_score": 0.291,
+      "frequency": 4,
+      "document_count": 4
+    },
+    {
+      "date": "2025-11-04",
+      "importance_score": 43.15,
+      "sentiment_score": 0.233,
+      "frequency": 5,
+      "document_count": 5
+    },
+    {
+      "date": "2025-11-05",
+      "importance_score": 42.19,
+      "sentiment_score": 0.233,
+      "frequency": 5,
+      "document_count": 5
+    }
+  ],
+  "appearances": 4,
+  "avg_importance": 41.275,
+  "max_importance": 43.15,
+  "total_frequency": 18,
+  "total_documents": 18
+}

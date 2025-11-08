@@ -12,7 +12,7 @@
         "min_frequency": 2,
         "max_keywords_per_day": 100,
         "enable_multi_word_phrases": true,
-        "max_phrase_length": 4,
+        "max_phrase_length": 2,
         "filter_stopwords": true,
         "methods": ["tfidf", "spacy", "yake"]
       },
@@ -25,7 +25,7 @@
         {
           "source_type": "rss",
           "source_name": "Federal Register",
-          "source_url": "https://www.federalregister.gov/documents/search.rss",
+          "source_url": "https://www.federalregister.gov/api/v1/documents.rss",
           "fetch_interval_minutes": 60,
           "config": {
             "max_entries": 50
@@ -45,9 +45,11 @@
           "source_name": "Reuters Regulatory",
           "source_url": "https://www.reuters.com/business/finance/rss",
           "fetch_interval_minutes": 45,
+          "is_enabled": false,
           "config": {
             "max_entries": 40
-          }
+          },
+          "notes": "DISABLED: Reuters discontinued RSS feeds in 2024 (returns HTTP 401)"
         }
       ]
     },
@@ -63,7 +65,7 @@
         "min_frequency": 3,
         "max_keywords_per_day": 80,
         "enable_multi_word_phrases": true,
-        "max_phrase_length": 3,
+        "max_phrase_length": 2,
         "filter_stopwords": true,
         "methods": ["tfidf", "yake"]
       },
@@ -114,7 +116,7 @@
         "min_frequency": 2,
         "max_keywords_per_day": 60,
         "enable_multi_word_phrases": true,
-        "max_phrase_length": 4,
+        "max_phrase_length": 2,
         "filter_stopwords": true,
         "methods": ["tfidf", "spacy", "yake"]
       },
@@ -165,7 +167,7 @@
         "min_frequency": 2,
         "max_keywords_per_day": 100,
         "enable_multi_word_phrases": true,
-        "max_phrase_length": 5,
+        "max_phrase_length": 2,
         "filter_stopwords": true,
         "methods": ["tfidf", "spacy", "yake"]
       },
