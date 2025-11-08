@@ -3,215 +3,243 @@
     {
       "team_key": "regulator",
       "team_name": "Regulatory Team",
-      "description": "Monitors regulatory changes, compliance requirements, and government policy updates",
+      "description": "Monitors Banking Supervision (BaFin, ECB), anti-money laundering (AML), and global financial policy changes.",
       "color": "#DC2626",
       "icon": "balance",
       "is_active": true,
       "keyword_config": {
-        "relevance_threshold": 0.45,
-        "min_frequency": 2,
-        "max_keywords_per_day": 100,
-        "enable_multi_word_phrases": true,
-        "max_phrase_length": 2,
-        "filter_stopwords": true,
+        "relevance_threshold": 0.55,
+        "min_frequency": 1,
         "methods": ["tfidf", "spacy", "yake"]
-      },
-      "sentiment_config": {
-        "enable_sentiment": true,
-        "sentiment_method": "vader",
-        "importance_weight": 0.1
       },
       "sources": [
         {
           "source_type": "rss",
-          "source_name": "Federal Register",
-          "source_url": "https://www.federalregister.gov/api/v1/documents.rss",
+          "source_name": "US Federal Reserve Press",
+          "source_url": "https://www.federalreserve.gov/feeds/press_all.xml",
           "fetch_interval_minutes": 60,
-          "config": {
-            "max_entries": 50
-          }
+          "config": { "max_entries": 500 }
         },
         {
           "source_type": "rss",
-          "source_name": "SEC Newsroom",
+          "source_name": "SEC Press Releases (US)",
           "source_url": "https://www.sec.gov/news/pressreleases.rss",
-          "fetch_interval_minutes": 30,
-          "config": {
-            "max_entries": 30
-          }
+          "fetch_interval_minutes": 45,
+          "config": { "max_entries": 500 }
         },
         {
           "source_type": "rss",
-          "source_name": "Reuters Regulatory",
-          "source_url": "https://www.reuters.com/business/finance/rss",
-          "fetch_interval_minutes": 45,
-          "is_enabled": false,
-          "config": {
-            "max_entries": 40
-          },
-          "notes": "DISABLED: Reuters discontinued RSS feeds in 2024 (returns HTTP 401)"
+          "source_name": "CFTC Press Releases",
+          "source_url": "https://www.cftc.gov/RSSFeeds/PressReleases/rss.xml",
+          "fetch_interval_minutes": 60,
+          "config": { "max_entries": 500 }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "FinCEN News",
+          "source_url": "https://www.fincen.gov/news_room/rss.xml",
+          "fetch_interval_minutes": 60,
+          "config": { "max_entries": 500 }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "CFPB Newsroom",
+          "source_url": "https://www.consumerfinance.gov/about-us/newsroom/feed/",
+          "fetch_interval_minutes": 60,
+          "config": { "max_entries": 500 }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "Federal Register - Banking",
+          "source_url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=comptroller-of-the-currency&conditions%5Bagencies%5D%5B%5D=federal-deposit-insurance-corporation",
+          "fetch_interval_minutes": 120,
+          "config": { "max_entries": 500 }
         }
       ]
     },
     {
-      "team_key": "investor",
+      "team_key": "investment",
       "team_name": "Investment Team",
-      "description": "Tracks market trends, funding rounds, M&A activity, and investment opportunities",
+      "description": "Tracks macro market trends, M&A activity, private equity moves, and major funding rounds.",
       "color": "#059669",
       "icon": "trending_up",
       "is_active": true,
       "keyword_config": {
         "relevance_threshold": 0.5,
-        "min_frequency": 3,
-        "max_keywords_per_day": 80,
-        "enable_multi_word_phrases": true,
-        "max_phrase_length": 2,
-        "filter_stopwords": true,
-        "methods": ["tfidf", "yake"]
-      },
-      "sentiment_config": {
-        "enable_sentiment": true,
-        "sentiment_method": "vader",
-        "importance_weight": 0.15
+        "min_frequency": 2,
+        "methods": ["tfidf", "spacy", "yake"]
       },
       "sources": [
         {
           "source_type": "rss",
-          "source_name": "TechCrunch",
-          "source_url": "https://techcrunch.com/feed/",
+          "source_name": "Financial Times - Markets",
+          "source_url": "https://www.ft.com/?format=rss",
           "fetch_interval_minutes": 30,
-          "config": {
-            "max_entries": 50
-          }
+          "config": { "max_entries": 500 }
         },
         {
           "source_type": "rss",
-          "source_name": "VentureBeat",
-          "source_url": "https://venturebeat.com/feed/",
-          "fetch_interval_minutes": 45,
-          "config": {
-            "max_entries": 40
-          }
+          "source_name": "CNBC Investing",
+          "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=15839069",
+          "fetch_interval_minutes": 30,
+          "config": { "max_entries": 500 }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "TechCrunch (VC Deal Flow)",
+          "source_url": "https://techcrunch.com/category/venture/feed/",
+          "fetch_interval_minutes": 60,
+          "config": { "max_entries": 500 }
         },
         {
           "source_type": "rss",
           "source_name": "Crunchbase News",
           "source_url": "https://news.crunchbase.com/feed/",
           "fetch_interval_minutes": 60,
-          "config": {
-            "max_entries": 30
-          }
+          "config": { "max_entries": 500 }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "Seeking Alpha",
+          "source_url": "https://seekingalpha.com/feed.xml",
+          "fetch_interval_minutes": 45,
+          "config": { "max_entries": 500 }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "Bloomberg Markets",
+          "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+          "fetch_interval_minutes": 45,
+          "config": { "max_entries": 500 }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "WSJ Markets",
+          "source_url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+          "fetch_interval_minutes": 45,
+          "config": { "max_entries": 500 }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "MarketWatch",
+          "source_url": "https://www.marketwatch.com/rss/topstories",
+          "fetch_interval_minutes": 60,
+          "config": { "max_entries": 500 }
         }
       ]
     },
     {
       "team_key": "competitor",
-      "team_name": "Competitive Intelligence Team",
-      "description": "Monitors competitor activities, product launches, and market positioning",
+      "team_name": "Competitive Intelligence",
+      "description": "Tracks strategic moves, product launches, and thought leadership from major rival banks and fintechs.",
       "color": "#7C3AED",
       "icon": "visibility",
       "is_active": true,
       "keyword_config": {
-        "relevance_threshold": 0.55,
+        "relevance_threshold": 0.5,
         "min_frequency": 2,
-        "max_keywords_per_day": 60,
         "enable_multi_word_phrases": true,
-        "max_phrase_length": 2,
-        "filter_stopwords": true,
-        "methods": ["tfidf", "spacy", "yake"]
-      },
-      "sentiment_config": {
-        "enable_sentiment": true,
-        "sentiment_method": "vader",
-        "importance_weight": 0.12
+        "methods": ["tfidf", "yake", "spacy"]
       },
       "sources": [
         {
           "source_type": "rss",
-          "source_name": "The Verge",
-          "source_url": "https://www.theverge.com/rss/index.xml",
+          "source_name": "VentureBeat",
+          "source_url": "https://venturebeat.com/feed/",
           "fetch_interval_minutes": 45,
-          "config": {
-            "max_entries": 40
-          }
+          "config": { "max_entries": 500 }
         },
         {
           "source_type": "rss",
-          "source_name": "Product Hunt",
-          "source_url": "https://www.producthunt.com/feed",
-          "fetch_interval_minutes": 120,
-          "config": {
-            "max_entries": 25
-          }
+          "source_name": "Bloomberg Technology",
+          "source_url": "https://feeds.bloomberg.com/technology/news.rss",
+          "fetch_interval_minutes": 45,
+          "config": { "max_entries": 500 }
         },
         {
           "source_type": "rss",
-          "source_name": "TechRadar",
-          "source_url": "https://www.techradar.com/rss",
+          "source_name": "WSJ Technology",
+          "source_url": "https://feeds.a.dj.com/rss/RSSWSJD.xml",
+          "fetch_interval_minutes": 45,
+          "config": { "max_entries": 500 }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "TechCrunch Fintech",
+          "source_url": "https://techcrunch.com/category/fintech/feed/",
           "fetch_interval_minutes": 60,
-          "config": {
-            "max_entries": 30
-          }
+          "config": { "max_entries": 500 }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "The Verge Tech",
+          "source_url": "https://www.theverge.com/rss/index.xml",
+          "fetch_interval_minutes": 60,
+          "config": { "max_entries": 500 }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "Hacker News",
+          "source_url": "https://news.ycombinator.com/rss",
+          "fetch_interval_minutes": 30,
+          "config": { "max_entries": 500 }
         }
       ]
     },
     {
       "team_key": "researcher",
-      "team_name": "Research Team",
-      "description": "Tracks emerging technologies, academic research, and technical innovations",
+      "team_name": "Research & Quant Team",
+      "description": "Tracks deep-tech, quantitative finance models (q-fin), and applied AI research.",
       "color": "#2563EB",
       "icon": "science",
       "is_active": true,
       "keyword_config": {
-        "relevance_threshold": 0.6,
+        "relevance_threshold": 0.65,
         "min_frequency": 2,
-        "max_keywords_per_day": 100,
-        "enable_multi_word_phrases": true,
-        "max_phrase_length": 2,
-        "filter_stopwords": true,
-        "methods": ["tfidf", "spacy", "yake"]
-      },
-      "sentiment_config": {
-        "enable_sentiment": true,
-        "sentiment_method": "vader",
-        "importance_weight": 0.08
+        "methods": ["tfidf", "spacy"]
       },
       "sources": [
         {
           "source_type": "rss",
-          "source_name": "Ars Technica",
-          "source_url": "https://feeds.arstechnica.com/arstechnica/index",
-          "fetch_interval_minutes": 60,
-          "config": {
-            "max_entries": 30
-          }
+          "source_name": "NBER (National Bureau of Economic Research)",
+          "source_url": "https://www.nber.org/rss/new.xml",
+          "fetch_interval_minutes": 720,
+          "config": { "max_entries": 500 }
         },
         {
           "source_type": "rss",
           "source_name": "MIT Technology Review",
           "source_url": "https://www.technologyreview.com/feed/",
           "fetch_interval_minutes": 120,
-          "config": {
-            "max_entries": 25
-          }
+          "config": { "max_entries": 500 }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "Quanta Magazine",
+          "source_url": "https://www.quantamagazine.org/feed/",
+          "fetch_interval_minutes": 240,
+          "config": { "max_entries": 500 }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "Nature News",
+          "source_url": "http://feeds.nature.com/nature/rss/current",
+          "fetch_interval_minutes": 360,
+          "config": { "max_entries": 500 }
+        },
+        {
+          "source_type": "rss",
+          "source_name": "Science Daily AI",
+          "source_url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+          "fetch_interval_minutes": 240,
+          "config": { "max_entries": 500 }
         },
         {
           "source_type": "rss",
           "source_name": "Hacker News",
           "source_url": "https://news.ycombinator.com/rss",
-          "fetch_interval_minutes": 60,
-          "config": {
-            "max_entries": 30
-          }
-        },
-        {
-          "source_type": "rss",
-          "source_name": "ArXiv CS",
-          "source_url": "http://export.arxiv.org/rss/cs",
-          "fetch_interval_minutes": 360,
-          "config": {
-            "max_entries": 20
-          }
+          "fetch_interval_minutes": 30,
+          "config": { "max_entries": 500 }
         }
       ]
     }

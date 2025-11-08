@@ -12,12 +12,20 @@ import sys
 from pathlib import Path
 from datetime import datetime, timedelta
 import logging
-from typing import Dict, List
+from typing import Dict, List, Optional
+import os
+import json
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from storage.repository import ContentRepository
-from sourcers.rss_sourcer import RSSSourcer
+from sourcers import (
+    RSSSourcer,
+    RedditSourcer,
+    TwitterSourcer,
+    YouTubeSourcer,
+    NewsAPISourcer,
+)
 from teams.repository import TeamRepository
 
 logging.basicConfig(
@@ -46,25 +54,86 @@ class DataSourcingService:
                 if source.is_enabled:
                     key = (source.source_name, source.source_url)
                     if key not in sources:
+                        # Parse source_config JSON string to dict
+                        config = json.loads(source.source_config) if isinstance(source.source_config, str) else (source.source_config or {})
+                        
                         sources[key] = {
                             'name': source.source_name,
                             'url': source.source_url,
                             'type': source.source_type,
+                            'config': config,  # Include config for sourcer initialization
                         }
         
         return list(sources.values())
     
-    async def fetch_from_source(self, source: Dict) -> Dict:
-        """Fetch data from a single source."""
-        try:
-            logger.info(f"Fetching from: {source['name']}")
-            
-            sourcer = RSSSourcer(
+    def _create_sourcer(self, source: Dict):
+        """
+        Dynamically create the appropriate sourcer based on source type.
+        
+        This is the extensibility point - add new sourcers here as they're implemented.
+        """
+        source_type = source['type'].lower()
+        config = source.get('config', {})
+        
+        if source_type == 'rss':
+            return RSSSourcer(
                 feed_url=source['url'],
                 name=source['name'],
-                max_entries=200  # Get as much as possible
+                max_entries=config.get('max_entries', 200)
             )
+        
+        elif source_type == 'reddit':
+            return RedditSourcer(
+                subreddit=config.get('subreddit'),
+                name=source['name'],
+                limit=config.get('limit', 100),
+                time_filter=config.get('time_filter', 'day'),
+                sort_by=config.get('sort_by', 'hot'),
+            )
+        
+        elif source_type == 'twitter':
+            return TwitterSourcer(
+                search_query=config.get('search_query'),
+                username=config.get('username'),
+                hashtag=config.get('hashtag'),
+                name=source['name'],
+                max_tweets=config.get('max_tweets', 50),
+                mode=config.get('mode', 'term'),
+            )
+        
+        elif source_type == 'youtube':
+            return YouTubeSourcer(
+                search_query=config.get('search_query'),
+                channel_id=config.get('channel_id'),
+                name=source['name'],
+                max_results=config.get('max_results', 25),
+                order=config.get('order', 'relevance'),
+            )
+        
+        elif source_type == 'newsapi':
+            return NewsAPISourcer(
+                query=config.get('query'),
+                sources=config.get('sources'),
+                domains=config.get('domains'),
+                category=config.get('category'),
+                country=config.get('country'),
+                name=source['name'],
+                max_articles=config.get('max_articles', 100),
+                language=config.get('language', 'en'),
+            )
+        
+        else:
+            raise ValueError(f"Unsupported source type: {source_type}")
+    
+    async def fetch_from_source(self, source: Dict) -> Dict:
+        """Fetch data from a single source using the appropriate sourcer."""
+        try:
+            logger.info(f"Fetching from: {source['name']} ({source['type']})")
             
+            # Create the appropriate sourcer
+            sourcer = self._create_sourcer(source)
+            
+            # Fetch content
             contents = await sourcer.fetch()
             
             # Filter for last 7 days only
@@ -81,20 +150,32 @@ class DataSourcingService:
             
             logger.info(
                 f"  ✓ {source['name']}: "
-                f"{result['saved']} new, {result['duplicates']} duplicates"
+                f"{result['saved']} new, {result['duplicates']} duplicates, "
+                f"{len(recent)} total fetched"
             )
             
             return {
                 'source': source['name'],
+                'type': source['type'],
                 'success': True,
                 'new': result['saved'],
                 'duplicates': result['duplicates'],
+                'total_fetched': len(recent),
             }
             
+        except ImportError as e:
+            logger.warning(f"  ⚠ {source['name']}: Missing dependency - {e}")
+            return {
+                'source': source['name'],
+                'type': source['type'],
+                'success': False,
+                'error': f"Missing dependency: {str(e)}",
+            }
         except Exception as e:
             logger.error(f"  ✗ {source['name']}: {e}")
             return {
                 'source': source['name'],
+                'type': source['type'],
                 'success': False,
                 'error': str(e),
             }

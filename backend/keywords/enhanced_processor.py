@@ -221,102 +221,143 @@ class EnhancedKeywordProcessor:
         keyword_embeddings = self.importance_calc.batch_encode_keywords(keywords_to_process)
         logger.info(f"Batch encoding complete")
         
+        # Get data lake statistics once (shared across all keywords)
+        try:
+            data_lake_stats = self.content_repo.get_statistics()
+            total_documents = data_lake_stats.get('total_content', 100)
+            corpus_size = max(total_documents * 500, 1000)
+        except Exception as e:
+            logger.warning(f"Failed to get data lake stats, using defaults: {e}")
+            total_documents = 100
+            corpus_size = 10000
+        
         keywords_processed = 0
         keywords_saved = 0
         
+        # Prepare all keyword data for batch processing
+        keyword_batch_data = []
+        for keyword, data in self.keyword_cache.items():
+            frequency = data['frequency']
+            
+            # Skip low-frequency keywords
+            if frequency < min_frequency:
+                continue
+            
+            # Get historical frequencies for velocity calculation
+            history = self.importance_repo.get_keyword_history(
+                keyword=keyword,
+                team_key=team,
+                start_date=analysis_date - timedelta(days=30),
+                end_date=analysis_date - timedelta(days=1)
+            )
+            previous_frequencies = [h.frequency for h in history]
+            
+            # Count unique sources
+            source_diversity = len(set(
+                doc['source_name'] for doc in data['documents']
+            ))
+            
+            keyword_batch_data.append({
+                'keyword': keyword,
+                'data': data,
+                'frequency': frequency,
+                'previous_frequencies': previous_frequencies,
+                'source_diversity': source_diversity,
+                'keyword_embedding': keyword_embeddings.get(keyword),
+            })
+        
+        logger.info(f"Processing {len(keyword_batch_data)} keywords in optimized batches...")
+        
+        # Process in larger batches for better throughput
+        import math
+        import multiprocessing
+        from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor, as_completed
+        
+        # Use CPU count for optimal parallelism
+        num_workers = max(1, multiprocessing.cpu_count() - 1)
+        batch_size = 50  # Smaller batches for better distribution
+        
+        logger.info(f"Using {num_workers} worker threads for parallel processing")
+        
         try:
-            for keyword, data in self.keyword_cache.items():
-                frequency = data['frequency']
+            # Use ThreadPoolExecutor with more workers (GIL is released during I/O and C extensions)
+            with ThreadPoolExecutor(max_workers=num_workers) as executor:
                 
-                # Skip low-frequency keywords
-                if frequency < min_frequency:
-                    continue
+                def process_keyword(kw_info):
+                    keyword = kw_info['keyword']
+                    data = kw_info['data']
+                    
+                    # Calculate sentiment
+                    sentiment_result = self.sentiment_analyzer.analyze_keyword_sentiment(
+                        keyword=keyword,
+                        documents=data['documents'],
+                        context_window=100
+                    )
+                    
+                    # Calculate importance
+                    importance_result = self.importance_calc.calculate_importance(
+                        keyword=keyword,
+                        frequency=kw_info['frequency'],
+                        document_count=len(data['documents']),
+                        source_diversity=kw_info['source_diversity'],
+                        snippets=data['snippets'][:20],
+                        previous_frequencies=kw_info['previous_frequencies'],
+                        sentiment_score=sentiment_result['sentiment_score'],
+                        sentiment_magnitude=sentiment_result['sentiment_magnitude'],
+                        total_documents=total_documents,
+                        keyword_embedding=kw_info['keyword_embedding'],
+                        corpus_size=corpus_size,
+                    )
+                    
+                    return keyword, data, sentiment_result, importance_result
                 
-                keywords_processed += 1
+                # Submit all keywords at once for better parallelism
+                futures = {executor.submit(process_keyword, kw_info): kw_info for kw_info in keyword_batch_data}
                 
-                # Get historical frequencies for velocity calculation
-                history = self.importance_repo.get_keyword_history(
-                    keyword=keyword,
-                    team_key=team,
-                    start_date=analysis_date - timedelta(days=30),
-                    end_date=analysis_date - timedelta(days=1)
-                )
-                previous_frequencies = [h.frequency for h in history]
+                # Process results as they complete
+                for idx, future in enumerate(as_completed(futures), 1):
+                    try:
+                        keyword, data, sentiment_result, importance_result = future.result()
+                        
+                        # Prepare sample snippets for storage
+                        sample_snippets = []
+                        for snippet_data in sentiment_result.get('sample_snippets', [])[:5]:
+                            sample_snippets.append({
+                                'text': snippet_data['snippet'],
+                                'sentiment': snippet_data['sentiment'],
+                                'classification': snippet_data['classification'],
+                            })
+                        
+                        # Save to importance table
+                        self.importance_repo.save_importance(
+                            keyword=keyword,
+                            analysis_date=analysis_date,
+                            team_key=team,
+                            importance_score=importance_result['importance'],
+                            frequency=data['frequency'],
+                            document_count=len(data['documents']),
+                            source_diversity=len(set(doc['source_name'] for doc in data['documents'])),
+                            velocity=importance_result['velocity'],
+                            acceleration=importance_result['acceleration'],
+                            sentiment_score=sentiment_result['sentiment_score'],
+                            sentiment_magnitude=sentiment_result['sentiment_magnitude'],
+                            positive_mentions=sentiment_result['positive_mentions'],
+                            negative_mentions=sentiment_result['negative_mentions'],
+                            neutral_mentions=sentiment_result['neutral_mentions'],
+                            content_ids=data['content_ids'],
+                            sample_snippets=sample_snippets,
+                            extraction_method='enhanced_nlp',
+                        )
+                        
+                        keywords_saved += 1
+                        
+                        # Log progress every 100 keywords
+                        if idx % 100 == 0:
+                            logger.info(f"Processed {idx}/{len(keyword_batch_data)} keywords...")
+                    except Exception as e:
+                        logger.error(f"Error processing keyword: {e}")
                 
-                # Calculate sentiment
-                sentiment_result = self.sentiment_analyzer.analyze_keyword_sentiment(
-                    keyword=keyword,
-                    documents=data['documents'],
-                    context_window=100
-                )
-                
-                # Count unique sources
-                source_diversity = len(set(
-                    doc['source_name'] for doc in data['documents']
-                ))
-                
-                # Get actual data lake statistics for corpus size calculation
-                try:
-                    data_lake_stats = self.content_repo.get_statistics()
-                    total_documents = data_lake_stats.get('total_content', 100)
-                    # Corpus size: approximate based on average content length
-                    # Using total_content * avg_words_per_doc (estimate: 500 words/doc)
-                    corpus_size = max(total_documents * 500, 1000)
-                except Exception as e:
-                    logger.warning(f"Failed to get data lake stats, using defaults: {e}")
-                    total_documents = 100
-                    corpus_size = 10000
-                
-                # Calculate importance (pass pre-computed embedding)
-                keyword_embedding = keyword_embeddings.get(keyword)
-                importance_result = self.importance_calc.calculate_importance(
-                    keyword=keyword,
-                    frequency=frequency,
-                    document_count=len(data['documents']),
-                    source_diversity=source_diversity,
-                    snippets=data['snippets'][:20],  # Limit for performance
-                    previous_frequencies=previous_frequencies,
-                    sentiment_score=sentiment_result['sentiment_score'],
-                    sentiment_magnitude=sentiment_result['sentiment_magnitude'],
-                    total_documents=total_documents,
-                    keyword_embedding=keyword_embedding,  # Pass pre-computed embedding
-                    corpus_size=corpus_size,
-                )
-                
-                # Prepare sample snippets for storage
-                sample_snippets = []
-                for snippet_data in sentiment_result.get('sample_snippets', [])[:5]:
-                    sample_snippets.append({
-                        'text': snippet_data['snippet'],
-                        'sentiment': snippet_data['sentiment'],
-                        'classification': snippet_data['classification'],
-                    })
-                
-                # Save to importance table
-                self.importance_repo.save_importance(
-                    keyword=keyword,
-                    analysis_date=analysis_date,
-                    team_key=team,
-                    importance_score=importance_result['importance'],
-                    frequency=frequency,
-                    document_count=len(data['documents']),
-                    source_diversity=source_diversity,
-                    velocity=importance_result['velocity'],
-                    acceleration=importance_result['acceleration'],
-                    sentiment_score=sentiment_result['sentiment_score'],
-                    sentiment_magnitude=sentiment_result['sentiment_magnitude'],
-                    positive_mentions=sentiment_result['positive_mentions'],
-                    negative_mentions=sentiment_result['negative_mentions'],
-                    neutral_mentions=sentiment_result['neutral_mentions'],
-                    content_ids=data['content_ids'],
-                    sample_snippets=sample_snippets,
-                    extraction_method='enhanced_nlp',
-                )
-                
-                keywords_saved += 1
-                
-                if keywords_processed % 10 == 0:
-                    logger.info(f"Processed {keywords_processed} keywords...")
+                keywords_processed = len(keyword_batch_data)
             
             # Clear cache after processing
             self.keyword_cache.clear()

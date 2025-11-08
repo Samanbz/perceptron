@@ -110,7 +110,7 @@ function Home() {
           <div className="teams-grid">
             <div className="team-card team-regulator">
               <div className="team-icon">⚖️</div>
-              <h3>Regulatory Team</h3>
+              <h3>Regulatory</h3>
               <p>
                 Monitor compliance requirements, government policies, and
                 regulatory changes across federal agencies.

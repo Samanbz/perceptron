@@ -1,29 +1,34 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, {
+  useState,
+  useEffect,
+  useRef,
+  useCallback,
+  useMemo,
+} from 'react';
 import * as d3 from 'd3';
 import cloud from 'd3-cloud';
 import './WordCloudTimeline.css';
 
-// Available teams configuration
-const TEAMS = [
+// API configuration
+const API_BASE_URL = 'http://localhost:8000';
+
+// Available teams - now fetched from API but with fallback
+const DEFAULT_TEAMS = [
   {
     key: 'regulator',
     name: 'Regulatory Team',
-    file: 'mock_data_regulator_wordcloud.json',
   },
   {
     key: 'competitor',
     name: 'Competitive Intelligence',
-    file: 'mock_data_competitor_wordcloud.json',
   },
   {
     key: 'investor',
     name: 'Investment Team',
-    file: 'mock_data_investor_wordcloud.json',
   },
   {
     key: 'researcher',
     name: 'Research Team',
-    file: 'mock_data_researcher_wordcloud.json',
   },
 ];
 
@@ -181,6 +186,7 @@ function ImportanceTrendChart({ timeSeries }) {
  */
 function WordCloudTimeline() {
   const [data, setData] = useState(null);
+  const [teams, setTeams] = useState(DEFAULT_TEAMS);
   const [currentDayIndex, setCurrentDayIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -191,39 +197,124 @@ function WordCloudTimeline() {
   const svgRef = useRef(null);
   const playIntervalRef = useRef(null);
 
-  // Load mock data when component mounts or team changes
+  // Generate array of dates for the slider (last 7 days) - memoize to prevent infinite loops
+  const dateRange = useMemo(() => {
+    const dates = [];
+    const today = new Date();
+    for (let i = 6; i >= 0; i--) {
+      const date = new Date(today);
+      date.setDate(date.getDate() - i);
+      dates.push(date.toISOString().split('T')[0]);
+    }
+    console.log('[WordCloud] Generated date range:', dates);
+    return dates;
+  }, []);
+
+  const selectedDate = dateRange[currentDayIndex];
+
+  // Fetch teams from API
   useEffect(() => {
-    const teamConfig = TEAMS.find(t => t.key === selectedTeam);
-    if (!teamConfig) return;
+    fetch(`${API_BASE_URL}/api/teams`)
+      .then(response => response.json())
+      .then(data => {
+        if (data.teams && data.teams.length > 0) {
+          setTeams(data.teams);
+        }
+      })
+      .catch(err => {
+        console.warn('Failed to load teams from API, using defaults:', err);
+      });
+  }, []);
+
+  // Fetch data for all dates when team changes
+  useEffect(() => {
+    if (!selectedTeam) {
+      console.log('[WordCloud] No team selected');
+      return;
+    }
+
+    console.log('[WordCloud] Fetching data for team:', selectedTeam);
+    console.log('[WordCloud] Date range:', dateRange);
 
     setLoading(true);
     setError(null);
-    fetch(`/${teamConfig.file}`)
-      .then(response => {
-        if (!response.ok)
-          throw new Error(
-            `Failed to load data: ${response.status} ${response.statusText}`
+
+    // Fetch data for each date in parallel
+    const fetchPromises = dateRange.map(date => {
+      const url = `${API_BASE_URL}/api/keywords/${selectedTeam}/${date}`;
+      console.log('[WordCloud] Fetching:', url);
+
+      return fetch(url)
+        .then(response => {
+          console.log('[WordCloud] Response for', date, ':', response.status);
+          if (!response.ok) {
+            throw new Error(`API error: ${response.status}`);
+          }
+          return response.json();
+        })
+        .then(jsonData => {
+          console.log(
+            '[WordCloud] Data for',
+            date,
+            ':',
+            jsonData.total_keywords,
+            'keywords'
           );
-        return response.json();
-      })
-      .then(jsonData => {
-        setData(jsonData);
+          return { date, data: jsonData };
+        })
+        .catch(err => {
+          console.warn(`[WordCloud] Failed to fetch data for ${date}:`, err);
+          return { date, data: null };
+        });
+    });
+
+    Promise.all(fetchPromises)
+      .then(results => {
+        console.log('[WordCloud] All fetch results:', results);
+
+        // Combine all results into a single data object
+        // Keywords already have date field from API, so we don't need to add it
+        const allKeywords = results
+          .filter(r => r.data && r.data.keywords)
+          .flatMap(r => r.data.keywords);
+
+        console.log(
+          '[WordCloud] Total keywords collected:',
+          allKeywords.length
+        );
+        console.log(
+          '[WordCloud] Sample keyword dates:',
+          allKeywords.slice(0, 3).map(k => k.date)
+        );
+
+        const combinedData = {
+          team_key: selectedTeam,
+          team_name: results[0]?.data?.team_name || selectedTeam,
+          keywords: allKeywords,
+          total_keywords: allKeywords.length,
+          dateRange: results.map(r => ({
+            date: r.date,
+            hasData: r.data !== null,
+          })),
+        };
+
+        console.log('[WordCloud] Setting combined data:', combinedData);
+        setData(combinedData);
         setLoading(false);
       })
       .catch(err => {
-        console.error('WordCloudTimeline: Error loading data:', err);
+        console.error('[WordCloud] Error loading data:', err);
         setError(err.message);
         setLoading(false);
       });
-  }, [selectedTeam]);
+  }, [selectedTeam, dateRange]);
 
   // Auto-play functionality
   useEffect(() => {
     if (isPlaying && data) {
-      const uniqueDatesCount = [...new Set(data.keywords.map(kw => kw.date))].length;
       playIntervalRef.current = setInterval(() => {
         setCurrentDayIndex(prev => {
-          if (prev >= uniqueDatesCount - 1) {
+          if (prev >= dateRange.length - 1) {
             setIsPlaying(false);
             return 0;
           }
@@ -237,27 +328,37 @@ function WordCloudTimeline() {
         clearInterval(playIntervalRef.current);
       }
     };
-  }, [isPlaying, data]);
+  }, [isPlaying, data, dateRange.length]);
 
   /**
-   * Group keywords by date to get unique dates
+   * Get keywords for the current date index
    */
-  const getUniqueDates = useCallback(() => {
-    if (!data || !data.keywords) return [];
-    const dates = [...new Set(data.keywords.map(kw => kw.date))].sort();
-    return dates;
-  }, [data]);
+  const getKeywordsForCurrentDate = useCallback(() => {
+    if (!data || !data.keywords) {
+      console.log('[WordCloud] getKeywordsForCurrentDate: No data');
+      return [];
+    }
+    const targetDate = selectedDate;
 
-  /**
-   * Get keywords for a specific date
-   */
-  const getKeywordsForDate = useCallback((dateIndex) => {
-    if (!data || !data.keywords) return [];
-    const uniqueDates = getUniqueDates();
-    if (dateIndex >= uniqueDates.length) return [];
-    const targetDate = uniqueDates[dateIndex];
-    return data.keywords.filter(kw => kw.date === targetDate);
-  }, [data, getUniqueDates]);
+    // Debug: Show unique dates in data
+    const uniqueDates = [...new Set(data.keywords.map(kw => kw.date))];
+    console.log('[WordCloud] Available dates in data:', uniqueDates);
+    console.log('[WordCloud] Looking for date:', targetDate);
+
+    const filtered = data.keywords.filter(kw => kw.date === targetDate);
+    console.log('[WordCloud] Keywords for', targetDate, ':', filtered.length);
+
+    if (filtered.length === 0) {
+      console.log(
+        '[WordCloud] Sample keyword dates:',
+        data.keywords
+          .slice(0, 5)
+          .map(k => ({ keyword: k.keyword, date: k.date }))
+      );
+    }
+
+    return filtered;
+  }, [data, selectedDate]);
 
   /**
    * Maps sentiment score and magnitude to color
@@ -348,55 +449,81 @@ function WordCloudTimeline() {
    * Generate time series data from all keyword entries with the same keyword text
    * Shows keyword importance trend over time across all dates
    */
-  const getImportanceTimeSeries = useCallback((keywordData) => {
-    if (!keywordData || !data || !data.keywords) return [];
+  const getImportanceTimeSeries = useCallback(
+    keywordData => {
+      if (!keywordData || !data || !data.keywords) return [];
 
-    const keywordText = keywordData.text;
+      const keywordText = keywordData.text;
 
-    // Find ALL keyword entries with the same keyword text across all dates
-    const allKeywordEntries = data.keywords.filter(
-      kw => kw.keyword === keywordText
-    );
+      // Find ALL keyword entries with the same keyword text across all dates
+      const allKeywordEntries = data.keywords.filter(
+        kw => kw.keyword === keywordText
+      );
 
-    if (allKeywordEntries.length === 0) return [];
+      if (allKeywordEntries.length === 0) return [];
 
-    // Create time series from the importance values at each date
-    const timeSeries = allKeywordEntries
-      .map(kw => ({
-        date: kw.date,
-        importance: kw.importance,
-      }))
-      .sort((a, b) => new Date(a.date) - new Date(b.date));
+      // Create time series from the importance values at each date
+      const timeSeries = allKeywordEntries
+        .map(kw => ({
+          date: kw.date,
+          importance: kw.importance,
+        }))
+        .sort((a, b) => new Date(a.date) - new Date(b.date));
 
-    return timeSeries;
-  }, [data]);
+      return timeSeries;
+    },
+    [data]
+  );
 
   // Render word cloud when data or day changes
   useEffect(() => {
-    if (!data || !svgRef.current) return;
+    console.log('[WordCloud] Render effect triggered');
+    console.log(
+      '[WordCloud] Data:',
+      data ? `${data.keywords?.length} keywords` : 'null'
+    );
+    console.log('[WordCloud] SVG ref:', svgRef.current ? 'exists' : 'null');
+    console.log('[WordCloud] Current day index:', currentDayIndex);
+    console.log('[WordCloud] Selected date:', selectedDate);
 
-    const keywords = data.keywords;
-    if (!keywords || keywords.length === 0) return;
+    if (!data || !data.keywords || !svgRef.current) {
+      console.log('[WordCloud] Skipping render - missing data or ref');
+      return;
+    }
 
     // Get keywords for the current date
-    const currentDateKeywords = getKeywordsForDate(currentDayIndex);
-    if (currentDateKeywords.length === 0) return;
+    const currentDateKeywords = getKeywordsForCurrentDate();
+    console.log(
+      '[WordCloud] Current date keywords:',
+      currentDateKeywords.length
+    );
 
-    // Prepare words for cloud layout - use ALL keywords from this date
-    const words = currentDateKeywords.map((kw, idx) => ({
+    if (currentDateKeywords.length === 0) {
+      console.log('[WordCloud] No keywords for current date, clearing cloud');
+      // Clear the word cloud if no keywords for this date
+      const svg = d3.select(svgRef.current);
+      svg.selectAll('g.word-cloud-group').selectAll('text').remove();
+      return;
+    }
+
+    // Prepare words for cloud layout - use top 30 keywords for current date
+    const words = currentDateKeywords.slice(0, 30).map((kw, idx) => ({
       text: kw.keyword,
-      // First keyword gets larger size, others scaled by importance
-      size: idx === 0 
-        ? Math.max(16, Math.min(48, kw.importance * 0.5))
-        : Math.max(10, Math.min(32, kw.importance * 0.35)),
+      // Scale size by importance (30-100 range)
+      size:
+        idx === 0
+          ? Math.max(18, Math.min(52, kw.importance * 0.52))
+          : Math.max(11, Math.min(36, kw.importance * 0.36)),
       importance: kw.importance,
       sentiment: kw.sentiment,
       metrics: kw.metrics,
       documents: kw.documents,
     }));
 
+    console.log('[WordCloud] Rendering', words.length, 'words');
+
     /**
-     * Renders the word cloud using D3 cloud layout
+     * Renders the word cloud using D3 cloud layout with smooth transitions
      */
     const renderWordCloud = words => {
       const svg = d3.select(svgRef.current);
@@ -404,14 +531,21 @@ function WordCloudTimeline() {
       const height = svgRef.current.clientHeight;
 
       if (width === 0 || height === 0) {
+        console.log('[WordCloud] SVG has no dimensions, skipping render');
         return;
       }
+
+      console.log(
+        '[WordCloud] Starting layout calculation for',
+        words.length,
+        'words'
+      );
 
       // Create word cloud layout
       const layout = cloud()
         .size([width, height])
         .words(words.map(d => ({ ...d, text: d.text })))
-        .padding(3)
+        .padding(4)
         .rotate(() => 0)
         .font('Inter, system-ui, sans-serif')
         .fontSize(d => d.size)
@@ -422,9 +556,26 @@ function WordCloudTimeline() {
       layout.start();
 
       function draw(cloudWords) {
-        if (cloudWords.length === 0) return;
+        if (cloudWords.length === 0) {
+          console.log('[WordCloud] Layout complete but no words positioned');
+          // Clear if no words
+          svg
+            .selectAll('g.word-cloud-group')
+            .selectAll('text')
+            .transition()
+            .duration(300)
+            .style('opacity', 0)
+            .remove();
+          return;
+        }
 
-        // Ensure group exists (don't clear on every render)
+        console.log(
+          '[WordCloud] Layout complete, drawing',
+          cloudWords.length,
+          'words'
+        );
+
+        // Ensure group exists
         let g = svg.select('g.word-cloud-group');
         if (g.empty()) {
           g = svg
@@ -433,11 +584,30 @@ function WordCloudTimeline() {
             .attr('transform', `translate(${width / 2},${height / 2})`);
         }
 
-        // Data join with key function for object constancy
+        // Data join with key function for smooth transitions
         const textElements = g.selectAll('text').data(cloudWords, d => d.text);
 
-        // Enter: new words
-        const enterWords = textElements
+        // EXIT: Remove words that are no longer in the data
+        textElements
+          .exit()
+          .transition()
+          .duration(300)
+          .style('font-size', 0)
+          .style('opacity', 0)
+          .remove();
+
+        // UPDATE: Transition existing words to new positions/sizes/colors
+        textElements
+          .transition()
+          .duration(600)
+          .ease(d3.easeCubicInOut)
+          .attr('transform', d => `translate(${d.x},${d.y})`)
+          .style('font-size', d => `${d.size}px`)
+          .style('fill', d => getSentimentColor(d.sentiment))
+          .style('opacity', 1);
+
+        // ENTER: Add new words
+        textElements
           .enter()
           .append('text')
           .style('font-family', 'Inter, system-ui, sans-serif')
@@ -447,8 +617,8 @@ function WordCloudTimeline() {
           .style('font-size', d => `${d.size}px`)
           .style('font-weight', '500')
           .style('fill', d => getSentimentColor(d.sentiment))
-          .style('opacity', 0)
           .attr('transform', d => `translate(${d.x},${d.y})`)
+          .style('opacity', 0)
           .on('click', function (event, d) {
             setSelectedKeyword(d);
             setSidebarOpen(true);
@@ -457,7 +627,7 @@ function WordCloudTimeline() {
           .on('mouseover', function (event, d) {
             d3.select(this)
               .transition()
-              .duration(200)
+              .duration(150)
               .style('font-size', `${d.size * 1.15}px`)
               .style('opacity', 0.7);
             showTooltip(event, d);
@@ -465,52 +635,30 @@ function WordCloudTimeline() {
           .on('mouseout', function (event, d) {
             d3.select(this)
               .transition()
-              .duration(200)
+              .duration(150)
               .style('font-size', `${d.size}px`)
               .style('opacity', 1);
             hideTooltip();
-          });
-
-        // Animate enter
-        enterWords
+          })
           .transition()
           .duration(600)
-          .delay((d, i) => i * 50)
+          .delay((d, i) => i * 40)
           .style('opacity', 1);
 
-        // Update: existing words - smooth transition to new position/size/color
-        textElements
-          .transition()
-          .duration(800)
-          .ease(d3.easeCubicInOut)
-          .attr('transform', d => `translate(${d.x},${d.y})`)
-          .style('font-size', d => `${d.size}px`)
-          .style('font-weight', '500')
-          .style('fill', d => getSentimentColor(d.sentiment))
-          .style('opacity', 1);
-
-        // Exit: removed words
-        textElements
-          .exit()
-          .transition()
-          .duration(400)
-          .style('font-size', 0)
-          .style('opacity', 0)
-          .remove();
+        console.log('[WordCloud] Draw complete');
       }
     };
 
     renderWordCloud(words);
-  }, [data, currentDayIndex, getSentimentColor, showTooltip, hideTooltip, getKeywordsForDate]);
-
-  const handleSliderChange = e => {
-    setCurrentDayIndex(parseInt(e.target.value));
-    setIsPlaying(false);
-  };
-
-  const togglePlay = () => {
-    setIsPlaying(!isPlaying);
-  };
+  }, [
+    data,
+    currentDayIndex,
+    selectedDate,
+    getSentimentColor,
+    showTooltip,
+    hideTooltip,
+    getKeywordsForCurrentDate,
+  ]);
 
   if (loading) {
     return (
@@ -528,6 +676,9 @@ function WordCloudTimeline() {
       <div className="word-cloud-container">
         <div className="error-state">
           <p>Error loading data: {error}</p>
+          <p className="error-hint">
+            Make sure the API server is running at {API_BASE_URL}
+          </p>
         </div>
       </div>
     );
@@ -541,13 +692,20 @@ function WordCloudTimeline() {
     } else {
       setSelectedTeam(value);
     }
-    setCurrentDayIndex(0);
+    setCurrentDayIndex(dateRange.length - 1); // Start at most recent date
     setIsPlaying(false);
     setSidebarOpen(false);
   };
 
-  const uniqueDates = data ? getUniqueDates() : [];
-  const currentDate = uniqueDates[currentDayIndex];
+  const handleSliderChange = e => {
+    setCurrentDayIndex(parseInt(e.target.value));
+    setIsPlaying(false);
+    setSidebarOpen(false);
+  };
+
+  const togglePlay = () => {
+    setIsPlaying(!isPlaying);
+  };
 
   return (
     <div className="word-cloud-container">
@@ -560,7 +718,7 @@ function WordCloudTimeline() {
             aria-label="Select team"
           >
             <option value="">Choose a team</option>
-            {TEAMS.map(team => (
+            {teams.map(team => (
               <option key={team.key} value={team.key}>
                 {team.name}
               </option>
@@ -591,137 +749,139 @@ function WordCloudTimeline() {
       )}
 
       {selectedTeam && data && data.keywords && data.keywords.length > 0 && (
-      <div className="word-cloud-content">
-        <div className="word-cloud-card">
-          <div className="word-cloud-visualization">
-            <svg ref={svgRef} className="word-cloud-svg"></svg>
-          </div>
-
-          <div className="sentiment-legend">
-            <h4>Sentiment Legend</h4>
-            <div className="legend-items">
-              <div className="legend-item">
-                <span className="legend-color positive"></span>
-                <span>Positive</span>
-              </div>
-              <div className="legend-item">
-                <span className="legend-color neutral"></span>
-                <span>Neutral</span>
-              </div>
-              <div className="legend-item">
-                <span className="legend-color negative"></span>
-                <span>Negative</span>
-              </div>
-            </div>
-            <p className="legend-note">
-              Color intensity indicates sentiment magnitude
-            </p>
-          </div>
-
-          <div className="word-cloud-controls">
-            <button
-              className="play-button"
-              onClick={togglePlay}
-              aria-label={isPlaying ? 'Pause' : 'Play'}
-              disabled={uniqueDates.length <= 1}
-            >
-              {isPlaying ? '⏸' : '▶'}
-            </button>
-
-            <div className="slider-container">
-              <input
-                type="range"
-                min="0"
-                max={uniqueDates.length - 1}
-                value={currentDayIndex}
-                onChange={handleSliderChange}
-                className="time-slider"
-                title={currentDate}
-                disabled={uniqueDates.length <= 1}
-              />
-              <div className="slider-labels">
-                <span className="current-date">{currentDate}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      {/* Sidebar for document list */}
-      <div className={`keyword-sidebar ${sidebarOpen ? 'open' : ''}`}>
-        <div className="sidebar-header">
-          <h3>{selectedKeyword?.text}</h3>
-          <button
-            className="sidebar-close"
-            onClick={() => setSidebarOpen(false)}
-            aria-label="Close sidebar"
-          >
-            ×
-          </button>
-        </div>
-        {selectedKeyword && (
-          <div className="sidebar-content">
-            <div className="keyword-stats">
-              <div className="stat-item">
-                <span className="stat-label">Importance:</span>
-                <span className="stat-value">
-                  {selectedKeyword.importance.toFixed(2)}
-                </span>
-              </div>
-              <div className="stat-item">
-                <span className="stat-label">Documents:</span>
-                <span className="stat-value">
-                  {selectedKeyword.documents?.length || 0}
-                </span>
-              </div>
-              <div className="stat-item">
-                <span className="stat-label">Velocity:</span>
-                <span className="stat-value">
-                  {selectedKeyword.metrics.velocity.toFixed(2)}%
-                </span>
-              </div>
+        <div className="word-cloud-content">
+          <div className="word-cloud-card">
+            <div className="word-cloud-visualization">
+              <svg ref={svgRef} className="word-cloud-svg"></svg>
             </div>
 
-            <ImportanceTrendChart
-              keyword={selectedKeyword.text}
-              timeSeries={getImportanceTimeSeries(selectedKeyword)}
-            />
+            <div className="sentiment-legend">
+              <h4>Sentiment Legend</h4>
+              <div className="legend-items">
+                <div className="legend-item">
+                  <span className="legend-color positive"></span>
+                  <span>Positive</span>
+                </div>
+                <div className="legend-item">
+                  <span className="legend-color neutral"></span>
+                  <span>Neutral</span>
+                </div>
+                <div className="legend-item">
+                  <span className="legend-color negative"></span>
+                  <span>Negative</span>
+                </div>
+              </div>
+              <p className="legend-note">
+                Color intensity indicates sentiment magnitude
+              </p>
+            </div>
 
-            <div className="documents-section">
-              <h4>Related Documents</h4>
-              <div className="documents-list">
-                {selectedKeyword.documents?.map((doc, idx) => (
-                  <div key={idx} className="document-item">
-                    <h5 className="document-title">
-                      <a
-                        href={doc.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {doc.title}
-                      </a>
-                    </h5>
-                    <div className="document-meta">
-                      <span className="document-source">{doc.source_name}</span>
-                      <span className="document-date">
-                        {new Date(doc.published_date).toLocaleDateString(
-                          'en-US',
-                          {
-                            year: 'numeric',
-                            month: 'short',
-                            day: 'numeric',
-                          }
-                        )}
-                      </span>
-                    </div>
-                    <p className="document-snippet">{doc.snippet}</p>
+            <div className="word-cloud-controls">
+              <button
+                className="play-button"
+                onClick={togglePlay}
+                aria-label={isPlaying ? 'Pause' : 'Play'}
+                disabled={dateRange.length <= 1}
+              >
+                {isPlaying ? '⏸' : '▶'}
+              </button>
+
+              <div className="slider-container">
+                <input
+                  type="range"
+                  min="0"
+                  max={dateRange.length - 1}
+                  value={currentDayIndex}
+                  onChange={handleSliderChange}
+                  className="time-slider"
+                  title={selectedDate}
+                  disabled={dateRange.length <= 1}
+                />
+                <div className="slider-labels">
+                  <span className="current-date">{selectedDate}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Sidebar for document list */}
+          <div className={`keyword-sidebar ${sidebarOpen ? 'open' : ''}`}>
+            <div className="sidebar-header">
+              <h3>{selectedKeyword?.text}</h3>
+              <button
+                className="sidebar-close"
+                onClick={() => setSidebarOpen(false)}
+                aria-label="Close sidebar"
+              >
+                ×
+              </button>
+            </div>
+            {selectedKeyword && (
+              <div className="sidebar-content">
+                <div className="keyword-stats">
+                  <div className="stat-item">
+                    <span className="stat-label">Importance:</span>
+                    <span className="stat-value">
+                      {selectedKeyword.importance.toFixed(2)}
+                    </span>
                   </div>
-                ))}
+                  <div className="stat-item">
+                    <span className="stat-label">Documents:</span>
+                    <span className="stat-value">
+                      {selectedKeyword.documents?.length || 0}
+                    </span>
+                  </div>
+                  <div className="stat-item">
+                    <span className="stat-label">Velocity:</span>
+                    <span className="stat-value">
+                      {selectedKeyword.metrics.velocity.toFixed(2)}%
+                    </span>
+                  </div>
+                </div>
+
+                <ImportanceTrendChart
+                  keyword={selectedKeyword.text}
+                  timeSeries={getImportanceTimeSeries(selectedKeyword)}
+                />
+
+                <div className="documents-section">
+                  <h4>Related Documents</h4>
+                  <div className="documents-list">
+                    {selectedKeyword.documents?.map((doc, idx) => (
+                      <div key={idx} className="document-item">
+                        <h5 className="document-title">
+                          <a
+                            href={doc.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {doc.title}
+                          </a>
+                        </h5>
+                        <div className="document-meta">
+                          <span className="document-source">
+                            {doc.source_name}
+                          </span>
+                          <span className="document-date">
+                            {new Date(doc.published_date).toLocaleDateString(
+                              'en-US',
+                              {
+                                year: 'numeric',
+                                month: 'short',
+                                day: 'numeric',
+                              }
+                            )}
+                          </span>
+                        </div>
+                        <p className="document-snippet">{doc.snippet}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
               </div>
-            </div>
+            )}
           </div>
-        )}
-      </div>
-      </div>
+        </div>
       )}
 
       {/* Tooltip */}

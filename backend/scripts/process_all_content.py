@@ -50,7 +50,7 @@ def process_all_content():
     # Get data lake statistics
     stats = content_repo.get_statistics()
     print(f"\nData Lake Statistics:")
-    print(f"  Total documents: {stats['total_content']}")
+    print(f"  Total documents: {stats['total_documents']}")
     print(f"  Processed: {stats['processed']}")
     print(f"  Unprocessed: {stats['unprocessed']}")
     print(f"  By source type: {dict(stats.get('by_source_type', {}))}")

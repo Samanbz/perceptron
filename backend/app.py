@@ -14,7 +14,7 @@ if sys.platform == 'win32':
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 from sourcers import RSSSourcer
-from sourcers.web_scraper import BlogScraper, NewsScraper, GenericWebScraper
+# from sourcers.web_scraper import BlogScraper, NewsScraper, GenericWebScraper  # Not needed for keywords API
 from storage import (
     ContentRepository,
     SourceConfigRepository,
@@ -115,6 +115,179 @@ def hello():
         "message": "Hello from Signal Radar!",
         "description": "Deutsche Bank Intelligence Dashboard",
     }
+
+
+# ============================================================================
+# Keywords API Endpoints
+# ============================================================================
+
+from keywords.importance_repository import ImportanceRepository
+from storage.repository import ContentRepository as KeywordContentRepository
+from teams.repository import TeamRepository
+from datetime import date
+import json
+
+
+@app.get("/api/keywords/{team_key}/{date_str}")
+async def get_keywords_for_team_and_date(team_key: str, date_str: str):
+    """
+    Get keywords for a specific team and date in API format.
+    
+    Args:
+        team_key: Team key (regulator, investor, competitor, researcher)
+        date_str: Date in ISO format (YYYY-MM-DD)
+        
+    Returns:
+        JSON matching api_models.py WordCloudResponse structure
+    """
+    try:
+        # Parse date
+        query_date = date.fromisoformat(date_str)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid date format. Use YYYY-MM-DD")
+    
+    # Initialize repositories
+    importance_repo = ImportanceRepository()
+    content_repo = KeywordContentRepository()
+    team_repo = TeamRepository()
+    
+    try:
+        # Get team info
+        team = team_repo.get_team_by_key(team_key)
+        if not team:
+            raise HTTPException(status_code=404, detail=f"Team '{team_key}' not found")
+        
+        # Get top keywords with importance >= 30
+        top_keywords = importance_repo.get_top_keywords(
+            team_key=team_key,
+            analysis_date=query_date,
+            limit=50,
+            min_importance=30.0
+        )
+        
+        if not top_keywords:
+            return {
+                "team_key": team_key,
+                "team_name": team.team_name,
+                "date_range": {
+                    "start": date_str,
+                    "end": date_str
+                },
+                "keywords": [],
+                "total_keywords": 0,
+                "total_documents": 0
+            }
+        
+        # Build keyword data
+        keywords_data = []
+        
+        for importance_record in top_keywords:
+            # Build sentiment data
+            sentiment_data = {
+                "score": round(float(importance_record.sentiment_score or 0.0), 3),
+                "magnitude": round(float(importance_record.sentiment_magnitude or 0.0), 3),
+                "breakdown": {
+                    "positive": importance_record.positive_mentions or 0,
+                    "negative": importance_record.negative_mentions or 0,
+                    "neutral": importance_record.neutral_mentions or 0
+                }
+            }
+            
+            # Build metrics
+            metrics_data = {
+                "frequency": importance_record.frequency or 0,
+                "document_count": importance_record.document_count or 0,
+                "source_diversity": importance_record.source_diversity or 0,
+                "velocity": round(float(importance_record.velocity or 0.0), 2)
+            }
+            
+            # Get documents
+            documents = []
+            if importance_record.content_ids:
+                content_ids = json.loads(importance_record.content_ids) if isinstance(importance_record.content_ids, str) else importance_record.content_ids
+                
+                for content_id in content_ids[:10]:  # Limit to 10 as per API spec
+                    content = content_repo.get_content_by_id(content_id)
+                    if content:
+                        # Extract snippet containing keyword
+                        text = content.content or content.title
+                        keyword_lower = importance_record.keyword.lower()
+                        text_lower = text.lower()
+                        pos = text_lower.find(keyword_lower)
+                        
+                        if pos == -1:
+                            snippet = f"{text[:150]}..." if len(text) > 150 else text
+                        else:
+                            start = max(0, pos - 75)
+                            end = min(len(text), pos + len(importance_record.keyword) + 75)
+                            snippet = text[start:end]
+                            if start > 0:
+                                snippet = "..." + snippet
+                            if end < len(text):
+                                snippet = snippet + "..."
+                        
+                        documents.append({
+                            "content_id": content.id,
+                            "title": content.title,
+                            "source_name": content.source_name,
+                            "published_date": content.published_date.isoformat() if content.published_date else date_str,
+                            "url": content.url or content.source_url or f"https://example.com/article-{content.id}",
+                            "snippet": snippet
+                        })
+            
+            keywords_data.append({
+                "keyword": importance_record.keyword,
+                "date": date_str,
+                "importance": round(float(importance_record.importance_score or 0.0), 1),
+                "sentiment": sentiment_data,
+                "metrics": metrics_data,
+                "documents": documents
+            })
+        
+        # Return response matching api_models.py WordCloudResponse
+        return {
+            "team_key": team_key,
+            "team_name": team.team_name,
+            "date_range": {
+                "start": date_str,
+                "end": date_str
+            },
+            "keywords": keywords_data,
+            "total_keywords": len(keywords_data),
+            "total_documents": sum(kw['metrics']['document_count'] for kw in keywords_data)
+        }
+    
+    finally:
+        importance_repo.close()
+        content_repo.close()
+        team_repo.close()
+
+
+@app.get("/api/teams")
+async def get_teams():
+    """
+    Get list of all active teams.
+    
+    Returns:
+        List of teams with their keys and names
+    """
+    team_repo = TeamRepository()
+    try:
+        teams = [t for t in team_repo.get_all_teams() if t.is_active]
+        return {
+            "teams": [
+                {
+                    "key": team.team_key,
+                    "name": team.team_name,
+                    "description": team.description,
+                    "color": team.color,
+                    "icon": team.icon
+                }
+                for team in teams
+            ]
+        }
+    finally:
+        team_repo.close()
 
 
 # Pydantic models for RSS endpoints

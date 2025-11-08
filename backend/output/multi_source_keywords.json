@@ -1,0 +1,1730 @@
+{
+  "generated_at": "2025-11-08",
+  "description": "Multi-source keyword analysis showing RSS, Reddit, and NewsAPI integration",
+  "date_range": {
+    "start": "2025-11-01",
+    "end": "2025-11-08"
+  },
+  "summary": {
+    "total_teams": 4,
+    "total_keywords": 4677,
+    "source_types": [
+      "reddit",
+      "rss"
+    ]
+  },
+  "teams": {
+    "regulator": {
+      "team_name": "Regulatory Team",
+      "team_key": "regulator",
+      "date_range": {
+        "start": "2025-11-01",
+        "end": "2025-11-08"
+      },
+      "sources_by_type": {
+        "rss": {
+          "source_names": [
+            "Federal Register"
+          ],
+          "keyword_count": 671
+        },
+        "reddit": {
+          "source_names": [
+            "r/law Regulatory Discussions"
+          ],
+          "keyword_count": 341
+        }
+      },
+      "total_keywords": 1012,
+      "total_unique_sources": 2,
+      "top_keywords": [
+        {
+          "keyword": "sunshine act",
+          "relevance_score": 1.6136755680187704,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "sunshine act",
+          "relevance_score": 1.6136755680187704,
+          "frequency": 4,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "medicare",
+          "relevance_score": 1.6090644292381044,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "south sudan",
+          "relevance_score": 1.6015767486477939,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "lindell",
+          "relevance_score": 1.5498302767762588,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "summer",
+          "relevance_score": 1.5407273924093048,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "summer",
+          "relevance_score": 1.5407273924093048,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "kim davis",
+          "relevance_score": 1.5229747238000257,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "john brennan",
+          "relevance_score": 1.5194394465649674,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "supreme court",
+          "relevance_score": 1.5190556695157178,
+          "frequency": 7,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "white house",
+          "relevance_score": 1.5049457668949964,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "darryl strawberry",
+          "relevance_score": 1.500438820913251,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "mlb star",
+          "relevance_score": 1.500438820913251,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "stalls stephen",
+          "relevance_score": 1.5000787898750048,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "epa",
+          "relevance_score": 1.486685274112272,
+          "frequency": 2,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "california",
+          "relevance_score": 1.475230096386455,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "john roberts",
+          "relevance_score": 1.4705612052725363,
+          "frequency": 2,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "hud",
+          "relevance_score": 1.4679868167182692,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "hud",
+          "relevance_score": 1.4679868167182692,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "faa",
+          "relevance_score": 1.461353098210474,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "cnn",
+          "relevance_score": 1.4407320857546866,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "postal service",
+          "relevance_score": 1.438283155172813,
+          "frequency": 6,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "postal service",
+          "relevance_score": 1.438283155172813,
+          "frequency": 4,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "postal service",
+          "relevance_score": 1.438283155172813,
+          "frequency": 2,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "trt",
+          "relevance_score": 1.4304941579175747,
+          "frequency": 2,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "brian finucane",
+          "relevance_score": 1.4278812235072604,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "faa",
+          "relevance_score": 1.4222937132466935,
+          "frequency": 4,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "scotus",
+          "relevance_score": 1.4213642448898822,
+          "frequency": 3,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "bsai",
+          "relevance_score": 1.4001459790820707,
+          "frequency": 6,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "hegseth",
+          "relevance_score": 1.3965217959248308,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "bsai",
+          "relevance_score": 1.396261100158301,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "fda",
+          "relevance_score": 1.391158521516273,
+          "frequency": 2,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "commission",
+          "relevance_score": 1.3840440639310099,
+          "frequency": 6,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "commission",
+          "relevance_score": 1.3840440639310099,
+          "frequency": 4,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "commission",
+          "relevance_score": 1.3840440639310099,
+          "frequency": 2,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "state department",
+          "relevance_score": 1.3830351179421443,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "seis",
+          "relevance_score": 1.3828159735181018,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "seis",
+          "relevance_score": 1.3828159735181018,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "canada",
+          "relevance_score": 1.371630220837909,
+          "frequency": 6,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "canada",
+          "relevance_score": 1.371630220837909,
+          "frequency": 2,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "iran continuation",
+          "relevance_score": 1.3693550224531505,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "iran continuation",
+          "relevance_score": 1.3693550224531505,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "state",
+          "relevance_score": 1.3617213330976572,
+          "frequency": 4,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "state",
+          "relevance_score": 1.3617213330976572,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "oklahoma",
+          "relevance_score": 1.3421102097055237,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "pentagon",
+          "relevance_score": 1.3342296491224868,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "comey",
+          "relevance_score": 1.3342157938393513,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "texas",
+          "relevance_score": 1.3341546350532225,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        },
+        {
+          "keyword": "uspto",
+          "relevance_score": 1.3191806256319922,
+          "frequency": 2,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "Federal Register"
+        },
+        {
+          "keyword": "chicago",
+          "relevance_score": 1.3154841446136842,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/law Regulatory Discussions"
+        }
+      ]
+    },
+    "investor": {
+      "team_name": "Investment Team",
+      "team_key": "investor",
+      "date_range": {
+        "start": "2025-11-01",
+        "end": "2025-11-08"
+      },
+      "sources_by_type": {
+        "rss": {
+          "source_names": [
+            "Crunchbase News",
+            "TechCrunch"
+          ],
+          "keyword_count": 380
+        },
+        "reddit": {
+          "source_names": [
+            "r/startups Investment Discussions",
+            "r/venturecapital"
+          ],
+          "keyword_count": 47
+        }
+      },
+      "total_keywords": 427,
+      "total_unique_sources": 4,
+      "top_keywords": [
+        {
+          "keyword": "amazon",
+          "relevance_score": 1.619964554733948,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "amazon",
+          "relevance_score": 1.619964554733948,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "kim kardashian",
+          "relevance_score": 1.6133323677270917,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "kim kardashian",
+          "relevance_score": 1.6133323677270917,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "amazon bazaar",
+          "relevance_score": 1.5308655637751962,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "amazon bazaar",
+          "relevance_score": 1.5308655637751962,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "apple",
+          "relevance_score": 1.5240212559945943,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/startups Investment Discussions"
+        },
+        {
+          "keyword": "rapido",
+          "relevance_score": 1.5209196502003421,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "chris sacca",
+          "relevance_score": 1.5122723076848335,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "oracle",
+          "relevance_score": 1.4785596045130787,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "oracle",
+          "relevance_score": 1.4785596045130787,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "tesla",
+          "relevance_score": 1.4674920995605294,
+          "frequency": 6,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "metropolis",
+          "relevance_score": 1.4630016546399331,
+          "frequency": 4,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Crunchbase News"
+        },
+        {
+          "keyword": "latin america",
+          "relevance_score": 1.4523782634868392,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/venturecapital"
+        },
+        {
+          "keyword": "roblox",
+          "relevance_score": 1.4519358585285786,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "roblox",
+          "relevance_score": 1.4519358585285786,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "apple",
+          "relevance_score": 1.4294492740469185,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "apple",
+          "relevance_score": 1.4294492740469185,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "rivian",
+          "relevance_score": 1.4230595259593941,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "rivian",
+          "relevance_score": 1.4230595259593941,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "bob morse",
+          "relevance_score": 1.3931082583271088,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Crunchbase News"
+        },
+        {
+          "keyword": "washington post",
+          "relevance_score": 1.3909892651490554,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "washington post",
+          "relevance_score": 1.3909892651490554,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "saas",
+          "relevance_score": 1.370306163141784,
+          "frequency": 2,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/startups Investment Discussions"
+        },
+        {
+          "keyword": "gowish",
+          "relevance_score": 1.3581979824959103,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "gowish",
+          "relevance_score": 1.3581979824959103,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "julio mart\u00ednez",
+          "relevance_score": 1.3496690590808826,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Crunchbase News"
+        },
+        {
+          "keyword": "julio mart\u00ednez",
+          "relevance_score": 1.3496690590808826,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Crunchbase News"
+        },
+        {
+          "keyword": "meta",
+          "relevance_score": 1.3348918990701832,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "openai",
+          "relevance_score": 1.2946454015314057,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "openai",
+          "relevance_score": 1.2946454015314057,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "elon musk",
+          "relevance_score": 1.25316512774062,
+          "frequency": 4,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "laude institute",
+          "relevance_score": 1.2378288324573177,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "mark grace",
+          "relevance_score": 1.1902252023566313,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Crunchbase News"
+        },
+        {
+          "keyword": "zero-day",
+          "relevance_score": 1.1643590212662556,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "zero-day",
+          "relevance_score": 1.1643590212662556,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "terranova",
+          "relevance_score": 1.1484323275961743,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "terranova",
+          "relevance_score": 1.1484323275961743,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "cybercab",
+          "relevance_score": 1.105183372916915,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "samsung galaxy",
+          "relevance_score": 1.1036702776185896,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "samsung galaxy",
+          "relevance_score": 1.1036702776185896,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "oracle hacks",
+          "relevance_score": 1.0969380091005678,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "oracle hacks",
+          "relevance_score": 1.0969380091005678,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "techcrunch",
+          "relevance_score": 1.0689552979024082,
+          "frequency": 4,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "techcrunch",
+          "relevance_score": 1.0689552979024082,
+          "frequency": 2,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "prosus",
+          "relevance_score": 1.0506041877228094,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "zane shamblin",
+          "relevance_score": 1.0485638085264815,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "zane shamblin",
+          "relevance_score": 1.0485638085264815,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        },
+        {
+          "keyword": "strattam capital",
+          "relevance_score": 1.0448607493700033,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Crunchbase News"
+        },
+        {
+          "keyword": "techcrunch disrupt",
+          "relevance_score": 1.0392916109935113,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "TechCrunch"
+        }
+      ]
+    },
+    "competitor": {
+      "team_name": "Competitive Intelligence Team",
+      "team_key": "competitor",
+      "date_range": {
+        "start": "2025-11-01",
+        "end": "2025-11-08"
+      },
+      "sources_by_type": {
+        "rss": {
+          "source_names": [
+            "Product Hunt",
+            "TechRadar",
+            "The Verge"
+          ],
+          "keyword_count": 1096
+        },
+        "reddit": {
+          "source_names": [
+            "r/gadgets Product Releases",
+            "r/technology Competitor News"
+          ],
+          "keyword_count": 187
+        }
+      },
+      "total_keywords": 1283,
+      "total_unique_sources": 5,
+      "top_keywords": [
+        {
+          "keyword": "trump",
+          "relevance_score": 1.6447895294627837,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "The Verge"
+        },
+        {
+          "keyword": "trump",
+          "relevance_score": 1.6447895294627837,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "The Verge"
+        },
+        {
+          "keyword": "fitbit",
+          "relevance_score": 1.64016316817576,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "The Verge"
+        },
+        {
+          "keyword": "fitbit",
+          "relevance_score": 1.64016316817576,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "The Verge"
+        },
+        {
+          "keyword": "stream ring",
+          "relevance_score": 1.5918760082065764,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Product Hunt"
+        },
+        {
+          "keyword": "hyundai",
+          "relevance_score": 1.5759975320352717,
+          "frequency": 2,
+          "extraction_date": "2025-11-04",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "hyundai",
+          "relevance_score": 1.5759975320352717,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "nyt strands",
+          "relevance_score": 1.5731991763374218,
+          "frequency": 2,
+          "extraction_date": "2025-11-04",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "nyt strands",
+          "relevance_score": 1.5731991763374218,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "nyt connections",
+          "relevance_score": 1.5713990638285618,
+          "frequency": 2,
+          "extraction_date": "2025-11-04",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "nyt connections",
+          "relevance_score": 1.5713990638285618,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "freepik spaces",
+          "relevance_score": 1.5696328568255407,
+          "frequency": 2,
+          "extraction_date": "2025-11-04",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "freepik spaces",
+          "relevance_score": 1.5696328568255407,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "peloton",
+          "relevance_score": 1.567854530771196,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "The Verge"
+        },
+        {
+          "keyword": "peloton",
+          "relevance_score": 1.567854530771196,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "The Verge"
+        },
+        {
+          "keyword": "mint mobile",
+          "relevance_score": 1.5651169156506977,
+          "frequency": 2,
+          "extraction_date": "2025-11-04",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "mint mobile",
+          "relevance_score": 1.5651169156506977,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "arc raiders",
+          "relevance_score": 1.5619323710218969,
+          "frequency": 2,
+          "extraction_date": "2025-11-04",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "arc raiders",
+          "relevance_score": 1.5619323710218969,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "sonos",
+          "relevance_score": 1.5606195087673886,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "black friday",
+          "relevance_score": 1.5584623377750142,
+          "frequency": 12,
+          "extraction_date": "2025-11-04",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "black friday",
+          "relevance_score": 1.5584623377750142,
+          "frequency": 12,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "quordle",
+          "relevance_score": 1.5536210093354685,
+          "frequency": 2,
+          "extraction_date": "2025-11-04",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "quordle",
+          "relevance_score": 1.5536210093354685,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "amazon",
+          "relevance_score": 1.5518356114083005,
+          "frequency": 4,
+          "extraction_date": "2025-11-04",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "amazon",
+          "relevance_score": 1.5518356114083005,
+          "frequency": 2,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "itv",
+          "relevance_score": 1.5452269760857933,
+          "frequency": 2,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "itv",
+          "relevance_score": 1.5452269760857933,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "black friday",
+          "relevance_score": 1.5439927836036094,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "mexico city",
+          "relevance_score": 1.5435091677860697,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/technology Competitor News"
+        },
+        {
+          "keyword": "black friday",
+          "relevance_score": 1.539120477257892,
+          "frequency": 4,
+          "extraction_date": "2025-11-05",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "james watson",
+          "relevance_score": 1.5381030667663702,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/technology Competitor News"
+        },
+        {
+          "keyword": "direct file",
+          "relevance_score": 1.5281360098134955,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/technology Competitor News"
+        },
+        {
+          "keyword": "discussion link",
+          "relevance_score": 1.5264011737965064,
+          "frequency": 28,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "Product Hunt"
+        },
+        {
+          "keyword": "chips act",
+          "relevance_score": 1.51652472724966,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/technology Competitor News"
+        },
+        {
+          "keyword": "tesla rivian",
+          "relevance_score": 1.516410639304382,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/technology Competitor News"
+        },
+        {
+          "keyword": "halo infinite",
+          "relevance_score": 1.5111775936625875,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "The Verge"
+        },
+        {
+          "keyword": "halo infinite",
+          "relevance_score": 1.5111775936625875,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "The Verge"
+        },
+        {
+          "keyword": "roblox",
+          "relevance_score": 1.5054372333699253,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "The Verge"
+        },
+        {
+          "keyword": "roblox",
+          "relevance_score": 1.5054372333699253,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "The Verge"
+        },
+        {
+          "keyword": "bioware",
+          "relevance_score": 1.5044255697629623,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "The Verge"
+        },
+        {
+          "keyword": "bioware",
+          "relevance_score": 1.5044255697629623,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "The Verge"
+        },
+        {
+          "keyword": "aurora borealis",
+          "relevance_score": 1.5009955675294415,
+          "frequency": 2,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "aurora borealis",
+          "relevance_score": 1.5009955675294415,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "discussion link",
+          "relevance_score": 1.5008236151239638,
+          "frequency": 40,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Product Hunt"
+        },
+        {
+          "keyword": "google microsoft",
+          "relevance_score": 1.4996887899189233,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/technology Competitor News"
+        },
+        {
+          "keyword": "apple health",
+          "relevance_score": 1.4966624573170717,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Product Hunt"
+        },
+        {
+          "keyword": "google",
+          "relevance_score": 1.4956744843213,
+          "frequency": 2,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "google",
+          "relevance_score": 1.4956744843213,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "TechRadar"
+        },
+        {
+          "keyword": "alex karp",
+          "relevance_score": 1.4930709071059443,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/technology Competitor News"
+        }
+      ]
+    },
+    "researcher": {
+      "team_name": "Research Team",
+      "team_key": "researcher",
+      "date_range": {
+        "start": "2025-11-01",
+        "end": "2025-11-08"
+      },
+      "sources_by_type": {
+        "rss": {
+          "source_names": [
+            "ArXiv CS",
+            "Ars Technica",
+            "Hacker News",
+            "MIT Technology Review"
+          ],
+          "keyword_count": 1921
+        },
+        "reddit": {
+          "source_names": [
+            "r/MachineLearning Research"
+          ],
+          "keyword_count": 34
+        }
+      },
+      "total_keywords": 1955,
+      "total_unique_sources": 5,
+      "top_keywords": [
+        {
+          "keyword": "james watson",
+          "relevance_score": 1.6193455504180376,
+          "frequency": 2,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "Hacker News"
+        },
+        {
+          "keyword": "james watson",
+          "relevance_score": 1.6193455504180376,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Hacker News"
+        },
+        {
+          "keyword": "james watson",
+          "relevance_score": 1.6193455504180376,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "rss",
+          "source_name": "Hacker News"
+        },
+        {
+          "keyword": "venn diagram",
+          "relevance_score": 1.601141064676125,
+          "frequency": 2,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "Hacker News"
+        },
+        {
+          "keyword": "deep research",
+          "relevance_score": 1.5805019867097891,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "angel investors",
+          "relevance_score": 1.5663734708440031,
+          "frequency": 2,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "Hacker News"
+        },
+        {
+          "keyword": "angel investors",
+          "relevance_score": 1.5663734708440031,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Hacker News"
+        },
+        {
+          "keyword": "angel investors",
+          "relevance_score": 1.5663734708440031,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "rss",
+          "source_name": "Hacker News"
+        },
+        {
+          "keyword": "watson",
+          "relevance_score": 1.5641462955629348,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "llm",
+          "relevance_score": 1.5618318805815217,
+          "frequency": 4,
+          "extraction_date": "2025-11-05",
+          "source_type": "rss",
+          "source_name": "ArXiv CS"
+        },
+        {
+          "keyword": "ford",
+          "relevance_score": 1.5540443677912459,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "ford",
+          "relevance_score": 1.5540443677912459,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "ford",
+          "relevance_score": 1.5540443677912459,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "mullvad shutting",
+          "relevance_score": 1.5479783521914356,
+          "frequency": 2,
+          "extraction_date": "2025-11-08",
+          "source_type": "rss",
+          "source_name": "Hacker News"
+        },
+        {
+          "keyword": "zuckerberg",
+          "relevance_score": 1.5457210563992705,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "zuckerberg",
+          "relevance_score": 1.5457210563992705,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "meta",
+          "relevance_score": 1.5426115283330841,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "google analytics",
+          "relevance_score": 1.5256068492389556,
+          "frequency": 2,
+          "extraction_date": "2025-11-08",
+          "source_type": "rss",
+          "source_name": "Hacker News"
+        },
+        {
+          "keyword": "xai",
+          "relevance_score": 1.524961260070945,
+          "frequency": 2,
+          "extraction_date": "2025-11-04",
+          "source_type": "rss",
+          "source_name": "ArXiv CS"
+        },
+        {
+          "keyword": "edma",
+          "relevance_score": 1.5247918040898885,
+          "frequency": 2,
+          "extraction_date": "2025-11-05",
+          "source_type": "rss",
+          "source_name": "ArXiv CS"
+        },
+        {
+          "keyword": "polish",
+          "relevance_score": 1.523018782513152,
+          "frequency": 2,
+          "extraction_date": "2025-11-05",
+          "source_type": "rss",
+          "source_name": "ArXiv CS"
+        },
+        {
+          "keyword": "myna monospace",
+          "relevance_score": 1.5202930434471933,
+          "frequency": 2,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "Hacker News"
+        },
+        {
+          "keyword": "myna monospace",
+          "relevance_score": 1.5202930434471933,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Hacker News"
+        },
+        {
+          "keyword": "myna monospace",
+          "relevance_score": 1.5202930434471933,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "rss",
+          "source_name": "Hacker News"
+        },
+        {
+          "keyword": "wacv",
+          "relevance_score": 1.5174379514464773,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "reddit",
+          "source_name": "r/MachineLearning Research"
+        },
+        {
+          "keyword": "landfall",
+          "relevance_score": 1.507779614416421,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "landfall",
+          "relevance_score": 1.507779614416421,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "landfall",
+          "relevance_score": 1.507779614416421,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "zig",
+          "relevance_score": 1.50254281518548,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Hacker News"
+        },
+        {
+          "keyword": "zig",
+          "relevance_score": 1.50254281518548,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "rss",
+          "source_name": "Hacker News"
+        },
+        {
+          "keyword": "paramount",
+          "relevance_score": 1.496810264462362,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "paramount",
+          "relevance_score": 1.496810264462362,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "paramount",
+          "relevance_score": 1.496810264462362,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "youtube removes",
+          "relevance_score": 1.4929061106774384,
+          "frequency": 2,
+          "extraction_date": "2025-11-03",
+          "source_type": "rss",
+          "source_name": "Hacker News"
+        },
+        {
+          "keyword": "youtube removes",
+          "relevance_score": 1.4929061106774384,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Hacker News"
+        },
+        {
+          "keyword": "perennial ryegrass",
+          "relevance_score": 1.4914037054739264,
+          "frequency": 2,
+          "extraction_date": "2025-11-04",
+          "source_type": "rss",
+          "source_name": "ArXiv CS"
+        },
+        {
+          "keyword": "mark zuckerberg",
+          "relevance_score": 1.4878750775997454,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "mark zuckerberg",
+          "relevance_score": 1.4878750775997454,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "fbi",
+          "relevance_score": 1.4837599486395787,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "fbi",
+          "relevance_score": 1.4837599486395787,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "fbi",
+          "relevance_score": 1.4837599486395787,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "medicare",
+          "relevance_score": 1.4804256746407876,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "medicare",
+          "relevance_score": 1.4804256746407876,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "medicare",
+          "relevance_score": 1.4804256746407876,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "token alignment",
+          "relevance_score": 1.477586355547294,
+          "frequency": 2,
+          "extraction_date": "2025-11-05",
+          "source_type": "rss",
+          "source_name": "ArXiv CS"
+        },
+        {
+          "keyword": "tesla",
+          "relevance_score": 1.477056217045626,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "skigill",
+          "relevance_score": 1.4726332763172714,
+          "frequency": 2,
+          "extraction_date": "2025-11-02",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "skigill",
+          "relevance_score": 1.4726332763172714,
+          "frequency": 1,
+          "extraction_date": "2025-11-07",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "skigill",
+          "relevance_score": 1.4726332763172714,
+          "frequency": 1,
+          "extraction_date": "2025-11-08",
+          "source_type": "rss",
+          "source_name": "Ars Technica"
+        },
+        {
+          "keyword": "compute board",
+          "relevance_score": 1.451596111485435,
+          "frequency": 2,
+          "extraction_date": "2025-11-04",
+          "source_type": "rss",
+          "source_name": "ArXiv CS"
+        }
+      ]
+    }
+  }
+}
