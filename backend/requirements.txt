@@ -27,6 +27,22 @@ ntscraper==0.4.0  # Twitter/X scraping (no API key)
 google-api-python-client==2.108.0  # YouTube Data API
 newsapi-python==0.2.7  # NewsAPI for news aggregation
 
+# Financial Data APIs
+alpha-vantage==2.3.1  # Alpha Vantage financial data
+
+# ESG & Reputation APIs (Optional - require paid subscriptions)
+# reprisk==0.1.0  # RepRisk API (if available)
+# msci-api==0.1.0  # MSCI ESG API (if available)
+# sustainalytics-api==0.1.0  # Sustainalytics API (if available)
+
+# Review & Reputation APIs
+# glassdoor-api==0.1.0  # Glassdoor API (if available)
+# trustpilot-api==0.1.0  # Trustpilot API (if available)
+
+# Company Data APIs
+# crunchbase-api==0.1.0  # Crunchbase API (if available)
+# opencorporates==0.1.0  # OpenCorporates API (if available)
+
 # NLP & Keyword Extraction
 scikit-learn>=1.3.0
 spacy>=3.7.0
@@ -43,6 +59,9 @@ numpy>=1.24.0
 black==23.12.1
 isort==5.13.2
 pre-commit==3.6.0
+
+# PDF Generation
+reportlab==4.0.7
 
 # Note: After installing, download the spaCy language model:
 # python -m spacy download en_core_web_md
