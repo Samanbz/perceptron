@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './contexts/AuthContext';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -19,12 +19,9 @@ import Dashboard from './pages/Dashboard';
 import './App.css';
 
 function AppContent() {
-  const location = useLocation();
-  const isDashboard = location.pathname === '/dashboard';
-
   return (
     <div className="app">
-      {!isDashboard && <Header />}
+      <Header />
       
       <Routes>
         <Route path="/" element={<Home />} />
@@ -48,7 +45,7 @@ function AppContent() {
         />
       </Routes>
 
-      {!isDashboard && <Footer />}
+      <Footer />
     </div>
   );
 }

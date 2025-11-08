@@ -385,6 +385,21 @@
     background: #f8f9fa;
 }
 
+.features-section.alternate {
+    background: #ffffff;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section-description {
+    font-size: 1.1rem;
+    color: #747474;
+    margin-top: 0.5rem;
+}
+
 .features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

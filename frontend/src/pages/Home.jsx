@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -15,8 +16,7 @@ function Home() {
             Powered by advanced NLP and real-time signal processing.
           </p>
           <div className="hero-cta">
-            <button className="btn-primary">Explore Platform</button>
-            <button className="btn-secondary">Watch Demo</button>
+            <Link to="/dashboard" className="btn-primary" style={{ textDecoration: 'none' }}>Explore Platform</Link>
           </div>
           <div className="hero-visual">
             <div className="visual-grid">
