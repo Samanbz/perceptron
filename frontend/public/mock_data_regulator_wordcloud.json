@@ -1,0 +1,2292 @@
+{
+  "team_key": "regulator",
+  "team_name": "Regulatory Team",
+  "date_range": {
+    "start": "2025-11-06",
+    "end": "2025-11-08"
+  },
+  "keywords": [
+    {
+      "keyword": "antitrust investigation",
+      "date": "2025-11-06",
+      "importance": 80.53,
+      "sentiment": {
+        "score": 0.322,
+        "magnitude": 0.436,
+        "breakdown": {
+          "positive": 26,
+          "negative": 6,
+          "neutral": 10
+        }
+      },
+      "metrics": {
+        "frequency": 42,
+        "document_count": 27,
+        "source_diversity": 2,
+        "velocity": 1.62
+      },
+      "documents": [
+        {
+          "content_id": 5640,
+          "title": "Expert opinions on antitrust investigation implications",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-8237",
+          "snippet": "...discussing antitrust investigation and its impact on the industry. Experts say antitrust investigation represents..."
+        },
+        {
+          "content_id": 5143,
+          "title": "Analysis: What antitrust investigation means for the market",
+          "source_name": "Reuters",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-1462",
+          "snippet": "...discussing antitrust investigation and its impact on the industry. Experts say antitrust investigation represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "antitrust investigation",
+      "date": "2025-11-07",
+      "importance": 90.11,
+      "sentiment": {
+        "score": 0.25,
+        "magnitude": 0.55,
+        "breakdown": {
+          "positive": 30,
+          "negative": 8,
+          "neutral": 15
+        }
+      },
+      "metrics": {
+        "frequency": 55,
+        "document_count": 35,
+        "source_diversity": 3,
+        "velocity": 2.5
+      },
+      "documents": [
+        {
+          "content_id": 9902,
+          "title": "Commentary on the ongoing antitrust investigation",
+          "source_name": "Reuters",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9902",
+          "snippet": "...the market reacts to day-two of the renewed focus on the antitrust investigation..."
+        },
+        {
+          "content_id": 5640,
+          "title": "Expert opinions on antitrust investigation implications",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-8237",
+          "snippet": "...discussing antitrust investigation and its impact on the industry. Experts say antitrust investigation represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "antitrust investigation",
+      "date": "2025-11-08",
+      "importance": 99.2,
+      "sentiment": {
+        "score": 0.155,
+        "magnitude": 0.654,
+        "breakdown": {
+          "positive": 35,
+          "negative": 12,
+          "neutral": 20
+        }
+      },
+      "metrics": {
+        "frequency": 75,
+        "document_count": 45,
+        "source_diversity": 4,
+        "velocity": 5.0
+      },
+      "documents": [
+        {
+          "content_id": 9901,
+          "title": "Major Update: Antitrust Investigation widens scope",
+          "source_name": "Bloomberg",
+          "published_date": "2025-11-08",
+          "url": "https://example.com/article-9901",
+          "snippet": "...new developments in the antitrust investigation, suggesting a wider scope and more affected parties..."
+        },
+        {
+          "content_id": 9902,
+          "title": "Commentary on the ongoing antitrust investigation",
+          "source_name": "Reuters",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9902",
+          "snippet": "...the market reacts to day-two of the renewed focus on the antitrust investigation..."
+        }
+      ]
+    },
+    {
+      "keyword": "consumer protection",
+      "date": "2025-11-06",
+      "importance": 87.26,
+      "sentiment": {
+        "score": 0.707,
+        "magnitude": 0.559,
+        "breakdown": {
+          "positive": 9,
+          "negative": 2,
+          "neutral": 1
+        }
+      },
+      "metrics": {
+        "frequency": 69,
+        "document_count": 8,
+        "source_diversity": 3,
+        "velocity": -17.65
+      },
+      "documents": [
+        {
+          "content_id": 8187,
+          "title": "consumer protection sees rapid adoption across sectors",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-6182",
+          "snippet": "...discussing consumer protection and its impact on the industry. Experts say consumer protection represents..."
+        },
+        {
+          "content_id": 3001,
+          "title": "consumer protection emerges as key trend in tech industry",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-8415",
+          "snippet": "...discussing consumer protection and its impact on the industry. Experts say consumer protection represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "consumer protection",
+      "date": "2025-11-07",
+      "importance": 89.0,
+      "sentiment": {
+        "score": 0.75,
+        "magnitude": 0.6,
+        "breakdown": {
+          "positive": 12,
+          "negative": 2,
+          "neutral": 3
+        }
+      },
+      "metrics": {
+        "frequency": 75,
+        "document_count": 9,
+        "source_diversity": 4,
+        "velocity": 5.0
+      },
+      "documents": [
+        {
+          "content_id": 9903,
+          "title": "New Bill Proposed to Boost Consumer Protection in E-commerce",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9903",
+          "snippet": "...legislators push for stronger consumer protection measures, specifically targeting online marketplaces..."
+        },
+        {
+          "content_id": 8187,
+          "title": "consumer protection sees rapid adoption across sectors",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-6182",
+          "snippet": "...discussing consumer protection and its impact on the industry. Experts say consumer protection represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "consumer protection",
+      "date": "2025-11-08",
+      "importance": 85.11,
+      "sentiment": {
+        "score": 0.812,
+        "magnitude": 0.701,
+        "breakdown": {
+          "positive": 15,
+          "negative": 3,
+          "neutral": 5
+        }
+      },
+      "metrics": {
+        "frequency": 80,
+        "document_count": 10,
+        "source_diversity": 3,
+        "velocity": -3.0
+      },
+      "documents": [
+        {
+          "content_id": 9903,
+          "title": "New Bill Proposed to Boost Consumer Protection in E-commerce",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9903",
+          "snippet": "...legislators push for stronger consumer protection measures, specifically targeting online marketplaces..."
+        },
+        {
+          "content_id": 3001,
+          "title": "consumer protection emerges as key trend in tech industry",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-8415",
+          "snippet": "...discussing consumer protection and its impact on the industry. Experts say consumer protection represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "government mandate",
+      "date": "2025-11-06",
+      "importance": 86.33,
+      "sentiment": {
+        "score": 0.408,
+        "magnitude": 0.585,
+        "breakdown": {
+          "positive": 18,
+          "negative": 6,
+          "neutral": 11
+        }
+      },
+      "metrics": {
+        "frequency": 43,
+        "document_count": 24,
+        "source_diversity": 2,
+        "velocity": 26.56
+      },
+      "documents": [
+        {
+          "content_id": 1194,
+          "title": "Expert opinions on government mandate implications",
+          "source_name": "Reuters",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-6898",
+          "snippet": "...discussing government mandate and its impact on the industry. Experts say government mandate represents..."
+        },
+        {
+          "content_id": 9105,
+          "title": "government mandate sees rapid adoption across sectors",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-4774",
+          "snippet": "...discussing government mandate and its impact on the industry. Experts say government mandate represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "government mandate",
+      "date": "2025-11-07",
+      "importance": 90.5,
+      "sentiment": {
+        "score": 0.38,
+        "magnitude": 0.6,
+        "breakdown": {
+          "positive": 22,
+          "negative": 7,
+          "neutral": 12
+        }
+      },
+      "metrics": {
+        "frequency": 48,
+        "document_count": 27,
+        "source_diversity": 3,
+        "velocity": 5.0
+      },
+      "documents": [
+        {
+          "content_id": 9905,
+          "title": "Government Mandate on AI Ethics moves forward",
+          "source_name": "Reuters",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9905",
+          "snippet": "...the next phase of the government mandate on ethical AI use is announced..."
+        },
+        {
+          "content_id": 1194,
+          "title": "Expert opinions on government mandate implications",
+          "source_name": "Reuters",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-6898",
+          "snippet": "...discussing government mandate and its impact on the industry. Experts say government mandate represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "government mandate",
+      "date": "2025-11-08",
+      "importance": 88.9,
+      "sentiment": {
+        "score": 0.354,
+        "magnitude": 0.612,
+        "breakdown": {
+          "positive": 25,
+          "negative": 8,
+          "neutral": 14
+        }
+      },
+      "metrics": {
+        "frequency": 51,
+        "document_count": 29,
+        "source_diversity": 3,
+        "velocity": 3.8
+      },
+      "documents": [
+        {
+          "content_id": 9904,
+          "title": "Industry Leaders Debate Impact of New Government Mandate",
+          "source_name": "The Verge",
+          "published_date": "2025-11-08",
+          "url": "https://example.com/article-9904",
+          "snippet": "...a new government mandate on data localization causes significant discussion across tech sectors..."
+        },
+        {
+          "content_id": 9905,
+          "title": "Government Mandate on AI Ethics moves forward",
+          "source_name": "Reuters",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9905",
+          "snippet": "...the next phase of the government mandate on ethical AI use is announced..."
+        }
+      ]
+    },
+    {
+      "keyword": "policy implementation",
+      "date": "2025-11-06",
+      "importance": 84.73,
+      "sentiment": {
+        "score": 0.049,
+        "magnitude": 0.877,
+        "breakdown": {
+          "positive": 3,
+          "negative": 2,
+          "neutral": 5
+        }
+      },
+      "metrics": {
+        "frequency": 69,
+        "document_count": 24,
+        "source_diversity": 5,
+        "velocity": -1.52
+      },
+      "documents": [
+        {
+          "content_id": 5658,
+          "title": "policy implementation emerges as key trend in tech industry",
+          "source_name": "Reuters",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-8034",
+          "snippet": "...discussing policy implementation and its impact on the industry. Experts say policy implementation represents..."
+        },
+        {
+          "content_id": 6040,
+          "title": "policy implementation sees rapid adoption across sectors",
+          "source_name": "Reuters",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-7730",
+          "snippet": "...discussing policy implementation and its impact on the industry. Experts say policy implementation represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "policy implementation",
+      "date": "2025-11-07",
+      "importance": 86.5,
+      "sentiment": {
+        "score": 0.06,
+        "magnitude": 0.9,
+        "breakdown": {
+          "positive": 4,
+          "negative": 2,
+          "neutral": 6
+        }
+      },
+      "metrics": {
+        "frequency": 72,
+        "document_count": 25,
+        "source_diversity": 5,
+        "velocity": 3.0
+      },
+      "documents": [
+        {
+          "content_id": 4454,
+          "title": "Companies invest heavily in policy implementation technology",
+          "source_name": "The Verge",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-4627",
+          "snippet": "...discussing policy implementation and its impact on the industry. Experts say policy implementation represents..."
+        },
+        {
+          "content_id": 5658,
+          "title": "policy implementation emerges as key trend in tech industry",
+          "source_name": "Reuters",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-8034",
+          "snippet": "...discussing policy implementation and its impact on the industry. Experts say policy implementation represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "policy implementation",
+      "date": "2025-11-08",
+      "importance": 87.1,
+      "sentiment": {
+        "score": 0.091,
+        "magnitude": 0.95,
+        "breakdown": {
+          "positive": 5,
+          "negative": 3,
+          "neutral": 7
+        }
+      },
+      "metrics": {
+        "frequency": 75,
+        "document_count": 27,
+        "source_diversity": 5,
+        "velocity": 2.5
+      },
+      "documents": [
+        {
+          "content_id": 9906,
+          "title": "Challenges in Policy Implementation of Digital Tax",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-08",
+          "url": "https://example.com/article-9906",
+          "snippet": "...recent difficulties encountered during the policy implementation phase of the new digital services tax..."
+        },
+        {
+          "content_id": 4454,
+          "title": "Companies invest heavily in policy implementation technology",
+          "source_name": "The Verge",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-4627",
+          "snippet": "...discussing policy implementation and its impact on the industry. Experts say policy implementation represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "enforcement penalty",
+      "date": "2025-11-06",
+      "importance": 80.75,
+      "sentiment": {
+        "score": 0.397,
+        "magnitude": 0.724,
+        "breakdown": {
+          "positive": 14,
+          "negative": 2,
+          "neutral": 6
+        }
+      },
+      "metrics": {
+        "frequency": 14,
+        "document_count": 14,
+        "source_diversity": 8,
+        "velocity": -13.96
+      },
+      "documents": [
+        {
+          "content_id": 7118,
+          "title": "Analysis: What enforcement penalty means for the market",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-9093",
+          "snippet": "...discussing enforcement penalty and its impact on the industry. Experts say enforcement penalty represents..."
+        },
+        {
+          "content_id": 1791,
+          "title": "Companies invest heavily in enforcement penalty technology",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-4651",
+          "snippet": "...discussing enforcement penalty and its impact on the industry. Experts say enforcement penalty represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "enforcement penalty",
+      "date": "2025-11-07",
+      "importance": 85.0,
+      "sentiment": {
+        "score": 0.05,
+        "magnitude": 0.8,
+        "breakdown": {
+          "positive": 12,
+          "negative": 8,
+          "neutral": 10
+        }
+      },
+      "metrics": {
+        "frequency": 20,
+        "document_count": 17,
+        "source_diversity": 8,
+        "velocity": 5.0
+      },
+      "documents": [
+        {
+          "content_id": 9925,
+          "title": "Warning issued: Enforcement Penalty for non-compliance imminent",
+          "source_name": "The Verge",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9925",
+          "snippet": "...a major regulator warns of an upcoming enforcement penalty phase for companies failing to meet new data standards..."
+        },
+        {
+          "content_id": 7118,
+          "title": "Analysis: What enforcement penalty means for the market",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-9093",
+          "snippet": "...discussing enforcement penalty and its impact on the industry. Experts say enforcement penalty represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "enforcement penalty",
+      "date": "2025-11-08",
+      "importance": 91.5,
+      "sentiment": {
+        "score": -0.15,
+        "magnitude": 0.88,
+        "breakdown": {
+          "positive": 10,
+          "negative": 15,
+          "neutral": 8
+        }
+      },
+      "metrics": {
+        "frequency": 30,
+        "document_count": 21,
+        "source_diversity": 8,
+        "velocity": 5.0
+      },
+      "documents": [
+        {
+          "content_id": 9907,
+          "title": "Record Enforcement Penalty handed down in data breach case",
+          "source_name": "Bloomberg",
+          "published_date": "2025-11-08",
+          "url": "https://example.com/article-9907",
+          "snippet": "...the regulator imposed a record enforcement penalty following a major failure in security protocols..."
+        },
+        {
+          "content_id": 9925,
+          "title": "Warning issued: Enforcement Penalty for non-compliance imminent",
+          "source_name": "The Verge",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9925",
+          "snippet": "...a major regulator warns of an upcoming enforcement penalty phase for companies failing to meet new data standards..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory review",
+      "date": "2025-11-06",
+      "importance": 75.57,
+      "sentiment": {
+        "score": 0.191,
+        "magnitude": 0.582,
+        "breakdown": {
+          "positive": 22,
+          "negative": 11,
+          "neutral": 13
+        }
+      },
+      "metrics": {
+        "frequency": 7,
+        "document_count": 18,
+        "source_diversity": 8,
+        "velocity": -23.95
+      },
+      "documents": [
+        {
+          "content_id": 2359,
+          "title": "Expert opinions on regulatory review implications",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-5694",
+          "snippet": "...discussing regulatory review and its impact on the industry. Experts say regulatory review represents..."
+        },
+        {
+          "content_id": 8603,
+          "title": "regulatory review sees rapid adoption across sectors",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-6284",
+          "snippet": "...discussing regulatory review and its impact on the industry. Experts say regulatory review represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory review",
+      "date": "2025-11-07",
+      "importance": 73.0,
+      "sentiment": {
+        "score": 0.2,
+        "magnitude": 0.58,
+        "breakdown": {
+          "positive": 23,
+          "negative": 11,
+          "neutral": 14
+        }
+      },
+      "metrics": {
+        "frequency": 8,
+        "document_count": 19,
+        "source_diversity": 8,
+        "velocity": 1.0
+      },
+      "documents": [
+        {
+          "content_id": 9926,
+          "title": "Regulatory Review Timeline Extended for Telecom Merger",
+          "source_name": "Bloomberg",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9926",
+          "snippet": "...the competition watchdog announces an extension to the regulatory review period, signaling complexity..."
+        },
+        {
+          "content_id": 2359,
+          "title": "Expert opinions on regulatory review implications",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-5694",
+          "snippet": "...discussing regulatory review and its impact on the industry. Experts say regulatory review represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory review",
+      "date": "2025-11-08",
+      "importance": 72.01,
+      "sentiment": {
+        "score": 0.25,
+        "magnitude": 0.59,
+        "breakdown": {
+          "positive": 25,
+          "negative": 12,
+          "neutral": 15
+        }
+      },
+      "metrics": {
+        "frequency": 9,
+        "document_count": 20,
+        "source_diversity": 8,
+        "velocity": 1.5
+      },
+      "documents": [
+        {
+          "content_id": 9908,
+          "title": "Regulatory Review finds no major issues for new merger",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-08",
+          "url": "https://example.com/article-9908",
+          "snippet": "...the final regulatory review confirms the merger can proceed without significant caveats..."
+        },
+        {
+          "content_id": 9926,
+          "title": "Regulatory Review Timeline Extended for Telecom Merger",
+          "source_name": "Bloomberg",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9926",
+          "snippet": "...the competition watchdog announces an extension to the regulatory review period, signaling complexity..."
+        }
+      ]
+    },
+    {
+      "keyword": "federal regulation",
+      "date": "2025-11-06",
+      "importance": 74.1,
+      "sentiment": {
+        "score": -0.284,
+        "magnitude": 0.413,
+        "breakdown": {
+          "positive": 9,
+          "negative": 3,
+          "neutral": 9
+        }
+      },
+      "metrics": {
+        "frequency": 11,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": -17.4
+      },
+      "documents": [
+        {
+          "content_id": 9601,
+          "title": "Companies invest heavily in federal regulation technology",
+          "source_name": "The Verge",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-3002",
+          "snippet": "...discussing federal regulation and its impact on the industry. Experts say federal regulation represents..."
+        },
+        {
+          "content_id": 7643,
+          "title": "Expert opinions on federal regulation implications",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-6076",
+          "snippet": "...discussing federal regulation and its impact on the industry. Experts say federal regulation represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "federal regulation",
+      "date": "2025-11-07",
+      "importance": 75.0,
+      "sentiment": {
+        "score": -0.3,
+        "magnitude": 0.45,
+        "breakdown": {
+          "positive": 10,
+          "negative": 4,
+          "neutral": 10
+        }
+      },
+      "metrics": {
+        "frequency": 12,
+        "document_count": 4,
+        "source_diversity": 3,
+        "velocity": 1.0
+      },
+      "documents": [
+        {
+          "content_id": 9909,
+          "title": "Federal Regulation on Data Residency causes confusion",
+          "source_name": "The Verge",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9909",
+          "snippet": "...new federal regulation details released, leading to questions from industry compliance officers..."
+        },
+        {
+          "content_id": 9601,
+          "title": "Companies invest heavily in federal regulation technology",
+          "source_name": "The Verge",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-3002",
+          "snippet": "...discussing federal regulation and its impact on the industry. Experts say federal regulation represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "federal regulation",
+      "date": "2025-11-08",
+      "importance": 71.3,
+      "sentiment": {
+        "score": -0.35,
+        "magnitude": 0.49,
+        "breakdown": {
+          "positive": 10,
+          "negative": 5,
+          "neutral": 10
+        }
+      },
+      "metrics": {
+        "frequency": 12,
+        "document_count": 4,
+        "source_diversity": 3,
+        "velocity": -2.1
+      },
+      "documents": [
+        {
+          "content_id": 9909,
+          "title": "Federal Regulation on Data Residency causes confusion",
+          "source_name": "The Verge",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9909",
+          "snippet": "...new federal regulation details released, leading to questions from industry compliance officers..."
+        },
+        {
+          "content_id": 7643,
+          "title": "Expert opinions on federal regulation implications",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-6076",
+          "snippet": "...discussing federal regulation and its impact on the industry. Experts say federal regulation represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory guidance",
+      "date": "2025-11-06",
+      "importance": 73.23,
+      "sentiment": {
+        "score": 0.534,
+        "magnitude": 0.802,
+        "breakdown": {
+          "positive": 15,
+          "negative": 3,
+          "neutral": 2
+        }
+      },
+      "metrics": {
+        "frequency": 69,
+        "document_count": 18,
+        "source_diversity": 2,
+        "velocity": -9.93
+      },
+      "documents": [
+        {
+          "content_id": 3898,
+          "title": "Analysis: What regulatory guidance means for the market",
+          "source_name": "Reuters",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-4241",
+          "snippet": "...discussing regulatory guidance and its impact on the industry. Experts say regulatory guidance represents..."
+        },
+        {
+          "content_id": 5224,
+          "title": "regulatory guidance sees rapid adoption across sectors",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-1942",
+          "snippet": "...discussing regulatory guidance and its impact on the industry. Experts say regulatory guidance represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory guidance",
+      "date": "2025-11-07",
+      "importance": 77.5,
+      "sentiment": {
+        "score": 0.55,
+        "magnitude": 0.82,
+        "breakdown": {
+          "positive": 16,
+          "negative": 3,
+          "neutral": 3
+        }
+      },
+      "metrics": {
+        "frequency": 74,
+        "document_count": 20,
+        "source_diversity": 3,
+        "velocity": 5.0
+      },
+      "documents": [
+        {
+          "content_id": 9911,
+          "title": "Regulatory Guidance on AI Safety expected next week",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9911",
+          "snippet": "...anticipation builds for the highly awaited regulatory guidance on responsible AI development..."
+        },
+        {
+          "content_id": 3898,
+          "title": "Analysis: What regulatory guidance means for the market",
+          "source_name": "Reuters",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-4241",
+          "snippet": "...discussing regulatory guidance and its impact on the industry. Experts say regulatory guidance represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory guidance",
+      "date": "2025-11-08",
+      "importance": 80.15,
+      "sentiment": {
+        "score": 0.6,
+        "magnitude": 0.85,
+        "breakdown": {
+          "positive": 18,
+          "negative": 3,
+          "neutral": 3
+        }
+      },
+      "metrics": {
+        "frequency": 78,
+        "document_count": 21,
+        "source_diversity": 3,
+        "velocity": 3.4
+      },
+      "documents": [
+        {
+          "content_id": 9910,
+          "title": "New Regulatory Guidance Issued for Blockchain Technology",
+          "source_name": "Reuters",
+          "published_date": "2025-11-08",
+          "url": "https://example.com/article-9910",
+          "snippet": "...the commission releases comprehensive regulatory guidance on the use of decentralized ledger systems..."
+        },
+        {
+          "content_id": 9911,
+          "title": "Regulatory Guidance on AI Safety expected next week",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9911",
+          "snippet": "...anticipation builds for the highly awaited regulatory guidance on responsible AI development..."
+        }
+      ]
+    },
+    {
+      "keyword": "SEC filing",
+      "date": "2025-11-06",
+      "importance": 67.2,
+      "sentiment": {
+        "score": -0.393,
+        "magnitude": 0.845,
+        "breakdown": {
+          "positive": 7,
+          "negative": 33,
+          "neutral": 5
+        }
+      },
+      "metrics": {
+        "frequency": 34,
+        "document_count": 17,
+        "source_diversity": 8,
+        "velocity": -10.07
+      },
+      "documents": [
+        {
+          "content_id": 4188,
+          "title": "Expert opinions on SEC filing implications",
+          "source_name": "The Verge",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-5504",
+          "snippet": "...discussing SEC filing and its impact on the industry. Experts say SEC filing represents..."
+        },
+        {
+          "content_id": 8732,
+          "title": "SEC filing emerges as key trend in tech industry",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-3997",
+          "snippet": "...discussing SEC filing and its impact on the industry. Experts say SEC filing represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "SEC filing",
+      "date": "2025-11-07",
+      "importance": 66.0,
+      "sentiment": {
+        "score": -0.4,
+        "magnitude": 0.85,
+        "breakdown": {
+          "positive": 7,
+          "negative": 35,
+          "neutral": 5
+        }
+      },
+      "metrics": {
+        "frequency": 36,
+        "document_count": 18,
+        "source_diversity": 8,
+        "velocity": 2.0
+      },
+      "documents": [
+        {
+          "content_id": 9927,
+          "title": "Analysis of Recent SEC Filing Volume",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9927",
+          "snippet": "...investigating the unusually high volume of SEC filing submissions this week..."
+        },
+        {
+          "content_id": 4188,
+          "title": "Expert opinions on SEC filing implications",
+          "source_name": "The Verge",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-5504",
+          "snippet": "...discussing SEC filing and its impact on the industry. Experts say SEC filing represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "SEC filing",
+      "date": "2025-11-08",
+      "importance": 65.5,
+      "sentiment": {
+        "score": -0.45,
+        "magnitude": 0.9,
+        "breakdown": {
+          "positive": 8,
+          "negative": 40,
+          "neutral": 6
+        }
+      },
+      "metrics": {
+        "frequency": 38,
+        "document_count": 19,
+        "source_diversity": 8,
+        "velocity": -0.5
+      },
+      "documents": [
+        {
+          "content_id": 9912,
+          "title": "SEC Filing reveals unexpected quarterly loss for major firm",
+          "source_name": "Bloomberg",
+          "published_date": "2025-11-08",
+          "url": "https://example.com/article-9912",
+          "snippet": "...a late SEC filing discloses disappointing financial results, prompting stock fluctuation..."
+        },
+        {
+          "content_id": 9927,
+          "title": "Analysis of Recent SEC Filing Volume",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9927",
+          "snippet": "...investigating the unusually high volume of SEC filing submissions this week..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory framework",
+      "date": "2025-11-06",
+      "importance": 67.07,
+      "sentiment": {
+        "score": 0.114,
+        "magnitude": 0.629,
+        "breakdown": {
+          "positive": 3,
+          "negative": 1,
+          "neutral": 5
+        }
+      },
+      "metrics": {
+        "frequency": 35,
+        "document_count": 9,
+        "source_diversity": 7,
+        "velocity": 7.11
+      },
+      "documents": [
+        {
+          "content_id": 9063,
+          "title": "Expert opinions on regulatory framework implications",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-2939",
+          "snippet": "...discussing regulatory framework and its impact on the industry. Experts say regulatory framework represents..."
+        },
+        {
+          "content_id": 3391,
+          "title": "Analysis: What regulatory framework means for the market",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-5879",
+          "snippet": "...discussing regulatory framework and its impact on the industry. Experts say regulatory framework represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory framework",
+      "date": "2025-11-07",
+      "importance": 68.0,
+      "sentiment": {
+        "score": 0.14,
+        "magnitude": 0.64,
+        "breakdown": {
+          "positive": 4,
+          "negative": 1,
+          "neutral": 6
+        }
+      },
+      "metrics": {
+        "frequency": 36,
+        "document_count": 9,
+        "source_diversity": 7,
+        "velocity": 1.0
+      },
+      "documents": [
+        {
+          "content_id": 9913,
+          "title": "Review of new Regulatory Framework for Digital Currencies",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9913",
+          "snippet": "...early analysis of the proposed regulatory framework suggests a balanced approach to innovation and stability..."
+        },
+        {
+          "content_id": 9063,
+          "title": "Expert opinions on regulatory framework implications",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-2939",
+          "snippet": "...discussing regulatory framework and its impact on the industry. Experts say regulatory framework represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory framework",
+      "date": "2025-11-08",
+      "importance": 68.9,
+      "sentiment": {
+        "score": 0.15,
+        "magnitude": 0.65,
+        "breakdown": {
+          "positive": 4,
+          "negative": 1,
+          "neutral": 6
+        }
+      },
+      "metrics": {
+        "frequency": 37,
+        "document_count": 10,
+        "source_diversity": 7,
+        "velocity": 0.9
+      },
+      "documents": [
+        {
+          "content_id": 9913,
+          "title": "Review of new Regulatory Framework for Digital Currencies",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9913",
+          "snippet": "...early analysis of the proposed regulatory framework suggests a balanced approach to innovation and stability..."
+        },
+        {
+          "content_id": 3391,
+          "title": "Analysis: What regulatory framework means for the market",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-5879",
+          "snippet": "...discussing regulatory framework and its impact on the industry. Experts say regulatory framework represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "legal compliance",
+      "date": "2025-11-06",
+      "importance": 62.44,
+      "sentiment": {
+        "score": 0.539,
+        "magnitude": 0.817,
+        "breakdown": {
+          "positive": 12,
+          "negative": 2,
+          "neutral": 3
+        }
+      },
+      "metrics": {
+        "frequency": 9,
+        "document_count": 23,
+        "source_diversity": 6,
+        "velocity": 33.1
+      },
+      "documents": [
+        {
+          "content_id": 8999,
+          "title": "Expert opinions on legal compliance implications",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-9035",
+          "snippet": "...discussing legal compliance and its impact on the industry. Experts say legal compliance represents..."
+        },
+        {
+          "content_id": 8858,
+          "title": "Companies invest heavily in legal compliance technology",
+          "source_name": "The Verge",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-9937",
+          "snippet": "...discussing legal compliance and its impact on the industry. Experts say legal compliance represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "legal compliance",
+      "date": "2025-11-07",
+      "importance": 61.0,
+      "sentiment": {
+        "score": 0.52,
+        "magnitude": 0.8,
+        "breakdown": {
+          "positive": 12,
+          "negative": 2,
+          "neutral": 3
+        }
+      },
+      "metrics": {
+        "frequency": 10,
+        "document_count": 24,
+        "source_diversity": 6,
+        "velocity": 1.0
+      },
+      "documents": [
+        {
+          "content_id": 9928,
+          "title": "New Tool Simplifies International Legal Compliance",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9928",
+          "snippet": "...launch of an innovative platform designed to assist multinational firms with complex legal compliance..."
+        },
+        {
+          "content_id": 8999,
+          "title": "Expert opinions on legal compliance implications",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-9035",
+          "snippet": "...discussing legal compliance and its impact on the industry. Experts say legal compliance represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "legal compliance",
+      "date": "2025-11-08",
+      "importance": 60.1,
+      "sentiment": {
+        "score": 0.45,
+        "magnitude": 0.7,
+        "breakdown": {
+          "positive": 15,
+          "negative": 3,
+          "neutral": 5
+        }
+      },
+      "metrics": {
+        "frequency": 11,
+        "document_count": 25,
+        "source_diversity": 7,
+        "velocity": 1.1
+      },
+      "documents": [
+        {
+          "content_id": 9914,
+          "title": "Simplifying Legal Compliance in a Globalized Market",
+          "source_name": "Reuters",
+          "published_date": "2025-11-08",
+          "url": "https://example.com/article-9914",
+          "snippet": "...tools and strategies for achieving seamless legal compliance across diverse international jurisdictions..."
+        },
+        {
+          "content_id": 9928,
+          "title": "New Tool Simplifies International Legal Compliance",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9928",
+          "snippet": "...launch of an innovative platform designed to assist multinational firms with complex legal compliance..."
+        }
+      ]
+    },
+    {
+      "keyword": "policy enforcement",
+      "date": "2025-11-06",
+      "importance": 62.09,
+      "sentiment": {
+        "score": -0.001,
+        "magnitude": 0.718,
+        "breakdown": {
+          "positive": 11,
+          "negative": 6,
+          "neutral": 21
+        }
+      },
+      "metrics": {
+        "frequency": 65,
+        "document_count": 10,
+        "source_diversity": 7,
+        "velocity": -1.51
+      },
+      "documents": [
+        {
+          "content_id": 9320,
+          "title": "Expert opinions on policy enforcement implications",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-7748",
+          "snippet": "...discussing policy enforcement and its impact on the industry. Experts say policy enforcement represents..."
+        },
+        {
+          "content_id": 8852,
+          "title": "Analysis: What policy enforcement means for the market",
+          "source_name": "The Verge",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-4002",
+          "snippet": "...discussing policy enforcement and its impact on the industry. Experts say policy enforcement represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "policy enforcement",
+      "date": "2025-11-07",
+      "importance": 63.5,
+      "sentiment": {
+        "score": -0.03,
+        "magnitude": 0.73,
+        "breakdown": {
+          "positive": 11,
+          "negative": 6,
+          "neutral": 22
+        }
+      },
+      "metrics": {
+        "frequency": 68,
+        "document_count": 11,
+        "source_diversity": 7,
+        "velocity": 1.5
+      },
+      "documents": [
+        {
+          "content_id": 9916,
+          "title": "Debate on the Future of Policy Enforcement in Privacy",
+          "source_name": "The Verge",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9916",
+          "snippet": "...experts weigh in on whether policy enforcement methods are adequate for evolving digital privacy challenges..."
+        },
+        {
+          "content_id": 9320,
+          "title": "Expert opinions on policy enforcement implications",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-7748",
+          "snippet": "...discussing policy enforcement and its impact on the industry. Experts say policy enforcement represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "policy enforcement",
+      "date": "2025-11-08",
+      "importance": 65.4,
+      "sentiment": {
+        "score": -0.05,
+        "magnitude": 0.75,
+        "breakdown": {
+          "positive": 12,
+          "negative": 7,
+          "neutral": 23
+        }
+      },
+      "metrics": {
+        "frequency": 70,
+        "document_count": 12,
+        "source_diversity": 8,
+        "velocity": 2.2
+      },
+      "documents": [
+        {
+          "content_id": 9915,
+          "title": "Policy Enforcement against Non-Compliant Ad Practices",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-08",
+          "url": "https://example.com/article-9915",
+          "snippet": "...the policy enforcement team is stepping up actions against deceptive online advertising strategies..."
+        },
+        {
+          "content_id": 9916,
+          "title": "Debate on the Future of Policy Enforcement in Privacy",
+          "source_name": "The Verge",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9916",
+          "snippet": "...experts weigh in on whether policy enforcement methods are adequate for evolving digital privacy challenges..."
+        }
+      ]
+    },
+    {
+      "keyword": "licensing requirements",
+      "date": "2025-11-06",
+      "importance": 60.76,
+      "sentiment": {
+        "score": -0.142,
+        "magnitude": 0.337,
+        "breakdown": {
+          "positive": 14,
+          "negative": 3,
+          "neutral": 17
+        }
+      },
+      "metrics": {
+        "frequency": 88,
+        "document_count": 30,
+        "source_diversity": 4,
+        "velocity": 9.84
+      },
+      "documents": [
+        {
+          "content_id": 3715,
+          "title": "Analysis: What licensing requirements means for the market",
+          "source_name": "Reuters",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-9019",
+          "snippet": "...discussing licensing requirements and its impact on the industry. Experts say licensing requirements represents..."
+        },
+        {
+          "content_id": 9026,
+          "title": "licensing requirements emerges as key trend in tech industry",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-1182",
+          "snippet": "...discussing licensing requirements and its impact on the industry. Experts say licensing requirements represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "licensing requirements",
+      "date": "2025-11-07",
+      "importance": 60.5,
+      "sentiment": {
+        "score": -0.15,
+        "magnitude": 0.35,
+        "breakdown": {
+          "positive": 14,
+          "negative": 3,
+          "neutral": 17
+        }
+      },
+      "metrics": {
+        "frequency": 89,
+        "document_count": 31,
+        "source_diversity": 4,
+        "velocity": 1.0
+      },
+      "documents": [
+        {
+          "content_id": 9929,
+          "title": "Debate on Universal Licensing Requirements for Gig Workers",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9929",
+          "snippet": "...legislators consider implementing standardized licensing requirements across various freelance and contract sectors..."
+        },
+        {
+          "content_id": 3715,
+          "title": "Analysis: What licensing requirements means for the market",
+          "source_name": "Reuters",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-9019",
+          "snippet": "...discussing licensing requirements and its impact on the industry. Experts say licensing requirements represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "licensing requirements",
+      "date": "2025-11-08",
+      "importance": 60.01,
+      "sentiment": {
+        "score": -0.19,
+        "magnitude": 0.4,
+        "breakdown": {
+          "positive": 15,
+          "negative": 4,
+          "neutral": 19
+        }
+      },
+      "metrics": {
+        "frequency": 90,
+        "document_count": 32,
+        "source_diversity": 5,
+        "velocity": -0.5
+      },
+      "documents": [
+        {
+          "content_id": 9917,
+          "title": "Revisiting Licensing Requirements for Fintech Startups",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-08",
+          "url": "https://example.com/article-9917",
+          "snippet": "...discussion around streamlining or modifying the current licensing requirements to encourage innovation in financial technology..."
+        },
+        {
+          "content_id": 9929,
+          "title": "Debate on Universal Licensing Requirements for Gig Workers",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9929",
+          "snippet": "...legislators consider implementing standardized licensing requirements across various freelance and contract sectors..."
+        }
+      ]
+    },
+    {
+      "keyword": "compliance audit",
+      "date": "2025-11-06",
+      "importance": 58.4,
+      "sentiment": {
+        "score": 0.087,
+        "magnitude": 0.475,
+        "breakdown": {
+          "positive": 12,
+          "negative": 8,
+          "neutral": 10
+        }
+      },
+      "metrics": {
+        "frequency": 14,
+        "document_count": 21,
+        "source_diversity": 3,
+        "velocity": 11.74
+      },
+      "documents": [
+        {
+          "content_id": 5328,
+          "title": "Companies invest heavily in compliance audit technology",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-4555",
+          "snippet": "...discussing compliance audit and its impact on the industry. Experts say compliance audit represents..."
+        },
+        {
+          "content_id": 8955,
+          "title": "compliance audit emerges as key trend in tech industry",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-7555",
+          "snippet": "...discussing compliance audit and its impact on the industry. Experts say compliance audit represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "compliance audit",
+      "date": "2025-11-07",
+      "importance": 59.0,
+      "sentiment": {
+        "score": 0.1,
+        "magnitude": 0.48,
+        "breakdown": {
+          "positive": 13,
+          "negative": 8,
+          "neutral": 10
+        }
+      },
+      "metrics": {
+        "frequency": 16,
+        "document_count": 23,
+        "source_diversity": 4,
+        "velocity": 2.0
+      },
+      "documents": [
+        {
+          "content_id": 2020,
+          "title": "Expert opinions on compliance audit implications",
+          "source_name": "The Verge",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-7811",
+          "snippet": "...discussing compliance audit and its impact on the industry. Experts say compliance audit represents..."
+        },
+        {
+          "content_id": 5328,
+          "title": "Companies invest heavily in compliance audit technology",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-4555",
+          "snippet": "...discussing compliance audit and its impact on the industry. Experts say compliance audit represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "compliance audit",
+      "date": "2025-11-08",
+      "importance": 59.9,
+      "sentiment": {
+        "score": 0.12,
+        "magnitude": 0.5,
+        "breakdown": {
+          "positive": 14,
+          "negative": 8,
+          "neutral": 11
+        }
+      },
+      "metrics": {
+        "frequency": 17,
+        "document_count": 24,
+        "source_diversity": 4,
+        "velocity": 2.0
+      },
+      "documents": [
+        {
+          "content_id": 9918,
+          "title": "Post-Merger Compliance Audit Reveals Minor Discrepancies",
+          "source_name": "Reuters",
+          "published_date": "2025-11-08",
+          "url": "https://example.com/article-9918",
+          "snippet": "...results of a mandatory compliance audit following the acquisition are released to the public..."
+        },
+        {
+          "content_id": 2020,
+          "title": "Expert opinions on compliance audit implications",
+          "source_name": "The Verge",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-7811",
+          "snippet": "...discussing compliance audit and its impact on the industry. Experts say compliance audit represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory approval",
+      "date": "2025-11-06",
+      "importance": 52.62,
+      "sentiment": {
+        "score": -0.196,
+        "magnitude": 0.852,
+        "breakdown": {
+          "positive": 16,
+          "negative": 13,
+          "neutral": 21
+        }
+      },
+      "metrics": {
+        "frequency": 66,
+        "document_count": 8,
+        "source_diversity": 4,
+        "velocity": 18.82
+      },
+      "documents": [
+        {
+          "content_id": 6895,
+          "title": "Companies invest heavily in regulatory approval technology",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-4780",
+          "snippet": "...discussing regulatory approval and its impact on the industry. Experts say regulatory approval represents..."
+        },
+        {
+          "content_id": 7105,
+          "title": "Expert opinions on regulatory approval implications",
+          "source_name": "Reuters",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-2581",
+          "snippet": "...discussing regulatory approval and its impact on the industry. Experts say regulatory approval represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory approval",
+      "date": "2025-11-07",
+      "importance": 55.5,
+      "sentiment": {
+        "score": -0.18,
+        "magnitude": 0.86,
+        "breakdown": {
+          "positive": 17,
+          "negative": 14,
+          "neutral": 22
+        }
+      },
+      "metrics": {
+        "frequency": 69,
+        "document_count": 9,
+        "source_diversity": 4,
+        "velocity": 3.0
+      },
+      "documents": [
+        {
+          "content_id": 9919,
+          "title": "Regulatory Approval for New Drug Delayed by Second Review",
+          "source_name": "Bloomberg",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9919",
+          "snippet": "...concerns over long-term effects lead to a halt in the final regulatory approval process..."
+        },
+        {
+          "content_id": 6895,
+          "title": "Companies invest heavily in regulatory approval technology",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-4780",
+          "snippet": "...discussing regulatory approval and its impact on the industry. Experts say regulatory approval represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory approval",
+      "date": "2025-11-08",
+      "importance": 58.1,
+      "sentiment": {
+        "score": -0.15,
+        "magnitude": 0.89,
+        "breakdown": {
+          "positive": 18,
+          "negative": 15,
+          "neutral": 23
+        }
+      },
+      "metrics": {
+        "frequency": 72,
+        "document_count": 10,
+        "source_diversity": 5,
+        "velocity": 3.0
+      },
+      "documents": [
+        {
+          "content_id": 9919,
+          "title": "Regulatory Approval for New Drug Delayed by Second Review",
+          "source_name": "Bloomberg",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9919",
+          "snippet": "...concerns over long-term effects lead to a halt in the final regulatory approval process..."
+        },
+        {
+          "content_id": 7105,
+          "title": "Expert opinions on regulatory approval implications",
+          "source_name": "Reuters",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-2581",
+          "snippet": "...discussing regulatory approval and its impact on the industry. Experts say regulatory approval represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "compliance requirements",
+      "date": "2025-11-06",
+      "importance": 51.56,
+      "sentiment": {
+        "score": 0.006,
+        "magnitude": 0.815,
+        "breakdown": {
+          "positive": 2,
+          "negative": 0,
+          "neutral": 6
+        }
+      },
+      "metrics": {
+        "frequency": 35,
+        "document_count": 12,
+        "source_diversity": 8,
+        "velocity": 7.56
+      },
+      "documents": [
+        {
+          "content_id": 5627,
+          "title": "Analysis: What compliance requirements means for the market",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-5061",
+          "snippet": "...discussing compliance requirements and its impact on the industry. Experts say compliance requirements represents..."
+        },
+        {
+          "content_id": 7276,
+          "title": "Analysis: What compliance requirements means for the market",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-7746",
+          "snippet": "...discussing compliance requirements and its impact on the industry. Experts say compliance requirements represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "compliance requirements",
+      "date": "2025-11-07",
+      "importance": 52.5,
+      "sentiment": {
+        "score": 0.04,
+        "magnitude": 0.82,
+        "breakdown": {
+          "positive": 3,
+          "negative": 0,
+          "neutral": 6
+        }
+      },
+      "metrics": {
+        "frequency": 36,
+        "document_count": 12,
+        "source_diversity": 8,
+        "velocity": 1.0
+      },
+      "documents": [
+        {
+          "content_id": 9930,
+          "title": "Firms struggle to meet new international compliance requirements",
+          "source_name": "The Verge",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9930",
+          "snippet": "...a report highlights the difficulty companies are having in adjusting to complex new compliance requirements..."
+        },
+        {
+          "content_id": 5627,
+          "title": "Analysis: What compliance requirements means for the market",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-5061",
+          "snippet": "...discussing compliance requirements and its impact on the industry. Experts say compliance requirements represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "compliance requirements",
+      "date": "2025-11-08",
+      "importance": 53.5,
+      "sentiment": {
+        "score": 0.05,
+        "magnitude": 0.83,
+        "breakdown": {
+          "positive": 3,
+          "negative": 0,
+          "neutral": 7
+        }
+      },
+      "metrics": {
+        "frequency": 37,
+        "document_count": 13,
+        "source_diversity": 8,
+        "velocity": 1.0
+      },
+      "documents": [
+        {
+          "content_id": 9920,
+          "title": "Adapting to Changing Compliance Requirements for Data Handling",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-08",
+          "url": "https://example.com/article-9920",
+          "snippet": "...companies scramble to update internal processes to meet the latest compliance requirements..."
+        },
+        {
+          "content_id": 9930,
+          "title": "Firms struggle to meet new international compliance requirements",
+          "source_name": "The Verge",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9930",
+          "snippet": "...a report highlights the difficulty companies are having in adjusting to complex new compliance requirements..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory sanctions",
+      "date": "2025-11-06",
+      "importance": 48.87,
+      "sentiment": {
+        "score": 0.567,
+        "magnitude": 0.597,
+        "breakdown": {
+          "positive": 31,
+          "negative": 6,
+          "neutral": 4
+        }
+      },
+      "metrics": {
+        "frequency": 28,
+        "document_count": 18,
+        "source_diversity": 5,
+        "velocity": 28.16
+      },
+      "documents": [
+        {
+          "content_id": 3376,
+          "title": "regulatory sanctions emerges as key trend in tech industry",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-9998",
+          "snippet": "...discussing regulatory sanctions and its impact on the industry. Experts say regulatory sanctions represents..."
+        },
+        {
+          "content_id": 4931,
+          "title": "Companies invest heavily in regulatory sanctions technology",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-7370",
+          "snippet": "...discussing regulatory sanctions and its impact on the industry. Experts say regulatory sanctions represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory sanctions",
+      "date": "2025-11-07",
+      "importance": 49.5,
+      "sentiment": {
+        "score": 0.57,
+        "magnitude": 0.61,
+        "breakdown": {
+          "positive": 32,
+          "negative": 6,
+          "neutral": 4
+        }
+      },
+      "metrics": {
+        "frequency": 29,
+        "document_count": 19,
+        "source_diversity": 5,
+        "velocity": 1.0
+      },
+      "documents": [
+        {
+          "content_id": 9921,
+          "title": "Regulatory Sanctions on Foreign Tech Giants Criticized",
+          "source_name": "The Verge",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9921",
+          "snippet": "...international trade bodies question the justification for recent regulatory sanctions imposed on non-domestic firms..."
+        },
+        {
+          "content_id": 3376,
+          "title": "regulatory sanctions emerges as key trend in tech industry",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-9998",
+          "snippet": "...discussing regulatory sanctions and its impact on the industry. Experts say regulatory sanctions represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory sanctions",
+      "date": "2025-11-08",
+      "importance": 50.1,
+      "sentiment": {
+        "score": 0.58,
+        "magnitude": 0.62,
+        "breakdown": {
+          "positive": 33,
+          "negative": 7,
+          "neutral": 5
+        }
+      },
+      "metrics": {
+        "frequency": 30,
+        "document_count": 19,
+        "source_diversity": 5,
+        "velocity": 1.0
+      },
+      "documents": [
+        {
+          "content_id": 9921,
+          "title": "Regulatory Sanctions on Foreign Tech Giants Criticized",
+          "source_name": "The Verge",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9921",
+          "snippet": "...international trade bodies question the justification for recent regulatory sanctions imposed on non-domestic firms..."
+        },
+        {
+          "content_id": 4931,
+          "title": "Companies invest heavily in regulatory sanctions technology",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-7370",
+          "snippet": "...discussing regulatory sanctions and its impact on the industry. Experts say regulatory sanctions represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "data privacy",
+      "date": "2025-11-06",
+      "importance": 44.25,
+      "sentiment": {
+        "score": -0.052,
+        "magnitude": 0.562,
+        "breakdown": {
+          "positive": 10,
+          "negative": 3,
+          "neutral": 15
+        }
+      },
+      "metrics": {
+        "frequency": 14,
+        "document_count": 17,
+        "source_diversity": 5,
+        "velocity": 2.6
+      },
+      "documents": [
+        {
+          "content_id": 9603,
+          "title": "Analysis: What data privacy means for the market",
+          "source_name": "The Verge",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-2933",
+          "snippet": "...discussing data privacy and its impact on the industry. Experts say data privacy represents..."
+        },
+        {
+          "content_id": 9972,
+          "title": "Companies invest heavily in data privacy technology",
+          "source_name": "The Verge",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-2119",
+          "snippet": "...discussing data privacy and its impact on the industry. Experts say data privacy represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "data privacy",
+      "date": "2025-11-07",
+      "importance": 46.5,
+      "sentiment": {
+        "score": -0.01,
+        "magnitude": 0.58,
+        "breakdown": {
+          "positive": 11,
+          "negative": 3,
+          "neutral": 15
+        }
+      },
+      "metrics": {
+        "frequency": 15,
+        "document_count": 18,
+        "source_diversity": 6,
+        "velocity": 1.0
+      },
+      "documents": [
+        {
+          "content_id": 9922,
+          "title": "New Framework for AI and Data Privacy unveiled",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9922",
+          "snippet": "...a major consortium proposes a comprehensive strategy for managing data privacy concerns in advanced AI models..."
+        },
+        {
+          "content_id": 9603,
+          "title": "Analysis: What data privacy means for the market",
+          "source_name": "The Verge",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-2933",
+          "snippet": "...discussing data privacy and its impact on the industry. Experts say data privacy represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "data privacy",
+      "date": "2025-11-08",
+      "importance": 48.0,
+      "sentiment": {
+        "score": 0.005,
+        "magnitude": 0.6,
+        "breakdown": {
+          "positive": 12,
+          "negative": 4,
+          "neutral": 17
+        }
+      },
+      "metrics": {
+        "frequency": 16,
+        "document_count": 19,
+        "source_diversity": 6,
+        "velocity": 2.0
+      },
+      "documents": [
+        {
+          "content_id": 9922,
+          "title": "New Framework for AI and Data Privacy unveiled",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9922",
+          "snippet": "...a major consortium proposes a comprehensive strategy for managing data privacy concerns in advanced AI models..."
+        },
+        {
+          "content_id": 9972,
+          "title": "Companies invest heavily in data privacy technology",
+          "source_name": "The Verge",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-2119",
+          "snippet": "...discussing data privacy and its impact on the industry. Experts say data privacy represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory update",
+      "date": "2025-11-06",
+      "importance": 43.93,
+      "sentiment": {
+        "score": 0.148,
+        "magnitude": 0.464,
+        "breakdown": {
+          "positive": 8,
+          "negative": 3,
+          "neutral": 6
+        }
+      },
+      "metrics": {
+        "frequency": 29,
+        "document_count": 17,
+        "source_diversity": 8,
+        "velocity": -3.59
+      },
+      "documents": [
+        {
+          "content_id": 7345,
+          "title": "regulatory update emerges as key trend in tech industry",
+          "source_name": "Reuters",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-2040",
+          "snippet": "...discussing regulatory update and its impact on the industry. Experts say regulatory update represents..."
+        },
+        {
+          "content_id": 7997,
+          "title": "Analysis: What regulatory update means for the market",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-4288",
+          "snippet": "...discussing regulatory update and its impact on the industry. Experts say regulatory update represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory update",
+      "date": "2025-11-07",
+      "importance": 44.5,
+      "sentiment": {
+        "score": 0.16,
+        "magnitude": 0.48,
+        "breakdown": {
+          "positive": 9,
+          "negative": 3,
+          "neutral": 6
+        }
+      },
+      "metrics": {
+        "frequency": 30,
+        "document_count": 18,
+        "source_diversity": 8,
+        "velocity": 1.0
+      },
+      "documents": [
+        {
+          "content_id": 9931,
+          "title": "Industry Reacts to Minor Regulatory Update",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9931",
+          "snippet": "...initial industry reaction to the latest, albeit small, regulatory update focuses on implementation clarity..."
+        },
+        {
+          "content_id": 7345,
+          "title": "regulatory update emerges as key trend in tech industry",
+          "source_name": "Reuters",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-2040",
+          "snippet": "...discussing regulatory update and its impact on the industry. Experts say regulatory update represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "regulatory update",
+      "date": "2025-11-08",
+      "importance": 45.9,
+      "sentiment": {
+        "score": 0.19,
+        "magnitude": 0.5,
+        "breakdown": {
+          "positive": 10,
+          "negative": 3,
+          "neutral": 7
+        }
+      },
+      "metrics": {
+        "frequency": 31,
+        "document_count": 19,
+        "source_diversity": 8,
+        "velocity": 1.0
+      },
+      "documents": [
+        {
+          "content_id": 9923,
+          "title": "Q&A with Regulator on the latest Regulatory Update",
+          "source_name": "Reuters",
+          "published_date": "2025-11-08",
+          "url": "https://example.com/article-9923",
+          "snippet": "...senior official addresses concerns and clarifies points from the recent regulatory update briefing..."
+        },
+        {
+          "content_id": 9931,
+          "title": "Industry Reacts to Minor Regulatory Update",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9931",
+          "snippet": "...initial industry reaction to the latest, albeit small, regulatory update focuses on implementation clarity..."
+        }
+      ]
+    },
+    {
+      "keyword": "policy changes",
+      "date": "2025-11-06",
+      "importance": 43.01,
+      "sentiment": {
+        "score": -0.145,
+        "magnitude": 0.596,
+        "breakdown": {
+          "positive": 17,
+          "negative": 5,
+          "neutral": 15
+        }
+      },
+      "metrics": {
+        "frequency": 48,
+        "document_count": 28,
+        "source_diversity": 4,
+        "velocity": 47.54
+      },
+      "documents": [
+        {
+          "content_id": 8165,
+          "title": "Companies invest heavily in policy changes technology",
+          "source_name": "Reuters",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-6447",
+          "snippet": "...discussing policy changes and its impact on the industry. Experts say policy changes represents..."
+        },
+        {
+          "content_id": 3371,
+          "title": "policy changes sees rapid adoption across sectors",
+          "source_name": "Reuters",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-9028",
+          "snippet": "...discussing policy changes and its impact on the industry. Experts say policy changes represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "policy changes",
+      "date": "2025-11-07",
+      "importance": 42.5,
+      "sentiment": {
+        "score": -0.16,
+        "magnitude": 0.61,
+        "breakdown": {
+          "positive": 17,
+          "negative": 5,
+          "neutral": 16
+        }
+      },
+      "metrics": {
+        "frequency": 49,
+        "document_count": 29,
+        "source_diversity": 5,
+        "velocity": 1.0
+      },
+      "documents": [
+        {
+          "content_id": 9924,
+          "title": "Policy Changes in Renewable Energy Subsidies Announced",
+          "source_name": "Bloomberg",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9924",
+          "snippet": "...the government details new policy changes aiming to shift investment priorities in the energy sector..."
+        },
+        {
+          "content_id": 8165,
+          "title": "Companies invest heavily in policy changes technology",
+          "source_name": "Reuters",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-6447",
+          "snippet": "...discussing policy changes and its impact on the industry. Experts say policy changes represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "policy changes",
+      "date": "2025-11-08",
+      "importance": 42.1,
+      "sentiment": {
+        "score": -0.19,
+        "magnitude": 0.65,
+        "breakdown": {
+          "positive": 18,
+          "negative": 6,
+          "neutral": 17
+        }
+      },
+      "metrics": {
+        "frequency": 50,
+        "document_count": 30,
+        "source_diversity": 5,
+        "velocity": 1.0
+      },
+      "documents": [
+        {
+          "content_id": 9924,
+          "title": "Policy Changes in Renewable Energy Subsidies Announced",
+          "source_name": "Bloomberg",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9924",
+          "snippet": "...the government details new policy changes aiming to shift investment priorities in the energy sector..."
+        },
+        {
+          "content_id": 3371,
+          "title": "policy changes sees rapid adoption across sectors",
+          "source_name": "Reuters",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-9028",
+          "snippet": "...discussing policy changes and its impact on the industry. Experts say policy changes represents..."
+        }
+      ]
+    }
+  ],
+  "total_keywords": 20,
+  "total_documents": 367
+}

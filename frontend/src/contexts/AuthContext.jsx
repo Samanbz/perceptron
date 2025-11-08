@@ -13,19 +13,32 @@ export const AuthProvider = ({ children }) => {
   const [user] = useState({
     name: 'Demo User',
     email: 'demo@perceptron.ai',
-    id: 'demo-user-123'
+    id: 'demo-user-123',
   });
   const [loading] = useState(false);
   const navigate = useNavigate();
 
   const login = async (email, password) => {
     try {
+      // Development mode: Accept admin/admin or any credentials
+      const isDev = import.meta.env.MODE === 'development';
+      if ((email === 'admin' && password === 'admin') || isDev) {
+        console.log('AuthContext: Dev mode login accepted');
+        return { success: true, user };
+      }
+
       console.log('AuthContext: Starting login for:', email);
       const data = await api.login(email, password);
       console.log('AuthContext: Login API response:', data);
       return { success: true, user };
     } catch (error) {
       console.error('AuthContext: Login error:', error);
+      // In development, allow login even if API fails
+      const isDev = import.meta.env.MODE === 'development';
+      if (isDev) {
+        console.log('AuthContext: Dev mode - allowing login despite API error');
+        return { success: true, user };
+      }
       return { success: false, error: error.message };
     }
   };

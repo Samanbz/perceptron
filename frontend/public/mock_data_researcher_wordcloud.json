@@ -1,0 +1,1324 @@
+{
+  "team_key": "researcher",
+  "team_name": "Research",
+  "date_range": {
+    "start": "2025-11-06",
+    "end": "2025-11-06"
+  },
+  "keywords": [
+    {
+      "keyword": "machine learning",
+      "date": "2025-11-06",
+      "importance": 94.99,
+      "sentiment": {
+        "score": 0.307,
+        "magnitude": 0.412,
+        "breakdown": {
+          "positive": 34,
+          "negative": 9,
+          "neutral": 6
+        }
+      },
+      "metrics": {
+        "frequency": 78,
+        "document_count": 10,
+        "source_diversity": 2,
+        "velocity": 2.78
+      },
+      "documents": [
+        {
+          "content_id": 7607,
+          "title": "machine learning emerges as key trend in tech industry",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-9687",
+          "snippet": "...discussing machine learning and its impact on the industry. Experts say machine learning represents..."
+        },
+        {
+          "content_id": 4472,
+          "title": "Analysis: What machine learning means for the market",
+          "source_name": "The Verge",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-1960",
+          "snippet": "...discussing machine learning and its impact on the industry. Experts say machine learning represents..."
+        },
+        {
+          "content_id": 3978,
+          "title": "machine learning emerges as key trend in tech industry",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-4978",
+          "snippet": "...discussing machine learning and its impact on the industry. Experts say machine learning represents..."
+        },
+        {
+          "content_id": 7611,
+          "title": "Expert opinions on machine learning implications",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-1992",
+          "snippet": "...discussing machine learning and its impact on the industry. Experts say machine learning represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "neural networks",
+      "date": "2025-11-06",
+      "importance": 94.24,
+      "sentiment": {
+        "score": 0.306,
+        "magnitude": 0.876,
+        "breakdown": {
+          "positive": 12,
+          "negative": 3,
+          "neutral": 8
+        }
+      },
+      "metrics": {
+        "frequency": 45,
+        "document_count": 24,
+        "source_diversity": 6,
+        "velocity": -24.41
+      },
+      "documents": [
+        {
+          "content_id": 8421,
+          "title": "neural networks emerges as key trend in tech industry",
+          "source_name": "The Verge",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-4633",
+          "snippet": "...discussing neural networks and its impact on the industry. Experts say neural networks represents..."
+        },
+        {
+          "content_id": 5297,
+          "title": "Expert opinions on neural networks implications",
+          "source_name": "The Verge",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-6577",
+          "snippet": "...discussing neural networks and its impact on the industry. Experts say neural networks represents..."
+        },
+        {
+          "content_id": 6920,
+          "title": "neural networks sees rapid adoption across sectors",
+          "source_name": "The Verge",
+          "published_date": "2025-10-29",
+          "url": "https://example.com/article-8243",
+          "snippet": "...discussing neural networks and its impact on the industry. Experts say neural networks represents..."
+        },
+        {
+          "content_id": 3593,
+          "title": "Companies invest heavily in neural networks technology",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-28",
+          "url": "https://example.com/article-3537",
+          "snippet": "...discussing neural networks and its impact on the industry. Experts say neural networks represents..."
+        },
+        {
+          "content_id": 4526,
+          "title": "Expert opinions on neural networks implications",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-27",
+          "url": "https://example.com/article-5407",
+          "snippet": "...discussing neural networks and its impact on the industry. Experts say neural networks represents..."
+        },
+        {
+          "content_id": 9293,
+          "title": "Analysis: What neural networks means for the market",
+          "source_name": "Reuters",
+          "published_date": "2025-10-26",
+          "url": "https://example.com/article-2613",
+          "snippet": "...discussing neural networks and its impact on the industry. Experts say neural networks represents..."
+        },
+        {
+          "content_id": 5420,
+          "title": "neural networks sees rapid adoption across sectors",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-25",
+          "url": "https://example.com/article-6219",
+          "snippet": "...discussing neural networks and its impact on the industry. Experts say neural networks represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "data science",
+      "date": "2025-11-06",
+      "importance": 91.04,
+      "sentiment": {
+        "score": 0.822,
+        "magnitude": 0.874,
+        "breakdown": {
+          "positive": 24,
+          "negative": 8,
+          "neutral": 15
+        }
+      },
+      "metrics": {
+        "frequency": 97,
+        "document_count": 5,
+        "source_diversity": 3,
+        "velocity": -6.79
+      },
+      "documents": [
+        {
+          "content_id": 6356,
+          "title": "Expert opinions on data science implications",
+          "source_name": "Reuters",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-6716",
+          "snippet": "...discussing data science and its impact on the industry. Experts say data science represents..."
+        },
+        {
+          "content_id": 4274,
+          "title": "Companies invest heavily in data science technology",
+          "source_name": "Hacker News",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-6698",
+          "snippet": "...discussing data science and its impact on the industry. Experts say data science represents..."
+        },
+        {
+          "content_id": 7344,
+          "title": "Analysis: What data science means for the market",
+          "source_name": "The Verge",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-6627",
+          "snippet": "...discussing data science and its impact on the industry. Experts say data science represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "experimental design",
+      "date": "2025-11-06",
+      "importance": 90.3,
+      "sentiment": {
+        "score": 0.638,
+        "magnitude": 0.686,
+        "breakdown": {
+          "positive": 38,
+          "negative": 8,
+          "neutral": 3
+        }
+      },
+      "metrics": {
+        "frequency": 48,
+        "document_count": 23,
+        "source_diversity": 2,
+        "velocity": -14.57
+      },
+      "documents": [
+        {
+          "content_id": 1418,
+          "title": "Analysis: What experimental design means for the market",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-6785",
+          "snippet": "...discussing experimental design and its impact on the industry. Experts say experimental design represents..."
+        },
+        {
+          "content_id": 8197,
+          "title": "experimental design sees rapid adoption across sectors",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-9821",
+          "snippet": "...discussing experimental design and its impact on the industry. Experts say experimental design represents..."
+        },
+        {
+          "content_id": 7534,
+          "title": "experimental design emerges as key trend in tech industry",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-3185",
+          "snippet": "...discussing experimental design and its impact on the industry. Experts say experimental design represents..."
+        },
+        {
+          "content_id": 8582,
+          "title": "experimental design emerges as key trend in tech industry",
+          "source_name": "Reuters",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-2168",
+          "snippet": "...discussing experimental design and its impact on the industry. Experts say experimental design represents..."
+        },
+        {
+          "content_id": 8968,
+          "title": "Analysis: What experimental design means for the market",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-1653",
+          "snippet": "...discussing experimental design and its impact on the industry. Experts say experimental design represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "computational research",
+      "date": "2025-11-06",
+      "importance": 82.88,
+      "sentiment": {
+        "score": -0.325,
+        "magnitude": 0.531,
+        "breakdown": {
+          "positive": 5,
+          "negative": 24,
+          "neutral": 3
+        }
+      },
+      "metrics": {
+        "frequency": 97,
+        "document_count": 7,
+        "source_diversity": 8,
+        "velocity": -8.34
+      },
+      "documents": [
+        {
+          "content_id": 4414,
+          "title": "computational research sees rapid adoption across sectors",
+          "source_name": "Reuters",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-5304",
+          "snippet": "...discussing computational research and its impact on the industry. Experts say computational research represents..."
+        },
+        {
+          "content_id": 1847,
+          "title": "Companies invest heavily in computational research technology",
+          "source_name": "The Verge",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-3787",
+          "snippet": "...discussing computational research and its impact on the industry. Experts say computational research represents..."
+        },
+        {
+          "content_id": 5365,
+          "title": "Expert opinions on computational research implications",
+          "source_name": "Reuters",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-9854",
+          "snippet": "...discussing computational research and its impact on the industry. Experts say computational research represents..."
+        },
+        {
+          "content_id": 2580,
+          "title": "Analysis: What computational research means for the market",
+          "source_name": "Hacker News",
+          "published_date": "2025-10-29",
+          "url": "https://example.com/article-7229",
+          "snippet": "...discussing computational research and its impact on the industry. Experts say computational research represents..."
+        },
+        {
+          "content_id": 6934,
+          "title": "computational research sees rapid adoption across sectors",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-28",
+          "url": "https://example.com/article-6962",
+          "snippet": "...discussing computational research and its impact on the industry. Experts say computational research represents..."
+        },
+        {
+          "content_id": 8204,
+          "title": "Expert opinions on computational research implications",
+          "source_name": "The Verge",
+          "published_date": "2025-10-27",
+          "url": "https://example.com/article-1985",
+          "snippet": "...discussing computational research and its impact on the industry. Experts say computational research represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "scientific discovery",
+      "date": "2025-11-06",
+      "importance": 78.76,
+      "sentiment": {
+        "score": 0.132,
+        "magnitude": 0.53,
+        "breakdown": {
+          "positive": 8,
+          "negative": 3,
+          "neutral": 8
+        }
+      },
+      "metrics": {
+        "frequency": 69,
+        "document_count": 8,
+        "source_diversity": 5,
+        "velocity": 12.4
+      },
+      "documents": [
+        {
+          "content_id": 9122,
+          "title": "Companies invest heavily in scientific discovery technology",
+          "source_name": "Reuters",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-9243",
+          "snippet": "...discussing scientific discovery and its impact on the industry. Experts say scientific discovery represents..."
+        },
+        {
+          "content_id": 3981,
+          "title": "scientific discovery emerges as key trend in tech industry",
+          "source_name": "Reuters",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-7747",
+          "snippet": "...discussing scientific discovery and its impact on the industry. Experts say scientific discovery represents..."
+        },
+        {
+          "content_id": 1901,
+          "title": "scientific discovery sees rapid adoption across sectors",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-6631",
+          "snippet": "...discussing scientific discovery and its impact on the industry. Experts say scientific discovery represents..."
+        },
+        {
+          "content_id": 8094,
+          "title": "Expert opinions on scientific discovery implications",
+          "source_name": "Reuters",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-3249",
+          "snippet": "...discussing scientific discovery and its impact on the industry. Experts say scientific discovery represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "technology innovation",
+      "date": "2025-11-06",
+      "importance": 77.61,
+      "sentiment": {
+        "score": -0.199,
+        "magnitude": 0.808,
+        "breakdown": {
+          "positive": 10,
+          "negative": 7,
+          "neutral": 14
+        }
+      },
+      "metrics": {
+        "frequency": 21,
+        "document_count": 3,
+        "source_diversity": 2,
+        "velocity": -22.57
+      },
+      "documents": [
+        {
+          "content_id": 8415,
+          "title": "technology innovation emerges as key trend in tech industry",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-8383",
+          "snippet": "...discussing technology innovation and its impact on the industry. Experts say technology innovation represents..."
+        },
+        {
+          "content_id": 9492,
+          "title": "Expert opinions on technology innovation implications",
+          "source_name": "Reuters",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-6362",
+          "snippet": "...discussing technology innovation and its impact on the industry. Experts say technology innovation represents..."
+        },
+        {
+          "content_id": 9648,
+          "title": "technology innovation sees rapid adoption across sectors",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-4709",
+          "snippet": "...discussing technology innovation and its impact on the industry. Experts say technology innovation represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "breakthrough technology",
+      "date": "2025-11-06",
+      "importance": 77.54,
+      "sentiment": {
+        "score": -0.584,
+        "magnitude": 0.729,
+        "breakdown": {
+          "positive": 0,
+          "negative": 3,
+          "neutral": 4
+        }
+      },
+      "metrics": {
+        "frequency": 72,
+        "document_count": 8,
+        "source_diversity": 7,
+        "velocity": 42.25
+      },
+      "documents": [
+        {
+          "content_id": 2958,
+          "title": "Expert opinions on breakthrough technology implications",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-6511",
+          "snippet": "...discussing breakthrough technology and its impact on the industry. Experts say breakthrough technology represents..."
+        },
+        {
+          "content_id": 4424,
+          "title": "breakthrough technology emerges as key trend in tech industry",
+          "source_name": "Reuters",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-8665",
+          "snippet": "...discussing breakthrough technology and its impact on the industry. Experts say breakthrough technology represents..."
+        },
+        {
+          "content_id": 9217,
+          "title": "breakthrough technology emerges as key trend in tech industry",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-5620",
+          "snippet": "...discussing breakthrough technology and its impact on the industry. Experts say breakthrough technology represents..."
+        },
+        {
+          "content_id": 1097,
+          "title": "Companies invest heavily in breakthrough technology technology",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-3635",
+          "snippet": "...discussing breakthrough technology and its impact on the industry. Experts say breakthrough technology represents..."
+        },
+        {
+          "content_id": 4274,
+          "title": "Expert opinions on breakthrough technology implications",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-7583",
+          "snippet": "...discussing breakthrough technology and its impact on the industry. Experts say breakthrough technology represents..."
+        },
+        {
+          "content_id": 5359,
+          "title": "Expert opinions on breakthrough technology implications",
+          "source_name": "The Verge",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-1203",
+          "snippet": "...discussing breakthrough technology and its impact on the industry. Experts say breakthrough technology represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "research paper",
+      "date": "2025-11-06",
+      "importance": 75.07,
+      "sentiment": {
+        "score": 0.356,
+        "magnitude": 0.741,
+        "breakdown": {
+          "positive": 14,
+          "negative": 4,
+          "neutral": 11
+        }
+      },
+      "metrics": {
+        "frequency": 47,
+        "document_count": 27,
+        "source_diversity": 5,
+        "velocity": 34.17
+      },
+      "documents": [
+        {
+          "content_id": 9612,
+          "title": "Expert opinions on research paper implications",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-3566",
+          "snippet": "...discussing research paper and its impact on the industry. Experts say research paper represents..."
+        },
+        {
+          "content_id": 4531,
+          "title": "Analysis: What research paper means for the market",
+          "source_name": "Reuters",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-9914",
+          "snippet": "...discussing research paper and its impact on the industry. Experts say research paper represents..."
+        },
+        {
+          "content_id": 1717,
+          "title": "Companies invest heavily in research paper technology",
+          "source_name": "The Verge",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-4738",
+          "snippet": "...discussing research paper and its impact on the industry. Experts say research paper represents..."
+        },
+        {
+          "content_id": 7169,
+          "title": "Expert opinions on research paper implications",
+          "source_name": "The Verge",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-3517",
+          "snippet": "...discussing research paper and its impact on the industry. Experts say research paper represents..."
+        },
+        {
+          "content_id": 9596,
+          "title": "Analysis: What research paper means for the market",
+          "source_name": "Reuters",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-4201",
+          "snippet": "...discussing research paper and its impact on the industry. Experts say research paper represents..."
+        },
+        {
+          "content_id": 7097,
+          "title": "research paper emerges as key trend in tech industry",
+          "source_name": "Reuters",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-5297",
+          "snippet": "...discussing research paper and its impact on the industry. Experts say research paper represents..."
+        },
+        {
+          "content_id": 2092,
+          "title": "Analysis: What research paper means for the market",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-1243",
+          "snippet": "...discussing research paper and its impact on the industry. Experts say research paper represents..."
+        },
+        {
+          "content_id": 1229,
+          "title": "research paper emerges as key trend in tech industry",
+          "source_name": "Reuters",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-2080",
+          "snippet": "...discussing research paper and its impact on the industry. Experts say research paper represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "technical advancement",
+      "date": "2025-11-06",
+      "importance": 74.42,
+      "sentiment": {
+        "score": 0.436,
+        "magnitude": 0.597,
+        "breakdown": {
+          "positive": 5,
+          "negative": 1,
+          "neutral": 2
+        }
+      },
+      "metrics": {
+        "frequency": 37,
+        "document_count": 9,
+        "source_diversity": 3,
+        "velocity": 40.48
+      },
+      "documents": [
+        {
+          "content_id": 4066,
+          "title": "Analysis: What technical advancement means for the market",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-3517",
+          "snippet": "...discussing technical advancement and its impact on the industry. Experts say technical advancement represents..."
+        },
+        {
+          "content_id": 1887,
+          "title": "Analysis: What technical advancement means for the market",
+          "source_name": "The Verge",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-3897",
+          "snippet": "...discussing technical advancement and its impact on the industry. Experts say technical advancement represents..."
+        },
+        {
+          "content_id": 5170,
+          "title": "Expert opinions on technical advancement implications",
+          "source_name": "The Verge",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-2268",
+          "snippet": "...discussing technical advancement and its impact on the industry. Experts say technical advancement represents..."
+        },
+        {
+          "content_id": 3328,
+          "title": "Companies invest heavily in technical advancement technology",
+          "source_name": "Reuters",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-2518",
+          "snippet": "...discussing technical advancement and its impact on the industry. Experts say technical advancement represents..."
+        },
+        {
+          "content_id": 4630,
+          "title": "technical advancement sees rapid adoption across sectors",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-3106",
+          "snippet": "...discussing technical advancement and its impact on the industry. Experts say technical advancement represents..."
+        },
+        {
+          "content_id": 3680,
+          "title": "Expert opinions on technical advancement implications",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-1957",
+          "snippet": "...discussing technical advancement and its impact on the industry. Experts say technical advancement represents..."
+        },
+        {
+          "content_id": 4395,
+          "title": "technical advancement emerges as key trend in tech industry",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-6322",
+          "snippet": "...discussing technical advancement and its impact on the industry. Experts say technical advancement represents..."
+        },
+        {
+          "content_id": 2271,
+          "title": "technical advancement sees rapid adoption across sectors",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-1260",
+          "snippet": "...discussing technical advancement and its impact on the industry. Experts say technical advancement represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "research collaboration",
+      "date": "2025-11-06",
+      "importance": 67.04,
+      "sentiment": {
+        "score": 0.702,
+        "magnitude": 0.66,
+        "breakdown": {
+          "positive": 16,
+          "negative": 2,
+          "neutral": 6
+        }
+      },
+      "metrics": {
+        "frequency": 42,
+        "document_count": 6,
+        "source_diversity": 4,
+        "velocity": 1.98
+      },
+      "documents": [
+        {
+          "content_id": 2604,
+          "title": "Analysis: What research collaboration means for the market",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-5678",
+          "snippet": "...discussing research collaboration and its impact on the industry. Experts say research collaboration represents..."
+        },
+        {
+          "content_id": 5640,
+          "title": "Expert opinions on research collaboration implications",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-9098",
+          "snippet": "...discussing research collaboration and its impact on the industry. Experts say research collaboration represents..."
+        },
+        {
+          "content_id": 5840,
+          "title": "research collaboration emerges as key trend in tech industry",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-5604",
+          "snippet": "...discussing research collaboration and its impact on the industry. Experts say research collaboration represents..."
+        },
+        {
+          "content_id": 8001,
+          "title": "Expert opinions on research collaboration implications",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-8559",
+          "snippet": "...discussing research collaboration and its impact on the industry. Experts say research collaboration represents..."
+        },
+        {
+          "content_id": 5360,
+          "title": "research collaboration emerges as key trend in tech industry",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-9239",
+          "snippet": "...discussing research collaboration and its impact on the industry. Experts say research collaboration represents..."
+        },
+        {
+          "content_id": 1879,
+          "title": "Analysis: What research collaboration means for the market",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-6611",
+          "snippet": "...discussing research collaboration and its impact on the industry. Experts say research collaboration represents..."
+        },
+        {
+          "content_id": 3298,
+          "title": "Analysis: What research collaboration means for the market",
+          "source_name": "Hacker News",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-5269",
+          "snippet": "...discussing research collaboration and its impact on the industry. Experts say research collaboration represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "scientific study",
+      "date": "2025-11-06",
+      "importance": 67.01,
+      "sentiment": {
+        "score": 0.054,
+        "magnitude": 0.649,
+        "breakdown": {
+          "positive": 9,
+          "negative": 6,
+          "neutral": 13
+        }
+      },
+      "metrics": {
+        "frequency": 50,
+        "document_count": 9,
+        "source_diversity": 3,
+        "velocity": 34.29
+      },
+      "documents": [
+        {
+          "content_id": 8823,
+          "title": "scientific study sees rapid adoption across sectors",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-3229",
+          "snippet": "...discussing scientific study and its impact on the industry. Experts say scientific study represents..."
+        },
+        {
+          "content_id": 8066,
+          "title": "scientific study sees rapid adoption across sectors",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-7928",
+          "snippet": "...discussing scientific study and its impact on the industry. Experts say scientific study represents..."
+        },
+        {
+          "content_id": 5439,
+          "title": "Expert opinions on scientific study implications",
+          "source_name": "Reuters",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-2934",
+          "snippet": "...discussing scientific study and its impact on the industry. Experts say scientific study represents..."
+        },
+        {
+          "content_id": 4073,
+          "title": "scientific study emerges as key trend in tech industry",
+          "source_name": "The Verge",
+          "published_date": "2025-10-29",
+          "url": "https://example.com/article-4129",
+          "snippet": "...discussing scientific study and its impact on the industry. Experts say scientific study represents..."
+        },
+        {
+          "content_id": 3491,
+          "title": "Analysis: What scientific study means for the market",
+          "source_name": "The Verge",
+          "published_date": "2025-10-28",
+          "url": "https://example.com/article-1986",
+          "snippet": "...discussing scientific study and its impact on the industry. Experts say scientific study represents..."
+        },
+        {
+          "content_id": 8712,
+          "title": "Analysis: What scientific study means for the market",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-27",
+          "url": "https://example.com/article-5055",
+          "snippet": "...discussing scientific study and its impact on the industry. Experts say scientific study represents..."
+        },
+        {
+          "content_id": 8159,
+          "title": "Companies invest heavily in scientific study technology",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-26",
+          "url": "https://example.com/article-4620",
+          "snippet": "...discussing scientific study and its impact on the industry. Experts say scientific study represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "academic research",
+      "date": "2025-11-06",
+      "importance": 64.05,
+      "sentiment": {
+        "score": 0.136,
+        "magnitude": 0.656,
+        "breakdown": {
+          "positive": 17,
+          "negative": 10,
+          "neutral": 14
+        }
+      },
+      "metrics": {
+        "frequency": 74,
+        "document_count": 26,
+        "source_diversity": 4,
+        "velocity": -14.9
+      },
+      "documents": [
+        {
+          "content_id": 7556,
+          "title": "Companies invest heavily in academic research technology",
+          "source_name": "The Verge",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-7594",
+          "snippet": "...discussing academic research and its impact on the industry. Experts say academic research represents..."
+        },
+        {
+          "content_id": 1278,
+          "title": "academic research emerges as key trend in tech industry",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-5002",
+          "snippet": "...discussing academic research and its impact on the industry. Experts say academic research represents..."
+        },
+        {
+          "content_id": 8840,
+          "title": "academic research sees rapid adoption across sectors",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-3409",
+          "snippet": "...discussing academic research and its impact on the industry. Experts say academic research represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "R&D investment",
+      "date": "2025-11-06",
+      "importance": 61.37,
+      "sentiment": {
+        "score": -0.082,
+        "magnitude": 0.534,
+        "breakdown": {
+          "positive": 5,
+          "negative": 4,
+          "neutral": 6
+        }
+      },
+      "metrics": {
+        "frequency": 65,
+        "document_count": 21,
+        "source_diversity": 4,
+        "velocity": 23.23
+      },
+      "documents": [
+        {
+          "content_id": 1619,
+          "title": "Expert opinions on R&D investment implications",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-2906",
+          "snippet": "...discussing R&D investment and its impact on the industry. Experts say R&D investment represents..."
+        },
+        {
+          "content_id": 3427,
+          "title": "Companies invest heavily in R&D investment technology",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-5783",
+          "snippet": "...discussing R&D investment and its impact on the industry. Experts say R&D investment represents..."
+        },
+        {
+          "content_id": 8648,
+          "title": "R&D investment sees rapid adoption across sectors",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-9361",
+          "snippet": "...discussing R&D investment and its impact on the industry. Experts say R&D investment represents..."
+        },
+        {
+          "content_id": 1048,
+          "title": "Companies invest heavily in R&D investment technology",
+          "source_name": "The Verge",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-3500",
+          "snippet": "...discussing R&D investment and its impact on the industry. Experts say R&D investment represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "peer review",
+      "date": "2025-11-06",
+      "importance": 58.31,
+      "sentiment": {
+        "score": 0.225,
+        "magnitude": 0.698,
+        "breakdown": {
+          "positive": 13,
+          "negative": 5,
+          "neutral": 10
+        }
+      },
+      "metrics": {
+        "frequency": 58,
+        "document_count": 15,
+        "source_diversity": 3,
+        "velocity": 17.02
+      },
+      "documents": [
+        {
+          "content_id": 2240,
+          "title": "Expert opinions on peer review implications",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-1836",
+          "snippet": "...discussing peer review and its impact on the industry. Experts say peer review represents..."
+        },
+        {
+          "content_id": 1921,
+          "title": "Companies invest heavily in peer review technology",
+          "source_name": "Hacker News",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-7159",
+          "snippet": "...discussing peer review and its impact on the industry. Experts say peer review represents..."
+        },
+        {
+          "content_id": 5814,
+          "title": "Analysis: What peer review means for the market",
+          "source_name": "The Verge",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-9805",
+          "snippet": "...discussing peer review and its impact on the industry. Experts say peer review represents..."
+        },
+        {
+          "content_id": 7836,
+          "title": "Analysis: What peer review means for the market",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-29",
+          "url": "https://example.com/article-5002",
+          "snippet": "...discussing peer review and its impact on the industry. Experts say peer review represents..."
+        },
+        {
+          "content_id": 1110,
+          "title": "Companies invest heavily in peer review technology",
+          "source_name": "Hacker News",
+          "published_date": "2025-10-28",
+          "url": "https://example.com/article-5449",
+          "snippet": "...discussing peer review and its impact on the industry. Experts say peer review represents..."
+        },
+        {
+          "content_id": 6927,
+          "title": "Analysis: What peer review means for the market",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-27",
+          "url": "https://example.com/article-4594",
+          "snippet": "...discussing peer review and its impact on the industry. Experts say peer review represents..."
+        },
+        {
+          "content_id": 7770,
+          "title": "peer review sees rapid adoption across sectors",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-26",
+          "url": "https://example.com/article-6632",
+          "snippet": "...discussing peer review and its impact on the industry. Experts say peer review represents..."
+        },
+        {
+          "content_id": 8376,
+          "title": "peer review emerges as key trend in tech industry",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-25",
+          "url": "https://example.com/article-6821",
+          "snippet": "...discussing peer review and its impact on the industry. Experts say peer review represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "deep learning",
+      "date": "2025-11-06",
+      "importance": 51.92,
+      "sentiment": {
+        "score": -0.205,
+        "magnitude": 0.69,
+        "breakdown": {
+          "positive": 16,
+          "negative": 11,
+          "neutral": 20
+        }
+      },
+      "metrics": {
+        "frequency": 36,
+        "document_count": 10,
+        "source_diversity": 5,
+        "velocity": 3.09
+      },
+      "documents": [
+        {
+          "content_id": 9559,
+          "title": "Companies invest heavily in deep learning technology",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-6009",
+          "snippet": "...discussing deep learning and its impact on the industry. Experts say deep learning represents..."
+        },
+        {
+          "content_id": 1297,
+          "title": "deep learning sees rapid adoption across sectors",
+          "source_name": "The Verge",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-4026",
+          "snippet": "...discussing deep learning and its impact on the industry. Experts say deep learning represents..."
+        },
+        {
+          "content_id": 9647,
+          "title": "Companies invest heavily in deep learning technology",
+          "source_name": "Reuters",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-8315",
+          "snippet": "...discussing deep learning and its impact on the industry. Experts say deep learning represents..."
+        },
+        {
+          "content_id": 4221,
+          "title": "Companies invest heavily in deep learning technology",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-8237",
+          "snippet": "...discussing deep learning and its impact on the industry. Experts say deep learning represents..."
+        },
+        {
+          "content_id": 8278,
+          "title": "deep learning sees rapid adoption across sectors",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-9805",
+          "snippet": "...discussing deep learning and its impact on the industry. Experts say deep learning represents..."
+        },
+        {
+          "content_id": 1400,
+          "title": "Analysis: What deep learning means for the market",
+          "source_name": "Reuters",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-4390",
+          "snippet": "...discussing deep learning and its impact on the industry. Experts say deep learning represents..."
+        },
+        {
+          "content_id": 8840,
+          "title": "Expert opinions on deep learning implications",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-6253",
+          "snippet": "...discussing deep learning and its impact on the industry. Experts say deep learning represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "innovation",
+      "date": "2025-11-06",
+      "importance": 50.56,
+      "sentiment": {
+        "score": 0.8,
+        "magnitude": 0.888,
+        "breakdown": {
+          "positive": 23,
+          "negative": 4,
+          "neutral": 5
+        }
+      },
+      "metrics": {
+        "frequency": 98,
+        "document_count": 30,
+        "source_diversity": 4,
+        "velocity": -17.8
+      },
+      "documents": [
+        {
+          "content_id": 7936,
+          "title": "innovation sees rapid adoption across sectors",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-6059",
+          "snippet": "...discussing innovation and its impact on the industry. Experts say innovation represents..."
+        },
+        {
+          "content_id": 7619,
+          "title": "Companies invest heavily in innovation technology",
+          "source_name": "The Verge",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-7766",
+          "snippet": "...discussing innovation and its impact on the industry. Experts say innovation represents..."
+        },
+        {
+          "content_id": 3989,
+          "title": "innovation sees rapid adoption across sectors",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-7337",
+          "snippet": "...discussing innovation and its impact on the industry. Experts say innovation represents..."
+        },
+        {
+          "content_id": 5423,
+          "title": "Analysis: What innovation means for the market",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-2145",
+          "snippet": "...discussing innovation and its impact on the industry. Experts say innovation represents..."
+        },
+        {
+          "content_id": 8831,
+          "title": "innovation emerges as key trend in tech industry",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-3774",
+          "snippet": "...discussing innovation and its impact on the industry. Experts say innovation represents..."
+        },
+        {
+          "content_id": 2569,
+          "title": "Analysis: What innovation means for the market",
+          "source_name": "Reuters",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-1432",
+          "snippet": "...discussing innovation and its impact on the industry. Experts say innovation represents..."
+        },
+        {
+          "content_id": 7168,
+          "title": "innovation sees rapid adoption across sectors",
+          "source_name": "The Verge",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-7515",
+          "snippet": "...discussing innovation and its impact on the industry. Experts say innovation represents..."
+        },
+        {
+          "content_id": 7043,
+          "title": "Expert opinions on innovation implications",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-29",
+          "url": "https://example.com/article-4091",
+          "snippet": "...discussing innovation and its impact on the industry. Experts say innovation represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence",
+      "date": "2025-11-06",
+      "importance": 48.8,
+      "sentiment": {
+        "score": -0.095,
+        "magnitude": 0.54,
+        "breakdown": {
+          "positive": 2,
+          "negative": 1,
+          "neutral": 2
+        }
+      },
+      "metrics": {
+        "frequency": 68,
+        "document_count": 5,
+        "source_diversity": 4,
+        "velocity": 43.87
+      },
+      "documents": [
+        {
+          "content_id": 2998,
+          "title": "Analysis: What artificial intelligence means for the market",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-2707",
+          "snippet": "...discussing artificial intelligence and its impact on the industry. Experts say artificial intelligence represents..."
+        },
+        {
+          "content_id": 2118,
+          "title": "Companies invest heavily in artificial intelligence technology",
+          "source_name": "The Verge",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-8466",
+          "snippet": "...discussing artificial intelligence and its impact on the industry. Experts say artificial intelligence represents..."
+        },
+        {
+          "content_id": 5789,
+          "title": "Analysis: What artificial intelligence means for the market",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-2803",
+          "snippet": "...discussing artificial intelligence and its impact on the industry. Experts say artificial intelligence represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "research findings",
+      "date": "2025-11-06",
+      "importance": 44.34,
+      "sentiment": {
+        "score": -0.32,
+        "magnitude": 0.416,
+        "breakdown": {
+          "positive": 0,
+          "negative": 5,
+          "neutral": 4
+        }
+      },
+      "metrics": {
+        "frequency": 78,
+        "document_count": 9,
+        "source_diversity": 5,
+        "velocity": 49.35
+      },
+      "documents": [
+        {
+          "content_id": 9516,
+          "title": "research findings emerges as key trend in tech industry",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-4605",
+          "snippet": "...discussing research findings and its impact on the industry. Experts say research findings represents..."
+        },
+        {
+          "content_id": 5550,
+          "title": "Analysis: What research findings means for the market",
+          "source_name": "Hacker News",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-5504",
+          "snippet": "...discussing research findings and its impact on the industry. Experts say research findings represents..."
+        },
+        {
+          "content_id": 8972,
+          "title": "Analysis: What research findings means for the market",
+          "source_name": "The Verge",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-6921",
+          "snippet": "...discussing research findings and its impact on the industry. Experts say research findings represents..."
+        },
+        {
+          "content_id": 5874,
+          "title": "Companies invest heavily in research findings technology",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-29",
+          "url": "https://example.com/article-4452",
+          "snippet": "...discussing research findings and its impact on the industry. Experts say research findings represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "algorithm optimization",
+      "date": "2025-11-06",
+      "importance": 42.7,
+      "sentiment": {
+        "score": -0.409,
+        "magnitude": 0.858,
+        "breakdown": {
+          "positive": 1,
+          "negative": 8,
+          "neutral": 7
+        }
+      },
+      "metrics": {
+        "frequency": 77,
+        "document_count": 13,
+        "source_diversity": 5,
+        "velocity": -11.58
+      },
+      "documents": [
+        {
+          "content_id": 9608,
+          "title": "algorithm optimization sees rapid adoption across sectors",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-2578",
+          "snippet": "...discussing algorithm optimization and its impact on the industry. Experts say algorithm optimization represents..."
+        },
+        {
+          "content_id": 9796,
+          "title": "Analysis: What algorithm optimization means for the market",
+          "source_name": "Hacker News",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-5648",
+          "snippet": "...discussing algorithm optimization and its impact on the industry. Experts say algorithm optimization represents..."
+        },
+        {
+          "content_id": 8505,
+          "title": "Analysis: What algorithm optimization means for the market",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-2938",
+          "snippet": "...discussing algorithm optimization and its impact on the industry. Experts say algorithm optimization represents..."
+        },
+        {
+          "content_id": 9843,
+          "title": "algorithm optimization emerges as key trend in tech industry",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-29",
+          "url": "https://example.com/article-9574",
+          "snippet": "...discussing algorithm optimization and its impact on the industry. Experts say algorithm optimization represents..."
+        }
+      ]
+    }
+  ],
+  "total_keywords": 20,
+  "total_documents": 268
+}

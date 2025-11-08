@@ -1,0 +1,1324 @@
+{
+  "team_key": "investor",
+  "team_name": "Investment",
+  "date_range": {
+    "start": "2025-11-06",
+    "end": "2025-11-06"
+  },
+  "keywords": [
+    {
+      "keyword": "investment thesis",
+      "date": "2025-11-06",
+      "importance": 94.13,
+      "sentiment": {
+        "score": -0.57,
+        "magnitude": 0.595,
+        "breakdown": {
+          "positive": 1,
+          "negative": 18,
+          "neutral": 8
+        }
+      },
+      "metrics": {
+        "frequency": 12,
+        "document_count": 3,
+        "source_diversity": 5,
+        "velocity": 33.85
+      },
+      "documents": [
+        {
+          "content_id": 9936,
+          "title": "Expert opinions on investment thesis implications",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-9035",
+          "snippet": "...discussing investment thesis and its impact on the industry. Experts say investment thesis represents..."
+        },
+        {
+          "content_id": 8563,
+          "title": "Expert opinions on investment thesis implications",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-9251",
+          "snippet": "...discussing investment thesis and its impact on the industry. Experts say investment thesis represents..."
+        },
+        {
+          "content_id": 9047,
+          "title": "investment thesis emerges as key trend in tech industry",
+          "source_name": "The Verge",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-6750",
+          "snippet": "...discussing investment thesis and its impact on the industry. Experts say investment thesis represents..."
+        },
+        {
+          "content_id": 1506,
+          "title": "investment thesis sees rapid adoption across sectors",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-29",
+          "url": "https://example.com/article-6452",
+          "snippet": "...discussing investment thesis and its impact on the industry. Experts say investment thesis represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "profit margins",
+      "date": "2025-11-06",
+      "importance": 93.47,
+      "sentiment": {
+        "score": -0.048,
+        "magnitude": 0.442,
+        "breakdown": {
+          "positive": 11,
+          "negative": 5,
+          "neutral": 8
+        }
+      },
+      "metrics": {
+        "frequency": 63,
+        "document_count": 22,
+        "source_diversity": 6,
+        "velocity": -3.87
+      },
+      "documents": [
+        {
+          "content_id": 2100,
+          "title": "Analysis: What profit margins means for the market",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-3302",
+          "snippet": "...discussing profit margins and its impact on the industry. Experts say profit margins represents..."
+        },
+        {
+          "content_id": 7291,
+          "title": "profit margins sees rapid adoption across sectors",
+          "source_name": "The Verge",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-1680",
+          "snippet": "...discussing profit margins and its impact on the industry. Experts say profit margins represents..."
+        },
+        {
+          "content_id": 2232,
+          "title": "profit margins emerges as key trend in tech industry",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-7995",
+          "snippet": "...discussing profit margins and its impact on the industry. Experts say profit margins represents..."
+        },
+        {
+          "content_id": 4861,
+          "title": "Expert opinions on profit margins implications",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-5916",
+          "snippet": "...discussing profit margins and its impact on the industry. Experts say profit margins represents..."
+        },
+        {
+          "content_id": 3327,
+          "title": "profit margins emerges as key trend in tech industry",
+          "source_name": "Hacker News",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-9622",
+          "snippet": "...discussing profit margins and its impact on the industry. Experts say profit margins represents..."
+        },
+        {
+          "content_id": 8204,
+          "title": "Expert opinions on profit margins implications",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-1559",
+          "snippet": "...discussing profit margins and its impact on the industry. Experts say profit margins represents..."
+        },
+        {
+          "content_id": 2457,
+          "title": "profit margins emerges as key trend in tech industry",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-29",
+          "url": "https://example.com/article-4621",
+          "snippet": "...discussing profit margins and its impact on the industry. Experts say profit margins represents..."
+        },
+        {
+          "content_id": 3570,
+          "title": "Expert opinions on profit margins implications",
+          "source_name": "Hacker News",
+          "published_date": "2025-10-28",
+          "url": "https://example.com/article-5455",
+          "snippet": "...discussing profit margins and its impact on the industry. Experts say profit margins represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "convertible note",
+      "date": "2025-11-06",
+      "importance": 90.92,
+      "sentiment": {
+        "score": -0.355,
+        "magnitude": 0.458,
+        "breakdown": {
+          "positive": 1,
+          "negative": 7,
+          "neutral": 1
+        }
+      },
+      "metrics": {
+        "frequency": 59,
+        "document_count": 20,
+        "source_diversity": 7,
+        "velocity": -25.7
+      },
+      "documents": [
+        {
+          "content_id": 3549,
+          "title": "Analysis: What convertible note means for the market",
+          "source_name": "Reuters",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-2294",
+          "snippet": "...discussing convertible note and its impact on the industry. Experts say convertible note represents..."
+        },
+        {
+          "content_id": 5241,
+          "title": "Analysis: What convertible note means for the market",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-4806",
+          "snippet": "...discussing convertible note and its impact on the industry. Experts say convertible note represents..."
+        },
+        {
+          "content_id": 5744,
+          "title": "convertible note emerges as key trend in tech industry",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-6462",
+          "snippet": "...discussing convertible note and its impact on the industry. Experts say convertible note represents..."
+        },
+        {
+          "content_id": 6017,
+          "title": "Companies invest heavily in convertible note technology",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-1250",
+          "snippet": "...discussing convertible note and its impact on the industry. Experts say convertible note represents..."
+        },
+        {
+          "content_id": 3604,
+          "title": "Analysis: What convertible note means for the market",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-6471",
+          "snippet": "...discussing convertible note and its impact on the industry. Experts say convertible note represents..."
+        },
+        {
+          "content_id": 4816,
+          "title": "Companies invest heavily in convertible note technology",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-8677",
+          "snippet": "...discussing convertible note and its impact on the industry. Experts say convertible note represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "Series A funding",
+      "date": "2025-11-06",
+      "importance": 90.54,
+      "sentiment": {
+        "score": 0.16,
+        "magnitude": 0.393,
+        "breakdown": {
+          "positive": 10,
+          "negative": 3,
+          "neutral": 8
+        }
+      },
+      "metrics": {
+        "frequency": 66,
+        "document_count": 10,
+        "source_diversity": 7,
+        "velocity": -4.52
+      },
+      "documents": [
+        {
+          "content_id": 8094,
+          "title": "Analysis: What Series A funding means for the market",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-9364",
+          "snippet": "...discussing Series A funding and its impact on the industry. Experts say Series A funding represents..."
+        },
+        {
+          "content_id": 2629,
+          "title": "Series A funding sees rapid adoption across sectors",
+          "source_name": "Reuters",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-5259",
+          "snippet": "...discussing Series A funding and its impact on the industry. Experts say Series A funding represents..."
+        },
+        {
+          "content_id": 3879,
+          "title": "Series A funding sees rapid adoption across sectors",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-6393",
+          "snippet": "...discussing Series A funding and its impact on the industry. Experts say Series A funding represents..."
+        },
+        {
+          "content_id": 2506,
+          "title": "Expert opinions on Series A funding implications",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-29",
+          "url": "https://example.com/article-3409",
+          "snippet": "...discussing Series A funding and its impact on the industry. Experts say Series A funding represents..."
+        },
+        {
+          "content_id": 1751,
+          "title": "Expert opinions on Series A funding implications",
+          "source_name": "Reuters",
+          "published_date": "2025-10-28",
+          "url": "https://example.com/article-6540",
+          "snippet": "...discussing Series A funding and its impact on the industry. Experts say Series A funding represents..."
+        },
+        {
+          "content_id": 7063,
+          "title": "Series A funding emerges as key trend in tech industry",
+          "source_name": "The Verge",
+          "published_date": "2025-10-27",
+          "url": "https://example.com/article-9082",
+          "snippet": "...discussing Series A funding and its impact on the industry. Experts say Series A funding represents..."
+        },
+        {
+          "content_id": 5983,
+          "title": "Companies invest heavily in Series A funding technology",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-26",
+          "url": "https://example.com/article-1720",
+          "snippet": "...discussing Series A funding and its impact on the industry. Experts say Series A funding represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "exit strategy",
+      "date": "2025-11-06",
+      "importance": 86.66,
+      "sentiment": {
+        "score": -0.446,
+        "magnitude": 0.87,
+        "breakdown": {
+          "positive": 3,
+          "negative": 11,
+          "neutral": 7
+        }
+      },
+      "metrics": {
+        "frequency": 49,
+        "document_count": 23,
+        "source_diversity": 2,
+        "velocity": -0.09
+      },
+      "documents": [
+        {
+          "content_id": 4651,
+          "title": "Analysis: What exit strategy means for the market",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-3594",
+          "snippet": "...discussing exit strategy and its impact on the industry. Experts say exit strategy represents..."
+        },
+        {
+          "content_id": 3854,
+          "title": "Expert opinions on exit strategy implications",
+          "source_name": "The Verge",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-3510",
+          "snippet": "...discussing exit strategy and its impact on the industry. Experts say exit strategy represents..."
+        },
+        {
+          "content_id": 2517,
+          "title": "exit strategy sees rapid adoption across sectors",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-7060",
+          "snippet": "...discussing exit strategy and its impact on the industry. Experts say exit strategy represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "growth capital",
+      "date": "2025-11-06",
+      "importance": 86.44,
+      "sentiment": {
+        "score": -0.782,
+        "magnitude": 0.585,
+        "breakdown": {
+          "positive": 2,
+          "negative": 26,
+          "neutral": 7
+        }
+      },
+      "metrics": {
+        "frequency": 93,
+        "document_count": 30,
+        "source_diversity": 6,
+        "velocity": -22.61
+      },
+      "documents": [
+        {
+          "content_id": 1273,
+          "title": "growth capital emerges as key trend in tech industry",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-2678",
+          "snippet": "...discussing growth capital and its impact on the industry. Experts say growth capital represents..."
+        },
+        {
+          "content_id": 7595,
+          "title": "Expert opinions on growth capital implications",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-4372",
+          "snippet": "...discussing growth capital and its impact on the industry. Experts say growth capital represents..."
+        },
+        {
+          "content_id": 8900,
+          "title": "Expert opinions on growth capital implications",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-3919",
+          "snippet": "...discussing growth capital and its impact on the industry. Experts say growth capital represents..."
+        },
+        {
+          "content_id": 3961,
+          "title": "growth capital sees rapid adoption across sectors",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-6277",
+          "snippet": "...discussing growth capital and its impact on the industry. Experts say growth capital represents..."
+        },
+        {
+          "content_id": 9369,
+          "title": "Companies invest heavily in growth capital technology",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-2064",
+          "snippet": "...discussing growth capital and its impact on the industry. Experts say growth capital represents..."
+        },
+        {
+          "content_id": 6815,
+          "title": "growth capital emerges as key trend in tech industry",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-29",
+          "url": "https://example.com/article-3932",
+          "snippet": "...discussing growth capital and its impact on the industry. Experts say growth capital represents..."
+        },
+        {
+          "content_id": 8424,
+          "title": "growth capital emerges as key trend in tech industry",
+          "source_name": "Reuters",
+          "published_date": "2025-10-28",
+          "url": "https://example.com/article-8300",
+          "snippet": "...discussing growth capital and its impact on the industry. Experts say growth capital represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "due diligence",
+      "date": "2025-11-06",
+      "importance": 86.39,
+      "sentiment": {
+        "score": 0.575,
+        "magnitude": 0.788,
+        "breakdown": {
+          "positive": 26,
+          "negative": 8,
+          "neutral": 16
+        }
+      },
+      "metrics": {
+        "frequency": 47,
+        "document_count": 10,
+        "source_diversity": 4,
+        "velocity": -13.12
+      },
+      "documents": [
+        {
+          "content_id": 5892,
+          "title": "due diligence sees rapid adoption across sectors",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-7814",
+          "snippet": "...discussing due diligence and its impact on the industry. Experts say due diligence represents..."
+        },
+        {
+          "content_id": 4357,
+          "title": "Expert opinions on due diligence implications",
+          "source_name": "Reuters",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-8913",
+          "snippet": "...discussing due diligence and its impact on the industry. Experts say due diligence represents..."
+        },
+        {
+          "content_id": 9001,
+          "title": "due diligence emerges as key trend in tech industry",
+          "source_name": "Reuters",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-8320",
+          "snippet": "...discussing due diligence and its impact on the industry. Experts say due diligence represents..."
+        },
+        {
+          "content_id": 6308,
+          "title": "due diligence emerges as key trend in tech industry",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-29",
+          "url": "https://example.com/article-4609",
+          "snippet": "...discussing due diligence and its impact on the industry. Experts say due diligence represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "private equity",
+      "date": "2025-11-06",
+      "importance": 82.27,
+      "sentiment": {
+        "score": -0.632,
+        "magnitude": 0.301,
+        "breakdown": {
+          "positive": 3,
+          "negative": 26,
+          "neutral": 16
+        }
+      },
+      "metrics": {
+        "frequency": 67,
+        "document_count": 18,
+        "source_diversity": 8,
+        "velocity": -26.14
+      },
+      "documents": [
+        {
+          "content_id": 8356,
+          "title": "private equity sees rapid adoption across sectors",
+          "source_name": "The Verge",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-2121",
+          "snippet": "...discussing private equity and its impact on the industry. Experts say private equity represents..."
+        },
+        {
+          "content_id": 6953,
+          "title": "Companies invest heavily in private equity technology",
+          "source_name": "Reuters",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-2320",
+          "snippet": "...discussing private equity and its impact on the industry. Experts say private equity represents..."
+        },
+        {
+          "content_id": 4937,
+          "title": "Analysis: What private equity means for the market",
+          "source_name": "Reuters",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-9986",
+          "snippet": "...discussing private equity and its impact on the industry. Experts say private equity represents..."
+        },
+        {
+          "content_id": 3218,
+          "title": "Companies invest heavily in private equity technology",
+          "source_name": "Reuters",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-1292",
+          "snippet": "...discussing private equity and its impact on the industry. Experts say private equity represents..."
+        },
+        {
+          "content_id": 2387,
+          "title": "private equity sees rapid adoption across sectors",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-7711",
+          "snippet": "...discussing private equity and its impact on the industry. Experts say private equity represents..."
+        },
+        {
+          "content_id": 8322,
+          "title": "private equity emerges as key trend in tech industry",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-3249",
+          "snippet": "...discussing private equity and its impact on the industry. Experts say private equity represents..."
+        },
+        {
+          "content_id": 4329,
+          "title": "private equity emerges as key trend in tech industry",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-4317",
+          "snippet": "...discussing private equity and its impact on the industry. Experts say private equity represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "investment opportunity",
+      "date": "2025-11-06",
+      "importance": 75.02,
+      "sentiment": {
+        "score": -0.041,
+        "magnitude": 0.66,
+        "breakdown": {
+          "positive": 12,
+          "negative": 5,
+          "neutral": 10
+        }
+      },
+      "metrics": {
+        "frequency": 6,
+        "document_count": 17,
+        "source_diversity": 5,
+        "velocity": -11.43
+      },
+      "documents": [
+        {
+          "content_id": 1688,
+          "title": "Analysis: What investment opportunity means for the market",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-1939",
+          "snippet": "...discussing investment opportunity and its impact on the industry. Experts say investment opportunity represents..."
+        },
+        {
+          "content_id": 7920,
+          "title": "Expert opinions on investment opportunity implications",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-3580",
+          "snippet": "...discussing investment opportunity and its impact on the industry. Experts say investment opportunity represents..."
+        },
+        {
+          "content_id": 7003,
+          "title": "Expert opinions on investment opportunity implications",
+          "source_name": "The Verge",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-8945",
+          "snippet": "...discussing investment opportunity and its impact on the industry. Experts say investment opportunity represents..."
+        },
+        {
+          "content_id": 2803,
+          "title": "Companies invest heavily in investment opportunity technology",
+          "source_name": "The Verge",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-9227",
+          "snippet": "...discussing investment opportunity and its impact on the industry. Experts say investment opportunity represents..."
+        },
+        {
+          "content_id": 6100,
+          "title": "investment opportunity sees rapid adoption across sectors",
+          "source_name": "The Verge",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-2366",
+          "snippet": "...discussing investment opportunity and its impact on the industry. Experts say investment opportunity represents..."
+        },
+        {
+          "content_id": 5280,
+          "title": "Companies invest heavily in investment opportunity technology",
+          "source_name": "The Verge",
+          "published_date": "2025-10-29",
+          "url": "https://example.com/article-3682",
+          "snippet": "...discussing investment opportunity and its impact on the industry. Experts say investment opportunity represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "seed funding",
+      "date": "2025-11-06",
+      "importance": 70.56,
+      "sentiment": {
+        "score": 0.411,
+        "magnitude": 0.76,
+        "breakdown": {
+          "positive": 10,
+          "negative": 4,
+          "neutral": 7
+        }
+      },
+      "metrics": {
+        "frequency": 43,
+        "document_count": 13,
+        "source_diversity": 7,
+        "velocity": 12.31
+      },
+      "documents": [
+        {
+          "content_id": 1347,
+          "title": "seed funding emerges as key trend in tech industry",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-2376",
+          "snippet": "...discussing seed funding and its impact on the industry. Experts say seed funding represents..."
+        },
+        {
+          "content_id": 6403,
+          "title": "seed funding emerges as key trend in tech industry",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-8835",
+          "snippet": "...discussing seed funding and its impact on the industry. Experts say seed funding represents..."
+        },
+        {
+          "content_id": 8499,
+          "title": "seed funding sees rapid adoption across sectors",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-4849",
+          "snippet": "...discussing seed funding and its impact on the industry. Experts say seed funding represents..."
+        },
+        {
+          "content_id": 1709,
+          "title": "Analysis: What seed funding means for the market",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-6748",
+          "snippet": "...discussing seed funding and its impact on the industry. Experts say seed funding represents..."
+        },
+        {
+          "content_id": 4117,
+          "title": "seed funding sees rapid adoption across sectors",
+          "source_name": "Hacker News",
+          "published_date": "2025-10-29",
+          "url": "https://example.com/article-1711",
+          "snippet": "...discussing seed funding and its impact on the industry. Experts say seed funding represents..."
+        },
+        {
+          "content_id": 4713,
+          "title": "Expert opinions on seed funding implications",
+          "source_name": "Reuters",
+          "published_date": "2025-10-28",
+          "url": "https://example.com/article-6863",
+          "snippet": "...discussing seed funding and its impact on the industry. Experts say seed funding represents..."
+        },
+        {
+          "content_id": 4966,
+          "title": "seed funding sees rapid adoption across sectors",
+          "source_name": "TechCrunch",
+          "published_date": "2025-10-27",
+          "url": "https://example.com/article-6685",
+          "snippet": "...discussing seed funding and its impact on the industry. Experts say seed funding represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "portfolio company",
+      "date": "2025-11-06",
+      "importance": 70.39,
+      "sentiment": {
+        "score": 0.595,
+        "magnitude": 0.61,
+        "breakdown": {
+          "positive": 10,
+          "negative": 1,
+          "neutral": 7
+        }
+      },
+      "metrics": {
+        "frequency": 90,
+        "document_count": 11,
+        "source_diversity": 6,
+        "velocity": -18.41
+      },
+      "documents": [
+        {
+          "content_id": 5869,
+          "title": "Companies invest heavily in portfolio company technology",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-4140",
+          "snippet": "...discussing portfolio company and its impact on the industry. Experts say portfolio company represents..."
+        },
+        {
+          "content_id": 1620,
+          "title": "portfolio company emerges as key trend in tech industry",
+          "source_name": "The Verge",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-9536",
+          "snippet": "...discussing portfolio company and its impact on the industry. Experts say portfolio company represents..."
+        },
+        {
+          "content_id": 7767,
+          "title": "Analysis: What portfolio company means for the market",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-8179",
+          "snippet": "...discussing portfolio company and its impact on the industry. Experts say portfolio company represents..."
+        },
+        {
+          "content_id": 6685,
+          "title": "Companies invest heavily in portfolio company technology",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-4516",
+          "snippet": "...discussing portfolio company and its impact on the industry. Experts say portfolio company represents..."
+        },
+        {
+          "content_id": 1573,
+          "title": "Companies invest heavily in portfolio company technology",
+          "source_name": "Reuters",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-5108",
+          "snippet": "...discussing portfolio company and its impact on the industry. Experts say portfolio company represents..."
+        },
+        {
+          "content_id": 1909,
+          "title": "Analysis: What portfolio company means for the market",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-6209",
+          "snippet": "...discussing portfolio company and its impact on the industry. Experts say portfolio company represents..."
+        },
+        {
+          "content_id": 6767,
+          "title": "portfolio company emerges as key trend in tech industry",
+          "source_name": "Reuters",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-5582",
+          "snippet": "...discussing portfolio company and its impact on the industry. Experts say portfolio company represents..."
+        },
+        {
+          "content_id": 9251,
+          "title": "portfolio company emerges as key trend in tech industry",
+          "source_name": "The Verge",
+          "published_date": "2025-10-29",
+          "url": "https://example.com/article-3163",
+          "snippet": "...discussing portfolio company and its impact on the industry. Experts say portfolio company represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "startup acquisition",
+      "date": "2025-11-06",
+      "importance": 69.65,
+      "sentiment": {
+        "score": -0.189,
+        "magnitude": 0.639,
+        "breakdown": {
+          "positive": 15,
+          "negative": 9,
+          "neutral": 17
+        }
+      },
+      "metrics": {
+        "frequency": 15,
+        "document_count": 5,
+        "source_diversity": 6,
+        "velocity": 43.25
+      },
+      "documents": [
+        {
+          "content_id": 4073,
+          "title": "startup acquisition sees rapid adoption across sectors",
+          "source_name": "The Verge",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-2742",
+          "snippet": "...discussing startup acquisition and its impact on the industry. Experts say startup acquisition represents..."
+        },
+        {
+          "content_id": 4395,
+          "title": "startup acquisition emerges as key trend in tech industry",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-4996",
+          "snippet": "...discussing startup acquisition and its impact on the industry. Experts say startup acquisition represents..."
+        },
+        {
+          "content_id": 7192,
+          "title": "startup acquisition emerges as key trend in tech industry",
+          "source_name": "Reuters",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-8819",
+          "snippet": "...discussing startup acquisition and its impact on the industry. Experts say startup acquisition represents..."
+        },
+        {
+          "content_id": 3633,
+          "title": "Expert opinions on startup acquisition implications",
+          "source_name": "The Verge",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-5722",
+          "snippet": "...discussing startup acquisition and its impact on the industry. Experts say startup acquisition represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "venture capital",
+      "date": "2025-11-06",
+      "importance": 66.98,
+      "sentiment": {
+        "score": -0.065,
+        "magnitude": 0.598,
+        "breakdown": {
+          "positive": 11,
+          "negative": 3,
+          "neutral": 13
+        }
+      },
+      "metrics": {
+        "frequency": 22,
+        "document_count": 25,
+        "source_diversity": 5,
+        "velocity": -24.63
+      },
+      "documents": [
+        {
+          "content_id": 9859,
+          "title": "Analysis: What venture capital means for the market",
+          "source_name": "Reuters",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-9735",
+          "snippet": "...discussing venture capital and its impact on the industry. Experts say venture capital represents..."
+        },
+        {
+          "content_id": 5923,
+          "title": "Analysis: What venture capital means for the market",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-9695",
+          "snippet": "...discussing venture capital and its impact on the industry. Experts say venture capital represents..."
+        },
+        {
+          "content_id": 3706,
+          "title": "venture capital sees rapid adoption across sectors",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-9780",
+          "snippet": "...discussing venture capital and its impact on the industry. Experts say venture capital represents..."
+        },
+        {
+          "content_id": 8786,
+          "title": "Expert opinions on venture capital implications",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-7846",
+          "snippet": "...discussing venture capital and its impact on the industry. Experts say venture capital represents..."
+        },
+        {
+          "content_id": 4531,
+          "title": "Expert opinions on venture capital implications",
+          "source_name": "The Verge",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-9882",
+          "snippet": "...discussing venture capital and its impact on the industry. Experts say venture capital represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "valuation multiple",
+      "date": "2025-11-06",
+      "importance": 59.91,
+      "sentiment": {
+        "score": -0.138,
+        "magnitude": 0.506,
+        "breakdown": {
+          "positive": 9,
+          "negative": 3,
+          "neutral": 13
+        }
+      },
+      "metrics": {
+        "frequency": 5,
+        "document_count": 22,
+        "source_diversity": 3,
+        "velocity": 25.05
+      },
+      "documents": [
+        {
+          "content_id": 2384,
+          "title": "Expert opinions on valuation multiple implications",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-9692",
+          "snippet": "...discussing valuation multiple and its impact on the industry. Experts say valuation multiple represents..."
+        },
+        {
+          "content_id": 2771,
+          "title": "valuation multiple sees rapid adoption across sectors",
+          "source_name": "Reuters",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-3350",
+          "snippet": "...discussing valuation multiple and its impact on the industry. Experts say valuation multiple represents..."
+        },
+        {
+          "content_id": 1950,
+          "title": "Expert opinions on valuation multiple implications",
+          "source_name": "The Verge",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-8720",
+          "snippet": "...discussing valuation multiple and its impact on the industry. Experts say valuation multiple represents..."
+        },
+        {
+          "content_id": 3820,
+          "title": "Companies invest heavily in valuation multiple technology",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-1771",
+          "snippet": "...discussing valuation multiple and its impact on the industry. Experts say valuation multiple represents..."
+        },
+        {
+          "content_id": 7130,
+          "title": "Expert opinions on valuation multiple implications",
+          "source_name": "Reuters",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-6628",
+          "snippet": "...discussing valuation multiple and its impact on the industry. Experts say valuation multiple represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "equity stake",
+      "date": "2025-11-06",
+      "importance": 59.42,
+      "sentiment": {
+        "score": -0.464,
+        "magnitude": 0.668,
+        "breakdown": {
+          "positive": 7,
+          "negative": 23,
+          "neutral": 13
+        }
+      },
+      "metrics": {
+        "frequency": 29,
+        "document_count": 15,
+        "source_diversity": 8,
+        "velocity": -8.3
+      },
+      "documents": [
+        {
+          "content_id": 2429,
+          "title": "Companies invest heavily in equity stake technology",
+          "source_name": "The Verge",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-5657",
+          "snippet": "...discussing equity stake and its impact on the industry. Experts say equity stake represents..."
+        },
+        {
+          "content_id": 1010,
+          "title": "Expert opinions on equity stake implications",
+          "source_name": "Reuters",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-6611",
+          "snippet": "...discussing equity stake and its impact on the industry. Experts say equity stake represents..."
+        },
+        {
+          "content_id": 6584,
+          "title": "Companies invest heavily in equity stake technology",
+          "source_name": "The Verge",
+          "published_date": "2025-10-29",
+          "url": "https://example.com/article-7660",
+          "snippet": "...discussing equity stake and its impact on the industry. Experts say equity stake represents..."
+        },
+        {
+          "content_id": 1616,
+          "title": "Companies invest heavily in equity stake technology",
+          "source_name": "Hacker News",
+          "published_date": "2025-10-28",
+          "url": "https://example.com/article-6049",
+          "snippet": "...discussing equity stake and its impact on the industry. Experts say equity stake represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "return on investment",
+      "date": "2025-11-06",
+      "importance": 54.51,
+      "sentiment": {
+        "score": -0.749,
+        "magnitude": 0.329,
+        "breakdown": {
+          "positive": 3,
+          "negative": 24,
+          "neutral": 19
+        }
+      },
+      "metrics": {
+        "frequency": 79,
+        "document_count": 13,
+        "source_diversity": 5,
+        "velocity": -12.39
+      },
+      "documents": [
+        {
+          "content_id": 2737,
+          "title": "return on investment emerges as key trend in tech industry",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-2817",
+          "snippet": "...discussing return on investment and its impact on the industry. Experts say return on investment represents..."
+        },
+        {
+          "content_id": 9616,
+          "title": "Expert opinions on return on investment implications",
+          "source_name": "Reuters",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-4718",
+          "snippet": "...discussing return on investment and its impact on the industry. Experts say return on investment represents..."
+        },
+        {
+          "content_id": 9661,
+          "title": "return on investment sees rapid adoption across sectors",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-2699",
+          "snippet": "...discussing return on investment and its impact on the industry. Experts say return on investment represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "revenue growth",
+      "date": "2025-11-06",
+      "importance": 54.31,
+      "sentiment": {
+        "score": -0.647,
+        "magnitude": 0.328,
+        "breakdown": {
+          "positive": 1,
+          "negative": 11,
+          "neutral": 5
+        }
+      },
+      "metrics": {
+        "frequency": 49,
+        "document_count": 11,
+        "source_diversity": 6,
+        "velocity": 27.72
+      },
+      "documents": [
+        {
+          "content_id": 1565,
+          "title": "Companies invest heavily in revenue growth technology",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-07",
+          "url": "https://example.com/article-8455",
+          "snippet": "...discussing revenue growth and its impact on the industry. Experts say revenue growth represents..."
+        },
+        {
+          "content_id": 7659,
+          "title": "Expert opinions on revenue growth implications",
+          "source_name": "The Verge",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-9118",
+          "snippet": "...discussing revenue growth and its impact on the industry. Experts say revenue growth represents..."
+        },
+        {
+          "content_id": 6980,
+          "title": "Companies invest heavily in revenue growth technology",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-5739",
+          "snippet": "...discussing revenue growth and its impact on the industry. Experts say revenue growth represents..."
+        },
+        {
+          "content_id": 9814,
+          "title": "Analysis: What revenue growth means for the market",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-8875",
+          "snippet": "...discussing revenue growth and its impact on the industry. Experts say revenue growth represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "investment round",
+      "date": "2025-11-06",
+      "importance": 51.56,
+      "sentiment": {
+        "score": 0.454,
+        "magnitude": 0.438,
+        "breakdown": {
+          "positive": 14,
+          "negative": 1,
+          "neutral": 11
+        }
+      },
+      "metrics": {
+        "frequency": 59,
+        "document_count": 17,
+        "source_diversity": 6,
+        "velocity": 34.44
+      },
+      "documents": [
+        {
+          "content_id": 3799,
+          "title": "Analysis: What investment round means for the market",
+          "source_name": "Hacker News",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-7716",
+          "snippet": "...discussing investment round and its impact on the industry. Experts say investment round represents..."
+        },
+        {
+          "content_id": 7086,
+          "title": "Analysis: What investment round means for the market",
+          "source_name": "Reuters",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-4800",
+          "snippet": "...discussing investment round and its impact on the industry. Experts say investment round represents..."
+        },
+        {
+          "content_id": 6470,
+          "title": "Companies invest heavily in investment round technology",
+          "source_name": "Hacker News",
+          "published_date": "2025-10-29",
+          "url": "https://example.com/article-4770",
+          "snippet": "...discussing investment round and its impact on the industry. Experts say investment round represents..."
+        },
+        {
+          "content_id": 9334,
+          "title": "Analysis: What investment round means for the market",
+          "source_name": "The Verge",
+          "published_date": "2025-10-28",
+          "url": "https://example.com/article-7288",
+          "snippet": "...discussing investment round and its impact on the industry. Experts say investment round represents..."
+        },
+        {
+          "content_id": 7032,
+          "title": "Expert opinions on investment round implications",
+          "source_name": "Ars Technica",
+          "published_date": "2025-10-27",
+          "url": "https://example.com/article-6992",
+          "snippet": "...discussing investment round and its impact on the industry. Experts say investment round represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "fund raising",
+      "date": "2025-11-06",
+      "importance": 48.76,
+      "sentiment": {
+        "score": -0.121,
+        "magnitude": 0.373,
+        "breakdown": {
+          "positive": 7,
+          "negative": 5,
+          "neutral": 9
+        }
+      },
+      "metrics": {
+        "frequency": 81,
+        "document_count": 22,
+        "source_diversity": 4,
+        "velocity": 47.63
+      },
+      "documents": [
+        {
+          "content_id": 3715,
+          "title": "Companies invest heavily in fund raising technology",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-3110",
+          "snippet": "...discussing fund raising and its impact on the industry. Experts say fund raising represents..."
+        },
+        {
+          "content_id": 4280,
+          "title": "Analysis: What fund raising means for the market",
+          "source_name": "Reuters",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-7816",
+          "snippet": "...discussing fund raising and its impact on the industry. Experts say fund raising represents..."
+        },
+        {
+          "content_id": 5294,
+          "title": "fund raising sees rapid adoption across sectors",
+          "source_name": "Ars Technica",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-3768",
+          "snippet": "...discussing fund raising and its impact on the industry. Experts say fund raising represents..."
+        },
+        {
+          "content_id": 6715,
+          "title": "Analysis: What fund raising means for the market",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-9856",
+          "snippet": "...discussing fund raising and its impact on the industry. Experts say fund raising represents..."
+        }
+      ]
+    },
+    {
+      "keyword": "market opportunity",
+      "date": "2025-11-06",
+      "importance": 42.38,
+      "sentiment": {
+        "score": -0.163,
+        "magnitude": 0.417,
+        "breakdown": {
+          "positive": 18,
+          "negative": 13,
+          "neutral": 18
+        }
+      },
+      "metrics": {
+        "frequency": 59,
+        "document_count": 15,
+        "source_diversity": 4,
+        "velocity": 25.89
+      },
+      "documents": [
+        {
+          "content_id": 6507,
+          "title": "market opportunity sees rapid adoption across sectors",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-06",
+          "url": "https://example.com/article-7560",
+          "snippet": "...discussing market opportunity and its impact on the industry. Experts say market opportunity represents..."
+        },
+        {
+          "content_id": 8286,
+          "title": "Analysis: What market opportunity means for the market",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-05",
+          "url": "https://example.com/article-3480",
+          "snippet": "...discussing market opportunity and its impact on the industry. Experts say market opportunity represents..."
+        },
+        {
+          "content_id": 4977,
+          "title": "market opportunity sees rapid adoption across sectors",
+          "source_name": "Reuters",
+          "published_date": "2025-11-04",
+          "url": "https://example.com/article-8582",
+          "snippet": "...discussing market opportunity and its impact on the industry. Experts say market opportunity represents..."
+        },
+        {
+          "content_id": 3584,
+          "title": "market opportunity sees rapid adoption across sectors",
+          "source_name": "Reuters",
+          "published_date": "2025-11-03",
+          "url": "https://example.com/article-7480",
+          "snippet": "...discussing market opportunity and its impact on the industry. Experts say market opportunity represents..."
+        },
+        {
+          "content_id": 6107,
+          "title": "Analysis: What market opportunity means for the market",
+          "source_name": "TechCrunch",
+          "published_date": "2025-11-02",
+          "url": "https://example.com/article-8450",
+          "snippet": "...discussing market opportunity and its impact on the industry. Experts say market opportunity represents..."
+        },
+        {
+          "content_id": 9560,
+          "title": "Analysis: What market opportunity means for the market",
+          "source_name": "Hacker News",
+          "published_date": "2025-11-01",
+          "url": "https://example.com/article-5551",
+          "snippet": "...discussing market opportunity and its impact on the industry. Experts say market opportunity represents..."
+        },
+        {
+          "content_id": 2494,
+          "title": "Expert opinions on market opportunity implications",
+          "source_name": "Reuters",
+          "published_date": "2025-10-31",
+          "url": "https://example.com/article-5458",
+          "snippet": "...discussing market opportunity and its impact on the industry. Experts say market opportunity represents..."
+        },
+        {
+          "content_id": 9614,
+          "title": "Analysis: What market opportunity means for the market",
+          "source_name": "Hacker News",
+          "published_date": "2025-10-30",
+          "url": "https://example.com/article-3329",
+          "snippet": "...discussing market opportunity and its impact on the industry. Experts say market opportunity represents..."
+        }
+      ]
+    }
+  ],
+  "total_keywords": 20,
+  "total_documents": 322
+}

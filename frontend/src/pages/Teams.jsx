@@ -7,7 +7,8 @@ function Teams() {
         <div className="page-hero-content">
           <h1 className="page-title">Intelligence Teams</h1>
           <p className="page-subtitle">
-            Four specialized teams working together to provide comprehensive market intelligence
+            Four specialized teams working together to provide comprehensive
+            market intelligence
           </p>
         </div>
       </section>
@@ -19,12 +20,14 @@ function Teams() {
               <div className="team-header">
                 <div className="team-icon-large">⚖️</div>
                 <div>
-                  <h2>Regulatory Team</h2>
+                  <h2>Regulatory</h2>
                   <div className="team-badge">Real-time alerts</div>
                 </div>
               </div>
               <p className="team-description">
-                The Regulatory Team monitors compliance requirements, government policies, and regulatory changes across federal agencies. Stay ahead of regulatory shifts that could impact your business.
+                The Regulatory Team monitors compliance requirements, government
+                policies, and regulatory changes across federal agencies. Stay
+                ahead of regulatory shifts that could impact your business.
               </p>
               <div className="team-features">
                 <h4>Key Capabilities:</h4>
@@ -38,7 +41,10 @@ function Teams() {
               </div>
               <div className="team-sources">
                 <h4>Data Sources:</h4>
-                <p>Federal Register, SEC Newsroom, Reuters Regulatory, Government Agencies</p>
+                <p>
+                  Federal Register, SEC Newsroom, Reuters Regulatory, Government
+                  Agencies
+                </p>
               </div>
             </div>
 
@@ -51,7 +57,9 @@ function Teams() {
                 </div>
               </div>
               <p className="team-description">
-                Track market trends, funding rounds, M&A activity, and emerging investment opportunities in real-time. Make data-driven investment decisions with comprehensive market intelligence.
+                Track market trends, funding rounds, M&A activity, and emerging
+                investment opportunities in real-time. Make data-driven
+                investment decisions with comprehensive market intelligence.
               </p>
               <div className="team-features">
                 <h4>Key Capabilities:</h4>
@@ -65,7 +73,9 @@ function Teams() {
               </div>
               <div className="team-sources">
                 <h4>Data Sources:</h4>
-                <p>TechCrunch, VentureBeat, Crunchbase News, Financial Markets</p>
+                <p>
+                  TechCrunch, VentureBeat, Crunchbase News, Financial Markets
+                </p>
               </div>
             </div>
 
@@ -78,7 +88,9 @@ function Teams() {
                 </div>
               </div>
               <p className="team-description">
-                Monitor competitor activities, product launches, and strategic positioning in real-time. Stay one step ahead with comprehensive competitive intelligence.
+                Monitor competitor activities, product launches, and strategic
+                positioning in real-time. Stay one step ahead with comprehensive
+                competitive intelligence.
               </p>
               <div className="team-features">
                 <h4>Key Capabilities:</h4>
@@ -105,7 +117,9 @@ function Teams() {
                 </div>
               </div>
               <p className="team-description">
-                Track emerging technologies, academic research, and technical innovations across disciplines. Discover breakthrough technologies before they become mainstream.
+                Track emerging technologies, academic research, and technical
+                innovations across disciplines. Discover breakthrough
+                technologies before they become mainstream.
               </p>
               <div className="team-features">
                 <h4>Key Capabilities:</h4>
@@ -119,7 +133,10 @@ function Teams() {
               </div>
               <div className="team-sources">
                 <h4>Data Sources:</h4>
-                <p>ArXiv, MIT Technology Review, Ars Technica, Hacker News, Academic Journals</p>
+                <p>
+                  ArXiv, MIT Technology Review, Ars Technica, Hacker News,
+                  Academic Journals
+                </p>
               </div>
             </div>
           </div>

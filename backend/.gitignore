@@ -8,8 +8,6 @@ venv/
 env/
 ENV/
 archive/
-generated_keywords/
-
 # Database
 data/*.db
 data/*.db-journal
